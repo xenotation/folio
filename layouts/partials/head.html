@@ -36,7 +36,7 @@
     <meta property="og:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Permalink }}" />
-    <meta property="og:image" content="{{ with .Params.images}}{{ index . 0 }}{{ end }}" />
+    <meta property="og:image" content="{{ with .Params.featuredImage }}{{ . | absURL }}{{ end }}" />
     <meta property="og:description" content="{{ .Description }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:locale" content="en_US" />
@@ -46,7 +46,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
     <meta name="twitter:description" content="{{ .Description }}">
-    <meta name="twitter:image" content="{{ with .Params.images}}{{ index . 0 }}{{ end }}">
+    <meta name="twitter:image" content="{{ with .Params.featuredImage}}{{ index . 0 }}{{ end }}">
 
     <!-- Canonical Link -->
     <link rel="canonical" href="{{ . | absURL }}">

@@ -10,7 +10,7 @@ galleryImages = ["/images/grey zone/сцена от вритуални свят.
 
 
 description = "Gray Zone Dispositive is a massive photogrammetry recreatingthe urban space of Varna. Based on satellite images of the city, it presents its double. "
-medium = ["Video Game", "3D Kitbashed Photogrammetry"]
+medium = ["Video Game", "3D Kit-bashed Photogrammetry"]
 placedate = "The Marix - April 2022 (part of Sofia Underground ?0?? // Insecure Wisdom)"
 collaborators = "SABA PRODAKTION, Peter Chinovsky, Isabelle Nesheva, Sofia Dimova, Sara Postolle, Martijn De Geele, Orlin Dvoryanov, Agathe de Limoges & Victor Delétraz, Elena Chergilanova"
 
