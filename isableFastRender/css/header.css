@@ -57,3 +57,23 @@ header {
     }
 
 }
+
+/* Other styles remain unchanged */
+
+.header-image {
+    width: auto; /* Set the width according to your design */
+    height:3.6em; /* Set the height according to your design */
+    margin-right: 10px; /* Adjust margin as needed */
+    animation: spin 23s infinite linear; /* Add spin animation */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Rest of your existing styles */
