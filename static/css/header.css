@@ -1,0 +1,86 @@
+header {
+    font-family: 'Robo Flex', sans-serif;
+    color: #222323;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.name-title {
+    margin-right: 10px;
+    border: 1px solid green;
+    padding-top: 0;
+}
+
+.custom-title {
+    border: 1px solid red;
+}
+
+.right-links {
+    display: flex;
+    border: 1px solid blue;
+}
+
+.right-links a {
+    margin-left: 10px;
+}
+
+/* Ensure right-links are pushed to the right */
+.right-links {
+    margin-left: auto;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .name-title,
+    .custom-title,
+    .right-links a {
+        font-size: 1em;
+        padding: 0;   
+
+    }
+
+    .right-links {
+        width: 100%; 
+        justify-content: center;
+    } 
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 80pt;
+
+    text-align: center;
+
+    user-select: none;
+}

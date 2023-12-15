@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collab on Nikola Stoyanov</title>
+    <link>https://example.org/categories/collab/</link>
+    <description>Recent content in collab on Nikola Stoyanov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>av0id.biz@gmail.com (Nikola Stoyanov)</managingEditor>
+    <webMaster>av0id.biz@gmail.com (Nikola Stoyanov)</webMaster>
+    <copyright>2023, Nikola Soyanov</copyright>
+    <lastBuildDate>Fri, 01 Dec 2023 12:21:30 +0200</lastBuildDate><atom:link href="https://example.org/categories/collab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KURKURKUR</title>
+      <link>https://example.org/work/test2/</link>
+      <pubDate>Fri, 01 Dec 2023 12:21:30 +0200</pubDate>
+      <author>av0id.biz@gmail.com (Nikola Stoyanov)</author>
+      <guid>https://example.org/work/test2/</guid>
+      <description>Markdown Cheat Sheet Thanks for visiting The Markdown Guide!
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.
+Basic Syntax These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</description>
+    </item>
+    
+    <item>
+      <title>Latent Space</title>
+      <link>https://example.org/work/latent-space/</link>
+      <pubDate>Fri, 01 Dec 2023 12:21:30 +0200</pubDate>
+      <author>av0id.biz@gmail.com (Nikola Stoyanov)</author>
+      <guid>https://example.org/work/latent-space/</guid>
+      <description>Markdown Cheat Sheet Thanks for visiting The Markdown Guide!
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.
+Basic Syntax These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</description>
+    </item>
+    
+    <item>
+      <title>Postcards and Contraband</title>
+      <link>https://example.org/work/cards/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <author>av0id.biz@gmail.com (Nikola Stoyanov)</author>
+      <guid>https://example.org/work/cards/</guid>
+      <description>„Картички и контрабанда“ започва от изследването на служебен архив от агенция „Митници“, дирекция „Борба с наркотрафика“ от периода 1975-1985. Намерените служебни бележки, фотографии, негативи, справки и докладни записки маркират част от рутината на митническото дело, като проверка и регулация на транзита, но също и дипломатическия образ, който митниците трябва да поддържат пред международната общност.
+Водещо тук е съмнението, че намерените архиви дават само частичен поглед към организирания „скрит транзит“ - термин, зад който комунистическото управление на Народна република България прикрива контрабандата търговия, осъществявана от Държавна сигурност чрез търговски предприятия и организации.</description>
+    </item>
+    
+  </channel>
+</rss>

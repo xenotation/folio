@@ -1,0 +1,57 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add site title + page name --> 
+    <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+
+    <!-- Call CSS style -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bio.css">
+    <link rel="stylesheet" type="text/css" href="/css/project-page.css">
+    <link rel="stylesheet" type="text/css" href="/css/works.css">
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/glightbox.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+
+    <!-- FONTS -->
+    <style>
+        @font-face {
+            font-family: "Robo Flex";
+            src: url('/fonts/RobotoFlex.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <!-- META TANGS -->
+    <meta name="keywords" content="portfolio, abstract photography, Bulgarian abstract art" />
+    <meta name="description" content="{{ .Description }}" />
+    <meta property="og:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:image" content="{{ with .Params.images}}{{ index . 0 }}{{ end }}" />
+    <meta property="og:description" content="{{ .Description }}" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:locale" content="en_US" />
+
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
+    <meta name="twitter:description" content="{{ .Description }}">
+    <meta name="twitter:image" content="{{ with .Params.images}}{{ index . 0 }}{{ end }}">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Robots Meta -->
+    <meta name="robots" content="{{ if .IsPage }}index, follow{{ else }}noindex, nofollow{{ end }}">
+
+</head>

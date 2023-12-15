@@ -1,0 +1,68 @@
+main > .featured-image {
+    width: 100%;
+    max-height: 58vh;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Medium Info */
+.medium-text {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.medium-text p {
+    color: grey;
+    margin: 0 !important;
+}
+
+
+
+/* Text Columns */
+.body-columns {
+    columns: 2;
+    column-gap: 36px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.two-columns {
+    display: flex;i ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px; /* Add padding to the entire two-columns container */
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    padding: 0 20px; /* Add padding to the left and right of each column */
+}
+
+.left-column {
+    flex: 0.5;
+}
+
+/* Masonry Grid Gallery */
+.masonry-grid {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    break-inside: avoid-column;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .body-columns {
+        columns: 1; /* Change to a single column for small screens */
+        column-gap: 0; /* No gap between columns for small screens */
+    }
+}

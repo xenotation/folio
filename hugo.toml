@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Nikola Stoyanov'
+copyright = "2023, Nikola Soyanov"
+
+[Author]
+    name = "Nikola Stoyanov"
+    email = "av0id.biz@gmail.com"
+
+ Description = "A translator and photographer for many years, he enjoys interweaving the human- ities with the scientific, multi-linear approaches to problem solving and collaborative work."
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  extensions = ["hardLineBreak"]
+
+[taxonomies]
+category = "categories"

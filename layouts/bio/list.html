@@ -1,0 +1,75 @@
+{{ define "main" }}
+<div class="biO">
+
+  <!-- Two columns layout -->
+  <div class="two-columns">
+    <!-- Left column with title, biography, and sections -->
+    <div class="left-column-bio">
+      <!-- Three sections in grey below the title -->
+      <div class="biography">
+        <!-- Bio text goes here -->
+        {{ with .Site.GetPage "section" "bio" }}
+          <p>{{ .Content }}</p>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Right column with "Medium" and other content -->
+    <div class="right-column-bio">
+      <!-- Three Columns -->
+      <div class="columns-container">
+        <!-- Column 1: Solo Category Posts -->
+        <div class="column">
+          <h2>solo exhibitions</h2>
+          <ul>
+            {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
+              <li>
+                {{ $page := . }}
+                <h3>{{ with $page.Params.customTitle }}<a href="{{ $page.Permalink }}">{{ . }}</a>{{ end }}</h3>
+                <p>{{ with $page.Params.place }}{{ . }}{{ end }}</p>
+                <p>{{ with $page.Date }}{{ .Format "January 2, 2006" }}{{ end }}</p>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        <!-- Column 2: Collab Category Posts -->
+        <div class="column">
+          <h2>collaborations</h2>
+          <ul>
+            {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab") }}
+              <li>
+                {{ $page := . }}
+                <h3>{{ with $page.Params.customTitle }}<a href="{{ $page.Permalink }}">{{ . }}</a>{{ end }}</h3>
+                <p>{{ with $page.Params.place }}{{ . }}{{ end }}</p>
+                <p>{{ with $page.Date }}{{ .Format "January 2, 2006" }}{{ end }}</p>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        <!-- Column 3: Hard-coded Papers -->
+        <div class="column">
+          <h2>publications</h2>
+          <ul>
+            <li>
+              <h3><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Убиването на любовта”, Ан Секстън</a></h3>
+              <p>Нова Асоциална Поезия, Ноември 2021, ISSN: 2738-8476</p>
+            </li>
+            <li>
+              <h3><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">Онтологичният статут на генеративното изкуство и неговото
+                значение</a></h3>
+              <p>сп. „Дерзай“, бр. III, пролет, 2022</p>
+            </li>
+            <li>
+              <h3>Paper 3</h3>
+              <p>Description of Paper 3 goes here...</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>      
+  </div>
+
+</div>
+{{ end }}

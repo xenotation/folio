@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Nikola Stoyanov</title>
+    <link>https://example.org/categories/</link>
+    <description>Recent content in Categories on Nikola Stoyanov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>av0id.biz@gmail.com (Nikola Stoyanov)</managingEditor>
+    <webMaster>av0id.biz@gmail.com (Nikola Stoyanov)</webMaster>
+    <copyright>2023, Nikola Soyanov</copyright>
+    <lastBuildDate>Fri, 01 Dec 2023 12:21:30 +0200</lastBuildDate><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>collab</title>
+      <link>https://example.org/categories/collab/</link>
+      <pubDate>Fri, 01 Dec 2023 12:21:30 +0200</pubDate>
+      <author>av0id.biz@gmail.com (Nikola Stoyanov)</author>
+      <guid>https://example.org/categories/collab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>solo</title>
+      <link>https://example.org/categories/solo/</link>
+      <pubDate>Fri, 01 Dec 2023 12:21:30 +0200</pubDate>
+      <author>av0id.biz@gmail.com (Nikola Stoyanov)</author>
+      <guid>https://example.org/categories/solo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

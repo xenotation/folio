@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="image-grid">
+    {{ range .Pages }}
+        <div class="list-item">
+            <a href="{{ .RelPermalink }}" class="post-link">
+                <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}" class="featured-image">
+                <div class="title-wrapper">
+                    <h2>{{ .Params.customTitle }}</h2>
+                    <p class="front-matter-description">{{ .Params.placedate }}</p>
+                </div>
+            </a>
+        </div>
+    {{ end }}
+</div>
+{{ end }}
