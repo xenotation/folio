@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>biography on Nikola Stoyanov</title>
-    <link>https://example.org/bio/</link>
+    <link>nikolastoyanov.netlify.com/bio/</link>
     <description>Recent content in biography on Nikola Stoyanov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>av0id.biz@gmail.com (Nikola Stoyanov)</managingEditor>
     <webMaster>av0id.biz@gmail.com (Nikola Stoyanov)</webMaster>
-    <copyright>2023, Nikola Soyanov</copyright><atom:link href="https://example.org/bio/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>2023, Nikola Soyanov</copyright><atom:link href="nikolastoyanov.netlify.com/bio/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
