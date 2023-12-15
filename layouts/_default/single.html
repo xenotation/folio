@@ -28,10 +28,19 @@
         {{ with .Params.placedate }}
           <p>@: {{ . }}</p>
         {{ end }}
-        
-        {{ with .Params.collaborators }}
-          <p>in collaboration with: {{ . }}</p>
-        {{ end }}
+
+        <!-- Collaborators section -->
+        <div class="collaborators">
+          {{ with .Params.collaborators }}
+            <p class="medium-text">
+              in collaboration with: <br>
+              {{ $collaborators := split . "," }}
+              {{ range $collaborators }}
+                {{ . }}<br>
+              {{ end }}
+            </p>
+          {{ end }}
+        </div>
       </div>      
     </div>
 
@@ -71,6 +80,4 @@
       });
     });
   </script>
-  
-
 {{ end }}

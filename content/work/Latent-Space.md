@@ -2,6 +2,7 @@
 title = 'Latent Space'
 date = 2023-12-01T12:21:30+02:00
 draft = false
+
 description = "A red chew toy that any furry friend will enjoy, molded with our patented PennyPlastix technology to last through years of slobbery love."
 featuredImage = "/images/2.png"
 customTitle = "Lantent Space (2022)"
