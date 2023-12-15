@@ -11,17 +11,14 @@ header {
 
 .name-title {
     margin-right: 10px;
-    border: 1px solid green;
     padding-top: 0;
 }
 
 .custom-title {
-    border: 1px solid red;
 }
 
 .right-links {
     display: flex;
-    border: 1px solid blue;
 }
 
 .right-links a {

@@ -1,8 +1,16 @@
 {{ define "main" }}
   <!-- Featured Image -->
-  {{ with .Params.featuredImage }}
-  <img src="{{ . }}" alt="Featured Image" class="featured-image">
-{{ end }}
+  {{ with index .Params.featuredVideo 0 }}
+    <video autoplay muted loop class="featured-video">
+      <source src="{{ . }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  {{ else }}
+    <!-- If it's not a video, assume it's an image -->
+    {{ with .Params.featuredImage }}
+      <img src="{{ . }}" alt="Featured Image" class="featured-image">
+    {{ end }}
+  {{ end }}
 
   <!-- Two columns layout -->
   <div class="two-columns">
@@ -13,19 +21,18 @@
 
       <!-- Three sections in grey below the title -->
       <div class="medium-text">
-        {{ with .Params.collaborators }}
-          <p>w/ :{{ . }}</p>
-        {{ end }}
         {{ with .Params.curator }}
           <p>curated by: {{ . }}</p>
         {{ end }}
+        
         {{ with .Params.placedate }}
-          <!-- Extracting link and text from placedate -->
-          {{ $linkText := index (split . "(https://") 0 }}
-          {{ $linkURL := index (split (index (split . "(https://") 1) ")") 0 }}
-          <p>@: <a href="{{ $linkURL }}">{{ $linkText }}</a></p>
+          <p>@: {{ . }}</p>
         {{ end }}
-      </div>
+        
+        {{ with .Params.collaborators }}
+          <p>in collaboration with: {{ . }}</p>
+        {{ end }}
+      </div>      
     </div>
 
     <!-- Right column with "Medium" and other content -->
