@@ -49,9 +49,8 @@
     <meta name="twitter:image" content="{{ with .Params.images}}{{ index . 0 }}{{ end }}">
 
     <!-- Canonical Link -->
-    <link rel="canonical" href="{{ .Permalink }}">
-
+    <link rel="canonical" href="{{ . | absURL }}">
     <!-- Robots Meta -->
-    <meta name="robots" content="{{ if .IsPage }}index, follow{{ else }}noindex, nofollow{{ end }}">
+    <meta name="robots" content="index, follow">
 
 </head>
