@@ -40,10 +40,14 @@ main > .featured-image {
 }
 
 .two-columns {
-    display: flex;i ;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0 20px; /* Add padding to the entire two-columns container */
+}
+
+.body-columns p {
+    margin-bottom: 1em;
 }
 
 .left-column,
