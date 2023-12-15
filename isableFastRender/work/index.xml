@@ -20,33 +20,11 @@
     </item>
     
     <item>
-      <title>KURKURKUR</title>
-      <link>//192.168.5.101:8080/work/test2/</link>
-      <pubDate>Fri, 01 Dec 2023 12:21:30 +0200</pubDate>
-      <author>av0id.biz@gmail.com (Nikola Stoyanov)</author>
-      <guid>//192.168.5.101:8080/work/test2/</guid>
-      <description>Markdown Cheat Sheet Thanks for visiting The Markdown Guide!
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.
-Basic Syntax These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</description>
-    </item>
-    
-    <item>
       <title>Latent Space</title>
       <link>//192.168.5.101:8080/work/latent-space/</link>
       <pubDate>Fri, 01 Dec 2023 12:21:30 +0200</pubDate>
       <author>av0id.biz@gmail.com (Nikola Stoyanov)</author>
       <guid>//192.168.5.101:8080/work/latent-space/</guid>
-      <description>Markdown Cheat Sheet Thanks for visiting The Markdown Guide!
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.
-Basic Syntax These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</description>
-    </item>
-    
-    <item>
-      <title>Na gosho glavata</title>
-      <link>//192.168.5.101:8080/work/test1/</link>
-      <pubDate>Fri, 01 Dec 2023 12:21:30 +0200</pubDate>
-      <author>av0id.biz@gmail.com (Nikola Stoyanov)</author>
-      <guid>//192.168.5.101:8080/work/test1/</guid>
       <description>Markdown Cheat Sheet Thanks for visiting The Markdown Guide!
 This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.
 Basic Syntax These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</description>
