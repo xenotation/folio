@@ -1,13 +1,12 @@
 +++
 title = 'Grey Zone Dispositive'
 customTitle = "Grey Zone Dispositive"
-date = 2023-12-15T17:40:09+02:00
+date = 2022-04-28
 draft = false
 
 featuredVideo = ["/images/grey zone/greyzone.mp4"]
 featuredImage = "/images/grey zone/grey-zone-header.png"
 galleryImages = ["/images/grey zone/сцена от вритуални свят.png", "/images/grey zone/неевклидови вариации на варненските улици.png", "/images/grey zone/начална точка на съня --- spawn point.png", "/images/grey zone/излед към града.png", "/images/grey zone/изглед към църква Успение Богородично .png", "/images/grey zone/изглед към хотел Черно Море.png", "/images/grey zone/изглед към община Варна.png"]
-
 
 description = "Gray Zone Dispositive is a massive photogrammetry recreatingthe urban space of Varna. Based on satellite images of the city, it presents its double. "
 medium = ["Video Game", "3D Kit-bashed Photogrammetry"]

@@ -1,15 +1,15 @@
 {{ define "main" }}
-<div class="image-grid">
-    {{ range .Pages }}
-        <div class="list-item">
-            <a href="{{ .RelPermalink }}" class="post-link">
-                <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}" class="featured-image">
-                <div class="title-wrapper">
-                    <h2>{{ .Params.customTitle }}</h2>
-                    <p class="front-matter-description">{{ .Params.placedate }}</p>
+    <div class="grid-container">
+        {{ range .Pages }}
+            <div class="grid-card">
+                <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}" class="card-image">
+                <div class="card-content">
+                    <a href="{{ .Permalink }}">
+                        <h2 class="card-title">{{ .Params.customTitle }}</h2>
+                        <!-- <p class="card-description">{{ .Params.placedate }}</p> -->
+                    </a>
                 </div>
-            </a>
-        </div>
-    {{ end }}
-</div>
+            </div>
+        {{ end }}
+    </div>
 {{ end }}

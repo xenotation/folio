@@ -1,12 +1,13 @@
 <header>
-    <img src="/images/spinner.png" alt="Transparent Image" class="header-image">
-    <a class="name-title" href="{{ "/" | relURL }}">Nikola Stoyanov</a>
-    {{ with .Params.customTitle }}
-        <b class="custom-title"> {{ . }}</b>
-    {{ end }}
-    <div class="right-links">
-        <a href="/work">work</a>
-        <a href="/bio">bio</a>
-        <a href="https://blog.newdegeneration.xyz/">blog</a>    
-    </div>
+        <div class="title-container">
+            <a class="name-title" href="{{ "/" | relURL }}">Nikola Stoyanov</a>
+                {{ with .Params.customTitle }}
+            <span class="custom-title">{{ . }}</span>
+                {{ end }}
+        </div>
+        <div class="nav">
+             <a href="/work">work</a>
+             <a href="/bio">bio</a>
+             <a href="https://blog.newdegeneration.xyz/">blog</a>
+        </div>
 </header>

@@ -13,6 +13,7 @@ main > .featured-image {
     /* no idea how scalling works, check with test */
     display: block;
     margin-bottom: 20px;
+    
 }
 
 .left-column h1 {
@@ -59,8 +60,7 @@ main > .featured-image {
 
 .left-column {
     flex: 0.36;
-    text-align: right;
-    
+    text-align: right;    
 }
 
 /* Masonry Grid Gallery */
@@ -80,15 +80,25 @@ main > .featured-image {
 
 @media (max-width: 768px) {
     .body-columns {
-        columns: 1; /* Change to a single column for small screens */
-        column-gap: 0; /* No gap between columns for small screens */
+        columns: 1;
+    }
+    
+    .medium-text {
+        text-align: center;
     }
 
     .medium-text p {
         margin-left: 0;
+        text-align: center;
     }
 
     .left-column {
-        text-align: justify;
+        box-sizing: border-box;
+        flex: 1;
+    }
+
+    .left-column h1 {
+        text-align: center;
+
     }
 }

@@ -1,33 +1,27 @@
 {{ define "main" }}
 <div class="biO">
-
-  <!-- Two columns layout -->
-  <div class="two-columns">
-    <!-- Left column with title, biography, and sections -->
+  <div class="bio-column-container">
     <div class="left-column-bio">
-      <!-- Three sections in grey below the title -->
+      <img src="/images/spinner.png" class="spinner" alt="Vsevjidashtoto oko" > 
       <div class="biography">
-        <!-- Bio text goes here -->
         {{ with .Site.GetPage "section" "bio" }}
           <p>{{ .Content }}</p>
         {{ end }}
       </div>
     </div>
 
-    <!-- Right column with "Medium" and other content -->
+    <!-- Right column with "Medium" and otcher content -->
     <div class="right-column-bio">
       <!-- Three Columns -->
-      <div class="columns-container">
+      <div class="right-column-container">
         <!-- Column 1: Solo Category Posts -->
         <div class="column">
-          <h2>solo exhibitions</h2>
+          <h1>Exhibitions</h1>
           <ul>
             {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
               <li>
                 {{ $page := . }}
-                <h3>{{ with $page.Params.customTitle }}<a href="{{ $page.Permalink }}">{{ . }}</a>{{ end }}</h3>
-                <p>{{ with $page.Params.place }}{{ . }}{{ end }}</p>
-                <p>{{ with $page.Date }}{{ .Format "January 2, 2006" }}{{ end }}</p>
+                <h2>{{ with $page.Params.customTitle }}<a href="{{ $page.Permalink }}">{{ . }}</a>{{ end }}</h2>
               </li>
             {{ end }}
           </ul>
@@ -35,14 +29,12 @@
 
         <!-- Column 2: Collab Category Posts -->
         <div class="column">
-          <h2>collaborations</h2>
+          <h1>Collaborations</h1>
           <ul>
             {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab") }}
               <li>
                 {{ $page := . }}
-                <h3>{{ with $page.Params.customTitle }}<a href="{{ $page.Permalink }}">{{ . }}</a>{{ end }}</h3>
-                <p>{{ with $page.Params.place }}{{ . }}{{ end }}</p>
-                <p>{{ with $page.Date }}{{ .Format "January 2, 2006" }}{{ end }}</p>
+                <h2>{{ with $page.Params.customTitle }}<a href="{{ $page.Permalink }}">{{ . }}</a>{{ end }}</h2>
               </li>
             {{ end }}
           </ul>
@@ -50,20 +42,35 @@
 
         <!-- Column 3: Hard-coded Papers -->
         <div class="column">
-          <h2>publications</h2>
+          <h1>Publications</h1>
           <ul>
+                        
             <li>
-              <h3><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Убиването на любовта”, Ан Секстън</a></h3>
+              <h2><a href=""></a>“On the Border of Life (A Journey into Geotrauma)”</h2>
+              <p>“BORDERS” Simulacrum Magazine (Upcoming), Amsterdam</p>
+            </li>
+
+            
+            <li>
+              <h2><a href="https://www.journalforsocialvision.org/bg/post/mesta-na-ekologichna-istoria"></a>Places of Ecological History</h2>
+              <p>Jornal for Social Vision (2023), Sofia</p>
+            </li>
+
+            
+            <li>
+              <h2><a href=""></a></h2>
+              <p></p>
+            </li>
+
+            <li>
+              <h2><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Убиването на любовта”, Ан Секстън</a></h2>
               <p>Нова Асоциална Поезия, Ноември 2021, ISSN: 2738-8476</p>
             </li>
+
             <li>
-              <h3><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">Онтологичният статут на генеративното изкуство и неговото
-                значение</a></h3>
+              <h2><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">Онтологичният статут на генеративното изкуство и неговото
+                значение</a></h2>
               <p>сп. „Дерзай“, бр. III, пролет, 2022</p>
-            </li>
-            <li>
-              <h3>Paper 3</h3>
-              <p>Description of Paper 3 goes here...</p>
             </li>
           </ul>
         </div>

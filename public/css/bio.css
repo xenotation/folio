@@ -14,7 +14,7 @@
 .columns-container {
     display: flex;
     gap: 20px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .left-column-bio,
@@ -28,7 +28,7 @@
 }
 
 .left-column-bio {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .column {
