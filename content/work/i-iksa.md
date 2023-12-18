@@ -3,12 +3,16 @@ title = 'И-ИКСА'
 date = 2021-10-18
 draft = false
 
-galleryImages = ["", "", "", ""]
+galleryImages = ["/images/I-Iksa/iksa-1.png", "/images/I-Iksa/iksa-2.png", "/images/I-Iksa/iksa-3.png", "/images/I-Iksa/iksa-4.png", "/images/I-Iksa/iksa-5.png", "/images/I-Iksa/iksa-6.png", "/images/I-Iksa/iksa-7.png", "/images/I-Iksa/iksa-8.png"]
+imgDescrps = ["70x50cm", "Acrylic on canvas 50x60см", "Acrylic on canvas 37x54см", "Acrylic on canvas 70x40см", "Acrylic on back of painting 50x36cm", "Acrylic on canvas 40x50см, private collection", "Acrylic on canvas 37x52цм", "Acrylic on canvas 45x34cm"]
+imgNames = ["Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled"]
+
+
 featuredImage = "/images/I-Iksa/iiksa-herp.png"
 
 customTitle = "И-ИКСА (2021)"
 medium = ["acrylic painting", "combines"]
-placedate = "“Етюд” gallery, Sofia (2021"
+placedate = "“Etude” gallery, Sofia (2021"
 curator = "Христо Калоянов"
 
 categories = ["solo"]
