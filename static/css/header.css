@@ -1,9 +1,20 @@
 header {
+    font-family: "InterVariable";
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 1.5rem;
     align-items: center;
-    margin: 1.2rem
+    margin: 1.2rem;
+
+}
+
+header.h1 {
+    margin-bottom: 0;
+
+}
+
+header.h1 {
+    margin-bottom: 0;
+    font-size: 1rem;
 }
 
 .title-container {
@@ -11,28 +22,29 @@ header {
 }
 
 .custom-title {
-    margin-left: 0.5rem;
+margin-left: 0.5rem;
 }
 
 .nav {
     grid-column: 2;
     justify-self: end;
     margin-left: auto;
+
 }
 
 a { text-decoration: none; color:black; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; }
+
 
 @media (max-width: 800px) {
     header { 
         align-items: start;
     }
 
+    .name-title,
     .custom-title {
         margin-left: 0;
         display: block;
+        text-align: left;
+
         }
 }

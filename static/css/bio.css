@@ -1,5 +1,6 @@
 .biO {
     margin: 0 1.2rem;
+
   }
   
   .bio-column-container {
@@ -9,9 +10,25 @@
   }
   
   .left-column-bio {
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
+  }
+  
+  .biography {
+    flex: 1;
+    min-width: 5em; /* Set minimum width */
+    max-width: 18rem; /* Set maximum width */
+    text-align: justify;
+    hyphens: auto;
+    margin: 0;
+  }
+  
+  .spinner {
+    min-width: 5rem;
+    max-width: 18rem;
+    height: auto;
+    transition: transform 0.5s cubic-bezier(0.69, 0, 0.13, 1);
   }
   
   .right-column-bio {
@@ -20,37 +37,15 @@
     flex-direction: column;
     flex-grow: 1;
   }
-  
-  .biography {
-    flex: 1;
-    min-width: 5em; /* Set minimum width */
-    max-width: 18rem; /* Set maximum width */
-    text-align: justify;
-  }
-  
 
-  .spinner {
-    min-width: 5rem;
-    max-width: 18rem;
-    height: auto;
-    transition: transform 0.5s cubic-bezier(0.87, 0, 0.13, 1);
-  }
-  
   .right-column-container {
     display: flex;
     flex: 1;
     gap: 1.2rem;
-
   }
-
-  
-  /* Ensure the gap between columns fills up all available space */
-  .left-column-bio + .right-column-bio {
-    margin-left: auto;
-  }
-
 
   .column {
+    column-gap: 1.25rem;
     flex: 1;
     text-align: right;
   }
@@ -58,26 +53,17 @@
   .column ul {
     list-style: none;
     padding: 0;
+    margin: 0;
   }
 
 .column li {
     margin: 0 0 1rem 0;
 }
 
-.column h2 {
-    font-size: 1.2rem;
-    margin: 0;
 
+.left-column-bio + .right-column-bio {
+  margin-left: auto;
 }
-
-  .column p {
-    font-size: 1rem;
-  }
-  
-  .right-column-bio .column {
-    flex: 1;
-}
-  
 
 
 @media (max-width: 767px) {
