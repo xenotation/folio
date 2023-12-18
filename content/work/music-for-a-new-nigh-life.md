@@ -9,6 +9,11 @@ featuredImage = "/images/music/music_hero.webp"
 customTitle = "Music for a New Nigh Life (2019)"
 medium = ["photo-book"]
 categories = ["solo"]
+
+<!-- Mini-Gallery Section -->
+
+imgDescrps = ["Purvo opis na par4e gradski varna traa e kartinakta na tva", "апте123ка", "kur", "213"]
+imgNames = ["Purvo ime na par4e", "апте123ка", "kur", "213"]
 +++
 
 Music for a New Night Life deals with Mark Fishers concept of hauntology and lost futures. It vi- sually shows a cymatic matrix of a city in flux, of its dreams and night- mares and finally of its reality filled with nostalgia. The tidal feeling of turbulence wroth by the ancient currents of the Black Sea returns us to a state of Freudian unconsciousness, a downcast euphoria, somatically revealing the subject to the base nostalgia of Oedipal separation. Betrayed promises of youth culture open up the scene to snapshots of melancholic ravers in the throw of middle-life crises. Beyond the death-drive, what was mechanical becomes organic. Heat facilitates cymatic scribbles on a canvas of brutalist grey skies, the subject in drowned in a semiotic fog, hyperkinesis wakes stray desire, the citie is dancing to its own rhythm. The full photo-zine can be found here.

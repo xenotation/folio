@@ -66,7 +66,7 @@
       <!-- Masonry Grid Gallery of Images -->
       <div class="masonry-grid">
         {{ range $index, $image := .Params.galleryImages }}
-          <a href="{{ $image }}" class="lightbox-item" data-title="{{ replace (path.Base $image) (path.Ext $image) "" }}" data-description="{{ index ($.Params.imgDescrps) $index }}">
+          <a href="{{ $image }}" class="lightbox-item" data-title="{{ index ($.Params.imgNames) $index }}" data-description="{{ index ($.Params.imgDescrps) $index }}">
             <img src="{{ $image }}" alt="Gallery Image" class="gallery-image">
           </a>
         {{ end }}
@@ -79,7 +79,10 @@
       const lightbox = GLightbox({
         selector: '.lightbox-item',
         touchNavigation: true,
-        loop: true
+        loop: true,
+        draggable: false,
+        preload: true,
+        zoomable: true
       });
     });
   </script>
