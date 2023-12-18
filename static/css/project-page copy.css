@@ -1,0 +1,104 @@
+main > .featured-image {
+    width: 100%;
+    max-height: 58vh;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.featured-video {
+    width: 100%;
+    max-height: 58vh;
+    object-fit:cover; 
+    /* no idea how scalling works, check with test */
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.left-column h1 {
+    margin-top: 0;
+}
+
+/* Medium Info */
+.medium-text {
+    color: grey;
+    margin-bottom: 21.44px;
+    
+}
+
+.medium-text p {
+    margin-bottom: 36px;
+    margin-left: 50%
+}
+
+/* Text Columns */
+.body-columns {
+    columns: 2;
+    column-gap: 36px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px; /* Add padding to the entire two-columns container */
+}
+
+.body-columns p {
+    margin-bottom: 1em;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    padding: 0 20px; /* Add padding to the left and right of each column */
+}
+
+.left-column {
+    flex: 0.36;
+    text-align: right;    
+}
+
+/* Masonry Grid Gallery */
+.masonry-grid {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    break-inside: avoid-column;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .body-columns {
+        columns: 1;
+    }
+    
+    .medium-text {
+        text-align: center;
+    }
+
+    .medium-text p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .left-column {
+        box-sizing: border-box;
+        flex: 1;
+    }
+
+    .left-column h1 {
+        text-align: center;
+
+    }
+}

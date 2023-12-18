@@ -1,66 +1,47 @@
-main > .featured-image {
-    width: 100%;
-    max-height: 58vh;
-    object-fit: cover;
-    display: block;
-    margin-bottom: 20px;
+/* HERO STYLING */
+.hero-container {
+    overflow: hidden;
+}
+    .featured-image {
+        width: 100%;
+        max-height: 58vh;
+        object-fit: cover;
+    }
+
+    .featured-video {
+        min-width: 100%;
+        max-height: 58vh;
+        object-fit:cover; 
+    }
+
+/* BODY STRUCTURE */
+.project-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
 }
 
-.featured-video {
-    width: 100%;
-    max-height: 58vh;
-    object-fit:cover; 
-    /* no idea how scalling works, check with test */
-    display: block;
-    margin-bottom: 20px;
-    
-}
+    .left-column,
+    .right-column {
+        flex: 1;
+    }
 
-.left-column h1 {
-    margin-top: 0;
-}
-
-/* Medium Info */
-.medium-text {
-    color: grey;
-    margin-bottom: 21.44px;
-    
-}
-
-.medium-text p {
-    margin-bottom: 36px;
-    margin-left: 50%
-}
+    .left-column {
+        flex: 0.36;
+        text-align: right;    
+    }
 
 /* Text Columns */
 .body-columns {
     columns: 2;
-    column-gap: 36px;
-    margin-bottom: 20px;
+    column-gap: 1.2rem;
+
     text-align: justify;
 }
 
-.two-columns {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0 20px; /* Add padding to the entire two-columns container */
-}
 
 .body-columns p {
-    margin-bottom: 1em;
-}
 
-.left-column,
-.right-column {
-    flex: 1;
-    box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    padding: 0 20px; /* Add padding to the left and right of each column */
-}
-
-.left-column {
-    flex: 0.36;
-    text-align: right;    
 }
 
 /* Masonry Grid Gallery */
@@ -73,32 +54,33 @@ main > .featured-image {
     width: 100%;
     height: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     break-inside: avoid-column;
     max-width: 100%;
 }
+/* Media Query for Phones */
+@media only screen and (max-width: 600px) {
+    .project-columns {
+        display: grid;
+        grid-template-columns: 1;
+        margin: 2rem;
+    }
 
-@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+    .place-curator {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .medium-text {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
     .body-columns {
         columns: 1;
     }
-    
-    .medium-text {
-        text-align: center;
-    }
 
-    .medium-text p {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .left-column {
-        box-sizing: border-box;
-        flex: 1;
-    }
-
-    .left-column h1 {
-        text-align: center;
-
-    }
 }

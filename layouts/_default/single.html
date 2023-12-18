@@ -1,5 +1,6 @@
 {{ define "main" }}
   <!-- HERO -->
+  <div class="hero-container">
   {{ with index .Params.featuredVideo 0 }}
     <video autoplay muted loop class="featured-video">
       <source src="{{ . }}" type="video/mp4">
@@ -11,28 +12,29 @@
       <img src="{{ . }}" alt="Featured Image" class="featured-image">
     {{ end }}
   {{ end }}
+  </div>
 
   <!-- Two columns layout -->
-  <div class="two-columns">
+  <div class="project-columns">
     <!-- Left column with title and sections -->
     <div class="left-column">
       <!-- Header with the title -->
       <h1>{{ .Title }}</h1>
 
       <!-- Three sections in grey below the title -->
-      <div class="medium-text">
-        {{ with .Params.curator }}
-          <p>curated by: {{ . }}</p>
+      <div class="place-curator">
+        {{ with .Params.placedate }}
+          <p>{{ . }}</p>
         {{ end }}
         
-        {{ with .Params.placedate }}
-          <p>@: {{ . }}</p>
+        {{ with .Params.curator }}
+          <p>curated by: {{ . }}</p>
         {{ end }}
 
         <!-- Collaborators section -->
         <div class="collaborators">
           {{ with .Params.collaborators }}
-            <p class="medium-text">
+            <p>
               in collaboration with: <br>
               {{ $collaborators := split . "," }}
               {{ range $collaborators }}
