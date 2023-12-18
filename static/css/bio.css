@@ -28,10 +28,12 @@
     text-align: justify;
   }
   
+
   .spinner {
     min-width: 5rem;
     max-width: 18rem;
     height: auto;
+    transition: transform 0.5s cubic-bezier(0.87, 0, 0.13, 1);
   }
   
   .right-column-container {
@@ -40,7 +42,7 @@
     gap: 1.2rem;
 
   }
-  
+
   
   /* Ensure the gap between columns fills up all available space */
   .left-column-bio + .right-column-bio {

@@ -1,37 +1,3 @@
 {{ define "main" }}
-  <div class="image-slider">
-    {{ $imagePath := "images" }}
-    {{ $imageFiles := readDir (printf "static/%s" $imagePath) }}
-    {{ $imageFiles = where $imageFiles "IsDir" false }}
 
-    <div class="slider-container">
-      {{ range $index, $image := $imageFiles }}
-        {{ $imageURL := (printf "/%s/%s" $imagePath $image.Name) | relURL }}
-        <div class="slider-image">
-          <img src="{{ $imageURL }}" alt="Image">
-        </div>
-      {{ end }}
-    </div>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const images = document.querySelectorAll('.slider-image');
-        let currentIndex = 0;
-
-        function showImage(index) {
-          images.forEach((image, i) => {
-            image.classList.toggle('active', i === index);
-          });
-        }
-
-        function nextImage() {
-          currentIndex = (currentIndex + 1) % {{ len $imageFiles }};
-          showImage(currentIndex);
-        }
-
-        setInterval(nextImage, 3500); // Change image every seconds
-        showImage(currentIndex); // Show initial image
-      });
-    </script>
-  </div>
 {{ end }}

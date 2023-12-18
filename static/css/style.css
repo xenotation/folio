@@ -16,6 +16,12 @@ body {
     
 }
 
+a:active {
+    font-family: "Jester-00-FOOL", sans-serif;
+    transition: font-family 25s ease-out; 
+  }
+
+
 p {
     font-size: 1.2rem;
     hyphens: auto;
@@ -33,6 +39,8 @@ h2 {
 li {
     font-size: 1.2rem;
 }
+
+
 
 .FourOhFourCentered {
     display: flex;
