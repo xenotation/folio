@@ -505,24 +505,25 @@ iframe.wait-autoplay {
 }
 
 .glightbox-clean .gdesc-inner {
-  padding: 1rem 1rem;
+  padding: 1.2rem 1.2rem;
 }
 
 .glightbox-clean .gslide-title {
-  font-size: 1em;
+  font-size: 1.2rem;
   font-weight: normal;
-  font-family: arial;
-  color: wheat;
-  margin-bottom: 1rem;
-  line-height: 1.4em;
+  margin-top: 0;
+  /* font-family: arial; */
+  color: white;
+  margin-bottom: 0.5rem;
+  /* line-height: 1.4em; */
 }
 
 .glightbox-clean .gslide-desc {
-  font-size: 0.86em;
+  font-size: 1rem;
   margin-bottom: 0;
-  font-family: arial;
+  /* font-family: arial; */
   line-height: 1.4em;
-  color: wheat;
+  color: white;
 }
 
 .glightbox-clean .gslide-video {

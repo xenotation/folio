@@ -1,18 +1,18 @@
 +++
 title = 'Music for a New Nigh Life'
+customTitle = "Music for a New Nigh Life (2019)"
+featuredImage = "/images/music/music_hero.webp"
+featuredVideo = ""
 date = 2019-06-05
+
 draft = false
 
-galleryImages = ["/images/music/градски транспорт Варна.webp", "/images/music/аптека.webp", "/images/music/трафик.webp", "/images/music/wired.webp", "/images/music/варна център.webp"]
-featuredImage = "/images/music/music_hero.webp"
 
-customTitle = "Music for a New Nigh Life (2019)"
 medium = ["photo-book"]
 categories = ["solo"]
 
-<!-- Mini-Gallery Section -->
-
-imgDescrps = ["Purvo opis na par4e gradski varna traa e kartinakta na tva", "апте123ка", "kur", "213"]
+galleryImages = ["/images/music/градски транспорт Варна.webp", "/images/music/аптека.webp", "/images/music/трафик.webp", "/images/music/wired.webp", "/images/music/варна център.webp"]
+imgDescrps = ["Purvo urvo opis na par4e gradski varna traa e kartinakta na tvaurvo opis na par4e gradski varna traa e kartinakta na tvaurvo opis na par4e gradski varna traa e kartinakta na tva na par4e gradski varna traa e kartinakta na urvo opis na par4e gradski varna traa e kartinakta na tvaurvo opis na par4e gradski varna traa e kartinakta na tvatva", "апте123ка", "kur", "213"]
 imgNames = ["Purvo ime na par4e", "апте123ка", "kur", "213"]
 +++
 
