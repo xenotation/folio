@@ -4,7 +4,7 @@ date = 2021-10-18
 draft = false
 
 galleryImages = ["", "", "", ""]
-featuredImage = "/images/1.png"
+featuredImage = "/images/I-Iksa/iiksa-herp.png"
 
 customTitle = "И-ИКСА (2021)"
 medium = ["acrylic painting", "combines"]

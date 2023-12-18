@@ -4,7 +4,7 @@ date = 2021-01-16
 draft = false
 
 galleryImages = ["", "", "", ""]
-featuredImage = "/images/1.png"
+featuredImage = "/images/inprocess/inprocess-hero.jpg"
 
 customTitle = "In Process (2021)"
 medium = ["photography", "photo-book"]

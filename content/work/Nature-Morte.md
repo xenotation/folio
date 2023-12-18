@@ -5,7 +5,7 @@ date = 2023-06-22
 draft = false
 
 galleryImages = ["/images/2.png", "/images/11-tests.jpg", "/images/4.png", "/images/5.png", "/images/6.png", "/images/7.png", "/images/8.png"]
-featuredImage = "/images/1.png"
+featuredImage = "/images/nature-morte/nm-hero.png"
 
 
 customTitle = "Nature Morte (2023)"

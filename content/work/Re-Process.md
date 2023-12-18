@@ -5,6 +5,7 @@ draft = false
 
 galleryImages = ["/images/reproc/Черна Волга - фотопринт 70х70см, частна колекция.png", "/images/reproc/Фотопринт 60х40см.png", "/images/reproc/карта от общински архив Варна от 1923 година модифицирана с помоща на раннен изкуствен интелект за синтезиране на изображения.png", "/images/reproc/Без име - фотопринт 50х50см.png", "/images/reproc/Без име - фотопринт 50х50см, частна колекция.png"]
 featuredVideo = ["/images/reproc/reproc-hero.mp4"]
+featuredImage = "/images/reproc/reproc-hero.png"
 
 customTitle = "RE:PROCESS (2022)"
 medium = ["photography", "video game", "fictional tourist map"]

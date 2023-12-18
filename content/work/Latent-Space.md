@@ -4,7 +4,7 @@ date = 2022-09-09
 draft = false
 
 description = "A red chew toy that any furry friend will enjoy, molded with our patented PennyPlastix technology to last through years of slobbery love."
-featuredImage = "/images/2.png"
+featuredImage = "/images/latent/latent-hero.png"
 customTitle = "Lantent Space (2022)"
 
 medium = ["synthesised images", "fake acrylic paintings", "video installations", "dossier"]
