@@ -21,16 +21,17 @@
       <!-- Header with the title -->
       <h1>{{ .Title }}</h1>
 
+      <div class="placedate">        {{ with .Params.placedate }}
+        <p>{{ . }}</p>
+      {{ end }}
+      </div>
+
       <!-- Three sections in grey below the title -->
-      <div class="place-curator">
-        {{ with .Params.placedate }}
-          <p>{{ . }}</p>
+      <div class="people">
+        {{ with .Params.curator }}
+          <p>curated by: <br>{{ . }}</p>
         {{ end }}
         
-        {{ with .Params.curator }}
-          <p>curated by: {{ . }}</p>
-        {{ end }}
-
         <!-- Collaborators section -->
         <div class="collaborators">
           {{ with .Params.collaborators }}

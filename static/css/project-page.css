@@ -18,7 +18,8 @@
 .project-columns {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
+    margin: 1.2rem;
 }
 
     .left-column,
@@ -28,15 +29,20 @@
 
     .left-column {
         flex: 0.36;
-        text-align: right;    
+        text-align: right;
+        margin-right: 1.2rem;
     }
+.medium-text,
+.placedate {
+    margin-bottom: 1rem;
+}
 
 /* Text Columns */
 .body-columns {
     columns: 2;
     column-gap: 1.2rem;
-
     text-align: justify;
+    margin-bottom: 1.2rem;
 }
 
 
@@ -65,18 +71,20 @@
         grid-template-columns: 1;
         margin: 2rem;
     }
-
+    .placedate,
     h1 {
         text-align: center;
     }
-    .place-curator {
-        text-align: center;
+    .placedate {
         margin-bottom: 5rem;
     }
-
+    .people,
     .medium-text {
         text-align: left;
-        margin-bottom: 1rem;
+    }
+
+    .people {
+        margin-bottom: 0.5rem;
     }
 
     .body-columns {
