@@ -26,3 +26,7 @@ enableRobotsTXT = true
 
 [taxonomies]
 category = "categories"
+
+[minify]
+  disableXML = true
+
