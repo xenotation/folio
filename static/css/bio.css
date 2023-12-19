@@ -38,6 +38,7 @@
     flex-grow: 1;
   }
 
+
   .right-column-container {
     display: flex;
     flex: 1;
@@ -48,6 +49,10 @@
     column-gap: 1.25rem;
     flex: 1;
     text-align: right;
+  }
+
+  .column a {
+    color: var(--text-color);
   }
 
   .column ul {
