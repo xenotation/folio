@@ -18,8 +18,11 @@ enableRobotsTXT = true
 
 [robots]
 
-[blackfriday]
-  extensions = ["hardLineBreak"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
 
 [taxonomies]
 category = "categories"
