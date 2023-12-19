@@ -1,40 +1,32 @@
-/*** WORK IMAGE GRID STYLING ***/
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    row-gap: 1rem;
-    padding: 0 20px; /* Add padding on the left and right */
-}
-
-.list-item img {
-    width: 100%;
-    max-height: 20rem; 
-    object-fit: cover;
-}
-
-.list-item .custom-title {
-    font-size: larger;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.front-matter-description {
-    text-align: justify;
-    font-size: 0.9em;
-    color: grey;
-}
-
-.image-grid h2, p {
-    margin: 0;
-}
-
-@media (max-width: 768px) {
-    .image-grid {
-        grid-template-columns: 1fr; /* One column for small screens */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-columns:
+            repeat(auto-fit, minmax(50rem, 1fr)); */
+        row-gap: 1em;
+        column-gap: 1.2em;
+        margin: 1.2rem 2rem 1.2rem 2rem;
+    }
+    .grid-card {
+        max-height: 50%;
+    }
+    .card-image {
+        width: 100%;
+        aspect-ratio: 1.69 / 1;
+        object-fit: cover;
     }
 
-    .list-item img {
-        height: auto; /* Adjust height as needed for responsiveness */
+    .card-title {
+        font-size: 1.2rem;
     }
-}
+
+    /* .card-description {
+        font-size: 0.9rem;
+        color: grey;
+    } */
+
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        }
+    }

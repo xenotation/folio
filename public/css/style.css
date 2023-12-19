@@ -1,21 +1,50 @@
-@font-face {
-    font-family: "Robo Flex";
-    src: url('/fonts/RobotoFlex.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+/* COLOR SCHEMES */
+:root {
+    /* Titanstone Palette */
+    --text-color: #0a0a0a;
+    --bg-color: #ffffff;
+    --hligh-color: #ffa6dd  ;
 }
-/*** PAGE STYLE ***/
+/* BODY */
 body {
-    background-color: #f0f6f0;
-    color: #222323;
-    padding: 0px;
+    font-family: "InterVariable";    
+    font-size: 16px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    hyphens: auto;
+    line-height: 1.2;
+    letter-spacing: 0.02rem;
 }
 
-a {
-    color:purple;
-    text-decoration: wavy;
+/* TYPOGRAPHY */
+h1 {
+    font-size: 1.476rem;
+    margin: 0;
 }
+
+h2 {
+    font-size: 1.383rem;
+    margin:0. 0 0.5rem 0;
+}
+
+h3 {
+    font-size: 1.296rem;
+    margin: 0 0 0.5rem 0;
+}
+
+p {
+    font-size: 1rem;
+    hyphens: auto;
+    margin: 0 0 0.5rem 0;
+}
+
+
 
 .FourOhFourCentered {
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    width: auto;
+    height:50%;
 }
