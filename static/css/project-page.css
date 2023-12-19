@@ -25,22 +25,42 @@
     .left-column,
     .right-column {
         flex: 1;
+                
     }
 
     .left-column {
         flex: 0.36;
+        align-items: start;
         text-align: right;
         margin-right: 1.2rem;
+        padding-left: 12rem;
+        text-wrap: pretty;
+
     }
-.medium-text,
-.placedate {
+
+    .left-column h1 {
+        margin-top: 0;
+    }
+
+.medium-text {
+    margin-top: 0.2rem;
     margin-bottom: 1rem;
 }
+
+.people {
+    margin-top: 0.7rem;
+}
+
+
 .body-columns {
     columns: 2;
     column-gap: 1.2rem;
     text-align: justify;
     margin-bottom: 1.2rem;
+}
+
+.body-columns a {
+    font-style: italic;
 }
 
 .masonry-grid {

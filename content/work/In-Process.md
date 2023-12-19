@@ -11,7 +11,7 @@ imgNames = ["Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitle
 imgDescrps = [""]
 
 medium = ["photography", "photo-book"]
-placedate = "KO-OP Gallery, Sofia"
+placedate = "KO-OP Gallery, Sofia - 06-16.01.2021"
 curator = "Hristo Kaloyanov"
 categories = ["solo"]
 +++

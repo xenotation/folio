@@ -4,8 +4,9 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin: 1.2rem 2rem 1.2rem 2rem;
-
 }
+
+
 
 header.h1 {
     margin-bottom: 0;

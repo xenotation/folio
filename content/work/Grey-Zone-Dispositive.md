@@ -10,7 +10,7 @@ galleryImages = ["/images/grey zone/сцена от вритуални свят.
 
 description = "Gray Zone Dispositive is a massive photogrammetry recreatingthe urban space of Varna. Based on satellite images of the city, it presents its double. "
 medium = ["Video Game", "3D Kit-bashed Photogrammetry"]
-placedate = "The Marix - April 2022 (part of Sofia Underground ?0?? // Insecure Wisdom)"
+placedate = "The Marix (part of 'Sofia Underground Festival') - 28.04.2022"
 collaborators = "SABA PRODAKTION, Peter Chinovsky, Isabelle Nesheva, Sofia Dimova, Sara Postolle, Martijn De Geele, Orlin Dvoryanov, Agathe de Limoges & Victor Delétraz, Elena Chergilanova"
 
 categories = ["collab"]
@@ -19,6 +19,7 @@ categories = ["collab"]
 The city - transfigured into a gray zone emptied of people, of lights, immersed under water or discarded in the wild cosmos, folded beyond practicality, it represents a capsule emptied of its nature, emptied of its structures of power, emptied of its social bodies. A dispositive without practice, without knowledge and expertise, withoout our institutions and without time - a pure assemblage. The project presents a virtual city-scape assembled out of distorted models of our familiar urban environment, rearanged into a non-euclidian vista. A photogrammetric landscape attained through the view of microsecond tics of satellites, scanning the earths surface porpouslfully and aimlessly, a virtual dérive of Varna’s unconscious, in the form of an intereactive dream.
 
 GrayZone Dispositive is a massive photogrammetry recreatingthe urban space of Varna. Based on satellite images of the city, it presents its double. The videogame installation also relies on acuttingedge AI-denoiser, a technology whose artifacts contribute to distort the visual field intoa dreamlike watercolor drawing. An initial version of Grey Zone Dispositive, in the form of a videoinstallation, was presented as partof the exhibition Temporary Crisis, part of the Sofia Underground Festival (2022). Later, the developed video game was part of theexhibition „RE:Process“ in the cityof Varna (continuation of the exhi-bition „In Process“, 2021).
+
 <!-- add link to the other  exhibiton, add full text-->
 
 [Catalouge](https://openartfiles.bg/bg/files/download/2766/221207-115215_TEMPORARY%20CRISIS%20PROGRAM.pdf)

@@ -12,7 +12,7 @@ featuredImage = "/images/I-Iksa/iiksa-herp.png"
 
 customTitle = "I-Iksa (2021)"
 medium = ["acrylic painting", "combines"]
-placedate = "“Etude” gallery, Sofia (2021)"
+placedate = "Etude gallery, Sofia - 18-30.10.2021)"
 curator = "Hristo Kaloyanov"
 
 categories = ["solo"]

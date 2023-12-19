@@ -13,31 +13,33 @@ body {
     color: var(--text-color);
     margin: 0;
     hyphens: auto;
-    line-height: 1.45;
+    line-height: 1.2;
     letter-spacing: 0.02rem;
 }
 
 /* TYPOGRAPHY */
 h1 {
     font-size: 1.476rem;
-    margin:0;
+    margin: 0;
 }
 
 h2 {
     font-size: 1.383rem;
-    margin: 0;
+    margin:0. 0 0.5rem 0;
 }
 
 h3 {
     font-size: 1.296rem;
-    margin: 0;
+    margin: 0 0 0.5rem 0;
 }
 
 p {
     font-size: 1rem;
     hyphens: auto;
-    margin: 0;
+    margin: 0 0 0.5rem 0;
 }
+
+
 
 .FourOhFourCentered {
     display: flex;

@@ -9,7 +9,7 @@ featuredImage = "/images/reproc/reproc-hero.png"
 
 customTitle = "RE:PROCESS (2022)"
 medium = ["photography", "video game", "fictional tourist map"]
-placedate = "Arhis Gallery, Varna"
+placedate = "Arhis Gallery, Varna - 21.05-05.06.2022"
 curator = "Hristo Kaloyanov"
 categories = ["solo"]
 +++
