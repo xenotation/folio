@@ -1,12 +1,15 @@
 +++
 title = 'In:Process'
 date = 2021-01-16
+
+featuredImage = "/images/inprocess/inprocess-hero.webp"
 draft = false
 
-galleryImages = ["", "", "", ""]
-featuredImage = "/images/inprocess/inprocess-hero.jpg"
+galleryImages = ["/images/inprocess/inproc-1.webp", "/images/inprocess/inproc-2.webp", "/images/inprocess/inproc-3.webp", "/images/inprocess/inproc-4.webp", "/images/inprocess/inproc-5.webp", "/images/inprocess/inproc-6.webp", "/images/inprocess/inproc-7.webp", "/images/inprocess/inproc-8.webp", ]
 
-customTitle = "In Process (2021)"
+imgNames = ["Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled"]
+imgDescrps = [""]
+
 medium = ["photography", "photo-book"]
 placedate = "KO-OP Gallery, Sofia"
 curator = "Hristo Kaloyanov"

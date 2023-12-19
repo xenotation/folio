@@ -15,15 +15,15 @@ curator = "Hristo Kaloyanov"
 categories = ["solo"]
 +++
 
-NATURE MORTE is a multimediaproject that plants the philosophical question in the ground - ona part of the country’s criticalinfrastructure, where access ishighly restricted. In an attempt tofind different approaches to reachthe excavation and its visualiza-tion, open data from satellite and geological surveys and measurements were used, through which the digital topography of the mines was built. Although the cosmic time of geoformation - the million-year superimposition of layers that proceeds in relative calm, where separate elements barely interact, there are also short periods of ruptures recorded in the layers. The excavation of rocks, clay, minerals, stones and ash unfolds the earth’s bowels, from where traces of long-sunken worlds are made visible. This is where ouroperational activity on the critical infrastructure of the Maritza-Iztokmines begins.\ 
+NATURE MORTE is a multimediaproject that plants the philosophical question in the ground - ona part of the country’s criticalinfrastructure, where access ishighly restricted. In an attempt tofind different approaches to reachthe excavation and its visualiza-tion, open data from satellite and geological surveys and measurements were used, through which the digital topography of the mines was built. Although the cosmic time of geoformation - the million-year superimposition of layers that proceeds in relative calm, where separate elements barely interact, there are also short periods of ruptures recorded in the layers. The excavation of rocks, clay, minerals, stones and ash unfolds the earth’s bowels, from where traces of long-sunken worlds are made visible. This is where ouroperational activity on the critical infrastructure of the Maritza-Iztokmines begins.
 
 .
 ### Critique
-- “[Towards a geosophy of the catastrophe”](https://culturecenter-su.org/philip-stoilov-nature-morte/)\
+- “[Towards a geosophy of the catastrophe”](https://culturecenter-su.org/philip-stoilov-nature-morte/)
 Filip Stoilov St. Kliment Ohridski University Culture Center
-- “[Kintsugi. Dealing with trauma in the summer of 2023](https://culturecenter-su.org/kritika-x-3-june2023-boyana-dzhikova/)”\
+- “[Kintsugi. Dealing with trauma in the summer of 2023](https://culturecenter-su.org/kritika-x-3-june2023-boyana-dzhikova/)”
 Boyana Djikova, St.Kliment Ohridski University Culture Center
-- “[Observing the Geotraumatic Lines of Flight On Terrain](https://culturecenter-su.org/wp-content/uploads/2023/10/programme-2023.pdf)”\
+- “[Observing the Geotraumatic Lines of Flight On Terrain](https://culturecenter-su.org/wp-content/uploads/2023/10/programme-2023.pdf)”
 Hristo Kaloyanov report for the conference “CULTURE, INFRASTRUCTURE, MOBILITY” hosted by Leibniz Institute and CultureCenter of Sofia University
 
 ### Coverage
