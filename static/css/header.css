@@ -2,15 +2,7 @@ header {
     font-family: "InterVariable";
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
     margin: 1.2rem 2rem 1.2rem 2rem;
-}
-
-
-
-header.h1 {
-    margin-bottom: 0;
-
 }
 
 header.h1 {
@@ -23,7 +15,7 @@ header.h1 {
 }
 
 .custom-title {
-margin-left: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .nav {
@@ -39,15 +31,14 @@ header a {
 
 
 @media (max-width: 800px) {
-    header { 
-        align-items: start;
-    }
-
     .name-title,
     .custom-title {
         margin-left: 0;
         display: block;
         text-align: left;
-
         }
+
+    .nav h1 {
+        text-align: right;
+    }
 }

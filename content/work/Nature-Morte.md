@@ -16,7 +16,6 @@ placedate = "Goethe-Institut, Sofia - 22.06–30.07.2023"
 curator = "Hristo Kaloyanov"
 categories = ["solo"]
 
-
 +++
 
 NATURE MORTE is a multimediaproject that plants the philosophical question in the ground - on a part of the country’s criticalinfrastructure, where access is highly restricted. In an attempt to find different approaches to reach the excavation and its visualization, open data from satellite and geological surveys and measurements were used, through which the digital topography of the mines was built. 
