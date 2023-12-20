@@ -43,11 +43,11 @@
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab") }}
                   <li>
                       {{ $page := . }}
-                      <h3>
+                      <h2>
                           {{ with $page.Params.Title }}
                               <a href="{{ $page.Permalink }}">{{ . }}</a>                             
                           {{ end }}
-                      </h3>
+                      </h2>
                       <p>{{ with $page.Params.date }}
                         {{ $year := dateFormat "(2006)" $page.Params.date }}
                         {{ $year }}
@@ -64,27 +64,27 @@
           <ul>
                         
             <li>
-              <h3><a href=""></a>On the Border of Life</h3>
+              <h2><a href=""></a>On the Border of Life</h2>
               <p>“BORDERS” Simulacrum Magazine (Upcoming), Amsterdam</p>
             </li>
 
             <li>
-              <h3><a href="https://www.journalforsocialvision.org/bg/post/mesta-na-ekologichna-istoria">Places of Ecological History</a></h3>
+              <h2><a href="https://www.journalforsocialvision.org/bg/post/mesta-na-ekologichna-istoria">Places of Ecological History</a></h2>
               <p>Jornal for Social Vision (2023) Sofia</p>
             </li>
 
             <li>
-              <h3><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">The Ontological Status of Generative Art and its Meaning</a></h3>
+              <h2><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">The Ontological Status of Generative Art and its Meaning</a></h2>
               <p>сп. „Дерзай“, бр. III, пролет, (2022)</p>
             </li>
 
             <li>
-              <h3><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Убиването на любовта”, Ан Секстън</a></h3>
+              <h2><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Убиването на любовта”, Ан Секстън</a></h2>
               <p>Нова Асоциална Поезия, (2021), ISSN: 2738-8476, Bulgarian trans.</p>
             </li>
 
             <li>
-              <h3><a href="https://laboriacuboniks.net/manifesto/ksenofeminiza-politika-na-otchuzhdenie/">“Ксенофеминистки Манифест”, Лабория Кубоникс</a></h3>
+              <h2><a href="https://laboriacuboniks.net/manifesto/ksenofeminiza-politika-na-otchuzhdenie/">“Ксенофеминистки Манифест”, Лабория Кубоникс</a></h2>
               <p>Laboria Cubonics Collective, (2020), Bulgarian trans.</p>
             </li>
 

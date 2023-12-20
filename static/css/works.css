@@ -20,6 +20,10 @@
         font-size: 1.2rem;
     }
 
+    .grid-container h2 {
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
     /* .card-description {
         font-size: 0.9rem;
         color: grey;
