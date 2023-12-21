@@ -9,7 +9,7 @@ copyright = "Nikola Soyanov, 2023"
 
  Description = "A translator and photographer for many years, he enjoys interweaving the human- ities with the scientific, multi-linear approaches to problem solving and collaborative work."
 
-enableRobotsTXT = true
+
 
 [sitemap]
   changefreq = "weekly"
