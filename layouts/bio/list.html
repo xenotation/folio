@@ -2,7 +2,7 @@
 <div class="bio-container">
   <div class="bio-column-container">
     <div class="left-column-bio">
-          <img src="/images/spinner.png"class="spinner" alt="око на провидението"> 
+          <img src="/images/spinner.webp"class="spinner" alt="око на провидението"> 
       <div class="bio-text">
         {{ with .Site.GetPage "section" "bio" }}
           <p>{{ .Content }}</p>
@@ -42,6 +42,46 @@
                   {{ with $page.Params.date }}
                       {{ $year := dateFormat "2006" . }}
                       {{ if eq $year "2022" }}
+                          <li>
+                              <h3>
+                                  {{ with $page.Params.Title }}
+                                      <a href="{{ $page.Permalink }}">{{ . }}
+                                  {{ end }}
+                                  </a>
+                              </h3>
+                          </li>
+                      {{ end }}
+                  {{ end }}
+              {{ end }}
+          </ul>
+
+          <h2>2021</h2>
+          <ul>
+              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
+                  {{ $page := . }}
+                  {{ with $page.Params.date }}
+                      {{ $year := dateFormat "2006" . }}
+                      {{ if eq $year "2021" }}
+                          <li>
+                              <h3>
+                                  {{ with $page.Params.Title }}
+                                      <a href="{{ $page.Permalink }}">{{ . }}
+                                  {{ end }}
+                                  </a>
+                              </h3>
+                          </li>
+                      {{ end }}
+                  {{ end }}
+              {{ end }}
+          </ul>
+
+          <h2>2019</h2>
+          <ul>
+              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
+                  {{ $page := . }}
+                  {{ with $page.Params.date }}
+                      {{ $year := dateFormat "2006" . }}
+                      {{ if eq $year "2019" }}
                           <li>
                               <h3>
                                   {{ with $page.Params.Title }}
@@ -105,31 +145,39 @@
 
         <!-- Column 3: Hard-coded Papers -->
         <div class="column">
-          <h1>Publications</h1>
+          <h1>Publications and talks</h1>
           <ul>
               <h2>2023</h2>
                 <li>
-                  <h3><a href=""></a>On the Border of Life</h3>
-                  <p>“BORDERS” Simulacrum Magazine (Upcoming), Amsterdam</p>
+                  <h3><a href=""></a>"On the Border of Life"</h3>
+                  <p>Upcoming article in “BORDERS” Simulacrum Magazine, Amsterdam</p>
+                  <h3><a href="https://culturecenter-su.org/ochevidnoto-programa/"></a>"Paranoid Semiotics"</h3>
+                  <p>talk given at "The Evident" conference, hosted by Culture Center "St. Kliment Ohridski" University</p>
+                  <h3><a href="https://culturecenter-su.org/ochevidnoto-programa/"></a>"Theoretical fictions and paraliterature"</h3>
+                  <p>talk given at "Genres in Paraliterature" conference, hosted by Literature Theory deparments of "St. Kliment Ohridski" University and Bulgarian Science Association</p>
                 </li>
               <h2>2022</h2>
                 <li>
-                  <h3><a href="https://www.journalforsocialvision.org/bg/post/mesta-na-ekologichna-istoria">Places of Ecological History</a></h3>
-                  <p>Jornal for Social Vision, Sofia</p>
+                  <h3><a href="https://www.journalforsocialvision.org/bg/post/mesta-na-ekologichna-istoria">"Places of Ecological History"</a></h3>
+                  <p>in "Jornal for Social Vision", Sofia</p>
                 </li>
                 <li>
-                  <h3><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">The Ontological Status of Generative Art and its Meaning</a></h3>
-                  <p>mag. Дерзай</p>
+                  <h3><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">"The Ontological Status of Generative Art and its Meaning"</a></h3>
+                  <p>article in "Дерзай" magazine</p>
                 </li>
               <h2>2021</h2>
                 <li>
-                  <h3><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Killing the love”, An Sexton (trans)</a></h3>
-                  <p>Нова Асоциална Поезия</p>
+                  <h3><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Killing the love”, An Sexton</a></h3>
+                  <p>Bulgarian translation for "Нова Асоциална Поезия"</p>
+                  <h3><a href="https://www.facebook.com/events/%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B5%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8-%D0%B4%D0%BE%D0%BC/%D0%BD%D0%B0%D0%B7%D0%B0%D0%B4-%D0%BA%D1%8A%D0%BC-%D0%B1%D1%8A%D0%B4%D0%B5%D1%89%D0%B5%D1%82%D0%BE-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%8F%D1%82-%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D1%8A%D0%BC-%D0%BD%D0%B0-%D0%BC%D0%B0%D1%80%D0%BA-%D1%84%D0%B8%D1%88%D1%8A%D1%80/309269437365958/">"Accelarationism Today"</a></h3>
+                  <p>Talk given at book presentaion for Mark Fisher's "Capitalist Realism" hosted by "KOI" books publishing</p>
+                  <h3><a href="https://novasocialnapoezia.eu/2021/04/30/nikola-stoianov-ot-viezli/">“Knots”, R.D. Laing</a></h3>
+                  <p>Bulgarian translation for "Нова Социална Поезия"</p>
                 </li>
               <h2>2020</h2>
                 <li>
-                  <h3><a href="https://laboriacuboniks.net/manifesto/ksenofeminiza-politika-na-otchuzhdenie/">“Xenofeminist Manifesto” (trans).</a></h3>
-                  <p>Laboria Cubonics Collective</p>
+                  <h3><a href="https://laboriacuboniks.net/manifesto/ksenofeminiza-politika-na-otchuzhdenie/">“Xenofeminist Manifesto”</a></h3>
+                  <p>Bulgarin translation for Laboria Cubonics Collective</p>
                 </li>
                       
 

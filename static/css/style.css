@@ -7,14 +7,14 @@
 }
 /* BODY */
 body {
-    font-family: "InterVariable";    
+    font-family: "InterVariable";  
     font-size: 16px;
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
     hyphens: auto;
     line-height: 1.2;
-    letter-spacing: 0.02rem;     
+    letter-spacing: 0.02rem;
 }
 
 /* TYPOGRAPHY */

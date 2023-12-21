@@ -18,7 +18,7 @@ categories = ["solo"]
 
 The drive to capture the city as an affective totality was what led to the inception of this project. Thought, structured and imple- mented over the urban grid it draws a hyper-fiction. Its origins lie in the delirium of government documents, their leaks and their inaccessibility. Its target, the re- turn to the archive. IN:PROCESS aims to present photographs of objects from the everyday urban space. In the pro- cesses of construction and disin- tegration, marks are found on the urban surface, a kind of language through which various modalities of appearance are formed and de- veloped. Easy to find, but difficult to understand, signs, bars, hang- ing cables will be our entrance to a forgotten archive of urban fabric. The quotidian presence of these objects is thus fragmentary in ac- cord with their functional use. The procedure at hand follows the opposite direction where posed out of its given context the object loses its practicality and in being shown “nude” serves as a terminal for a parallel world of industrial te- leology and material corporality. “In process” is a theory-fiction based on the near-reality of everyday life, a meditation on degradation and emergence but mainly a method of reversing infrastructural sublima- tion. 
 
-Stoyanov, N., Kaloyanov, H. “In Process” (“В процес”).2020. ISBN: 978-619-188-514-5. 
+<a href="http://booksinprint.bg/Publication/Details/820a8128-de8d-4fc3-97dc-33cdd929c91d">“In Process” (“В процес”)</a>, Stoyanov, N., Kaloyanov, H., 2020, ISBN: 978-619-188-514-5. 
 
 ### Coveredge
 
