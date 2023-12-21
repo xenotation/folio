@@ -30,22 +30,20 @@ Although the cosmic time of geoformation - the million-year superimposition of l
 
 ### Other Showings
 [Screening of NATURE MORTE at VideoArt Garden](https://timisoara2023.eu/ro/evenimente/coatings-videoart-garden/), 14-17 Sept 23 | Timisoara, Romania
-
 ### Coverage
-[Bulgarian National Television](https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html)
-[Bulgarian National Radio](https://bnr.bg/horizont/post/101854514/nature-morte-tvorcheski-pogled-kam-vagledobivnata-industria)
-Bloomberg TV
-[Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/lik/491946-diskusiya-na-tema-vaglishtna-tropika-razglezhda-dobiva-na-ruda-i-kak-vdahnovya)
-[Impressio](https://impressio.dir.bg/photography/vaglishtna-tropika-v-gyote-institut-i-ko-op)
-[Boy Scout Magazine](https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/)
+[Bulgarian National Television](https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html), [Bulgarian National Radio](https://bnr.bg/horizont/post/101854514/nature-morte-tvorcheski-pogled-kam-vagledobivnata-industria),
+Bloomberg TV,
+[Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/lik/491946-diskusiya-na-tema-vaglishtna-tropika-razglezhda-dobiva-na-ruda-i-kak-vdahnovya),
+[Impressio](https://impressio.dir.bg/photography/vaglishtna-tropika-v-gyote-institut-i-ko-op),
+[Boy Scout Magazine](https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/),
 [Artnews Cafe](https://openartfiles.bg/openartfiles.bg/public/bg/artnewscafebulletin)
 
 ### Critique
 “[Towards a geosophy of the catastrophe”](https://culturecenter-su.org/philip-stoilov-nature-morte/)
-Filip Stoilov St. Kliment Ohridski University Culture Center
+Filip Stoilov | St. Kliment Ohridski University Culture Center
 
 “[Kintsugi. Dealing with trauma in the summer of 2023](https://culturecenter-su.org/kritika-x-3-june2023-boyana-dzhikova/)”
-Boyana Djikova, St.Kliment Ohridski University Culture Center
+Boyana Djikova | St.Kliment Ohridski University Culture Center
 
 “[Observing the Geotraumatic Lines of Flight On Terrain](https://culturecenter-su.org/wp-content/uploads/2023/10/programme-2023.pdf)”
-Hristo Kaloyanov report for the conference “CULTURE, INFRASTRUCTURE, MOBILITY” hosted by Leibniz Institute and CultureCenter of Sofia University
+Hristo Kaloyanov | report for the conference “CULTURE, INFRASTRUCTURE, MOBILITY” hosted by Leibniz Institute and CultureCenter of Sofia University

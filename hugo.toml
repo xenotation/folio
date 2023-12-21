@@ -19,10 +19,32 @@ enableRobotsTXT = true
 [robots]
 
 [markup]
+  defaultMarkdownHandler = 'goldmark'
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = false
+      [markup.goldmark.extensions.typographer]
+        apostrophe = '&rsquo;'
+        disable = false
+        ellipsis = '&hellip;'
+        emDash = '&mdash;'
+        enDash = '&ndash;'
+        leftAngleQuote = '&laquo;'
+        leftDoubleQuote = '&ldquo;'
+        leftSingleQuote = '&lsquo;'
+        rightAngleQuote = '&raquo;'
+        rightDoubleQuote = '&rdquo;'
+        rightSingleQuote = '&rsquo;'
     [markup.goldmark.renderer]
-      hardWraps = true
+      hardWraps = false
       unsafe = true
+      xhtml = false
 
 [taxonomies]
 category = "categories"
