@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Add site title + page name --> 
-    <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+    <title>{{ .Site.Title }} - {{ .Title }}</title>
 
     <!-- Call CSS style -->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -13,12 +13,8 @@
     <link rel="stylesheet" type="text/css" href="/css/header.css">
     <link rel="stylesheet" type="text/css" href="/css/glightbox.css">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-    
  
     <script src="/js/glightbox.min.js"></script>
-
-    
     
     <!-- FONTS -->
     <style>
@@ -45,21 +41,20 @@
     <!-- META TANGS -->
     <meta name="keywords" content="theory fiction, abstract photography, Bulgarian abstract art" />
     <meta name="description" content="{{ .Description }}" />
-    <meta property="og:title" content="{{ with .Title }}{{ .Site.Title }} - {{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
+    <meta property="og:title" content="{{ with .Site.Title }}{{ . }} - {{ end }}{{ .Title }}" />
+
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Permalink }}" />
-    <meta property="og:image" content="{{ with .Params.featuredImage }}{{ . | absURL }}{{ else }}{{ "/images/latent/latent-0.webp | absURL }}{{ end }}" />
+    <meta property="og:image" content="{{ with .Params.featuredImage }}{{ . | absURL }}{{ end }}" />
     <meta property="og:description" content="{{ .Description }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
     <meta property="og:locale" content="bg_BG" />
     
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ with .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
-    <meta name="twitter:url" content="{{ .Permalink }}" />
-    <meta name="twitter:description" content="{{ .Description }}" />
-    <meta name="twitter:image" content="{{ with .Params.featuredImage }}{{ . | absURL }}{{ else }}{{ "/images/latent/latent-0.webp" | absURL }}{{ end }}" />
-    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ with .Site.Title }}{{ . }} - {{ end }}{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Description }}">
+    <meta name="twitter:image" content="{{ with .Params.featuredImage}}{{ index . 0 }}{{ end }}">
 
     <!-- Canonical Link -->
     <link rel="canonical" href="{{ . | absURL }}">
