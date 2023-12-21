@@ -1,9 +1,9 @@
 /* COLOR SCHEMES */
 :root {
     /* Titanstone Palette */
-    --text-color: #0a0a0a;
-    --bg-color: #ffffff;
-    --hligh-color: #ffa6dd  ;
+    --text-color: #222323;
+    --bg-color: #f0f6f0;
+    --hligh-color: #ffa6dd;
 }
 /* BODY */
 body {
@@ -14,7 +14,7 @@ body {
     margin: 0;
     hyphens: auto;
     line-height: 1.2;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.02rem;     
 }
 
 /* TYPOGRAPHY */
@@ -41,6 +41,7 @@ p {
 
 a {
     text-decoration: none;
+
 }
 
 .FourOhFourCentered {

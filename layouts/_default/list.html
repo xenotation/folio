@@ -1,6 +1,7 @@
 {{ define "main" }}
     <div class="grid-container">
-        {{ range .Pages }}
+        {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
+        {{ range $taggedPages }}
             <div class="grid-card">
                 <a href="{{ .Permalink }}">
                     <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}" class="card-image">
@@ -9,7 +10,6 @@
                     <a href="{{ .Permalink }}">
                         <h2 class="card-title">{{ .Params.customTitle }}</h2>
                     </a>
-                    <!-- <p class="card-description">{{ .Params.placedate }}</p> -->
                 </div>
             </div>
         {{ end }}

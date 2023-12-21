@@ -1,92 +1,137 @@
 {{ define "main" }}
-<div class="biO">
+<div class="bio-container">
   <div class="bio-column-container">
     <div class="left-column-bio">
           <img src="/images/spinner.png"class="spinner" alt="око на провидението"> 
-      <div class="biography">
+      <div class="bio-text">
         {{ with .Site.GetPage "section" "bio" }}
           <p>{{ .Content }}</p>
         {{ end }}
       </div>
     </div>
 
-    <!-- Right column with "Medium" and otcher content -->
     <div class="right-column-bio">
       <!-- Three Columns -->
       <div class="right-column-container">
         <!-- Column 1: Solo Category Posts -->
         <div class="column">
           <h1>Exhibitions</h1>
+          <h2>2023</h2>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
-                  <li>
-                      {{ $page := . }}
-                      <h2>
-                          {{ with $page.Params.Title }}
-                              <a href="{{ $page.Permalink }}">{{ . }}</a>
-                          {{ end }}
-                      </h2>
-                      <p>{{ with $page.Params.date }}
-                        {{ $year := dateFormat "(2006)" $page.Params.date }}
-                        {{ $year }}
-                    {{ end }}</p>
-                  </li>
+                  {{ $page := . }}
+                  {{ with $page.Params.date }}
+                      {{ $year := dateFormat "2006" . }}
+                      {{ if eq $year "2023" }}
+                          <li>
+                              <h3>
+                                  {{ with $page.Params.Title }}
+                                      <a href="{{ $page.Permalink }}">{{ . }}
+                                  {{ end }}
+                                  </a>
+                              </h3>
+                          </li>
+                      {{ end }}
+                  {{ end }}
+              {{ end }}
+          </ul>
+          <h2>2022</h2>
+          <ul>
+              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
+                  {{ $page := . }}
+                  {{ with $page.Params.date }}
+                      {{ $year := dateFormat "2006" . }}
+                      {{ if eq $year "2022" }}
+                          <li>
+                              <h3>
+                                  {{ with $page.Params.Title }}
+                                      <a href="{{ $page.Permalink }}">{{ . }}
+                                  {{ end }}
+                                  </a>
+                              </h3>
+                          </li>
+                      {{ end }}
+                  {{ end }}
               {{ end }}
           </ul>
       </div>
+      
       
 
         <!-- Column 2: Collab Category Posts -->
         <div class="column">
           <h1>Collaborations</h1>
+          <h2>2023</h2>
           <ul>
-              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab") }}
-                  <li>
-                      {{ $page := . }}
-                      <h2>
-                          {{ with $page.Params.Title }}
-                              <a href="{{ $page.Permalink }}">{{ . }}</a>                             
-                          {{ end }}
-                      </h2>
-                      <p>{{ with $page.Params.date }}
-                        {{ $year := dateFormat "(2006)" $page.Params.date }}
-                        {{ $year }}
-                    {{ end }}</p>
-                  </li>
+              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "collab-no") }}
+                  {{ $page := . }}
+                  {{ with $page.Params.date }}
+                      {{ $year := dateFormat "2006" . }}
+                      {{ if eq $year "2023" }}
+                          <li>
+                              <h3>
+                                  {{ with $page.Params.Title }}
+                                      <a href="{{ $page.Permalink }}">{{ . }}
+                                  {{ end }}
+                                  </a>
+                              </h3>
+                          </li>
+                      {{ end }}
+                  {{ end }}
+              {{ end }}
+          </ul>
+          <h2>2022</h2>
+          <ul>
+              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "collab-no") }}
+                  {{ $page := . }}
+                  {{ with $page.Params.date }}
+                      {{ $year := dateFormat "2006" . }}
+                      {{ if eq $year "2022" }}
+                          <li>
+                              <h3>
+                                  {{ with $page.Params.Title }}
+                                      <a href="{{ $page.Permalink }}">{{ . }}
+                                  {{ end }}
+                                  </a>
+                              </h3>
+                          </li>
+                      {{ end }}
+                  {{ end }}
               {{ end }}
           </ul>
       </div>
-      
+
+          
 
         <!-- Column 3: Hard-coded Papers -->
         <div class="column">
           <h1>Publications</h1>
           <ul>
-                        
-            <li>
-              <h2><a href=""></a>On the Border of Life</h2>
-              <p>“BORDERS” Simulacrum Magazine (Upcoming), Amsterdam</p>
-            </li>
-
-            <li>
-              <h2><a href="https://www.journalforsocialvision.org/bg/post/mesta-na-ekologichna-istoria">Places of Ecological History</a></h2>
-              <p>Jornal for Social Vision (2023) Sofia</p>
-            </li>
-
-            <li>
-              <h2><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">The Ontological Status of Generative Art and its Meaning</a></h2>
-              <p>сп. „Дерзай“, бр. III, пролет, (2022)</p>
-            </li>
-
-            <li>
-              <h2><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Убиването на любовта”, Ан Секстън</a></h2>
-              <p>Нова Асоциална Поезия, (2021), ISSN: 2738-8476, Bulgarian trans.</p>
-            </li>
-
-            <li>
-              <h2><a href="https://laboriacuboniks.net/manifesto/ksenofeminiza-politika-na-otchuzhdenie/">“Ксенофеминистки Манифест”, Лабория Кубоникс</a></h2>
-              <p>Laboria Cubonics Collective, (2020), Bulgarian trans.</p>
-            </li>
+              <h2>2023</h2>
+                <li>
+                  <h3><a href=""></a>On the Border of Life</h3>
+                  <p>“BORDERS” Simulacrum Magazine (Upcoming), Amsterdam</p>
+                </li>
+              <h2>2022</h2>
+                <li>
+                  <h3><a href="https://www.journalforsocialvision.org/bg/post/mesta-na-ekologichna-istoria">Places of Ecological History</a></h3>
+                  <p>Jornal for Social Vision, Sofia</p>
+                </li>
+                <li>
+                  <h3><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">The Ontological Status of Generative Art and its Meaning</a></h3>
+                  <p>mag. Дерзай</p>
+                </li>
+              <h2>2021</h2>
+                <li>
+                  <h3><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Killing the love”, An Sexton (trans)</a></h3>
+                  <p>Нова Асоциална Поезия</p>
+                </li>
+              <h2>2020</h2>
+                <li>
+                  <h3><a href="https://laboriacuboniks.net/manifesto/ksenofeminiza-politika-na-otchuzhdenie/">“Xenofeminist Manifesto” (trans).</a></h3>
+                  <p>Laboria Cubonics Collective</p>
+                </li>
+                      
 
           </ul>
         </div>

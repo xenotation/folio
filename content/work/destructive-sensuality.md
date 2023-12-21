@@ -1,7 +1,7 @@
 +++
 title = 'Destructive Sensuality'
 date = 2022-12-17
-draft = true
+draft = false
 
 galleryImages = ["", "", "", ""]
 featuredImage = "/images/1.png"
@@ -11,7 +11,7 @@ medium = ["CoreCore Audio-Video Installation", "Cozy Post-Soviet Interior to wat
 placedate = " “ARTWAVE”, Varna (2022)"
 collaborators = "Sofia Dimova"
 
-categories = ["collab"]
+categories = ["collab-no"]
 +++
 
 <!-- tuka dobavi malko za CORECORE SHITA -->
