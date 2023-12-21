@@ -1,5 +1,6 @@
 +++
-title = 'И-ИКСА'
+title = 'И-Икса'
+customTitle = "И-Икса (2021)"
 date = 2021-10-18
 draft = false
 
@@ -10,7 +11,7 @@ imgNames = ["Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitle
 
 featuredImage = "/images/I-Iksa/iiksa-herp.png"
 
-customTitle = "I-Iksa (2021)"
+
 medium = ["acrylic painting", "combines"]
 placedate = "Etude gallery, Sofia - 18-30.10.2021)"
 curator = "Hristo Kaloyanov"

@@ -1,7 +1,7 @@
 +++
 title = "Nature Morte"
 customTitle = "Nature Morte (2023)"
-description = "NATURE MORTE is a multimediaproject that plants the philosophical question in the ground - on a part of the country’s criticalinfrastructure, where access is highly restricted."
+description = "Nature Morte is a multimediaproject that plants the philosophical question in the ground - on a part of the country’s criticalinfrastructure, where access is highly restricted."
 date = 2023-06-22
 featuredImage = "/images/nature-morte/nm-hero.webp"
 featuredVideo = ["/images/nature-morte/nm-herovid.mp4"]

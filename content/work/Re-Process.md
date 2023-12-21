@@ -1,5 +1,6 @@
 +++
-title = 'RE:PROCESS'
+title = 'Rе:Process'
+customTitle = "Rе:Process (2022)"
 date = 2022-05-21
 draft = false
 
@@ -7,7 +8,7 @@ galleryImages = ["/images/reproc/Черна Волга - фотопринт 70х
 featuredVideo = ["/images/reproc/reproc-hero.mp4"]
 featuredImage = "/images/reproc/reproc-hero.png"
 
-customTitle = "RE:PROCESS (2022)"
+
 medium = ["photography", "video game", "fictional tourist map"]
 placedate = "Arhis Gallery, Varna - 21.05-05.06.2022"
 curator = "Hristo Kaloyanov"

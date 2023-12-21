@@ -1,12 +1,13 @@
 +++
 title = 'Euphoria Brew'
+customTitle = "Euphoria Brew 2021"
 date = 2022-03-17
 draft = true
 
 galleryImages = ["", "", "", ""]
 featuredImage = "/images/1.png"
 
-customTitle = "Euphoria Brew"
+
 medium = ["brand identity", "product design", "3D modelling", "Motion Design", "Advertisement"]
 placedate = "beer shops near you"
 

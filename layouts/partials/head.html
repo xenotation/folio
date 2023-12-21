@@ -17,7 +17,7 @@
     
  
     <script src="/js/glightbox.min.js"></script>
-    <script src="/js/xlinks.js"></script>
+
     
     
     <!-- FONTS -->
@@ -43,21 +43,23 @@
     </style>
 
     <!-- META TANGS -->
-    <meta name="keywords" content="portfolio, abstract photography, Bulgarian abstract art" />
+    <meta name="keywords" content="theory fiction, abstract photography, Bulgarian abstract art" />
     <meta name="description" content="{{ .Description }}" />
-    <meta property="og:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}" />
+    <meta property="og:title" content="{{ with .Title }}{{ .Site.Title }} - {{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Permalink }}" />
-    <meta property="og:image" content="{{ with .Params.featuredImage }}{{ . | absURL }}{{ end }}" />
+    <meta property="og:image" content="{{ with .Params.featuredImage }}{{ . | absURL }}{{ else }}{{ "/images/latent/latent-0.webp | absURL }}{{ end }}" />
     <meta property="og:description" content="{{ .Description }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="bg_BG" />
     
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
-    <meta name="twitter:description" content="{{ .Description }}">
-    <meta name="twitter:image" content="{{ with .Params.featuredImage}}{{ index . 0 }}{{ end }}">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ with .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta name="twitter:description" content="{{ .Description }}" />
+    <meta name="twitter:image" content="{{ with .Params.featuredImage }}{{ . | absURL }}{{ else }}{{ "/images/latent/latent-0.webp" | absURL }}{{ end }}" />
+    
 
     <!-- Canonical Link -->
     <link rel="canonical" href="{{ . | absURL }}">

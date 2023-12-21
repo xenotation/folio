@@ -1,12 +1,13 @@
 +++
 title = 'Destructive Sensuality'
+customTitle = "Destructive Sensuality (2022)"
 date = 2022-12-17
 draft = false
 
 galleryImages = ["", "", "", ""]
 featuredImage = "/images/1.png"
 
-customTitle = "Destructive Sensuality (2022)"
+
 medium = ["CoreCore Audio-Video Installation", "Cozy Post-Soviet Interior to watch TV in."]
 placedate = " “ARTWAVE”, Varna (2022)"
 collaborators = "Sofia Dimova"
