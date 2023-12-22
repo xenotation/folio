@@ -7,12 +7,12 @@ Nikola Stoyanov visual artist and machine philosopher from Varna, Bulgaria. He i
 
 </br>
 
-Contact me via:
+Contact me via
 
-email [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)
+email: [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)
 
-instagram [@avoid.nd](https://www.instagram.com/avoid.nd/)
+instagram: [@avoid.nd](https://www.instagram.com/avoid.nd/)
 
-facebook [av0id.nd](https://www.facebook.com/av0id.nd/").
+facebook: [av0id.nd](https://www.facebook.com/av0id.nd/").
 
-Technical Details about this [website](/tech-spec).
+Technical Details about this: [website](/tech-spec).

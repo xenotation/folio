@@ -2,7 +2,7 @@
 :root {
     /* Titanstone Palette */
     --text-color: #222323;
-    --bg-color: #f0f6f0;
+    --bg-color: rgb(245, 245, 245);
     --hligh-color: #ffa6dd;
 }
 /* BODY */
@@ -14,9 +14,38 @@ body {
     margin: 0;
     hyphens: auto;
     line-height: 1.2;
-    letter-spacing: 0.02rem; 
+    letter-spacing: 0.02rem;
+}
+/* 
+.noise {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation 0.2s infinite;
+    opacity: .9;
+    visibility: visible;
+    z-index: 1000;
 }
 
+@keyframes bg-animation {
+    0% { transform: translate(0,0) }
+    10% { transform: translate(-0.05%,-0.05%) }
+    20% { transform: translate(-0.10%,0.05%) }
+    30% { transform: translate(0.05%,-0.10%) }
+    40% { transform: translate(-0.05%,0.15%) }
+    50% { transform: translate(-0.10%,0.05%) }
+    60% { transform: translate(0.15%,0) }
+    70% { transform: translate(0,0.10%) }
+    80% { transform: translate(-0.15%,0) }
+    90% { transform: translate(0.10%,0.05%) }
+    100% { transform: translate(0.05%,0) }
+} */
 
 /* TYPOGRAPHY */
 h1 {
@@ -43,6 +72,16 @@ p {
 a {
     text-decoration: none;
 
+}
+
+.video-container {
+    overflow: hidden;
+}
+
+video {
+    min-width: 100%;
+    max-height: 80vh;
+    object-fit:cover; 
 }
 
 .FourOhFourCentered {
