@@ -53,6 +53,7 @@
             margin: 0;
             flex-wrap: wrap;
             hyphens: auto;
+            padding-left: 3rem;
           }
           .column ul {
             list-style: none;
