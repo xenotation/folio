@@ -11,7 +11,10 @@ copyright = "Nikola Soyanov, 2023"
 
 [sitemap]
   changefreq = "weekly"
+  filename = "sitemap.xml"
   priority = 0.5
+
+  enableRobotsTXT = true
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
@@ -19,6 +22,4 @@ copyright = "Nikola Soyanov, 2023"
 [taxonomies]
 category = "categories"
 
-[minify]
-  disableXML = true
 
