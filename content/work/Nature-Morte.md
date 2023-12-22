@@ -40,10 +40,10 @@ Bloomberg TV,
 
 ### Critique
 “[Towards a geosophy of the catastrophe”](https://culturecenter-su.org/philip-stoilov-nature-morte/)
-Filip Stoilov | St. Kliment Ohridski University Culture Center
+Filip Stoilov | “St.Kliment Ohridski University” Culture Center
 
 “[Kintsugi. Dealing with trauma in the summer of 2023](https://culturecenter-su.org/kritika-x-3-june2023-boyana-dzhikova/)”
-Boyana Djikova | St.Kliment Ohridski University Culture Center
+Boyana Djikova | “St.Kliment Ohridski University” Culture Center
 
 “[Observing the Geotraumatic Lines of Flight On Terrain](https://culturecenter-su.org/wp-content/uploads/2023/10/programme-2023.pdf)”
-Hristo Kaloyanov | report for the conference “CULTURE, INFRASTRUCTURE, MOBILITY” hosted by Leibniz Institute and CultureCenter of Sofia University
+Hristo Kaloyanov | report for the conference “CULTURE, INFRASTRUCTURE, MOBILITY” hosted by Leibniz Institute and Culture Center of Sofia University
