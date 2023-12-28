@@ -18,7 +18,7 @@ body {
     letter-spacing: 0.02rem;
     scroll-behavior: smooth;
     filter: blur(23px); /* Adjust the initial blur strength */
-    transition: filter 2s ease; /* Adjust the transition duration */
+    transition: filter 1s cubic-bezier(0.68, -0.55, 0.265, 1.55); /* Adjust the transition duration */
 }
 
   
