@@ -26,9 +26,7 @@
         margin: 0rem 0rem 0rem 0rem;
     }
 
-    .grid-card:hover {
-        filter: blur(6px);
-    }
+
     /* .card-description {
         font-size: 0.9rem;
         color: grey;

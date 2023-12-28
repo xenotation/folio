@@ -7,13 +7,12 @@ copyright = "Nikola Soyanov, 2023"
     name = "Nikola Stoyanov"
     email = "av0id.biz@gmail.com"
 
- Description = "A translator and photographer for many years, he enjoys interweaving the human- ities with the scientific, multi-linear approaches to problem solving and collaborative work."
+ Description = "Personal Porfolio of Nikola Stoyanov"
 
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
-
   enableRobotsTXT = true
 
 [markup]

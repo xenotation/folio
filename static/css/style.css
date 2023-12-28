@@ -17,7 +17,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02rem;
     scroll-behavior: smooth;
+    filter: blur(23px); /* Adjust the initial blur strength */
+    transition: filter 2s ease; /* Adjust the transition duration */
 }
+
+  
+
 /* 
 .noise {
     position: absolute;
