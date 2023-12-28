@@ -4,6 +4,7 @@
     --text-color: #222323;
     --bg-color: rgb(245, 245, 245);
     --hligh-color: #ffa6dd;
+    
 }
 /* BODY */
 body {
@@ -15,6 +16,7 @@ body {
     hyphens: auto;
     line-height: 1.2;
     letter-spacing: 0.02rem;
+    scroll-behavior: smooth;
 }
 /* 
 .noise {
@@ -68,12 +70,14 @@ p {
     hyphens: auto;
     margin: 0 0 0.5rem 0;
 }
-
+/* LINKS */
 a {
     text-decoration: none;
-
+    color: var(--text-color);
 }
 
+
+/* LANDER */
 .video-container {
     overflow: hidden;
 }
@@ -83,7 +87,7 @@ video {
     max-height: 80vh;
     object-fit:cover; 
 }
-
+/* MISC PAGES */
 .FourOhFourCentered {
     display: flex;
     text-align: center;

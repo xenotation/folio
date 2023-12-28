@@ -40,7 +40,14 @@
 
     <!-- META TANGS -->
     <meta name="keywords" content="theory fiction, abstract photography, Bulgarian abstract art" />
+    {{ if .Description }}
     <meta name="description" content="{{ .Description }}" />
+  {{ else }}
+    <!-- Fallback to hardcoded description -->
+    <meta name="description" content="Nikola Stoyanov artist portfolio" />
+  {{ end }}
+
+
     <meta property="og:title" content="{{ with .Site.Title }}{{ . }} - {{ end }}{{ .Title }}" />
 
     <meta property="og:type" content="website" />
