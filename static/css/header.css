@@ -45,4 +45,5 @@ header {
     .nav h1,
     .title-container h1 {
         margin: 0 0 0 0;
+        text-align: right;
     }
