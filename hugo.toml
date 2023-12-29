@@ -10,9 +10,7 @@ copyright = "Nikola Soyanov, 2023"
  Description = "Personal Porfolio of Nikola Stoyanov"
 
 [sitemap]
-  changefreq = "weekly"
   filename = "sitemap.xml"
-  priority = 0.5
   enableRobotsTXT = true
 
 [markup]

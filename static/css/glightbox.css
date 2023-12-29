@@ -227,7 +227,7 @@
 }
 
 .gslide-inline {
-  background: white;
+  background: #fff;
   text-align: left;
   max-height: calc(100vh - 40px);
   overflow: auto;
@@ -259,7 +259,7 @@
   display: flex;
   width: 100%;
   min-width: 100%;
-  background: #000;
+  background: #fff;
   padding: 0;
   overflow: auto;
   max-height: 75vh;
@@ -426,7 +426,7 @@
 
 .goverlay {
   width: 100%;
-  height: calc(100vh + 1px);
+  height: 100%;
   position: fixed;
   top: -1px;
   left: 0;
@@ -501,29 +501,27 @@ iframe.wait-autoplay {
 /*Skin */
 
 .glightbox-clean .gslide-description {
-  background: rgba(0, 0, 0, 0.92);
+  background: #fff;
 }
 
 .glightbox-clean .gdesc-inner {
-  padding: 1.2rem 1.2rem;
+  padding: 22px 20px;
 }
 
 .glightbox-clean .gslide-title {
-  font-size: 1.2rem;
+  font-size: 1em;
   font-weight: normal;
-  margin-top: 0;
-  /* font-family: arial; */
-  color: white;
-  margin-bottom: 0.5rem;
-  /* line-height: 1.4em; */
+  font-family: arial;
+  color: #000;
+  margin-bottom: 19px;
+  line-height: 1.4em;
 }
 
 .glightbox-clean .gslide-desc {
-  font-size: 1rem;
+  font-size: 0.86em;
   margin-bottom: 0;
-  /* font-family: arial; */
+  font-family: arial;
   line-height: 1.4em;
-  color: white;
 }
 
 .glightbox-clean .gslide-video {
