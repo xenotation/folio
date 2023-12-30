@@ -11,7 +11,7 @@ copyright = "Nikola Soyanov, 2023"
 
 [sitemap]
   filename = "sitemap.xml"
-  enableRobotsTXT = true
+  enableRobotsTXT = false
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
