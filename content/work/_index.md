@@ -1,4 +1,4 @@
 ---
-title: "work"
-customTitle: "work"
+title: "Work"
+customTitle: "Work"
 ---
