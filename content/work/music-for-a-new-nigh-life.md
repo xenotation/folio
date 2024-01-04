@@ -12,7 +12,7 @@ medium = ["photo-book"]
 categories = ["solo"]
 
 galleryImages = ["/images/music/градски транспорт Варна.webp", "/images/music/аптека.webp", "/images/music/трафик.webp", "/images/music/wired.webp", "/images/music/варна център.webp"]
-imgDescrps = [""]
+imgDescrps = ["Deskt e Purvo ime na par4e", "2Deskt e Purvo ime na par4e"]
 imgNames = ["Purvo ime na par4e", "апте123ка", "kur", "213"]
 +++
 

@@ -64,16 +64,17 @@
         {{ .Content }}
       </div>
       
-      <!-- Masonry Grid Gallery of Images -->
-      <div class="masonry-grid">
-        {{ range $index, $image := .Params.galleryImages }}
-          <a class="spotlight" href="{{ $image }}">
-            <img src="{{ $image }}" alt="Gallery Image" class="gallery-image">
-          </a>
-        {{ end }}
-      </div>
-    </div>
-  </div>
+<!-- Masonry Grid Gallery of Images -->
+<div class="masonry-grid">
+  {{ range $index, $image := .Params.galleryImages }}
+    {{ $title := index $.Params.imgNames $index }}
+    {{ $description := index $.Params.imgDescrps $index }}
+    <a class="spotlight" href="{{ $image }}" data-description="{{ $description }}">
+      <img src="{{ $image }}" title="{{ $title }}" alt="{{ $title }}" class="gallery-image">
+    </a>
+  {{ end }}
+</div>
+
   
 <link rel="stylesheet" href="/css/spotlight.min.css">
 <script src="/js/spotlight.min.js">
