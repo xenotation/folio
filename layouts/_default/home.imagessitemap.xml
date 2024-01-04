@@ -1,0 +1,21 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  {{ range .Site.RegularPages }}{{ if ne .Params.sitemap_exclude true }}
+  {{ if or (.Params.featuredImage) (findRE `(?s)<img.+?>` .Content) }}
+    {{- if .Permalink -}}
+      <url>
+        <loc>{{ .Permalink }}</loc>{{ if .Params.featuredImage }}
+          <image:image>
+            <image:loc>{{ .Params.featuredImage | absURL }}</image:loc>
+          </image:image>{{ end }}{{ if (findRE `(?s)<img.+?>` .Content) }}{{ range $k, $_ := findRE `(?s)<img.+?>` .Content }}{{ if $k }}{{ end }}
+            <image:image>
+              <image:loc>{{ replaceRE `(?s).*src="(.+?)".*` "$1" . | absURL }}</image:loc>
+            </image:image>{{ end }}
+        {{ end }}
+      </url>{{- end -}}
+  {{ end }}
+  {{ end }}{{ end }}
+  
+</urlset>
