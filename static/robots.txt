@@ -1,3 +1,6 @@
-User-agent: *
-Sitemap: https://newdegeneration.xyz/sitemap.xml
-Sitemap: https://newdegeneration.xyz/home.imagessitemap.xml
+User-Agent: *
+{{- if eq hugo.Environment "production" }}
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{- else }}
+Disallow: /
+{{- end }}
