@@ -21,7 +21,7 @@
         min-width: 5rem;
         max-width: 18rem;
         height: auto;
-        transition: transform 0.5s cubic-bezier(1,0,.8,1.23);
+        transition: transform 0.5s cubic-bezier(0.645, -0.220, 0.740, 1.185);
       }
       .bio-text {
         flex: 1;

@@ -2,6 +2,8 @@
 title = 'Rе:Process'
 customTitle = "Rе:Process (2022)"
 date = 2022-05-21
+description = "Photographs of everyday urban objects. In the construction and deconstruction traces can be found upon the urban surface, a peculiar language, through which different modalities of appearance are formed and unfolded."
+
 draft = false
 
 galleryImages = ["/images/reproc/Черна Волга - фотопринт 70х70см, частна колекция.webp", "/images/reproc/Фотопринт 60х40см.webp", "/images/reproc/карта от общински архив Варна от 1923 година модифицирана с помоща на раннен изкуствен интелект за синтезиране на изображения.webp", "/images/reproc/Без име - фотопринт 50х50см.webp", "/images/reproc/Без име - фотопринт 50х50см, частна колекция.webp"]

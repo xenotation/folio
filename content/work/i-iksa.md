@@ -2,6 +2,8 @@
 title = 'И-Икса'
 customTitle = "И-Икса (2021)"
 date = 2021-10-18
+description = "И-ИКСА е експресионистичен завой към чистата абстракция. Ход, който съхранява техничността на автора, същевременно скривайки неговия жест в завършените картини."
+
 draft = false
 
 galleryImages = ["/images/I-Iksa/iksa-1.png", "/images/I-Iksa/iksa-2.png", "/images/I-Iksa/iksa-3.png", "/images/I-Iksa/iksa-4.png", "/images/I-Iksa/iksa-5.png", "/images/I-Iksa/iksa-6.png", "/images/I-Iksa/iksa-7.png", "/images/I-Iksa/iksa-8.png"]

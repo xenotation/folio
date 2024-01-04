@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('mousemove', function (e) {
       const centerY = window.innerHeight / 2;
   
-      const verticalMovement = (e.clientY - centerY) / 69; // Adjust the divisor for sensitivity
+      const verticalMovement = (e.clientY - centerY) / 30; // Adjust the divisor for sensitivity
   
       rotateContainer.style.transform = `rotate(${verticalMovement}deg)`;
     });

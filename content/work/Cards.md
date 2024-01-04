@@ -2,6 +2,8 @@
 title = 'Postcards and Contraband'
 date = 2023-09-07
 description = "Картички и контрабанда започва от изследването на служебен архив от агенция Митници, дирекция Борба с наркотрафика от периода 1975-1985."
+
+
 featuredImage = "/images/cards/cards_ft.png"
 customTitle = "Postcards and Contraband (2023)"
 medium = ["Paintings", "Archival Footage", "Book", "Video Installation", "Installation"]
@@ -11,6 +13,9 @@ collaborators = "Aaron Roth"
 categories = ["collab"]
 
 galleryImages = ["/images/cards/cards1.png","/images/cards/cards2.png","/images/cards/cards3.png","/images/cards/cards4.png","/images/cards/cards5.png",]
+
+
+permalink = "https://newdegeneration.xyz/work/cards/"
 +++
 
 „Картички и контрабанда“ започва от изследването на служебен архив от агенция „Митници“, дирекция „Борба с наркотрафика“ от периода 1975-1985. Намерените служебни бележки, фотографии, негативи, справки и докладни записки маркират част от рутината на митническото дело, като проверка и регулация на транзита, но също и дипломатическия образ, който митниците трябва да поддържат пред международната общност.
@@ -27,6 +32,12 @@ galleryImages = ["/images/cards/cards1.png","/images/cards/cards2.png","/images/
 
 Контрабандата, която следва да остане скрита по предназначение, както и организацията зад нея, и до днес остават само частично уловени. Може ли тогава, както картичката е добре познат и изследван артефакт на ефимерната интимно лична памет, тези свидетелства да разкрият стаеното в държавната памет?
 Оттук „Картички и контрабанда“ проследява различни белези както на границата, нейната митница и преминаващите блага, така и на паметта, която архивният образ транзитира, като активно действие в настоящето.
+
+&nbsp;
+
+Copies of the accompanying book, designed by [Zahary Dimitrov](zahari.xyz) can be purchased at: [The Kopy Shop](https://www.thekopy.shop/product/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0)
+
+&nbsp;
 
 &nbsp;
 
