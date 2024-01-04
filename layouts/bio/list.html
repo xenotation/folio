@@ -8,7 +8,7 @@
     "@type": "ProfilePage",
     "mainEntity": {
         "@type": "Person",
-        "name": "{{ .Title }}",
+        "name": "{{ .Site.Title }}",
         "url": "{{ .Permalink }}",
         "description": "{{ .Params.description }}", 
         "image": "{{ with .Params.profileImage }}{{ . | absURL }}{{ end }}"
