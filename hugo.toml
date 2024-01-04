@@ -10,7 +10,7 @@ Description = "Personal Porfolio of Nikola Stoyanov"
 
 [sitemap]
   filename = "sitemap.xml"
-  enableRobotsTXT = false
+  enableRobotsTXT = true
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
@@ -25,3 +25,6 @@ category = "categories"
   [markup.goldmark.renderer]
     unsafe = true
 
+[imageProcessing]
+  resampleFilter = "lanczos"
+  anchor = "smart"

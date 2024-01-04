@@ -3,7 +3,7 @@
         {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
         {{ range $taggedPages }}
             <div class="grid-card">
-                <a href="{{ .Permalink }}">
+                <a href="{{ .Permalink }}">     
                     <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}" alt="{{ with .Params.customTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
                 </a>
                 <div class="card-content">
