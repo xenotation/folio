@@ -1,4 +1,22 @@
 {{ define "main" }}
+
+{{ if eq .Type "profile" }}
+<!-- ProfilePage Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+        "@type": "Person",
+        "name": "{{ .Title }}",
+        "url": "{{ .Permalink }}",
+        "description": "{{ .Params.description }}", 
+        "image": "{{ with .Params.profileImage }}{{ . | absURL }}{{ end }}"
+    }
+}
+</script>
+{{ end }}
+
 <div class="bio-container">
   <div class="bio-column-container">
     <div class="left-column-bio">
