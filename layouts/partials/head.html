@@ -51,10 +51,19 @@
     <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
     <meta property="og:type" content="website" />
 
-    <meta name="description" content="{{ .Params.description }}" />
-    <meta itemprop="description" content="{{ .Params.description }}" />
-    <meta property="og:description" content="{{ .Params.description }}" />
-    <meta name="twitter:description" content="{{ .Params.description }}" />
+    {{ with .Params.description }}
+      <!-- Use the page-specific description if available -->
+      <meta name="description" content="{{ . }}" />
+      <meta itemprop="description" content="{{ . }}" />
+      <meta property="og:description" content="{{ . }}" />
+      <meta name="twitter:description" content="{{ . }}" />
+    {{ else }}
+      <!-- Use the site-wide description from Hugo configuration if there is no page-specific description -->
+      <meta name="description" content="{{ .Site.Params.description }}" />
+      <meta itemprop="description" content="{{ .Site.Params.description }}" />
+      <meta property="og:description" content="{{ .Site.Params.description }}" />
+      <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+    {{ end }}
 
     <base href="{{ .Permalink }}" />
     <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
