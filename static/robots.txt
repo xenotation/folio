@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: {{ site.Home.Sitemap.Filename | absURL }}
+Sitemap: https://newdegeneration.xyz/sitemap.xml
