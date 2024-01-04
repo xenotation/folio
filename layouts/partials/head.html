@@ -2,9 +2,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Add site title + page name --> 
-    <title>{{ .Site.Title }} - {{ .Title }}</title>
-
     <!-- Call CSS style -->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/bio.css">
@@ -40,35 +37,52 @@
           font-style: normal;
         }
     </style>
-
-    <!-- META TANGS -->
-    <meta name="keywords" content="theory fiction, abstract photography, Bulgarian abstract art" />
-    {{ if .Description }}
-    <meta name="description" content="{{ .Description }}" />
-  {{ else }}
-    <!-- Fallback to hardcoded description -->
-    <meta name="description" content="Nikola Stoyanov artist portfolio" />
-  {{ end }}
-
-
-    <meta property="og:title" content="{{ with .Site.Title }}{{ . }} - {{ end }}{{ .Title }}" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ .Permalink }}" />
-    <meta property="og:image" content="{{ with .Params.featuredImage }}{{ . | absURL }}{{ end }}" />
-    <meta property="og:description" content="{{ .Description }}" />
-    <meta property="og:site_name" content="{{ .Site.Title }}" />
-    <meta property="og:locale" content="bg_BG" />
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ with .Site.Title }}{{ . }} - {{ end }}{{ .Title }}">
-    <meta name="twitter:description" content="{{ .Description }}">
-    <meta name="twitter:image" content="{{ with .Params.featuredImage}}{{ index . 0 }}{{ end }}">
-
     <!-- Canonical Link -->
     <link rel="canonical" href="{{ . | absURL }}">
     <!-- Robots Meta -->
     <meta name="robots" content="index, follow">
+
+    <!-- META TAGS -->
+    <title itemprop="name">{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+
+    <meta name="description" content="{{ .Params.description }}" />
+    <meta itemprop="description" content="{{ .Params.description }}" />
+    <meta property="og:description" content="{{ .Params.description }}" />
+    <meta name="twitter:description" content="{{ .Params.description }}" />
+
+    <base href="{{ .Permalink }}" />
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    <meta name="url" content="{{ .Permalink }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+
+    <meta property="og:locale" content="{{ .Language.Lang }}" />
+    <meta name="language" content="{{ .Language.LanguageName }}" />
+    {{ range .AllTranslations }}
+      <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
+    {{ end }}
+
+
+    {{ with .Params.featuredImage }}
+    <meta itemprop="image" content="{{ . | absURL }}" />
+    <meta property="og:image" content="{{ . | absURL }}" />
+    <meta name="twitter:image" content="{{ . | absURL }}" />
+    <meta name="twitter:image:src" content="{{ . | absURL }}" />
+  {{ else }}
+    <meta itemprop="image" content="{{ .Site.Params.featuredImage | absURL }}" />
+    <meta property="og:image" content="{{ .Site.Params.featuredImage | absURL }}" />
+    <meta name="twitter:image" content="{{ .Site.Params.featuredImage | absURL }}" />
+    <meta name="twitter:image:src" content="{{ .Site.Params.featuredImage | absURL }}" />
+  {{ end }}
+
+    <meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
 
 </head>

@@ -1,6 +1,6 @@
 baseURL = 'http://newdegeneration.xyz/'
 languageCode = 'en-us'
-title = 'Portfolio - Nikola Stoyanov'
+title = 'Nikola Stoyanov'
 copyright = "Nikola Soyanov, 2023"
 Description = "Personal Porfolio of Nikola Stoyanov"
 
@@ -28,3 +28,12 @@ category = "categories"
 [imageProcessing]
   resampleFilter = "lanczos"
   anchor = "smart"
+
+  [outputFormats.imagessitemap]
+  baseName  = 'imagessitemap'
+  mediaType = 'application/xml'
+  noUgly = true # default is false
+
+  [outputs]
+  page = [ "html"]
+  home = [ "html", "rss", "imagessitemap"]
