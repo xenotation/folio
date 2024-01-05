@@ -39,7 +39,7 @@ p {
 /* LINKS */
 a {
     /* text-decoration: none; */    
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 /* Hover */
 a:hover {
