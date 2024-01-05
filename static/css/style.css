@@ -44,6 +44,12 @@ a {
     /* text-decoration: none; */
     color: var(--text-color);
 }
+/* Hover */
+
+a:hover {
+    filter: blur(5px);
+  }
+
 
 
 /* LANDER */
