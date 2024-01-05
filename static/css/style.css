@@ -1,10 +1,8 @@
 /* COLOR SCHEMES */
 :root {
-    /* Titanstone Palette */
     --text-color: #323333;
     --bg-color: rgb(245, 245, 245);
     --primary-color: #ffa6dd;
-    
 }
 /* BODY */
 body {
@@ -17,7 +15,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02rem;
 }
-
 /* TYPOGRAPHY */
 h1 {
     font-size: 1.476rem;
@@ -45,12 +42,24 @@ a {
     color: var(--text-color);
 }
 /* Hover */
-
 a:hover {
-    filter: blur(5px);
-  }
-
-
+    filter: blur(0px);
+    transition: ease-in-out 5s;
+}
+@keyframes blurAnimation {
+    0% {
+        filter: blur(0);
+    }
+    50% {
+        filter: blur(2px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+a:hover {
+    animation: blurAnimation 5s ease-in-out;
+}
 
 /* LANDER */
 .video-container {

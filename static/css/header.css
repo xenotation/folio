@@ -36,7 +36,7 @@ header a {
         transform: scale(1);
     }
 
-    28% {
+    30% {
         filter: blur(0) contrast(1);
         transform: scale(1);
         opacity: 100%;
@@ -47,12 +47,12 @@ header a {
         transform: scale(1.02);
         opacity: 13%;
     }
-    50% {
+    42% {
         filter: blur(23px) contrast(80);
         transform: scale(1);
         opacity: 100%;
     }
-    63% {
+    50% {
         filter: blur(13px) contrast(180);
         transform: scale(1.02);
     }
@@ -63,7 +63,7 @@ header a {
   }
   
   /* Apply the animation to your class */
-  header {
+  .name-title {
     animation: blurAnimation 60s infinite;
   }
 
