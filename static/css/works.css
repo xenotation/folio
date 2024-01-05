@@ -19,6 +19,7 @@
     .card-title {
         font-size: 1.2rem;
         text-align: center;
+        color: var(--text-color);
     }
 
     .grid-container h2 {
