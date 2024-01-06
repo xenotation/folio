@@ -1,11 +1,7 @@
 {{ define "main" }}
 
-    <div class="left-column-bio">
+    <div class="tech-spec">
 
-        <div class="bio-text">
-          {{ with .Site.GetPage "section" "bio" }}
             <p>{{ .Content }}</p>
-          {{ end }}
-    </div>
 
 {{ end }}

@@ -43,8 +43,12 @@
     }
 
 .medium-text {
-    margin-top: 0.2rem;
+    margin-top: 0rem;
     margin-bottom: 1rem;
+}
+
+.medium-text p {
+    line-height: 0px;
 }
 
 .people {

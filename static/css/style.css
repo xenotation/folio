@@ -12,8 +12,8 @@ body {
     color: var(--text-color);
     margin: 0;
     hyphens:auto;
-    /* line-height: 1.2; */
-    letter-spacing: 0.02rem;
+    line-height: 1.35;
+    letter-spacing: 0.07rem;
     transition: font 0.5s ease; /* Smooth transition for font change */
 }
 /* TYPOGRAPHY */
@@ -87,7 +87,7 @@ a:hover {
     flex-direction: column;
     flex: 1;
     min-width: 5em; /* Set minimum width */
-    max-width: 18.5rem; 
+    max-width: 20rem; 
     text-align: justify;
     hyphens: auto;
 }
@@ -103,7 +103,7 @@ a:hover {
     background: transparent url('/noise-transparent.png') repeat 0 0;
     background-repeat: repeat;
     animation: bg-animation .2s infinite;
-    opacity: 1;
+    opacity: 0.55;
     visibility: visible;
     pointer-events: none
   }

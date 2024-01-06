@@ -1,43 +1,31 @@
 +++
 title = 'Postcards and Contraband'
 date = 2023-09-07
-description = "Картички и контрабанда започва от изследването на служебен архив от агенция Митници, дирекция Борба с наркотрафика от периода 1975-1985."
-
-
+description = "An examining a work archive of the Bylgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
 featuredImage = "/images/cards/cards_ft.png"
 customTitle = "Postcards and Contraband (2023)"
-medium = ["Paintings", "Archival Footage", "Book", "Video Installation", "Installation"]
+medium = ["conspiracy map of declassified documents", "archival footage", "book", "video installation"]
 placedate = "ReBonkers, Varna - 07-21.09.2023"
 curator = "Hristo Kaloyanov"
 collaborators = "Aaron Roth"
 categories = ["collab"]
-
 galleryImages = ["/images/cards/cards1.png","/images/cards/cards2.png","/images/cards/cards3.png","/images/cards/cards4.png","/images/cards/cards5.png",]
-
-
-permalink = "https://newdegeneration.xyz/work/cards/"
+imgNames = ["Latent Space #1", "Latent Space #2", "Latent Space #3", "Latent Space #3", "Latent Space #5"]
+imgDescrps = ["2022, acrylic on canvas print, 90x62 cm", "2022, acrylic on canvas print, 90x62 cm, private collection", "2022, acrylic on canvas print, 100x6 cm, private collection", "2022, acrylic on canvas print, 90x62 cm", "2022, acrylic on canvas print, 90x62 cm, private collection"]
+permalink = "/work/cards/"
 +++
 
-„Картички и контрабанда“ започва от изследването на служебен архив от агенция „Митници“, дирекция „Борба с наркотрафика“ от периода 1975-1985. Намерените служебни бележки, фотографии, негативи, справки и докладни записки маркират част от рутината на митническото дело, като проверка и регулация на транзита, но също и дипломатическия образ, който митниците трябва да поддържат пред международната общност.
+"Postcards and Contraband" begins by examining a work archive of the Bylgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985. The service notes, photographs, negatives, summaries and reports found mark part of the routine of the Customs Agency work, such as inspection and regulation of transit, but also the diplomatic image the Customs Agency must maintain to the international community.
 
-&nbsp;
+The leading suspicion here is that the found archives give only a partial insight into the organized "hidden transit" - a term behind which the communist government of the People's Republic of Bulgaria concealed the smuggling trade carried out by the State Security through commercial enterprises and organizations. These traces are fragments of a wide-ranging system of customs regulations, trade routes, economic interests, international agreements, and geopolitical particularities. Accompanying official documents, including transcripts of diplomatic encounters, attestations, in-state reports, and international addresses, underscore the hidden nature of the archive. These documents are intended for internal circulation within government departments whose primary business is to detect smuggling and maintain state-regulated 'hidden transit'. This double diplomacy of concealment is also imprinted in the technique of documenting smuggling activities. They simultaneously expose the hidden cargo, but in other cases facilitate its passage. Thus, the official documents and photographs found on the periphery of the state archive and overlooked by the institutions of memory exist as a negative image of history.
 
-Водещо тук е съмнението, че намерените архиви дават само частичен поглед към организирания „скрит транзит“ - термин, зад който комунистическото управление на Народна република България прикрива контрабандата търговия, осъществявана от Държавна сигурност чрез търговски предприятия и организации. Тези следи са фрагменти от широко разгърната система на митнически регламенти, търговски маршрути, икономически интереси, международни споразумения и геополитически особености. Съпътстващите служебни документи, сред които преписки от дипломатически срещи, атестации, вътрешнодържавни справки и международни адреси, подчертават скрития характер на архива. Тези документи са предназначени за вътрешна циркулация в държавните служби, чиято основна дейност е разкриването на контрабандния трафик и поддържането на държавно регулирания „скрит транзит“. Тази двойна дипломация на укриване се отпечатва и в техниката на документиране на контрабандната дейност. Те едновременно изобличават скрития товар, но в други случаи подпомагат неговото преминаване. Така намерените служебни документи и фотографии, открити в периферията на държавния архив и пропуснати от институциите на паметта, съществуват като негативен образ на историята.
+Archaeography is the technique through which the negative image of history is to be revealed in the present. The hidden labour of archaeography is in marking and tracing the unexplained or set-aside traces of memory that maintain their signifying relation to the present. Rather than reaffirming the static nature of state memory, archaeography seeks to reconcile the implicit crisis of the present with the collapse of contemporary memory institutions.
 
-&nbsp;
-
-Археографията е техниката, през която негативният образ на историята следва да бъде разкрит в настоящето. Скритият труд на археографията е в маркирането и проследяването на неизяснените или оставени встрани следи на паметта, които поддържат своето значещо отношение с настоящето. Вместо да препотвърди статичността на държавната памет, археографията търси неявното съвместителство на кризата на настоящето и разпада на съвременните институции на паметта.
-
-&nbsp;
-
-Контрабандата, която следва да остане скрита по предназначение, както и организацията зад нея, и до днес остават само частично уловени. Може ли тогава, както картичката е добре познат и изследван артефакт на ефимерната интимно лична памет, тези свидетелства да разкрият стаеното в държавната памет?
-Оттук „Картички и контрабанда“ проследява различни белези както на границата, нейната митница и преминаващите блага, така и на паметта, която архивният образ транзитира, като активно действие в настоящето.
+The contraband that should remain hidden by design, and the organization behind it, remain only partially captured to this day. Could these testimonies, then, as the postcard is a well-known and well-researched artifact of ephemeral intimately personal memory, reveal what has become of state memory? Hence, "Postcards and Contraband" traces various scars of both the border, its customs and passing goods, and the memory that the archival image transits, as active agency in the present.
 
 &nbsp;
 
 Copies of the accompanying book, designed by [Zahary Dimitrov](zahari.xyz) can be purchased at: [The Kopy Shop](https://www.thekopy.shop/product/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0)
-
-&nbsp;
 
 &nbsp;
 

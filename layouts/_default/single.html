@@ -69,7 +69,7 @@
   {{ range $index, $image := .Params.galleryImages }}
     {{ $title := index $.Params.imgNames $index }}
     {{ $description := index $.Params.imgDescrps $index }}
-    <a class="spotlight" href="{{ $image }}" data-description="{{ $description }}" alt="{{ $title }}">
+    <a class="spotlight" href="{{ $image }}" data-description="{{ $description }}" alt="{{ $description }}">
       <img src="{{ $image }}" title="{{ $title }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
     </a>
   {{ end }}

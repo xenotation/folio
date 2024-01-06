@@ -1,2 +1,5 @@
-User-Agent: *
-Sitemap: https://newdegeneration.xyz/sitemap.xml
+---
+layout: none
+---
+User-agent: *
+Sitemap: {{ site.url }}/sitemap.xml

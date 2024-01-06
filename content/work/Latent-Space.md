@@ -10,8 +10,8 @@ featuredImage = "/images/latent/latent-hero.webp"
 
 
 galleryImages = ["/images/latent/latent-0.webp","/images/latent/latent-1.webp","/images/latent/latent-2.webp","/images/latent/latent-3.webp", "/images/latent/latent-4.webp"]
-imgDescrps = ["2022, acrylic on canvas print, 90x62 cm", "2022, acrylic on canvas print, 90x62 cm, private collection", "2022, acrylic on canvas print, 100x6 cm, private collection", "2022, acrylic on canvas print, 90x62 cm", "2022, acrylic on canvas print, 90x62 cm, private collection"]
-imgNames = ["Latent Space #1", "Latent Space #2", "Latent Space #3", "Latent Space #3", "Latent Space #5"]
+imgDescrps = ["acrylic on canvas print, 90x62 cm", "acrylic on canvas print, 90x62 cm, private collection", "acrylic on canvas print, 100x6 cm, private collection", "acrylic on canvas print, 90x62 cm", "acrylic on canvas print, 90x62 cm, private collection"]
+imgNames = ["Latent Space #1 (2022)", "Latent Space #2 (2022)", "Latent Space #3 (2022)", "Latent Space #4 (2022)", "Latent Space #5 (2022)"]
 
 
 medium = ["AI-generated images", "fake acrylic paintings", "theory-fiction dossier", "video installations"]
