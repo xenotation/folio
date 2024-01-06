@@ -12,7 +12,6 @@ categories = ["collab"]
 galleryImages = ["/images/cards/cards1.png","/images/cards/cards2.png","/images/cards/cards3.png","/images/cards/cards4.png","/images/cards/cards5.png",]
 imgNames = ["Latent Space #1", "Latent Space #2", "Latent Space #3", "Latent Space #3", "Latent Space #5"]
 imgDescrps = ["2022, acrylic on canvas print, 90x62 cm", "2022, acrylic on canvas print, 90x62 cm, private collection", "2022, acrylic on canvas print, 100x6 cm, private collection", "2022, acrylic on canvas print, 90x62 cm", "2022, acrylic on canvas print, 90x62 cm, private collection"]
-permalink = "/work/cards/"
 +++
 
 "Postcards and Contraband" begins by examining a work archive of the Bylgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985. The service notes, photographs, negatives, summaries and reports found mark part of the routine of the Customs Agency work, such as inspection and regulation of transit, but also the diplomatic image the Customs Agency must maintain to the international community.
@@ -22,6 +21,7 @@ The leading suspicion here is that the found archives give only a partial insigh
 Archaeography is the technique through which the negative image of history is to be revealed in the present. The hidden labour of archaeography is in marking and tracing the unexplained or set-aside traces of memory that maintain their signifying relation to the present. Rather than reaffirming the static nature of state memory, archaeography seeks to reconcile the implicit crisis of the present with the collapse of contemporary memory institutions.
 
 The contraband that should remain hidden by design, and the organization behind it, remain only partially captured to this day. Could these testimonies, then, as the postcard is a well-known and well-researched artifact of ephemeral intimately personal memory, reveal what has become of state memory? Hence, "Postcards and Contraband" traces various scars of both the border, its customs and passing goods, and the memory that the archival image transits, as active agency in the present.
+<!-- add other header and the talk and after that the showing at sofia, say who the talk was with -->
 
 &nbsp;
 

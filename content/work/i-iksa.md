@@ -28,8 +28,9 @@ I-IXA is an expressionistic turn towards pure abstraction. A move that preserves
 Rather than the traditional painting on an easel, the paint is applied horizontally on the plane. Essential in the construction of the paintings is the use of various tools, improvised means and the technique of masking. In this regard, it is important to note the moment of their recycling, giving materiality to the works.
 
 Like traces of a wandering spirit, they anticipate the gaze of the other, their viewer, as a witness to devastation. (text written by Hristo Kaloyanov)
+<!-- add posters  -->
 
 &nbsp;
 
 ### Coverage
-[Impressio](https://impressio.dir.bg/palitra/sledi-ot-brodesht-duh-i-iksa-ot-nikola-stoyanov)
+[Impressio](https://impressio.dir.bg/palitra/sledi-ot-brodesht-duh-i-iksa-ot-nikola-stoyanov), Bulgarian National Radio
