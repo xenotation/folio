@@ -19,6 +19,6 @@ Music for a New Night Life deals with Mark Fishers concept of hauntology and los
 
 Betrayed promises of youth culture open up the scene to snapshots of melancholic ravers in the throw of mid-life crises. Beyond the death-drive, what was mechanical becomes organic. Heat facilitates cymatic scribbles on a canvas of brutalist grey skies, the subject in drowned in a semiotic fog, hyperkinesis wakes stray desire, the citie is dancing to its own rhythm. The full photo-zine can be found here.
 
-21x15cm softcover, edition: 120
+21x15cm softcover | edition: 120
 
 [Find the whole thing here](https://ia801908.us.archive.org/5/items/mnnf_web/mnnf_web.pdf)

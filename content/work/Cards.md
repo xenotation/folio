@@ -29,4 +29,5 @@ Copies of the accompanying book, designed by [Zahary Dimitrov](zahari.xyz) can b
 
 &nbsp;
 
-Coverage: [Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-), [Bulgarian National Radio](https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma), [Culture News](https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov), [Parallel43](https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda), [News Paper Utro](https://utroruse.com/article/970557/)
+### Coverage
+[Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-), [Bulgarian National Radio](https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma), [Culture News](https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov), [Parallel43](https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda), [News Paper Utro](https://utroruse.com/article/970557/)

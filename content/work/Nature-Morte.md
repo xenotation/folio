@@ -24,10 +24,6 @@ The visuals obtained from satellite images can be called operational, as a conti
 
 The operational gaze, which has long since left the lens of the kino-eye, gives us precise coordinates of the event, locates the catastrophe, and marks the traces on the visible surface. Although the cosmic time of geoformation - the million-year superimposition of layers that proceeds in relative calm, where separate elements barely interact, there are also short periods of ruptures recorded in the layers. The excavation of rocks, clay, minerals, stones and ash unfolds the earth's bowels, from where traces of long-sunken worlds are made visible. This is where our operational activity on the critical infrastructure of the Maritza-Iztok mines begins. 
 
-The exhibition is realised with the support of the [Goethe-Institut Bulgaria](https://www.goethe.de/ins/bg/en/ver.cfm?event_id=24801982) and with the additional support of the ["Singer-Zahariev" Foundation](https://singer-zahariev.eu/projects/nature-morte-opening-at-goethe-institute/).
-
-&nbsp;
-
 Copies of the accompanying book can be purchased at: [The Kopy Shop](https://www.thekopy.shop/product/nature-morte)
 
 &nbsp;
@@ -51,3 +47,7 @@ Boyana Djikova | “St.Kliment Ohridski University” Culture Center
 
 “[Observing the Geotraumatic Lines of Flight On Terrain](https://culturecenter-su.org/wp-content/uploads/2023/10/programme-2023.pdf)”
 Hristo Kaloyanov | report for the conference “CULTURE, INFRASTRUCTURE, MOBILITY” hosted by Leibniz Institute and Culture Center of Sofia University
+
+&nbsp;
+
+The exhibition was realised with the support of the [Goethe-Institut Bulgaria](https://www.goethe.de/ins/bg/en/ver.cfm?event_id=24801982) and additional support from the ["Singer-Zahariev" Foundation](https://singer-zahariev.eu/projects/nature-morte-opening-at-goethe-institute/).
