@@ -1,8 +1,8 @@
 header {
-    font-family: "InterVariable";
+    font-family: "VG5000";
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 1.2rem 2rem 1.2rem 2rem;
+    margin: 1rem 2rem 0rem 2rem;
 }
 
 header.h1 {
@@ -26,7 +26,7 @@ header.h1 {
 }
 
 header a {
-    text-decoration: none; color:rgb(128, 128, 128); 
+    text-decoration: none;  
 }
 
 /* Define the blur animation */
@@ -63,9 +63,9 @@ header a {
   }
   
   /* Apply the animation to your class */
-  .name-title {
+  /* .name-title {
     animation: blurAnimation 60s infinite;
-  }
+  } */
 
 
 @media (max-width: 800px) {

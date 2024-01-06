@@ -6,14 +6,15 @@
 }
 /* BODY */
 body {
-    font-family: "InterVariable";  
+    font-family: "VG5000";  
     font-size: 16px;
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
-    hyphens: auto;
-    line-height: 1.2;
+    hyphens:auto;
+    /* line-height: 1.2; */
     letter-spacing: 0.02rem;
+    transition: font 0.5s ease; /* Smooth transition for font change */
 }
 /* TYPOGRAPHY */
 h1 {
@@ -90,7 +91,7 @@ a:hover {
     bottom: -50%;
     width: 200%;
     height: 200vh;
-    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background: transparent url('/noise-transparent.png') repeat 0 0;
     background-repeat: repeat;
     animation: bg-animation .2s infinite;
     opacity: 1;
