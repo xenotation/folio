@@ -81,8 +81,17 @@ a:hover {
     height:50%;
 }
 
-
-  
+.tech-spec {
+    margin: 0 2rem 1.2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 5em; /* Set minimum width */
+    max-width: 18.5rem; 
+    text-align: justify;
+    hyphens: auto;
+}
+ 
   .bg {
     position: fixed;
     top: -50%;

@@ -18,4 +18,4 @@ instagram: [@avoid.nd](https://www.instagram.com/avoid.nd/)
 
 facebook: [av0id.nd](https://www.facebook.com/av0id.nd/").
 
-Technical Details about this: [website](/tech-spec).
+Technical Details about this: [website](/tech-spec/tech-spec).
