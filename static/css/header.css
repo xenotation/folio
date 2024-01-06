@@ -1,12 +1,11 @@
 header {
-    font-family: "VG5000";
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem 2rem 0rem 2rem;
 }
 
 header.h1 {
-    margin-bottom: 0;
+    margin-bottom: 0.2rem;
     font-size: 1rem;
 }
 

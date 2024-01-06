@@ -15,4 +15,4 @@ email: [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)</br>
 instagram: [@avoid.nd](https://www.instagram.com/avoid.nd/)</br>
 facebook: [av0id.nd](https://www.facebook.com/av0id.nd/").
 
-[Technical Details and copyright notice](/tech-spec/tech-spec).
+[Technical Details and copyright](/tech-spec/tech-spec).
