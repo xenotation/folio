@@ -1,23 +1,23 @@
 +++
-title = 'Music for a New Night Life'
+title = 'Музика за Нов Нощен Живот'
 featuredImage = "/images/music/music_hero.webp"
 date = 2019-06-05
-description = "A cymatic matrix of a city in flux, of its dreams and nightmares and finally of its reality filled with nostalgia."
+description = "Топлината улеснява киматичните драсканици върху платното на бруталистичното сиво небе, обектът е потънал в семиотична мъгла, хиперкинезата събужда блуждаещи желания, града танцуващ в собствения си ритъм."
 
 draft = false
 
-medium = ["photo-book"]
+medium = ["фото-книга"]
 categories = ["solo"]
 
 galleryImages = ["/images/music/градски транспорт Варна.webp", "/images/music/аптека.webp", "/images/music/трафик.webp", "/images/music/wired.webp", "/images/music/варна център.webp"]
-imgDescrps = ["2019, street-photography", "2019, street-photography, 60x50cm, private collection", "2019, street-photography", "2019, street-photography", "2019, street-photography", ]
-imgNames = ["Public Transporation Sign", "Pharmacy Sign", "Traffic", "Bus Sign", "City-Scape"]
+imgDescrps = ["2019, улична фотография", "2019, улична фотография, 60x50cm, частна колекция", "2019, улична фотография", "2019, улична фотография", "2019, улична фотография", ]
+imgNames = ["Табло Градски Транспорт Варна", "Реклама на аптека", "Трафик", "Автобусно Табло", "Градска Среда"]
 +++
 
-Music for a New Night Life deals with Mark Fishers concept of hauntology and lost futures. It visually shows a cymatic matrix of a city in flux, of its dreams and nightmares and finally of its reality filled with nostalgia. The tidal feeling of turbulence wroth by the ancient currents of the Black Sea returns us to a state of Freudian unconsciousness, a downcast euphoria, somatically revealing the subject to the base nostalgia of Oedipal separation.
+"Музика за нов нощен живот" се занимава с концепцията на Марк Фишър за хаунтология и изгубено бъдеще. Визуално тя показва киматична матрица на един град в движение, на неговите мечти и кошмари и финално на неговата реалност, изпълнена с носталгия. Приливното усещане за турбулентност, разбунено от древните течения на Черно море, ни връща в състояние на фройдистко несъзнание, унила еуфория, соматично разкриваща субекта към базовата носталгия по Едиповата раздяла.
 
-Betrayed promises of youth culture open up the scene to snapshots of melancholic ravers in the throw of mid-life crises. Beyond the death-drive, what was mechanical becomes organic. Heat facilitates cymatic scribbles on a canvas of brutalist grey skies, the subject in drowned in a semiotic fog, hyperkinesis wakes stray desire, the citie is dancing to its own rhythm. The full photo-zine can be found here.
+Предадените обещания на младежката култура отварят сцената за снимки на меланхолични рейвъри, изпаднали в криза на средната възраст. Отвъд смъртния нагон това, което е било механично, става органично. Топлината улеснява киматичните драсканици върху платното на бруталистичното сиво небе, обектът е потънал в семиотична мъгла, хиперкинезата събужда блуждаещи желания, града танцуващ в собствения си ритъм.
 
-21x15cm softcover | edition: 120
+21x15cm меки корици | тираж: 120
 
-[Find the whole thing here](https://ia801908.us.archive.org/5/items/mnnf_web/mnnf_web.pdf)
+[Цялата книжка можете да намерите тук.](https://ia801908.us.archive.org/5/items/mnnf_web/mnnf_web.pdf)

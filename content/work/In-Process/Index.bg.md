@@ -22,6 +22,6 @@ The drive to capture the city as an affective totality was what led to the incep
 
 <a href="http://booksinprint.bg/Publication/Details/820a8128-de8d-4fc3-97dc-33cdd929c91d">“In Process” (“В процес”)</a>, Stoyanov, N., Kaloyanov, H., 2020, ISBN: 978-619-188-514-5. 
 
-### Coveredge
+### Покритие
 
 [Bulgarian National Television](https://bnt.bg/news/fotografska-izlozhba-v-proces-na-nikola-stoyanov-v286612-290248news.html), [BoyScout Magazine](https://boyscoutmag.com/2021/01/izlojba-nikola-stoyanov-stilizira-gradskata-svinshtina-koqto-ni-zaobikalq/), [Dnevnik](https://www.dnevnik.bg/blogosfera/article/412986), [Bulgarian National Radio](https://mikamagazine.com/%D0%BA%D0%BE-%D0%BE%D0%BF-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0/), [Mika Magazine](https://mikamagazine.com/%D0%BA%D0%BE-%D0%BE%D0%BF-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0/).

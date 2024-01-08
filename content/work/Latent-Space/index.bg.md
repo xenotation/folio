@@ -1,29 +1,33 @@
 +++
-title = 'Latent Space'
+title = 'Латентното пространство'
 
 date = 2022-09-09
 draft = false
 
-description = "A is where the gaze of artificial intelligence itself draws a picturesque horizon, delving into the hidden rooms of secret research facilities, investigative organizations, classified databases."
+description = "Латентното пространство е там, където погледът на изкуствен интелект сам чертае живописния хоризонт, дълбаещ в скритите помещения на тайни изследователски центрове, разследващи организации, засекретени бази данни."
 
 featuredImage = "/images/latent/latent-hero.webp"
 
 
 galleryImages = ["/images/latent/latent-0.webp","/images/latent/latent-1.webp","/images/latent/latent-2.webp","/images/latent/latent-3.webp", "/images/latent/latent-4.webp"]
-imgDescrps = ["acrylic on canvas print, 90x62 cm", "acrylic on canvas print, 90x62 cm, private collection", "acrylic on canvas print, 100x6 cm, private collection", "acrylic on canvas print, 90x62 cm", "acrylic on canvas print, 90x62 cm, private collection"]
-imgNames = ["Latent Space #1 (2022)", "Latent Space #2 (2022)", "Latent Space #3 (2022)", "Latent Space #4 (2022)", "Latent Space #5 (2022)"]
+imgDescrps = ["принт акрил върху канава, дървена подрамка, 90x62 cm", "принт акрил върху канава, дървена подрамка, 90x62 cm, частна колекция", "принт акрил върху канава, дървена подрамка, 100x6 cm, частна колекция", "принт акрил върху канава, дървена подрамка, 90x62 cm", "принт акрил върху канава, дървена подрамка, 90x62 cm, частна колекция"]
+imgNames = ["Латентното пространство #1 (2022)", "Латентното пространство #2 (2022)", "Латентното пространство #3 (2022)", "Латентното пространство #4 (2022)", "Латентното пространство #5 (2022)"]
 
 
-medium = ["AI-generated images", "fake acrylic paintings", "theory-fiction dossier", "video installations"]
-placedate = "Doza Gallery, Sofia - 09.09-21.09.2022"
-curator = "Hristo Kaloyanov"
+medium = ["изображения синтезирани с изкуствен интелект", "фалшиви акрилни рисунки", "теоретико-фиктивно досие", "видео инсталация"]
+placedate = "Галерия Доза, София - 09.09-21.09.2022"
+curator = "Христо Калоянов"
 categories = ["solo"]
 
 canonical = "https://newdegeneration.xyz/work/latent-space/"
 +++
 
-Latent space is where the gaze of artificial intelligence itself draws a picturesque horizon, delving into the hidden rooms of secret research facilities, investigative organizations, classified databases. An imaginary space that the machine illuminates, exposing the postmodern subject’s built-in subversiveness of aesthetic experience in its internal mechanics, referentiality and element of incompleteness. The so-called noise in communication theory is a recognized information field defying systematization. Instead, the algorithm constructs faces, machines, corridors and cloud spaces in a process of incom- pleteness. Until recently, the paranoia of ungrounded fact has become the factual divergence from the referencial matrix.
+Латентното пространство е там, където погледът на изкуствен интелект сам чертае живописния хоризонт, дълбаещ в скритите помещения на тайни изследователски центрове, разследващи организации, засекретени бази данни. Въобразено пространство, което машината осветява, изобличавайки вградената за постмодерния субект субверсивност на естетическото преживяване в неговата вътрешна механика, референтност и елемент на незавършеност. Така нареченият шум в комуникационната теория е разпознато информационно поле неподдаващо се на систематизиране. Вместо това алгоритъмът изгражда лица, машини, коридори и облачни пространства в процес на незавършеност. Доскорошната параноя на необоснования факт се е превърнала във фактологичното разминаване от референтната матрица.
+
+Повече от халюцинация и по-малко от реалност. В латентното пространство нищо не е ново, както за абсолютния гений на миналото, а само преживяно като такова в шизофреничната хватка на клинично затворения. Подобно традиционната живопис и уникалното произведение, всеки тик, всяко отклонение при изкуствения интелект създава фалшификат на действителността - уникален и завършен в себе си. Оформящото се визуално поле е свръх-референтно без да предлага копие на действителността; то не може да бъде повторено в своето сътворение и финален резултат. Механиката на този тип живописване оспорва основния принцип на техниката, където дадена функция може да бъде повторена при същите условия. Вместо това се превръща във вирулентен художествен жест, изобличаващ измамният чар на традицията в изкуството и нейното възпроизвеждане. (текст Христо Калоянов)
+
+звуков дизайн: Яник Лечев
 
 <br>
 
-[Link to whole text accompanying the exhibition.](https://blog.newdegeneration.xyz/latent-space)
+[Линк към целия доклад съпътстващ изложбата.](https://blog.newdegeneration.xyz/latent-space)
