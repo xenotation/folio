@@ -4,10 +4,6 @@ title = 'Nikola Stoyanov'
 copyright = "Nikola Soyanov, 2023"
 
 enableGitInfo = true
-[Author]
-    name = "Nikola Stoyanov"
-    email = "av0id.biz@gmail.com"
-
 [sitemap]
   filename = "sitemap.xml"
   enableRobotsTXT = true
@@ -24,9 +20,6 @@ category = "categories"
 [markup.goldmark]
   [markup.goldmark.renderer]
     unsafe = true
-
-
-
 
 languageCode = "en"
 [languages]

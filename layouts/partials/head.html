@@ -55,44 +55,4 @@
     {{ end }}
 
 
-
-    <!-- META TAGS -->
-    <!-- 
-
-    <base href="{{ .Permalink }}" />
-    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
-    <meta name="url" content="{{ .Permalink }}" />
-    <meta name="twitter:url" content="{{ .Permalink }}" />
-    <meta property="og:url" content="{{ .Permalink }}" />
-
-    <meta property="og:locale" content="{{ .Language.Lang }}" />
-    <meta name="language" content="{{ .Language.LanguageName }}" />
-    {{ range .AllTranslations }}
-      <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
-    {{ end }}
-
-
-    {{ with .Params.featuredImage }}
-    <meta itemprop="image" content="{{ . | absURL }}" />
-    <meta property="og:image" content="{{ . | absURL }}" />
-    <meta name="twitter:image" content="{{ . | absURL }}" />
-    <meta name="twitter:image:src" content="{{ . | absURL }}" />
-  {{ else }}
-
-    <meta itemprop="image" content="/images/spinner.webp" />
-    <meta property="og:image" content="/images/spinner.webp" />
-    <meta name="twitter:image" content="/images/spinner.webp" />
-    <meta name="twitter:image:src" content="/images/spinner.webp" />
-  {{ end }}
-
-    <meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
-
-    <meta name="robots" content="index,follow" />
-    <meta name="googlebot" content="index,follow" />
-    <meta name="facebook-domain-verification" content="e32nq2r1prpftlqhvybiq5z9k3upia" />
-    <meta name="yandex-verification" content="0953af09684196b5" />
-    
-    <meta name="geo.region" content="BG-23" />
-    <meta name="geo.placename" content="Sofia" /> -->
-
 </head>

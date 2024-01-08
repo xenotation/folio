@@ -1,4 +1,25 @@
 {{ define "main" }}
+
+<!-- Artwork Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "VisualArtwork",
+    "name": "{{ .Title }}",
+    "url": "{{ .Site.BaseURL }}/bio",
+    "description": "{{ .Site.Params.description }}",
+    "creator": {
+        "@type": "Person",
+        "name": "{{ .Site.Title }}",
+        "url": "{{ .Site.BaseURL }}/bio",
+        "description": "{{ .Site.Params.description }}",
+        "image": "{{ .Site.BaseURL }}/images/alt-hero.webp"    
+      },
+    "dateCreated": "{{ dateFormat "2006-01-02" .Date }}",
+    "image": "{{ with .Params.featureImage }}{{ . | absURL }}{{ end }}"
+}
+</script>
+
   <!-- HERO -->
   <div class="hero-container">
   {{ with index .Params.featuredVideo 0 }}

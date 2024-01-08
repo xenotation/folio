@@ -1,6 +1,6 @@
 ---
 title: "biography"
-type: "profile"
+
 description: "A visual artist and machine philosopher hailing from Varna, Bulgaria, seamlessly traverses the boundary between research-based and speculative practices."
 profileImage: "/images/spinner.webp"
 ---

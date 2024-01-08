@@ -3,7 +3,7 @@ title = 'Postcards and Contraband'
 date = 2023-09-07
 description = "An examining a work archive of the Bylgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
 featuredImage = "/images/cards/hero.webp"
-
+type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "video installation"]
 placedate = "ReBonkers, Varna - 07-21.09.2023"
 curator = "Hristo Kaloyanov"
