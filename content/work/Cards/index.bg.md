@@ -1,17 +1,17 @@
 +++
-title = 'Postcards and Contraband'
+title = 'Картички и Контрабанда'
 date = 2023-09-07
-description = "An examining a work archive of the Bylgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
+description = "Изследването на служебен архив от Агенция „Митници“, Дирекция „Борба с наркотрафика“ от периода 1975-1985. Картички и контрабанда чертае едно конспиративно четене на бллизкото минало"
 featuredImage = "/images/cards/hero.webp"
-type = "artwork"
-medium = ["conspiracy map of declassified documents", "archival footage", "book", "video installation"]
+
+medium = ["конспиративна карта от разсекретени документи", "архивни кадри", "книга", "двуканална видео инсталация"]
 placedate = "ReBonkers, Varna - 07-21.09.2023"
-curator = "Hristo Kaloyanov"
-collaborators = "Aaron Roth"
+curator = "Христо Калоянов"
+collaborators = "Арон Рот"
 categories = ["collab"]
 galleryImages = ["/images/cards/cards-and-contraband-1.webp","/images/cards/cards-and-contraband-2.webp","/images/cards/cards-and-contraband-3.webp","/images/cards/cards-and-contraband-4.webp","/images/cards/cards-and-contraband-5.webp", "/images/cards/cards-and-contraband-6.webp", "/images/cards/cards-and-contraband-7.webp", "/images/cards/cards-and-contraband-8.webp", "/images/cards/cards-and-contraband-9.webp", "/images/cards/cards-and-contraband-10.webp"]
 imgNames = ["Untitled (2023)", ""]
-imgDescrps = ["Dual-channel CRT installation, featuring found documents and photography (voice over Emilia Toncheva), 23 minutes, on the photo: exhibition view with an ex-head of Varna’s Sea Port Customs", ]
+imgDescrps = ["Двуканална CRT инсталация с намерени документи и фотография (озвучава Емилия Тончева), 23 минути, на снимката: преглед на изложбата с бивш началник на митницата на Морска гара Варна", ]
 +++
 
 „Картички и контрабанда“ започва от изследването на служебен архив от Агенция „Митници“, Дирекция „Борба с наркотрафика“ от периода 1975-1985. Намерените служебни бележки, фотографии, негативи, справки и докладни записки маркират част от рутината на митническото дело, като проверка и регулация на транзита, но също и дипломатическия образ, който митниците трябва да поддържат пред международната общност. Водещо тук е съмнението, че намерените архиви дават само частичен поглед към организирания „скрит транзит“ - термин, зад който комунистическото управление на Народна република България прикрива контрабандната търговия, осъществявана от Държавна сигурност чрез търговски предприятия и организации.
@@ -28,12 +28,12 @@ imgDescrps = ["Dual-channel CRT installation, featuring found documents and phot
 
 &nbsp;
 
-Copies of the accompanying book, designed by [Zahary Dimitrov](https://zahari.xyz/) can be purchased at: [The Kopy Shop](https://www.thekopy.shop/product/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0)
+Копия от съпъстващата книга, дизайн [Захари Димитров](https://zahari.xyz/) могат да бъдат закупивени в: [The Kopy Shop](https://www.thekopy.shop/product/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0)
 
 &nbsp;
 
 ### Покритие
-[Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-), [Bulgarian National Radio](https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma), [Culture News](https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov), [Parallel43](https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda), [News Paper Utro](https://utroruse.com/article/970557/)
+[Българска Телеграфна Агенция](https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-), [Българско Национално Радио](https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma), [Културни Новини](https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov), [Паралел 43](https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda), [Утро Русе](https://utroruse.com/article/970557/)
 
 &nbsp;
 
