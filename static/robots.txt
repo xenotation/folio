@@ -1,5 +1,2 @@
----
-layout: none
----
 User-agent: *
 Sitemap: https://newdegeneration.xyz/sitemap.xml
