@@ -3,23 +3,21 @@ lang-switcher {
     bottom: 1rem;
     right: 1rem;
     background-color: var(--text-color); 
-    color: var(--bg-color); /* Text color */
-    padding: 10px; /* Adjust padding as needed */
+    padding: 0.35rem 0.5rem 0.35rem 0.5rem; /* Adjust padding as needed */
     border-radius: 0.5rem; /* Rounded corners */
-    margin-bottom: 0;
-    padding-bottom: 0;
+    align-items: center;
 }
 
 lang-switcher a {
     color: var(--bg-color);
     font-size: 1.2rem;
     text-decoration: none;
+    background-image: linear-gradient(transparent, #cec7f5b0, transparent);
 }
 /* Style for the active language link */
 lang-switcher .active {
     display: none; /* Hide the active language link */
 }
-
 @media (max-width: 900px) {
     lang-switcher a {
         font-size: 1.5rem;

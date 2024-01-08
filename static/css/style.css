@@ -2,38 +2,43 @@
 :root {
     --text-color: #323333;
     --bg-color: rgb(245, 245, 245);
-    --primary-color: #9462da;
+    --primary-color: #cec7f5;
 }
 /* BODY */
 body {
-    font-family: "VG5000";  
+
     font-size: 16px;
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0;
     hyphens:auto;
-    line-height: 1.35;
-    letter-spacing: 0.09rem;
+    /* line-height: 1.35; */
+    letter-spacing: 0.05rem;
     transition: font 0.5s ease; /* Smooth transition for font change */
 }
 /* TYPOGRAPHY */
 h1 {
+    font-family: 'PPRightGrotesk-Medium';
     font-size: 1.476rem;
     margin: 0;
 }
 
 h2 {
+    font-family: 'PPRightGrotesk-Medium';
     font-size: 1.383rem;
     margin:0. 0 0.5rem 0;
 }
 
 h3 {
+    font-family: 'PPRightGrotesk-Medium';
     font-size: 1.296rem;
     margin: 0 0 0.5rem 0;
 }
 
 p {
-    font-size: 1rem;
+    font-family: 'STIXTwoText';
+    font-weight: 530;
+    font-size: 1.1rem;
     hyphens: auto;
     margin: 0 0 0.5rem 0;
 }
@@ -47,6 +52,11 @@ a:hover {
     filter: blur(0px);
     transition: ease-in-out 5s;
 }
+
+main a {
+    background-image: linear-gradient(transparent, var(--primary-color), transparent);
+}
+
 @keyframes blurAnimation {
     0% {
         filter: blur(0);
