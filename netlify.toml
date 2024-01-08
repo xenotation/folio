@@ -9,12 +9,3 @@
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
-  [[redirects]]
-  from = "/en/*"
-  to = "/en/:splat"
-  status = 200
-
-  [[redirects]]
-    from = "/bg/*"
-    to = "/bg/:splat"
-    status = 200
