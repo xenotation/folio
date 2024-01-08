@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Nikola Stoyanov'
 copyright = "Nikola Soyanov, 2023"
 
+[Author]
+    name = "Nikola Stoyanov"
+    email = "av0id.biz@gmail.com"
 
 [sitemap]
   filename = "sitemap.xml"
@@ -21,7 +24,6 @@ category = "categories"
   [markup.goldmark.renderer]
     unsafe = true
 
-languageCode = "en"
 [languages]
   [languages.en]
     languageName = "English"
