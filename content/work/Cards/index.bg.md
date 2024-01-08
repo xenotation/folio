@@ -28,7 +28,7 @@ imgDescrps = ["Dual-channel CRT installation, featuring found documents and phot
 
 &nbsp;
 
-Copies of the accompanying book, designed by [Zahary Dimitrov](zahari.xyz) can be purchased at: [The Kopy Shop](https://www.thekopy.shop/product/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0)
+Copies of the accompanying book, designed by [Zahary Dimitrov](https://zahari.xyz/) can be purchased at: [The Kopy Shop](https://www.thekopy.shop/product/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0)
 
 &nbsp;
 

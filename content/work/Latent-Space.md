@@ -18,6 +18,8 @@ medium = ["AI-generated images", "fake acrylic paintings", "theory-fiction dossi
 placedate = "Doza Gallery, Sofia - 09.09-21.09.2022"
 curator = "Hristo Kaloyanov"
 categories = ["solo"]
+
+canonical = "https://newdegeneration.xyz/work/latent-space/"
 +++
 
 Latent space is where the gaze of artificial intelligence itself draws a picturesque horizon, delving into the hidden rooms of secret research facilities, investigative organizations, classified databases. An imaginary space that the machine illuminates, exposing the postmodern subject’s built-in subversiveness of aesthetic experience in its internal mechanics, referentiality and element of incompleteness. The so-called noise in communication theory is a recognized information field defying systematization. Instead, the algorithm constructs faces, machines, corridors and cloud spaces in a process of incom- pleteness. Until recently, the paranoia of ungrounded fact has become the factual divergence from the referencial matrix.
