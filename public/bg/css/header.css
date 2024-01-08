@@ -1,0 +1,88 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 2rem 0rem 2rem;
+}
+
+header.h1 {
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+.title-container {
+    grid-column: 1;
+}
+
+.custom-title {
+    margin-left: 0.5rem;
+}
+
+.nav {
+    grid-column: 2;
+    justify-self: end;
+    margin-left: auto;
+
+}
+
+header a {
+    text-decoration: none;  
+}
+
+/* Define the blur animation */
+@keyframes blurAnimation {
+    0% {
+        filter: blur(0) contrast(1);
+        transform: scale(1);
+    }
+
+    30% {
+        filter: blur(0) contrast(1);
+        transform: scale(1);
+        opacity: 100%;
+    }
+
+    36% {
+        filter: blur(5px) contrast(500);
+        transform: scale(1.02);
+        opacity: 13%;
+    }
+    42% {
+        filter: blur(23px) contrast(80);
+        transform: scale(1);
+        opacity: 100%;
+    }
+    50% {
+        filter: blur(13px) contrast(180);
+        transform: scale(1.02);
+    }
+    70% {
+        filter: blur(0) contrast(1);
+        transform: scale(1);
+    }
+  }
+  
+  /* Apply the animation to your class */
+  /* .name-title {
+    animation: blurAnimation 60s infinite;
+  } */
+
+
+@media (max-width: 800px) {
+
+header {
+    margin: 1.2rem 2rem 1rem 2rem;
+}
+
+    .name-title,
+    .custom-title {
+        margin-left: 0;
+        display: block;
+        text-align: left;
+        }
+    .nav h1,
+    .title-container h1 {
+        margin: 0 0 0 0;
+        text-align: right;
+    }
+
+}

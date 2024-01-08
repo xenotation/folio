@@ -1,0 +1,45 @@
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-columns:
+            repeat(auto-fit, minmax(50rem, 1fr)); */
+        row-gap: 1.2em;
+        column-gap: 2em;
+        margin: 1.2rem 2rem 1.2rem 2rem;
+    }
+    .grid-card {
+        max-height: 50%;
+    }
+    .card-image {
+        width: 100%;
+        aspect-ratio: 1.69 / 1;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--text-color);
+    }
+
+    .grid-container h2 {
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+
+    .grid-container a {
+        text-decoration: none;      
+    }
+    /* .card-description {
+        font-size: 0.9rem;
+        color: grey;
+    } */
+
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        }
+
+    .card-image {
+         aspect-ratio: 1.5 / 1;
+        }
+    }
