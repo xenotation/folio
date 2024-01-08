@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Nikola Stoyanov'
 copyright = "Nikola Soyanov, 2023"
 
-enableGitInfo = true
+
 [sitemap]
   filename = "sitemap.xml"
   enableRobotsTXT = true
