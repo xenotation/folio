@@ -1,6 +1,6 @@
 +++
 title = "Nature Morte"
-customTitle = "Nature Morte (2023)"
+
 description = "A multimedia project that plants the philosophical question in the ground - on a part of the country's critical infrastructure, where access is highly restricted."
 date = 2023-06-22
 featuredImage = "/images/nature-morte/nm-hero.webp"

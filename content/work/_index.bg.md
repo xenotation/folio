@@ -1,4 +1,4 @@
 ---
-title: "work"
+title: "проекти"
 sitemap_exclude: "true"
 ---

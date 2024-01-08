@@ -1,5 +1,5 @@
 ---
-customTitle: "Technical Specs"
+Title: "Technical Specs"
 description: "Technical specifications and copyright notice."
 
 ---
@@ -10,4 +10,4 @@ VG5000 by Justin Bihan. <br>
 Distributed by velvetyne.fr.
 
 All work if not otherwise stated is licensed under Attribution 4.0 International <br>
-© 2024, Nikola Stoyanov.
+Nikola Stoyanov, 2024 ©

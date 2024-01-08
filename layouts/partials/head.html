@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/css/project-page.css">
     <link rel="stylesheet" type="text/css" href="/css/works.css">
     <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
     
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
  
@@ -30,35 +31,33 @@
           font-weight: normal;
           font-style: normal;
         }
+        @font-face {
+          font-family: 'STIXTwoText-Italic';
+          src: url('/fonts/STIXTwoText-Italic[wght].woff2') format('woff2');
+          font-weight: normal;
+          font-style: italic;
+        }
+        @font-face {
+          font-family: 'STIXTwoText';
+          src: url('/fonts/STIXTwoText[wght].woff2') format('woff2');
+          font-weight: normal;
+          font-style: normal;
+        }
 
     </style>
     <!-- Canonical Link -->
     <link rel="canonical" href="{{ .Permalink }}" />
     <!-- Robots Meta -->
-    <meta name="robots" content="index, follow">
+    {{ if eq .Params.sitemap_exclude true }}
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    {{ else }}
+    <meta name="robots" content="index, follow, archive">
+    {{ end }}
+
+
 
     <!-- META TAGS -->
-    <title itemprop="name">{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
-    <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
-    <meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
-    <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
-    <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
-    <meta property="og:type" content="website" />
-
-    {{ with .Params.description }}
-      <!-- Use the page-specific description if available -->
-      <meta name="description" content="{{ . }}" />
-      <meta itemprop="description" content="{{ . }}" />
-      <meta property="og:description" content="{{ . }}" />
-      <meta name="twitter:description" content="{{ . }}" />
-    {{ else }}
-      <!-- Use the site-wide description from Hugo configuration if there is no page-specific description -->
-      <meta name="description" content="{{ .Site.Params.description }}" />
-      <meta itemprop="description" content="{{ .Site.Params.description }}" />
-      <meta property="og:description" content="{{ .Site.Params.description }}" />
-      <meta name="twitter:description" content="{{ .Site.Params.description }}" />
-    {{ end }}
+    <!-- 
 
     <base href="{{ .Permalink }}" />
     <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
@@ -79,7 +78,7 @@
     <meta name="twitter:image" content="{{ . | absURL }}" />
     <meta name="twitter:image:src" content="{{ . | absURL }}" />
   {{ else }}
-    <!-- Use a default image when there is no featured image -->
+
     <meta itemprop="image" content="/images/spinner.webp" />
     <meta property="og:image" content="/images/spinner.webp" />
     <meta name="twitter:image" content="/images/spinner.webp" />
@@ -94,6 +93,6 @@
     <meta name="yandex-verification" content="0953af09684196b5" />
     
     <meta name="geo.region" content="BG-23" />
-    <meta name="geo.placename" content="Sofia" />
+    <meta name="geo.placename" content="Sofia" /> -->
 
 </head>

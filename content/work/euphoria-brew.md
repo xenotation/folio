@@ -1,6 +1,6 @@
 +++
 title = 'Euphoria Brew'
-customTitle = "Euphoria Brew 2021"
+
 date = 2022-03-17
 description = "A visual register that is at the same time referring to its Dionysian roots in the Black Sea coast, as well as a sophisticate character reminiscent on high class clubbing culture."
 

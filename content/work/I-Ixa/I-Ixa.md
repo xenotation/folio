@@ -1,6 +1,6 @@
 +++
 title = 'I-Ixa'
-customTitle = "I-Ixa (2021)"
+
 date = 2021-10-18
 description = "The exhibition is nomadic in nature, led by the Black Sea, which is without harbour and without shore, far from the clear squawk of a sea bird. A malevolent curse, brought where it does not belong - in the mountain foothills."
 

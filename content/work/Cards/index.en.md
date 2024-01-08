@@ -2,16 +2,16 @@
 title = 'Postcards and Contraband'
 date = 2023-09-07
 description = "An examining a work archive of the Bylgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
-featuredImage = "/images/cards/cards_ft.png"
-customTitle = "Postcards and Contraband (2023)"
+featuredImage = "/images/cards/hero.webp"
+
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "video installation"]
 placedate = "ReBonkers, Varna - 07-21.09.2023"
 curator = "Hristo Kaloyanov"
 collaborators = "Aaron Roth"
 categories = ["collab"]
-galleryImages = ["/images/cards/cards1.png","/images/cards/cards2.png","/images/cards/cards3.png","/images/cards/cards4.png","/images/cards/cards5.png",]
-imgNames = ["Latent Space #1", "Latent Space #2", "Latent Space #3", "Latent Space #3", "Latent Space #5"]
-imgDescrps = ["2022, acrylic on canvas print, 90x62 cm", "2022, acrylic on canvas print, 90x62 cm, private collection", "2022, acrylic on canvas print, 100x6 cm, private collection", "2022, acrylic on canvas print, 90x62 cm", "2022, acrylic on canvas print, 90x62 cm, private collection"]
+galleryImages = ["/images/cards/cards-and-contraband-1.webp","/images/cards/cards-and-contraband-2.webp","/images/cards/cards-and-contraband-3.webp","/images/cards/cards-and-contraband-4.webp","/images/cards/cards-and-contraband-5.webp", "/images/cards/cards-and-contraband-6.webp", "/images/cards/cards-and-contraband-7.webp", "/images/cards/cards-and-contraband-8.webp", "/images/cards/cards-and-contraband-9.webp", "/images/cards/cards-and-contraband-10.webp"]
+imgNames = ["Untitled (2023)", ""]
+imgDescrps = ["Dual-channel CRT installation, featuring found documents and photography (voice over Emilia Toncheva), 23 minutes, on the photo: exhibition view with an ex-head of Varna’s Sea Port Customs", ]
 +++
 
 "Postcards and Contraband" begins by examining a work archive of the Bylgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985. The service notes, photographs, negatives, summaries and reports found mark part of the routine of the Customs Agency work, such as inspection and regulation of transit, but also the diplomatic image the Customs Agency must maintain to the international community.
@@ -31,3 +31,7 @@ Copies of the accompanying book, designed by [Zahary Dimitrov](zahari.xyz) can b
 
 ### Coverage
 [Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-), [Bulgarian National Radio](https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma), [Culture News](https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov), [Parallel43](https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda), [News Paper Utro](https://utroruse.com/article/970557/)
+
+&nbsp;
+
+Voice work by Emilia Toncheva, event photography Boris Vasilev. The project was supported by Varna’s Municipal Culture Fund and ReBonkers, Varna.

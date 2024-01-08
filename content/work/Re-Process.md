@@ -1,6 +1,5 @@
 +++
 title = 'RE:PROCESS'
-customTitle = "RE:PROCESS (2022)"
 date = 2022-05-21
 description = "Photographs of everyday urban objects. In the construction and deconstruction traces can be found upon the urban surface, a peculiar language, through which different modalities of appearance are formed and unfolded."
 

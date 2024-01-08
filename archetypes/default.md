@@ -1,6 +1,5 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-customTitle = ""
 featuredImage = ""
 featuredVideo = ""
 date = {{ .Date }}

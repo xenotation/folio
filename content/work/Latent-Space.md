@@ -1,6 +1,6 @@
 +++
 title = 'Latent Space'
-customTitle = "Lantent Space (2022)"
+
 date = 2022-09-09
 draft = false
 

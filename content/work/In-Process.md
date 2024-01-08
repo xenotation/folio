@@ -1,6 +1,5 @@
 +++
 title = 'In:Process'
-customTitle = "In:Process (2021)"
 date = 2021-01-16
 description = "The drive to capture the city as an affective totality"
 featuredImage = "/images/inprocess/inprocess-hero.webp"

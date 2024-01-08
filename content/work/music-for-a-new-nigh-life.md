@@ -1,6 +1,5 @@
 +++
 title = 'Music for a New Night Life'
-customTitle = "Music for a New Night Life (2019)"
 featuredImage = "/images/music/music_hero.webp"
 date = 2019-06-05
 description = "A cymatic matrix of a city in flux, of its dreams and nightmares and finally of its reality filled with nostalgia."

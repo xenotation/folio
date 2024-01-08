@@ -3,19 +3,25 @@
         <h1>
             <a class="name-title" href="{{ "/" | relURL }}">Nikola Stoyanov
             </a>   
-            {{ with .Params.customTitle }}
-            <span class="custom-title">
-                {{ . }}
-            </span>
-        {{ end }}
-    </h1>
 
+            <span class="custom-title">
+                {{ if .IsHome }}
+                    <!-- No title for the homepage -->
+                {{ else if .IsPage }}
+                    {{ .Title }} {{ dateFormat "(2006)" .Date }}
+                {{ else }}
+                    {{ .Title }}
+                {{ end }}
+            </span>
+            
+    </h1>
     </div>  
+
     <div class="nav">
         <h1>
-            <a href="/work/">work</a>
-            <a href="/bio/">bio</a>
-            <a href="https://blog.newdegeneration.xyz/">blog</a>
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" alt="{{ .Name }}">{{ .Name }}</a>
+            {{ end }}
         </h1>
     </div>
 </header>

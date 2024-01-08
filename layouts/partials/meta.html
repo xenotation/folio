@@ -1,0 +1,31 @@
+    <!-- META TAGS -->
+ 
+    <meta property="og:type" content="website" />
+<!-- Tittle -->
+    <title itemprop="name">{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta property="og:title" content="{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+    <meta name="twitter:title" content="{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+<!-- Description -->
+    {{ with .Params.description }}
+    <meta name="description" content="{{ . }}" />
+    <meta itemprop="description" content="{{ . }}" />
+    <meta property="og:description" content="{{ . }}" />
+    <meta name="twitter:description" content="{{ . }}" />
+  {{ else }}
+    <meta name="description" content="{{ .Site.Params.description }}" />
+    <meta itemprop="description" content="{{ .Site.Params.description }}" />
+    <meta property="og:description" content="{{ .Site.Params.description }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+  {{ end }}
+<!-- Alternative Links for lang and self refrenccing? -->
+
+{{ if .IsTranslated }}
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}
+
+
+
+

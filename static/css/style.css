@@ -13,7 +13,7 @@ body {
     margin: 0;
     hyphens:auto;
     line-height: 1.35;
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.09rem;
     transition: font 0.5s ease; /* Smooth transition for font change */
 }
 /* TYPOGRAPHY */
@@ -74,11 +74,8 @@ a:hover {
 }
 /* MISC PAGES */
 .FourOhFourCentered {
-    display: flex;
     text-align: center;
-    flex-direction: column;
-    width: auto;
-    height:50%;
+    margin-top: 2rem;
 }
 
 .tech-spec {

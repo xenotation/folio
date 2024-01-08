@@ -1,6 +1,5 @@
 +++
 title = 'Destructive Sensuality'
-customTitle = "Destructive Sensuality (2022)"
 date = 2022-12-17
 description = "A core-core style video collage investigating the specifics of commercial video codec degradation."
 
@@ -12,7 +11,7 @@ galleryImages = ["", "", "", ""]
 featuredImage = "/images/1.png"
 
 
-medium = ["CoreCore Audio-Video Installation", "Cozy Post-Soviet Interior to watch TV in."]
+medium = ["Core-Core Audio-Video Installation", "Cozy Post-Soviet Interior to watch TV in."]
 placedate = " “ARTWAVE”, Varna (2022)"
 collaborators = "Sofia Dimova"
 

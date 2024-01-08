@@ -1,0 +1,14 @@
+{{ if not .IsHome }}
+    <lang-switcher>
+        {{ if .Site.IsMultiLingual }}
+            {{ range .Site.Languages }}
+                {{ if eq . $.Site.Language }}
+                    <!-- Display the inactive language -->
+                    {{ range $.Translations }}
+                        <a href="{{ .Permalink }}" class="">{{ .Language.LanguageName }}</a>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </lang-switcher>
+{{ end }}

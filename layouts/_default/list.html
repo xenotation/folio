@@ -4,11 +4,11 @@
         {{ range $taggedPages }}
             <div class="grid-card">
                 <a href="{{ .Permalink }}">     
-                    <img src="{{ .Params.featuredImage }}" alt="{{ with .Params.customTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
+                    <img src="{{ .Params.featuredImage }}" alt="{{ with .Params.description }}{{ . }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
                 </a>
                 <div class="card-content">
                     <a href="{{ .Permalink }}">
-                        <h2 class="card-title">{{ .Params.customTitle }}</h2>
+                        <h2 class="card-title">{{ .Title }} {{ dateFormat "(2006)" .Date }}</h2>
                     </a>
                 </div>
             </div>
