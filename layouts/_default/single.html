@@ -8,13 +8,6 @@
     "name": "{{ .Title }}",
     "url": "{{ .Site.BaseURL }}/bio",
     "description": "{{ .Site.Params.description }}",
-    "creator": {
-        "@type": "Person",
-        "name": "{{ .Site.Title }}",
-        "url": "{{ .Site.BaseURL }}/bio",
-        "description": "{{ .Site.Params.description }}",
-        "image": "{{ .Site.BaseURL }}/images/alt-hero.webp"    
-      },
     "dateCreated": "{{ dateFormat "2006-01-02" .Date }}",
     "image": "{{ with .Params.featureImage }}{{ . | absURL }}{{ end }}"
 }
