@@ -22,7 +22,7 @@ h1 {
     font-family: 'PPNeueWorld-Regular';
     font-size: 1.476rem;
     margin: 0;
-    letter-spacing: 0rem;
+    letter-spacing: 0.23rem;
 }
 
 h2 {
@@ -58,68 +58,77 @@ a:hover {
 main a {
     background-image: linear-gradient(transparent, var(--primary-color), transparent);
 }
-/* Define the blur animation */
-@keyframes blurAnimation {
-    0% {
-        filter: blur(0) contrast(1);
-        transform: scale(1);
-    }
-
-    30% {
-        filter: blur(0) contrast(1);
-        transform: scale(1);
-        opacity: 100%;
-    }
-
-    36% {
-        filter: blur(5px) contrast(150);
-        transform: scale(1.02);
-        opacity: 13%;
-    }
-    40% {
-        filter: blur(20px) contrast(80);
-        transform: scale(1);
-        opacity: 100%;
-    }
-    50% {
-        filter: blur(10px) contrast(120);
-        transform: scale(1.02);
-    }
-    70% {
-        filter: blur(0) contrast(1);
-        transform: scale(1);
-    }
-  }
-/* Page Load */
- body {
-    animation: pageloadIn 0.80s;
- }
- @keyframes pageloadIn {
-    0% {
-        filter: blur(23px) contrast(20);
-        /* transform: scale(2); */
-    }
-
-    100% {
-        filter: blur(0) contrast(1);
-        transform: scale(1);
-        opacity: 100%;
-    }
- }
-
-a:hover {
-    animation: blurAnimation 5s ease-in-out;
+/* Hide Scroll Bar */
+body {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+body::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }
 
 /* LANDER */
 .video-container {
     overflow: hidden;
 }
+/* Define the blur animation */
+@keyframes blurAnimation {
+    0% {
+        filter: blur(0) contrast(1);
+
+    }
+
+    30% {
+        filter: blur(0) contrast(1);
+
+        opacity: 100%;
+    }
+
+    36% {
+        filter: blur(5px) contrast(150);
+
+        opacity: 13%;
+    }
+    40% {
+        filter: blur(20px) contrast(80);
+
+        opacity: 100%;
+    }
+    50% {
+        filter: blur(10px) contrast(120);
+
+    }
+    70% {
+        filter: blur(0) contrast(1);
+    }
+  }
+/* Page Load */
+body {
+    animation: pageloadIn 0.80s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+@keyframes pageloadIn {
+    0% {
+        filter: blur(23px) contrast(20);
+    }
+
+    100% {
+        filter: blur(0) contrast(1);
+    }
+}
+
+
+a:hover {
+    animation: blurAnimation 5s ease-in-out;
+}
+
 
 .video-container video {
-    min-width: 100%;
+    width: 100%;
     max-height: 80vh;
-    object-fit:cover; 
+    object-fit:cover;
 }
 /* MISC PAGES */
 .FourOhFourCentered {
