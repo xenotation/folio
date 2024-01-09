@@ -1,17 +1,17 @@
 ---
-title: "biography"
+title: "биография"
 
-description: "A visual artist and machine philosopher hailing from Varna, Bulgaria, seamlessly traverses the boundary between research-based and speculative practices."
+description: "Визуален артист и машинен философ от Варна, България, който безпроблемно преминава границата между изследователски и спекулативни практики."
 profileImage: "/images/spinner.webp"
 ---
 
-Nikola Stoyanov, a visual artist and machine philosopher hailing from Varna, Bulgaria, seamlessly traverses the boundary between research-based and speculative practices. His work explores the intersection of infrastructure, technological apparatus, art, and everyday life. With a background as a translator and photographer spanning many years, he skillfully intertwines the humanities with scientific methodologies, employing multi-linear approaches to creative and collaborative endeavors. Stoyanov received a classical education in philosophy and the history of technology in the United Kingdom.
+Никола Стоянов е визуален артист и машинен философ от Варна, България, който безпроблемно преминава границата между изследователски и спекулативни практики. Работата му изследва пресечната точка на инфраструктурата, технологичния апарат, изкуството и ежедневието. С дългогодишен опит като преводач и фотограф, той умело преплита хуманитарните науки с научните методологии, използвайки многолинейни подходи към творческите и съвместните начинания. Стоянов получава класическо образование по философия и история на технологиите в Обединеното кралство.
 
 </br>
 
-Contact me via </br>
-email: [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)</br>
-instagram: [@avoid.nd](https://www.instagram.com/avoid.nd/)</br>
-facebook: [av0id.nd](https://www.facebook.com/av0id.nd/").
+Свържете се с мен</br>
+имейм: [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)</br>
+инстаграм: [@avoid.nd](https://www.instagram.com/avoid.nd/)</br>
+фейсбук: [av0id.nd](https://www.facebook.com/av0id.nd/").
 
-[Technical Details and copyright](/tech-spec/tech-spec).
+[Технически детайли и интелектуални права](/tech-spec/tech-spec).

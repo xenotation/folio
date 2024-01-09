@@ -142,9 +142,11 @@ a:hover {
     flex-direction: column;
     flex: 1;
     min-width: 5em; /* Set minimum width */
-    max-width: 20rem; 
-    text-align: justify;
+    max-width: 23rem; 
+    text-align:justify;
     hyphens: auto;
+    text-wrap:wrap;
+    word-wrap: normal;
 }
  
   .bg {
