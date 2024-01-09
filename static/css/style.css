@@ -15,22 +15,24 @@ body {
     /* line-height: 1.35; */
     letter-spacing: 0.05rem;
     transition: font 0.5s ease; /* Smooth transition for font change */
+    /* animation: blurAnimation 2s; */
 }
 /* TYPOGRAPHY */
 h1 {
-    font-family: 'PPRightGrotesk-Medium';
+    font-family: 'PPNeueWorld-Regular';
     font-size: 1.476rem;
     margin: 0;
+    letter-spacing: 0rem;
 }
 
 h2 {
-    font-family: 'PPRightGrotesk-Medium';
+    font-family: 'NotCourierSans-Bold';
     font-size: 1.383rem;
     margin:0. 0 0.5rem 0;
 }
 
 h3 {
-    font-family: 'PPRightGrotesk-Medium';
+    font-family: 'NotCourierSans-Bold';
     font-size: 1.296rem;
     margin: 0 0 0.5rem 0;
 }
@@ -56,18 +58,55 @@ a:hover {
 main a {
     background-image: linear-gradient(transparent, var(--primary-color), transparent);
 }
-
+/* Define the blur animation */
 @keyframes blurAnimation {
     0% {
-        filter: blur(0);
+        filter: blur(0) contrast(1);
+        transform: scale(1);
+    }
+
+    30% {
+        filter: blur(0) contrast(1);
+        transform: scale(1);
+        opacity: 100%;
+    }
+
+    36% {
+        filter: blur(5px) contrast(150);
+        transform: scale(1.02);
+        opacity: 13%;
+    }
+    40% {
+        filter: blur(20px) contrast(80);
+        transform: scale(1);
+        opacity: 100%;
     }
     50% {
-        filter: blur(2px);
+        filter: blur(10px) contrast(120);
+        transform: scale(1.02);
     }
+    70% {
+        filter: blur(0) contrast(1);
+        transform: scale(1);
+    }
+  }
+/* Page Load */
+ body {
+    animation: pageloadIn 0.80s;
+ }
+ @keyframes pageloadIn {
+    0% {
+        filter: blur(23px) contrast(20);
+        /* transform: scale(2); */
+    }
+
     100% {
-        filter: blur(0px);
+        filter: blur(0) contrast(1);
+        transform: scale(1);
+        opacity: 100%;
     }
-}
+ }
+
 a:hover {
     animation: blurAnimation 5s ease-in-out;
 }
