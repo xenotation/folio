@@ -2,31 +2,32 @@
 
 <!-- Artwork Structured Data -->
 <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "VisualArtwork",
-    "name": "{{ .Title }}",
-    "url": "{{ .Site.BaseURL }}/bio",
-    "description": "{{ .Site.Params.description }}",
-    "dateCreated": "{{ dateFormat "2006-01-02" .Date }}",
-    "image": "{{ with .Params.featureImage }}{{ . | absURL }}{{ end }}"
-}
-</script>
+  {
+      "@context": "https://schema.org",
+      "@type": "VisualArtwork",
+      "name": "{{ .Title }}",
+      "url": "{{ .Permalink }}",
+      "description": "{{ .Description }}",
+      "dateCreated": "{{ dateFormat "2006-01-02" .Date }}",
+      "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ . | absURL }}{{ end }}"
+  }
+  </script>
 
   <!-- HERO -->
   <div class="hero-container">
-  {{ with index .Params.featuredVideo 0 }}
+    {{ with .Resources.GetMatch "hero.mp4" }}
     <video autoplay muted loop class="featured-video">
       <source src="{{ . }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   {{ else }}
     <!-- If it's not a video, assume it's an image -->
-    {{ with .Params.featuredImage }}
-      <img src="{{ . }}" alt="art by nikola stoyanov" class="featured-image">
-    {{ end }}
-  {{ end }}
-  </div>
+    {{ with .Resources.GetMatch "hero.webp" }}
+    {{ $resizedHero := .Resize "1200x" }}
+    <img src="{{ $resizedHero.RelPermalink }}" alt="art by nikola stoyanov" class="featured-image">
+{{ end }}
+{{ end }}
+</div>
 
   <!-- Two columns layout -->
   <div class="project-columns">
@@ -80,14 +81,20 @@
       
 <!-- Masonry Grid Gallery of Images -->
 <div class="masonry-grid">
-  {{ range $index, $image := .Params.galleryImages }}
+  {{ $images := .Resources.ByType "image" }}
+  {{ range $index, $image := $images }}
     {{ $title := index $.Params.imgNames $index }}
     {{ $description := index $.Params.imgDescrps $index }}
-    <a class="spotlight" href="{{ $image }}" data-description="{{ $description }}" alt="{{ $description }}">
-      <img src="{{ $image }}" title="{{ $title }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
-    </a>
+    
+    {{ if ne $image.Name "hero.webp" }}
+      {{ $downsampledImg := $image.Resize "420x" }}
+      <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ $description }}" alt="{{ $description }}">
+        <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $title }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
+      </a>
+    {{ end }}
   {{ end }}
 </div>
+
 
 <link rel="stylesheet" href="/css/spotlight.min.css">
 <script src="/js/spotlight.min.js">

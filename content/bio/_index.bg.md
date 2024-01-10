@@ -9,9 +9,9 @@ profileImage: "/images/spinner.webp"
 
 </br>
 
-Свържете се с мен</br>
-имейм: [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)</br>
-инстаграм: [@avoid.nd](https://www.instagram.com/avoid.nd/)</br>
-фейсбук: [av0id.nd](https://www.facebook.com/av0id.nd/").
+Свържете се с мен:</br>
+имейм → [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)</br>
+инстаграм → [@avoid.nd](https://www.instagram.com/avoid.nd/)</br>
+фейсбук → [av0id.nd](https://www.facebook.com/av0id.nd/").
 
 [Технически детайли и интелектуални права](/tech-spec/tech-spec).

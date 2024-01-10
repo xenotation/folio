@@ -3,11 +3,9 @@ title = "Nature Morte"
 
 description = "A multimedia project that plants the philosophical question in the ground - on a part of the country's critical infrastructure, where access is highly restricted."
 date = 2023-06-22
-featuredImage = "/images/nature-morte/nm-hero.webp"
-featuredVideo = ["/images/nature-morte/nm-herovid.mp4"]
+
 draft = false
 
-galleryImages = ["/images/nature-morte/nm-1.webp", "/images/nature-morte/nm-2.webp", "/images/nature-morte/nm-3.webp", "/images/nature-morte/nm-4.webp", "/images/nature-morte/nm-5.webp", "/images/nature-morte/nmbook-1.webp", "/images/nature-morte/nmbook-2.webp", "/images/nature-morte/nmbook-3.webp", "/images/nature-morte/nmbook-4.webp", "/images/nature-morte/nmbook-5.webp"]
 imgDescrps = [""]
 imgNames = ["Nature Morte #1"]
 

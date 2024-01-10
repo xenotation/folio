@@ -5,13 +5,8 @@ description = "Photographs of everyday urban objects. In the construction and de
 
 draft = false
 
-galleryImages = ["/images/reproc/re-process-1.webp", "/images/reproc/re-process-2.webp", "/images/reproc/re-process-3.webp", "/images/reproc/re-process-4.webp", "/images/reproc/re-process-5.webp"]
 imgNames = ["Black Volga (2022)", "Untitled (2022)", "Night Map (2022)", "Untitled (2022)", "Untitled (2022)"]
 imgDescrps = ["Photo-print 100х100cm, private collection", "Photo-print 60х40см", "fictional foldable tourist map 15x10cm and directions, original map dated 1923 from the municipal archive of the city of Varna modified using artifical intelligence", "Photo-print 50х50см", "Photo-print 100х100см, private collection"]
-
-
-featuredVideo = ["/images/reproc/reproc-hero.mp4"]
-featuredImage = "/images/reproc/reproc-hero.webp"
 
 
 medium = ["photography", "video game", "fictional tourist map"]

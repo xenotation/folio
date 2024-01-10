@@ -5,12 +5,6 @@ description = "A core-core style video collage investigating the specifics of co
 
 draft = true
 
-
-
-galleryImages = ["", "", "", ""]
-featuredImage = "/images/1.png"
-
-
 medium = ["Core-Core Audio-Video Installation", "Cozy Post-Soviet Interior to watch TV in."]
 placedate = " “ARTWAVE”, Varna (2022)"
 collaborators = "Sofia Dimova"

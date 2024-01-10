@@ -2,14 +2,12 @@
 title = 'Картички и Контрабанда'
 date = 2023-09-07
 description = "Изследването на служебен архив от Агенция „Митници“, Дирекция „Борба с наркотрафика“ от периода 1975-1985. Картички и контрабанда чертае едно конспиративно четене на бллизкото минало"
-featuredImage = "/images/cards/hero.webp"
 
 medium = ["конспиративна карта от разсекретени документи", "архивни кадри", "книга", "двуканална видео инсталация"]
 placedate = "ReBonkers, Varna - 07-21.09.2023"
 curator = "Христо Калоянов"
 collaborators = "Арон Рот"
 categories = ["collab"]
-galleryImages = ["/images/cards/cards-and-contraband-1.webp","/images/cards/cards-and-contraband-2.webp","/images/cards/cards-and-contraband-3.webp","/images/cards/cards-and-contraband-4.webp","/images/cards/cards-and-contraband-5.webp", "/images/cards/cards-and-contraband-6.webp", "/images/cards/cards-and-contraband-7.webp", "/images/cards/cards-and-contraband-8.webp", "/images/cards/cards-and-contraband-9.webp", "/images/cards/cards-and-contraband-10.webp"]
 imgNames = ["Untitled (2023)", ""]
 imgDescrps = ["Двуканална CRT инсталация с намерени документи и фотография (озвучава Емилия Тончева), 23 минути, на снимката: преглед на изложбата с бивш началник на митницата на Морска гара Варна", ]
 +++

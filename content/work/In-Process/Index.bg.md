@@ -2,10 +2,8 @@
 title = 'В Процес'
 date = 2021-01-16
 description = "Една хиперфикция достъпна само в редките случаи на дисциплиниран делириум."
-featuredImage = "/images/inprocess/inprocess-hero.webp"
-draft = false
 
-galleryImages = ["/images/inprocess/inproc-1.webp", "/images/inprocess/inproc-2.webp", "/images/inprocess/inproc-3.webp", "/images/inprocess/inproc-4.webp", "/images/inprocess/inproc-5.webp", "/images/inprocess/inproc-6.webp", "/images/inprocess/inproc-7.webp", "/images/inprocess/inproc-8.webp", ]
+draft = false
 
 imgNames = ["Наименувана (2021)", "Наименувана (2021)", "Наименувана (2021)", "Наименувана (2021)", "Наименувана (2021)", "Наименувана (2021)", "Наименувана (2021)", "Наименувана (2021)"]
 imgDescrps = ["принт на ХХХХ хартия, 100x100 cm, частна колекция", "print of XXXX paper, 45x30 cm, частна колекция", "Poster for exhibition, 70x50 cm (дизайн Никола Стоянов)", "принт на ХХХХ хартия, 45x55 cm", "print of XXXX paper, 120x120 cm, частна колекция"]

@@ -2,14 +2,14 @@
 title = 'Postcards and Contraband'
 date = 2023-09-07
 description = "An examining a work archive of the Bуlgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
-featuredImage = "/images/cards/hero.webp"
+
 type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "duo-channel video installation"]
 placedate = "ReBonkers, Varna - 07-21.09.2023"
 curator = "Hristo Kaloyanov"
 collaborators = "Aaron Roth"
 categories = ["collab"]
-galleryImages = ["/images/cards/cards-and-contraband-1.webp","/images/cards/cards-and-contraband-2.webp","/images/cards/cards-and-contraband-3.webp","/images/cards/cards-and-contraband-4.webp","/images/cards/cards-and-contraband-5.webp", "/images/cards/cards-and-contraband-6.webp", "/images/cards/cards-and-contraband-7.webp", "/images/cards/cards-and-contraband-8.webp", "/images/cards/cards-and-contraband-9.webp", "/images/cards/cards-and-contraband-10.webp"]
+
 imgNames = ["Untitled (2023)", ""]
 imgDescrps = ["Dual-channel CRT installation, featuring found documents and photography (voice over Emilia Toncheva), 23 minutes, on the photo: exhibition view with an ex-head of Varna’s Sea Port Customs", ]
 +++

@@ -1,7 +1,7 @@
 /* COLOR SCHEMES */
 :root {
     --text-color: #323333;
-    --bg-color: rgb(245, 245, 245);
+    --bg-color: rgb(251, 252, 249);
     --primary-color: #cec7f5;
 }
 /* BODY */
@@ -17,26 +17,32 @@ body {
     transition: font 0.5s ease; /* Smooth transition for font change */
     /* animation: blurAnimation 2s; */
 }
+/* Hide Scroll Bar */
+body {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+body::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
 /* TYPOGRAPHY */
 h1 {
-    font-family: 'PPNeueWorld-Regular';
+    font-family: 'PT Sans Narrow';
     font-size: 1.476rem;
     margin: 0;
-    letter-spacing: 0.23rem;
 }
-
 h2 {
-    font-family: 'NotCourierSans-Bold';
+    font-family: 'PT Sans Narrow';
     font-size: 1.383rem;
     margin:0. 0 0.5rem 0;
 }
-
 h3 {
-    font-family: 'NotCourierSans-Bold';
+    font-family: 'PT Sans Narrow';
     font-size: 1.296rem;
     margin: 0 0 0.5rem 0;
 }
-
 p {
     font-family: 'STIXTwoText';
     font-weight: 530;
@@ -49,25 +55,21 @@ a {
     /* text-decoration: none; */    
     color: var(--text-color);
 }
-/* Hover */
+/* Link Hover */
 a:hover {
     filter: blur(0px);
     transition: ease-in-out 5s;
 }
-
 main a {
     background-image: linear-gradient(transparent, var(--primary-color), transparent);
 }
-/* Hide Scroll Bar */
-body {
-    overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-}
-body::-webkit-scrollbar { /* WebKit */
-    width: 0;
-    height: 0;
-}
+
+
+/* Text Select */
+::selection {
+    color: var(--text-color);
+    background: var(--primary-color);
+  }
 
 /* LANDER */
 .video-container {
@@ -77,28 +79,21 @@ body::-webkit-scrollbar { /* WebKit */
 @keyframes blurAnimation {
     0% {
         filter: blur(0) contrast(1);
-
     }
-
     30% {
         filter: blur(0) contrast(1);
-
         opacity: 100%;
     }
-
     36% {
         filter: blur(5px) contrast(150);
-
         opacity: 13%;
     }
     40% {
         filter: blur(20px) contrast(80);
-
         opacity: 100%;
     }
     50% {
         filter: blur(10px) contrast(120);
-
     }
     70% {
         filter: blur(0) contrast(1);

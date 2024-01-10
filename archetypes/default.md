@@ -1,7 +1,5 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-featuredImage = ""
-featuredVideo = ""
 date = {{ .Date }}
 draft = true
 
@@ -14,7 +12,6 @@ curator = ""
 collaborators = ""
 
 
-galleryImages = [""]
 imgDescrps = [""]
 imgNames = [""]
 +++

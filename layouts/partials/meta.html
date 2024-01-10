@@ -29,17 +29,18 @@
     <meta name="geo.region" content="BG-SOF">
 
 <!-- Images -->
-    {{ with .Params.featuredImage }}
-        <meta itemprop="image" content="{{ . | absURL }}" />
-        <meta property="og:image" content="{{ . | absURL }}" />
-        <meta name="twitter:image" content="{{ . | absURL }}" />
-        <meta name="twitter:image:src" content="{{ . | absURL }}" />
-    {{ else }}
-        <meta itemprop="image" content="/images/alt-hero.webp" />
-        <meta property="og:image" content="/images/alt-hero.webp" />
-        <meta name="twitter:image" content="/images/alt-hero.webp" />
-        <meta name="twitter:image:src" content="/images/alt-hero.webp" />
-    {{ end }}
+{{ with .Resources.GetMatch "hero.webp" }}
+    <meta itemprop="image" content="{{ . | absURL }}" />
+    <meta property="og:image" content="{{ . | absURL }}" />
+    <meta name="twitter:image" content="{{ . | absURL }}" />
+    <meta name="twitter:image:src" content="{{ . | absURL }}" />
+{{ else }}
+    <meta itemprop="image" content="/images/alt-hero.webp" />
+    <meta property="og:image" content="/images/alt-hero.webp" />
+    <meta name="twitter:image" content="/images/alt-hero.webp" />
+    <meta name="twitter:image:src" content="/images/alt-hero.webp" />
+{{ end }}
+
 <!-- Crawler Validations -->
     <meta name="facebook-domain-verification" content="e32nq2r1prpftlqhvybiq5z9k3upia" />
     <meta name="yandex-verification" content="0953af09684196b5" />

@@ -2,10 +2,17 @@
     <div class="grid-container">
         {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
         {{ range $taggedPages }}
+
             <div class="grid-card">
-                <a href="{{ .Permalink }}">     
-                    <img src="{{ .Params.featuredImage }}" alt="{{ with .Params.description }}{{ . }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
-                </a>
+                <a href="{{ .Permalink }}">
+                <!-- Hero Image from Post Bundle -->
+                {{ with .Resources.GetMatch "hero.webp" }}
+                    {{ $heroImg := .Resize "600x" }}
+
+                        <img src="{{ $heroImg.RelPermalink }}" alt="{{ with .Params.description }}{{ .Params.description }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
+                    </a>
+                {{ end }}
+
                 <div class="card-content">
                     <a href="{{ .Permalink }}">
                         <h2 class="card-title">{{ .Title }} {{ dateFormat "(2006)" .Date }}</h2>

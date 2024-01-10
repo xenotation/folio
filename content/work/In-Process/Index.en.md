@@ -2,10 +2,8 @@
 title = 'In:Process'
 date = 2021-01-16
 description = "The drive to capture the city as an affective totality"
-featuredImage = "/images/inprocess/inprocess-hero.webp"
-draft = false
 
-galleryImages = ["/images/inprocess/inproc-1.webp", "/images/inprocess/inproc-2.webp", "/images/inprocess/inproc-3.webp", "/images/inprocess/inproc-4.webp", "/images/inprocess/inproc-5.webp", "/images/inprocess/inproc-6.webp", "/images/inprocess/inproc-7.webp", "/images/inprocess/inproc-8.webp", ]
+draft = false
 
 imgNames = ["Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled", "Untitled"]
 imgDescrps = ["2021, print on XXXX paper, 100x100 cm, private collection", "2021, print of XXXX paper, 45x30 cm, private collection", "Poster for exhibition, 70x50 cm (design Nikola Stoyanov)", "2021, print of XXXX paper, 45x55 cm", "2021, print of XXXX paper, 120x120 cm, private collection"]

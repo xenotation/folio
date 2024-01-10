@@ -6,10 +6,6 @@ description = "A visual register that is at the same time referring to its Diony
 
 draft = true
 
-galleryImages = ["", "", "", ""]
-featuredImage = "/images/1.png"
-
-
 medium = ["brand identity", "product design", "3D modelling", "Motion Design", "advertisement"]
 placedate = "beer shops near you"
 

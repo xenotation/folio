@@ -6,10 +6,6 @@ draft = false
 
 description = "A is where the gaze of artificial intelligence itself draws a picturesque horizon, delving into the hidden rooms of secret research facilities, investigative organizations, classified databases."
 
-featuredImage = "/images/latent/latent-hero.webp"
-
-
-galleryImages = ["/images/latent/latent-0.webp","/images/latent/latent-1.webp","/images/latent/latent-2.webp","/images/latent/latent-3.webp", "/images/latent/latent-4.webp"]
 imgDescrps = ["acrylic on canvas print, 90x62 cm", "acrylic on canvas print, 90x62 cm, private collection", "acrylic on canvas print, 100x6 cm, private collection", "acrylic on canvas print, 90x62 cm", "acrylic on canvas print, 90x62 cm, private collection"]
 imgNames = ["Latent Space #1 (2022)", "Latent Space #2 (2022)", "Latent Space #3 (2022)", "Latent Space #4 (2022)", "Latent Space #5 (2022)"]
 
