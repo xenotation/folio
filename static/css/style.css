@@ -69,6 +69,7 @@ main a {
 ::selection {
     color: var(--text-color);
     background: var(--primary-color);
+
   }
 
 /* LANDER */
@@ -79,21 +80,28 @@ main a {
 @keyframes blurAnimation {
     0% {
         filter: blur(0) contrast(1);
+
     }
+
     30% {
         filter: blur(0) contrast(1);
+
         opacity: 100%;
     }
+
     36% {
         filter: blur(5px) contrast(150);
+
         opacity: 13%;
     }
     40% {
         filter: blur(20px) contrast(80);
+
         opacity: 100%;
     }
     50% {
         filter: blur(10px) contrast(120);
+
     }
     70% {
         filter: blur(0) contrast(1);
