@@ -30,7 +30,7 @@
       <div class="right-column-container">
         <!-- Column 1: Solo Category Posts -->
         <div class="column">
-          <h1>Exhibitions</h1>
+          <h1>{{ T "Exhibitions" }}</h1>
           <h2>2023</h2>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
@@ -115,7 +115,7 @@
 
         <!-- Column 2: Collab Category Posts -->
         <div class="column">
-          <h1>Collaborations</h1>
+          <h1>{{ T "Collaborations" }}</h1>
           <h2>2023</h2>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "collab-no") }}
@@ -157,10 +157,9 @@
       </div>
 
           
-
         <!-- Column 3: Hard-coded Papers -->
         <div class="column">
-          <h1>Publications and talks</h1>
+          <h1>{{ T "Publications" }}</h1>
           <ul>
               <h2>2023</h2>
                 <li>

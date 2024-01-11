@@ -53,11 +53,11 @@ category = "categories"
       [languages.bg.params]
       Description = "Портфолио Никола Стоянов"
       [[languages.bg.menu.main]]
-      url    = "/work/"
+      url    = "/bg/work/"
       name   = "работа"
       weight = 1
       [[languages.bg.menu.main]]
-      url    = "/bio/"
+      url    = "/bg/bio/"
       name   = "биография"
       weight = 2
       [[languages.bg.menu.main]]

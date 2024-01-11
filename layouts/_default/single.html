@@ -23,7 +23,7 @@
   {{ else }}
     <!-- If it's not a video, assume it's an image -->
     {{ with .Resources.GetMatch "hero.webp" }}
-    {{ $resizedHero := .Resize "1200x" }}
+    {{ $resizedHero := .Resize "1100x" }}
     <img src="{{ $resizedHero.RelPermalink }}" alt="art by nikola stoyanov" class="featured-image">
 {{ end }}
 {{ end }}
