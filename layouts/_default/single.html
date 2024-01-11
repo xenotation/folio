@@ -15,7 +15,6 @@
       "name": "{{ with index .Site.Language.Params "biography" | default "Biography" }}{{ . }}{{ end }}",
       "url": "{{ with index .Site.Language.Params "bioURL" | default "/" | absURL }}"
     
-    }
   }
   </script>
 
