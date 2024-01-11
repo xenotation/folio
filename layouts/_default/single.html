@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<!-- Artwork Structured Data -->
+<!-- Article Structured Data -->
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -17,6 +17,46 @@
     }
   }
   </script>
+<!-- Image Structured Data -->
+{{ if .Params.featuredImage }}
+ <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": {{ .Params.featuredImage | absURL }},
+    "license": {{ $.Site.Params.copyright_url | absURL }},
+    "acquireLicensePage": {{ $.Site.Params.copyright_url | absURL }},
+    "creditText": {{ $.Site.Title }},
+    "creator": {
+      "@type": "Person",
+      "name": {{ .Site.Title }}
+    },
+    "copyrightNotice": {{ .Site.Title }}
+  }
+ </script>
+{{ end }}
+
+{{ if (findRE `(?s)<img.+?>` .Content) }}
+<script type="application/ld+json">
+[{{ range $k, $_ := findRE `(?s)<img.+?>` .Content }}{{ if $k }},{{ end }}
+  {
+    "@context": "https://schema.org/",
+    "@type": "ImageObject",
+    "contentUrl": {{ replaceRE `(?s).*src="(.+?)".*` "$1" . | absURL }},
+    "license": {{ $.Site.Params.copyright_url | absURL }},
+    "acquireLicensePage": {{ $.Site.Params.copyright_url | absURL }},
+    "creditText": {{ $.Site.Title }},
+    "creator": {
+      "@type": "Person",
+      "name": {{ .Site.Title }}
+    },
+    "copyrightNotice": {{ .Site.Title }}
+  }{{ end }}
+]      
+</script>
+{{ end }}
+
+
 
   <!-- HERO -->
   <div class="hero-container">

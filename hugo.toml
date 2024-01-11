@@ -1,7 +1,6 @@
 baseURL = 'https://newdegeneration.xyz'
 languageCode = 'en-us'
-copyright = "Nikola Soyanov, 2023"
-
+copyright_url = "/tech-spec/tech-spec/"
 
 [sitemap]
   filename = "sitemap.xml"
