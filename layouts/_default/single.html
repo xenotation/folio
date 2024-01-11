@@ -45,21 +45,28 @@
       <!-- Three sections in grey below the title -->
       <div class="people">
         {{ with .Params.curator }}
-          <p>curated by: <br>{{ . }}</p>
+        <p>{{ i18n "Curator" }}<br>{{ . }}</p>
         {{ end }}
         
         <!-- Collaborators section -->
         <div class="collaborators">
           {{ with .Params.collaborators }}
             <p>
-              in collaboration with: <br>
+              {{ i18n "Collaborators" }}<br>
               {{ $collaborators := split . "," }}
               {{ range $collaborators }}
                 {{ . }}<br>
               {{ end }}
             </p>
           {{ end }}
-        </div>
+        </div>    
+
+        {{ with .Params.sound }}
+        <p>{{ i18n "Sound" }}<br>{{ . }}</p>
+        {{ end }}
+        {{ with .Params.photo }}
+        <p>{{ i18n "Photo" }}<br>{{ . }}</p>
+        {{ end }}
       </div>      
     </div>
 

@@ -1,6 +1,15 @@
 [Exhibitions]
-  other = 'Exhibitions'
+other = 'Exhibitions'
 [Collaborations]
-  other = 'Collaborations'
-[Publications]
-  other = 'Publications and talks'
+other = 'Collaborations'
+[PubLect]
+other = 'Publications and talks'
+
+[Curator]
+other = 'curator ↓'
+[Collaborators]
+other = 'collaboration with ↓'
+[Sound]
+other = 'sound design ↓'
+[Photo]
+other = 'photography ↓'

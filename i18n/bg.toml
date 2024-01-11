@@ -2,5 +2,14 @@
   other = 'Изложби'
 [Collaborations]
   other = 'Колаборации'
-[Publications]
+[PubLect]
   other = 'Публикации и лекции'
+
+[Curator]
+other = 'куратор ↓'
+[Collaborators]
+other = 'в колаборация с ↓'
+[Sound]
+other = 'звуков дизайн ↓'
+[Photo]
+other = 'фотография ↓'
