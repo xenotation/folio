@@ -6,10 +6,10 @@
   other = 'Публикации и лекции'
 
 [Curator]
-other = 'куратор ↓'
+  other = 'куратор ↓'
 [Collaborators]
-other = 'в колаборация с ↓'
+  other = 'в колаборация с ↓'
 [Sound]
-other = 'звуков дизайн ↓'
+  other = 'звуков дизайн ↓'
 [Photo]
-other = 'фотография ↓'
+  other = 'фотография ↓'

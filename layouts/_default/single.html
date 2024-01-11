@@ -12,9 +12,9 @@
     "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ . | absURL }}{{ end }}",
     "author": {
       "@type": "Person",
-      "name": "{{ with index .Site.Language.Params "biography" | default "Biography" }}{{ . }}{{ end }}",
-      "url": "{{ with index .Site.Language.Params "bioURL" | default "/" | absURL }}"
-    
+      "name": "{{ .Site.Title }}",
+      "url": "/bio"
+    }
   }
   </script>
 
