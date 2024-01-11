@@ -4,7 +4,7 @@
 <script type="application/ld+json">
   {
       "@context": "https://schema.org",
-      "@type": "VisualArtwork",
+      "@type": "Article",
       "name": "{{ .Title }}",
       "url": "{{ .Permalink }}",
       "description": "{{ .Description }}",
@@ -24,7 +24,9 @@
     <!-- If it's not a video, assume it's an image -->
     {{ with .Resources.GetMatch "hero.webp" }}
     {{ $resizedHero := .Resize "1100x" }}
-    <img src="{{ $resizedHero.RelPermalink }}" alt="art by nikola stoyanov" class="featured-image">
+    {{ with $.Page.Params.description }}
+    <img src="{{ $resizedHero.RelPermalink }}" alt="{{ . | safeHTML }}" class="featured-image">
+    {{ end }}
 {{ end }}
 {{ end }}
 </div>
@@ -95,8 +97,8 @@
     
     {{ if ne $image.Name "hero.webp" }}
       {{ $downsampledImg := $image.Resize "420x" }}
-      <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ $description }}" alt="{{ $description }}">
-        <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $title }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
+      <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ $description }}" alt="{{ $title }}">
+        <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $description }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
       </a>
     {{ end }}
   {{ end }}
