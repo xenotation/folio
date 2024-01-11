@@ -9,7 +9,7 @@
     "url": "{{ .Permalink }}",
     "description": "{{ .Description }}",
     "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
-    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ . }}{{ end }}",
+    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ end }}",
     "author": {
       "@type": "Person",
       "name": "{{ .Site.Title }}",
