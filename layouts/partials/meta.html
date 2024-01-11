@@ -27,19 +27,20 @@
     {{ end }}
 <!-- Region -->
     <meta name="geo.region" content="BG-SOF">
-
 <!-- Images -->
 {{ with .Resources.GetMatch "hero.webp" }}
-    <meta itemprop="image" content="{{ . }}" />
-    <meta property="og:image" content="{{ . }}" />
-    <meta name="twitter:image" content="{{ . }}" />
-    <meta name="twitter:image:src" content="{{ . }}" />
+    {{ $heroImage := . | fingerprint }}
+    <meta itemprop="image" content="{{ $heroImage | absURL }}" />
+    <meta property="og:image" content="{{ $heroImage | absURL }}" />
+    <meta name="twitter:image" content="{{ $heroImage | absURL }}" />
+    <meta name="twitter:image:src" content="{{ $heroImage | absURL }}" />
 {{ else }}
     <meta itemprop="image" content="/images/alt-hero.webp" />
     <meta property="og:image" content="/images/alt-hero.webp" />
     <meta name="twitter:image" content="/images/alt-hero.webp" />
     <meta name="twitter:image:src" content="/images/alt-hero.webp" />
 {{ end }}
+
 
 <!-- Crawler Validations -->
     <meta name="facebook-domain-verification" content="e32nq2r1prpftlqhvybiq5z9k3upia" />

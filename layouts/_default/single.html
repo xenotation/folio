@@ -9,7 +9,7 @@
     "url": "{{ .Permalink }}",
     "description": "{{ .Description }}",
     "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
-    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ . }}{{ end }}",
+    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ . | absURL }}{{ end }}",
     "author": {
       "@type": "Person",
       "name": "{{ .Site.Title }}",
@@ -28,7 +28,7 @@
   {{ else }}
     <!-- If it's not a video, assume it's an image -->
     {{ with .Resources.GetMatch "hero.webp"}}
-    {{ $resizedHero := .Fill "1390x420 Center" }}
+    {{ $resizedHero := .Fill "1390x420 Center " }}
     {{ with $.Page.Params.description }}
     <img src="{{ $resizedHero.RelPermalink }}" alt="{{ . | safeHTML }}" class="featured-image">
     {{ end }}
