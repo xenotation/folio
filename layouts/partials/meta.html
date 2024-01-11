@@ -29,11 +29,10 @@
     <meta name="geo.region" content="BG-SOF">
 <!-- Images -->
 {{ with .Page.Resources.GetMatch "hero.webp" }}
-    {{ $heroImage := . | fingerprint }}
-    <meta itemprop="image" content="{{ $heroImage | absURL }}" />
-    <meta property="og:image" content="{{ $heroImage | absURL }}" />
-    <meta name="twitter:image" content="{{ $heroImage | absURL }}" />
-    <meta name="twitter:image:src" content="{{ $heroImage | absURL }}" />
+    <meta itemprop="image" content="{{ . }}" />
+    <meta property="og:image" content="{{ . }}" />
+    <meta name="twitter:image" content="{{ . }}" />
+    <meta name="twitter:image:src" content="{{ . }}" />
 {{ else }}
     <meta itemprop="image" content="/images/alt-hero.webp" />
     <meta property="og:image" content="/images/alt-hero.webp" />
