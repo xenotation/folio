@@ -1,11 +1,7 @@
 baseURL = 'https://newdegeneration.xyz'
 languageCode = 'en-us'
-title = 'Nikola Stoyanov'
 copyright = "Nikola Soyanov, 2023"
 
-[Author]
-    name = "Nikola Stoyanov"
-    email = "av0id.biz@gmail.com"
 
 [sitemap]
   filename = "sitemap.xml"
@@ -29,6 +25,7 @@ category = "categories"
   [languages.en]
     languageName = "English"
     disabled = false
+    title = 'Nikola Stoyanov'
     weight = "1"
       [languages.en.params]
       Description = "Personal Porfolio of Nikola Stoyanov"

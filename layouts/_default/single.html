@@ -3,13 +3,19 @@
 <!-- Artwork Structured Data -->
 <script type="application/ld+json">
   {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "name": "{{ .Title }}",
-      "url": "{{ .Permalink }}",
-      "description": "{{ .Description }}",
-      "dateCreated": "{{ dateFormat "2006-01-02" .Date }}",
-      "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ . | absURL }}{{ end }}"
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ .Title }}",
+    "url": "{{ .Permalink }}",
+    "description": "{{ .Description }}",
+    "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
+    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ . | absURL }}{{ end }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ with index .Site.Language.Params "biography" | default "Biography" }}{{ . }}{{ end }}", <!-- Use the language-specific biography menu item as the author's name -->
+      "url": "{{ with index .Site.Language.Params "bioURL" | default "/" | absURL }}" <!-- Use the language-specific URL as the author's URL -->
+    
+    }
   }
   </script>
 
