@@ -18,46 +18,6 @@
   }
   </script>
 <!-- Image Structured Data -->
-{{ if .Params.featuredImage }}
- <script type="application/ld+json">
-  {
-    "@context": "https://schema.org/",
-    "@type": "ImageObject",
-    "contentUrl": {{ .Params.featuredImage | absURL }},
-    "license": {{ $.Site.Params.copyright_url | absURL }},
-    "acquireLicensePage": {{ $.Site.Params.copyright_url | absURL }},
-    "creditText": {{ $.Site.Title }},
-    "creator": {
-      "@type": "Person",
-      "name": {{ .Site.Title }}
-    },
-    "copyrightNotice": {{ .Site.Title }}
-  }
- </script>
-{{ end }}
-
-<script type="application/ld+json">
-[{{ with .Resources.Match "images/*" }}
-  {{ range $k, $_ := . }}
-    {{ if $k }},{{ end }}
-    {
-      "@context": "https://schema.org/",
-      "@type": "ImageObject",
-      "contentUrl": {{ . | absURL }},
-      "license": {{ $.Site.Params.copyright_url | absURL }},
-      "acquireLicensePage": {{ $.Site.Params.copyright_url | absURL }},
-      "creditText": {{ $.Site.Title }},
-      "creator": {
-        "@type": "Person",
-        "name": {{ .Site.Title }}
-      },
-      "copyrightNotice": {{ .Site.Title }}
-    }
-  {{ end }}
-{{ end }}
-]      
-</script>
-
 
 
 
