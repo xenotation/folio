@@ -28,7 +28,7 @@
 <!-- Region -->
     <meta name="geo.region" content="BG-SOF">
 <!-- Images -->
-{{ with .Resources.GetMatch "hero.webp" }}
+{{ with .Page.Resources.GetMatch "hero.webp" }}
     {{ $heroImage := . | fingerprint }}
     <meta itemprop="image" content="{{ $heroImage | absURL }}" />
     <meta property="og:image" content="{{ $heroImage | absURL }}" />
@@ -40,6 +40,7 @@
     <meta name="twitter:image" content="/images/alt-hero.webp" />
     <meta name="twitter:image:src" content="/images/alt-hero.webp" />
 {{ end }}
+
 
 
 <!-- Crawler Validations -->
