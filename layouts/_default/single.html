@@ -36,25 +36,28 @@
  </script>
 {{ end }}
 
-{{ if (findRE `(?s)<img.+?>` .Content) }}
 <script type="application/ld+json">
-[{{ range $k, $_ := findRE `(?s)<img.+?>` .Content }}{{ if $k }},{{ end }}
-  {
-    "@context": "https://schema.org/",
-    "@type": "ImageObject",
-    "contentUrl": {{ replaceRE `(?s).*src="(.+?)".*` "$1" . | absURL }},
-    "license": {{ $.Site.Params.copyright_url | absURL }},
-    "acquireLicensePage": {{ $.Site.Params.copyright_url | absURL }},
-    "creditText": {{ $.Site.Title }},
-    "creator": {
-      "@type": "Person",
-      "name": {{ .Site.Title }}
-    },
-    "copyrightNotice": {{ .Site.Title }}
-  }{{ end }}
+[{{ with .Resources.Match "images/*" }}
+  {{ range $k, $_ := . }}
+    {{ if $k }},{{ end }}
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": {{ . | absURL }},
+      "license": {{ $.Site.Params.copyright_url | absURL }},
+      "acquireLicensePage": {{ $.Site.Params.copyright_url | absURL }},
+      "creditText": {{ $.Site.Title }},
+      "creator": {
+        "@type": "Person",
+        "name": {{ .Site.Title }}
+      },
+      "copyrightNotice": {{ .Site.Title }}
+    }
+  {{ end }}
+{{ end }}
 ]      
 </script>
-{{ end }}
+
 
 
 
