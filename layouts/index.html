@@ -1,10 +1,7 @@
 {{ define "main" }}
     <body>
-        <div class="video-container">
-            <video autoplay muted loop playsinline>
-                <source src="/images/turing-pattern.mp4" type="video/mp4">
-                <meta itemprop="name" content="multi-scale turing patterns">
-            </video>
-        </div>
+        <div class="video-container" id="randomVideoContainer"></div>
+
+        <script src="{{ "/js/lander.js" | relURL }}"></script>
     </body>
 {{ end }}

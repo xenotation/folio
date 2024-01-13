@@ -50,7 +50,7 @@ category = "categories"
       Description = "Портфолио Никола Стоянов"
       [[languages.bg.menu.main]]
       url    = "/bg/work/"
-      name   = "работа"
+      name   = "проекти"
       weight = 1
       [[languages.bg.menu.main]]
       url    = "/bg/bio/"

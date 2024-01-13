@@ -1,7 +1,7 @@
 +++
 title = "Nature Morte"
 
-description = "A multimedia project that plants the philosophical question in the ground - on a part of the country's critical infrastructure, where access is highly restricted."
+description = "A multimedia project dealing with the concept of geotrauma in the context of the Martisa Mining complex."
 date = 2023-06-22
 
 draft = false
