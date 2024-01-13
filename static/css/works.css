@@ -17,14 +17,10 @@
     }
 
     .card-title {
-        font-size: 1.2rem;
+        font-size: 1.20rem;
+        margin: 0.23rem 0 0 0;
         text-align: center;
         color: var(--text-color);
-    }
-
-    .grid-container h2 {
-        margin: 0.5rem 0rem 0rem 0rem;
-        font-size: 1.36rem;
     }
 
     .grid-container a {

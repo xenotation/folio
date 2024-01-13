@@ -8,11 +8,16 @@ lang-switcher {
     align-items: center;
 }
 
+lang-switcher .active {
+    display: none;
+}
+
 lang-switcher a {
     color: var(--bg-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
-    background-image: linear-gradient(transparent, #cec7f5b0, transparent);
+    background-image: linear-gradient(transparent, #807b99b0, transparent);
+    font-family: 'Comfortaa';
 }
 /* Style for the active language link */
 lang-switcher .active {

@@ -23,7 +23,7 @@
       .bio-text {
         flex: 1;
         min-width: 5em; /* Set minimum width */
-        max-width: 18.5rem; 
+        max-width: 20rem; 
         text-align: justify;
         hyphens: auto;
         margin: 0;
@@ -48,7 +48,7 @@
             margin: 0;
             flex-wrap: wrap;
             hyphens: auto;
-            padding-left: 3rem;
+            padding-left: 2rem;
           }
           .column ul {
             list-style: none;
@@ -75,10 +75,6 @@
 
           }
          
-        .column h3 {
-          /* YEARS */
-          /* font-size: 1.23rem; */
-        }
           .column a {
             color: var(--text-color);
             text-decoration: none;

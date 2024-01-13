@@ -27,7 +27,13 @@ body::-webkit-scrollbar { /* WebKit */
     width: 0;
     height: 0;
 }
-/* TYPOGRAPHY */
+/* TYPOGRAPHY SCALE
+--base-size: 1.20rem;
+--size-step-0: 1.20rem;
+--size-step-1: 1.248rem;   
+--size-step-2: 1.296rem;  
+--size-step-3: 1.344rem;  
+--size-step-4: 1.08rem;   */
 h1 {
     font-family: 'Comfortaa';
     font-size:  1.344rem;

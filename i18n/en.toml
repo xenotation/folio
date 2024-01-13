@@ -1,9 +1,9 @@
 [Exhibitions]
-    other = 'Exhibitions'
+    other = 'exhibitions'
 [Collaborations]
-    other = 'Collaborations'
+    other = 'collaborations'
 [PubLect]
-    other = 'Publications and talks'
+    other = 'texts and talks'
 
 [Curator]
     other = 'curator ↓'
