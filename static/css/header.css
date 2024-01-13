@@ -36,11 +36,14 @@ header {
         margin-left: 0;
         display: block;
         text-align: left;
+        font-size: 1.2rem;
+
         }
     .nav h1,
     .title-container h1 {
         margin: 0 0 0 0;
         text-align: right;
+        font-size: 1.2rem;
     }
 
 }

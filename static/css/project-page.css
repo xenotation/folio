@@ -113,4 +113,14 @@
     .masonry-grid {
         columns: 1;
     }
+    .featured-image {
+        width: auto;
+        height: auto;
+        object-fit:cover;
+    }
+    .featured-video {
+        width: auto;
+        height: auto;
+    }
+
 }
