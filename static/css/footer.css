@@ -23,7 +23,7 @@ lang-switcher a {
 lang-switcher .active {
     display: none; /* Hide the active language link */
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     lang-switcher a {
         font-size: 1rem;
         border-radius: 0.6rem; /* Rounded corners */

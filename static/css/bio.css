@@ -79,7 +79,7 @@
             color: var(--text-color);
             text-decoration: none;
           }
-          @media (max-width: 767px) {
+          @media (max-width: 800px) {
             .bio-column-container {
               flex-direction: column;
               gap: 0;
