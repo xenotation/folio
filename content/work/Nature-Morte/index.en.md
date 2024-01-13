@@ -16,7 +16,7 @@ categories = ["solo"]
 
 +++
 
-NATURE MORTE is a multimedia project that plants the philosophical question firmly into the ground - on a part of the country's highly restricted critical infrastructure. In an attempt to find different approaches to reach the excavation and its visualization, open data from satellite and geological surveys and measurements were used, through which the digital topography of the mines has been built.
+Nature Morte is a multimedia project that plants the philosophical question firmly into the ground - on a part of the country's highly restricted critical infrastructure. In an attempt to find different approaches to reach the excavation and its visualization, open data from satellite and geological surveys and measurements were used, through which the digital topography of the mines has been built.
 
 The visuals obtained from satellite images can be called operational, as a continuation of the "operational image" coined by the German director Harun Farocki, denoting "images that do not represent an object, but are part of an operation". And most briefly, the current operation can be described as a philosophy on the ground, tracing the operation of the mining-geological activity and the inevitably accompanying administration, proposing the subsequent uprooting and displacement of the anthropocentric view.
 

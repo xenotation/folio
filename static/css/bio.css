@@ -27,6 +27,7 @@
         text-align: justify;
         hyphens: auto;
         margin: 0;
+
       }
 
     .right-column-bio {
@@ -55,25 +56,29 @@
             padding: 0;
             
           }
-          .column p {
-            margin: 0 0 0.2rem 0;
-            font-size: 1rem;
-          }
           .column h1 {
             letter-spacing: 0.08rem;
-            text-align: right;
-            margin: 0 0 0 0;
+            margin: 0 0 0.3rem 0;
+
           }
           .column h2 {
-            /* YEARS */
-            font-size: 1.2rem;
-            margin: 0 0 0rem 0;
+          /* exhibition and publication names*/
+          margin: 0.8rem 0 0 0;
           }
           .column h3 {
-            /* exhibition and publication names*/
-            font-size: 1.2rem;
-            margin: 0.2rem 0 0.2rem 0; 
+            /* YEARS */
+            margin: 1rem 0 0 0;
+
           }
+          .column h4 {
+            margin: 0.23rem 0 0 0;
+
+          }
+         
+        .column h3 {
+          /* YEARS */
+          /* font-size: 1.23rem; */
+        }
           .column a {
             color: var(--text-color);
             text-decoration: none;

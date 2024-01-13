@@ -9,8 +9,8 @@ date: 0
 Сайта използва следните шрифтове:
 - [Stix Two](https://github.com/stipub/stixfonts)</br>
 by MicroPress Type Foundry
-- [Onest](https://onest.md/en)</br>
-by Dmitri Voloshin and Andrey Kudryavtsev
+- [Comfortaa](https://www.ctan.org/tex-archive/fonts/comfortaa)</br>
+by [Johan Aakerlund](http://luc.devroye.org/fonts-50227.html)
 
 both under distributed under [SIL Open Font Licence](https://openfontlicense.org/).
 

@@ -29,27 +29,30 @@ body::-webkit-scrollbar { /* WebKit */
 }
 /* TYPOGRAPHY */
 h1 {
-    font-family: 'Onest';
-    font-size: 1.476rem;
+    font-family: 'Comfortaa';
+    font-size:  1.344rem;
     margin: 0;
 }
 h2 {
-    font-family: 'Onest';
-    font-size: 1.383rem;
+    font-family: 'Comfortaa';
+    font-size: 1.23rem;
     margin:0. 0 0.5rem 0;
 }
 h3 {
-    font-family: 'Onest';
-    font-size: 1.296rem;
+    font-family: 'Comfortaa';
+    font-size: 1.248rem;
     margin: 0 0 0.5rem 0;
+}
+h4 {
+    font-size: 1rem;
 }
 p {
     font-family: 'STIXTwoText';
     font-weight: 530;
-    font-size: 1.1rem;
+    font-size: 1.20rem;
     hyphens: auto;
     margin: 0 0 0.5rem 0;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
 }
 /* LINKS */
 a {
@@ -135,7 +138,7 @@ a:hover {
     width: 100%;
     max-height: 80vh;
     object-fit:cover;
-    transition: opacity 1s ease; /* Add a transition for the opacity property */
+    transition: opacity 5s ease;
 }
 
 @media (max-width: 800px) {
