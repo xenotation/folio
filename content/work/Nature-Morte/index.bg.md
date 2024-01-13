@@ -9,9 +9,9 @@ draft = false
 imgDescrps = [""]
 imgNames = ["Nature Morte #1"]
 
-medium = ["photography", "photogrammetry", "topological 3D print", "multichannel video-Installation", "book"]
+medium = ["фотография", "фотограметрия", "топографски 3D принт", "мулти-канална видео инсталация", "книга"]
 placedate = "Goethe-Institut, Sofia - 22.06–30.07.2023"
-curator = "Hristo Kaloyanov"
+curator = "Христо Калоянов"
 categories = ["solo"]
 
 +++
