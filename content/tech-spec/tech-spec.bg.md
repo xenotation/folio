@@ -14,6 +14,8 @@ by Dmitri Voloshin and Andrey Kudryavtsev
 
 both under distributed under [SIL Open Font Licence](https://openfontlicense.org/).
 
+Заглавната страница представя много-мажабни тюрингови шарки, базирани на [статията на Джонатън Маккабе](http://www.jonathanmccabe.com/Cyclic_Symmetric_Multi-Scale_Turing_Patterns.pdf)
+
 All work if not otherwise stated is licensed </br>
 under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1) </br>
 © Nikola Stoyanov, 2024

@@ -15,6 +15,8 @@ by Dmitri Voloshin and Andrey Kudryavtsev
 both under distributed under [SIL Open Font Licence](https://openfontlicense.org/).
 
 
+Lander page feature Multi-Scale Turing Patterns based on [Jonathan McCabe's paper](http://www.jonathanmccabe.com/Cyclic_Symmetric_Multi-Scale_Turing_Patterns.pdf)
+
 All work if not otherwise stated is licensed </br>
 under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1) </br>
 © Nikola Stoyanov, 2024

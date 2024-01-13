@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var videoContainers = document.getElementsByClassName('video-container');
 
     // List of video filenames in the 'videos' folder
-    var videoFiles = ['Turing-Pattern-1.webm', 'Turing-Pattern-2.webm', 'Turing-Pattern-3.webm', 'Turing-Pattern-4.webm', 'Turing-Pattern-5.webm'/* add more video filenames */];
+    var videoFiles = ['Turing-Pattern-1.webm', 'Turing-Pattern-2.webm', 'Turing-Pattern-3.webm','Turing-Pattern-4.webm', 'Turing-Pattern-5.webm', 'Turing-Pattern-6.webm'/* add more video filenames */];
 
     // Loop through each container
     Array.from(videoContainers).forEach(function (videoContainer) {
