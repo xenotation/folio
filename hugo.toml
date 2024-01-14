@@ -67,8 +67,7 @@ copyright_url = "/tech-spec/tech-spec/"
       name   = "блог"
       weight = 3
 
-[outputs]
-  home = ["HTML", "RSS"]
+
 
 [outputFormats]
   [outputFormats.ImageSitemap]
