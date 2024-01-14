@@ -1,8 +1,8 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  
   {{ $pages := .Data.Pages }}
   {{ range $pages }}
     {{- if .Permalink -}}
@@ -21,6 +21,13 @@
                 hreflang="{{ .Language.Lang }}"
                 href="{{ .Permalink }}"
                 />{{ end }}
+    {{ with .Resources.Match "**.webp" }}
+      {{ range . }}
+        <image:image>
+          <image:loc>{{ .Permalink }}</image:loc>
+        </image:image>
+      {{ end }}
+    {{ end }}
   </url>
     {{- end -}}
   {{ end }}

@@ -1,17 +1,18 @@
-baseURL = "https://newdegeneration.xyz"
-languageCode = "en-us"
+baseURL = 'https://newdegeneration.xyz'
+languageCode = 'en-us'
 copyright_url = "/tech-spec/tech-spec/"
 
 [sitemap]
   filename = "sitemap.xml"
   enableRobotsTXT = true
   changeFreq = "weekly"
+  image = true 
 
 [markup]
-  defaultMarkdownHandler = "goldmark"
+  defaultMarkdownHandler = 'goldmark'
 
 [taxonomies]
-  category = "categories"
+category = "categories"
 
 [minify]
   disableXML = true
@@ -23,58 +24,41 @@ copyright_url = "/tech-spec/tech-spec/"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Nikola Stoyanov"
-    weight = 1
-
-    [languages.en.params]
+    disabled = false
+    title = 'Nikola Stoyanov'
+    weight = "1"
+      [languages.en.params]
       Description = "Personal Porfolio of Nikola Stoyanov"
-
-    [[languages.en.menu.main]]
+      [[languages.en.menu.main]]
       url    = "/work/"
       name   = "work"
       weight = 1
-
-    [[languages.en.menu.main]]
+      [[languages.en.menu.main]]
       url    = "/bio/"
       name   = "bio"
       weight = 2
-
-    [[languages.en.menu.main]]
+      [[languages.en.menu.main]]
       url    = "https://blog.newdegeneration.xyz/"
       name   = "blog"
       weight = 3
 
   [languages.bg]
     languageName = "Български"
-    title = "Никола Стоянов"
-    weight = 2
-
-    [languages.bg.params]
+    disabled = false
+    weight = "2"
+    title = 'Никола Стоянов'
+      [languages.bg.params]
       Description = "Портфолио Никола Стоянов"
-
-    [[languages.bg.menu.main]]
+      [[languages.bg.menu.main]]
       url    = "/bg/work/"
       name   = "проекти"
       weight = 1
-
-    [[languages.bg.menu.main]]
+      [[languages.bg.menu.main]]
       url    = "/bg/bio/"
       name   = "биография"
       weight = 2
-
-    [[languages.bg.menu.main]]
+      [[languages.bg.menu.main]]
       url    = "https://blog.newdegeneration.xyz/"
       name   = "блог"
       weight = 3
-
-
-
-[outputFormats]
-  [outputFormats.ImageSitemap]
-    name = "imagesitemap"
-    mediaType = "application/xml"
-    isHTML = false
-    baseName = "imagesitemap"
-
-[outputs]
-  section = ["HTML", "RSS", "ImageSitemap"]
+    
