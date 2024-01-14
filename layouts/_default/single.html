@@ -102,11 +102,12 @@
     
     {{ if ne $image.Name "hero.webp" }}
       {{ $downsampledImg := $image.Resize "420x" }}
-      <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ $description }}" alt="{{ $title }}">
-        <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $description }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
+      <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ $description }}" alt="{{ if $title }}{{ $title }}{{ else }}Image{{ end }}">
+        <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $description }}" alt="{{ if $title }}{{ $title }}{{ else }}Image{{ end }}" class="gallery-image" loading="lazy">
       </a>
     {{ end }}
   {{ end }}
+  
 </div>
 
 
