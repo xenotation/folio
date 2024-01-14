@@ -61,3 +61,11 @@ category = "categories"
       name   = "блог"
       weight = 3
     
+[outputFormats]
+[outputFormats.ImageSitemap]
+    name = "imagesitemap"
+    mediaType = "application/xml"
+    isHTML = false
+
+[outputs]
+home = ["HTML", "RSS", "ImageSitemap"]
