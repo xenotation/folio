@@ -1,7 +1,7 @@
 +++
 title = 'Postcards and Contraband'
 date = 2023-09-07
-description = "An examining a work archive of the Bуlgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
+description = "An examining a work archive of the Bulgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
 
 type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "duo-channel video installation"]
