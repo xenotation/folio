@@ -19,6 +19,7 @@ lang-switcher a {
     background-image: linear-gradient(transparent, #807b99b0, transparent);
     font-family: 'Comfortaa';
 }
+
 /* Style for the active language link */
 lang-switcher .active {
     display: none; /* Hide the active language link */
@@ -29,3 +30,11 @@ lang-switcher .active {
         border-radius: 0.6rem; /* Rounded corners */
     }
 }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 2.3rem;
+    text-decoration: none;
+  }

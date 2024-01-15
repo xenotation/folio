@@ -108,17 +108,17 @@
 <div class="masonry-grid">
   {{ $images := .Resources.ByType "image" }}
   {{ range $index, $image := $images }}
-    {{ $title := index $.Params.imgNames $index }}
-    {{ $description := index $.Params.imgDescrps $index }}
-    
+    {{ $adjustedIndex := add $index 1 }}
     {{ if ne $image.Name "hero.webp" }}
       {{ $downsampledImg := $image.Resize "420x" }}
-      <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ $description }}" alt="{{ $title }}">
-        <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $description }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
+      <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ index $.Params.imgDescrps $index }}" alt="{{ index $.Params.imgNames $index }}">
+        <img src="{{ $downsampledImg.RelPermalink }}" title="{{ index $.Params.imgDescrps $index }}" alt="{{ index $.Params.imgNames $index }}" class="gallery-image" loading="lazy">
       </a>
+
     {{ end }}
   {{ end }}
 </div>
+
 <a href="#" class="scroll-to-top">↑</a>
 
 <link rel="stylesheet" href="/css/spotlight.min.css">

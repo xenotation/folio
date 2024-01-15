@@ -6,7 +6,7 @@ description = "The exhibition is nomadic in nature, led by the Black Sea, which 
 
 draft = false
 
-imgDescrps = ["Acrylic on canvas, 70x50cm", "Acrylic on canvas, 50x60cm", "Acrylic on canvas, 37x54cm", "Acrylic on canvas, 70x40cm", "Acrylic on frame back, 50x36cm", "Acrylic on canvas, 40x50cm, private collection", "Acrylic on canvas, 37x52cm", "Acrylic on canvas, 45x34cm", "Acrylic on canvas, 50x35cm", "Print of photo-manipulated acrylic painting, 50x37cm, 01/04"]
+imgDescrps = ["", "acrylic on board, 50x41cm, private collection", "acrylic on canvas, 70x50cm", "Acrylic on canvas, 50x60cm", "Acrylic on canvas, 37x54cm", "Acrylic on canvas, 70x40cm", "Acrylic on frame back, 50x36cm", "Acrylic on canvas, 40x50cm, private collection", "Acrylic on canvas, 37x52cm", "Acrylic on canvas, 45x34cm", "Acrylic on canvas, 50x35cm", "Acrylic on board, electrical tape, hair, pacading from Caprice Classic Wafers, 45x34cm", "Print of photo-manipulated acrylic painting, 50x37cm, 01/04"]
 imgNames = ["Untitled (2016)", "Untitled (2016)", "Untitled (2016)", "Untitled (2018)", "Untitled (2014)", "Untitled (2020)", "Untitled (2017)", "Untitled (2018)", "Untitled (2018)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)"]
 
 medium = ["acrylic painting", "combine painting", "photomanipulated painting"]
