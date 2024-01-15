@@ -1,17 +1,18 @@
 +++
 title = 'Music for a New Night Life'
 
-date = 2019-06-05
+date = 2023-06-05
 description = "A cymatic matrix of a city in flux, of its dreams and nightmares and finally of its reality filled with nostalgia."
 
 draft = false
-
+placedate = "06.2019"
 medium = ["photo-book"]
 categories = ["solo"]
 
-imgDescrps = ["2019, street-photography", "2019, street-photography, 60x50cm, private collection", "2019, street-photography", "2019, street-photography", "2019, street-photography", ]
-imgNames = ["Public Transporation Sign", "Pharmacy Sign", "Traffic", "Bus Sign", "City-Scape"]
+imgDescrps = ["", "city-scape, street-photography", "pharmacy, street-photography, 60x50cm, private collection", "public transporation sign, street-photography", "bus sign, street-photography", "the great god Pan, street-photography", "traffic, street-photography", "street-photography"]
+imgNames = ["", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)"]
 +++
+
 
 Music for a New Night Life deals with Mark Fishers concept of hauntology and lost futures. It visually shows a cymatic matrix of a city in flux, of its dreams and nightmares and finally of its reality filled with nostalgia. The tidal feeling of turbulence wroth by the ancient currents of the Black Sea returns us to a state of Freudian unconsciousness, a downcast euphoria, somatically revealing the subject to the base nostalgia of Oedipal separation.
 

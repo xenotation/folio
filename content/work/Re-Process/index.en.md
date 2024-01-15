@@ -5,8 +5,8 @@ description = "Photographs of everyday urban objects. In the construction and de
 
 draft = false
 
-imgNames = ["Black Volga (2022)", "Untitled (2022)", "Night Map (2022)", "Untitled (2022)", "Untitled (2022)"]
-imgDescrps = ["Photo-print 100х100cm, private collection", "Photo-print 60х40см", "fictional foldable tourist map 15x10cm and directions, original map dated 1923 from the municipal archive of the city of Varna modified using artifical intelligence", "Photo-print 50х50см", "Photo-print 100х100см, private collection"]
+imgNames = ["", "Untitled (2022)", "Black Volga (2022)", "Night Map (2022)", "Untitled (2022)", "Untitled (2022)"]
+imgDescrps = ["", "photo-print 120х120cm, private collection", "photo-print 120х120cm, private collection", "fictional foldable tourist map 15x10cm(folded) and directions, original map dated 1923 from the municipal archive of the city of Varna modified using artifical intelligence", "photo-print 25х25cm", "photo-print 60х40cm, private collection"]
 
 
 medium = ["photography", "video game", "fictional tourist map"]

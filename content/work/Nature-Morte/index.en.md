@@ -6,14 +6,15 @@ date = 2023-06-22
 
 draft = false
 
-imgDescrps = [""]
-imgNames = ["Nature Morte #1"]
+imgDescrps = ["", "дигитален печат, 60x40см, колаж от топографски данни, карти на хълмовете и релефи на региона", "печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло 60х40см, в открития рудник Мини Мартица Изток", "печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x20см 1/3", "печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x20см 2/3", "печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x2см 3/3", "детайл от книгата Nature Morte", "детайл от книгата Nature Morte", "печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло 70х23см, частна колекция", "топографска 3D принтирана карта на мините, с LED подсветка", "детайл от книгата Nature Morte", "детайл от книгата Nature Morte", "детайл от книгата Nature Morte", "детайл от книгата Nature Morte", "детайл от книгата Nature Morte", "вътре в книгата Nature Morte"]
+imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)", "Nature Morte (2023)","Nature Mort1"]
 
 medium = ["photography", "photogrammetry", "topological 3D print", "multichannel video-Installation", "book"]
 placedate = "Goethe-Institut, Sofia - 22.06–30.07.2023"
 curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
 
+Sound = ["Anton Shishkov"]
 +++
 
 Nature Morte is a multimedia project that plants the philosophical question firmly into the ground - on a part of the country's highly restricted critical infrastructure. In an attempt to find different approaches to reach the excavation and its visualization, open data from satellite and geological surveys and measurements were used, through which the digital topography of the mines has been built.

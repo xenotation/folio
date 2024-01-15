@@ -11,6 +11,11 @@ collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofi
 
 categories = ["collab"]
 
+imgDescrps = ["view of Varna Municipality", "view of the Black Sea Hotel", "view of the Успение Богородично Church", "view of the city", "dream spawn point", "non-euclidean variations of Varna streets", "scene from the ritual world"]
+
+imgNames=["Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)"]
+
+
 permalink = "https://newdegeneration.xyz/work/grey-zone-dispositive/"
 +++
 

@@ -6,16 +6,17 @@ date = 2023-06-22
 
 draft = false
 
-imgDescrps = [""]
-imgNames = ["Nature Morte #1"]
+imgDescrps = ["", "digital print, 60x40cm, collage of topografical data, hillshades and elevation maps of region", "print on photo-paper, wooden frame, corrugated board, antireflective glass 60х40 cm, inside Martisa East open-pit mine", "print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 1/3", "print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 2/3", "print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 3/3", "detail from book, old excavator", "detail from book, old excavator", "topographical 3D print-ed map of the mines, with LED backlight", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book"]
+imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)"]
 
 medium = ["фотография", "фотограметрия", "топографски 3D принт", "мулти-канална видео инсталация", "книга"]
 placedate = "Goethe-Institut, Sofia - 22.06–30.07.2023"
 curator = ["Христо Калоянов"]
 categories = ["solo"]
 
-Sound = ["Anton Shishkov"]
+Sound = ["Антон Шишков"]
 +++
+
 
 Nature Morte е мултимедиен проект, който поставя геофилософския въпрос на терен - върху част от критичната инфраструктура на страната, където достъпът е силно ограничен. В опит да се намерят различни подходи за достигане до земния изкоп и неговото визуализиране са използвани отворени данни от сателитни и геоложки изследвания и измервания, чрез които е изградена дигиталната топографията на мините.
 Получените от сателитни изображения визуализации могат да бъдат наречени оперативни, като продължение на въведеното от немския режисьор Харун Фароки „оперативно изображение“, обозначаващо „изображения, които не репрезентират обект, а са част от операция“. А най-кратко настоящата операция може да бъде описана, като философия на терен, проследяваща операцията на минно-геоложката дейност и неизбежно съпътстващата я администрация, предлагаща последващо изриване и изместване на антопоцентричния възглед.

@@ -7,7 +7,7 @@ description = "The exhibition is nomadic in nature, led by the Black Sea, which 
 draft = false
 
 imgDescrps = ["", "acrylic on board, 50x40cm, private collection", "acrylic on board, 70x40cm", "acrylic on canvas, 50x40cm", "acrylic on canvas, 52x37cm", "acrylic on canvas, 40x60cm", "acrylic on canvas, 50x60x1cm", "Acrylic on canvas, 37x54cm", "acrylic on canvas, 50x40x1cm", "acrylic, latex and car paint on board, metal beads, 70x50cm", "acrylic and tempera on frame back, 36x50cm", "acrylic on board, 45x34cm", "acrylic on board, electrical tape, hair, pacading from Caprice Classic Wafers, 50x40cm", "print of photo-manipulated acrylic painting, 50x37cm, 01/04"]
-imgNames = ["Untitled (2016)", "Untitled (2016)", "Untitled (2016)", "Untitled (2018)", "Untitled (2014)", "Untitled (2020)", "Untitled (2017)", "Untitled (2018)", "Untitled (2018)", "Untitled (2017)", "Untitled (2014)", "Untitled (2017)", "Untitled (2018)", "Untitled (2021)"]
+imgNames = ["", "Untitled (2016)", "Untitled (2016)", "Untitled (2016)", "Untitled (2018)", "Untitled (2014)", "Untitled (2020)", "Untitled (2017)", "Untitled (2018)", "Untitled (2017)", "Untitled (2014)", "Untitled (2017)", "Untitled (2018)", "Untitled (2021)"]
 
 medium = ["acrylic painting", "combine painting", "photomanipulated painting"]
 placedate = "“Etude„ gallery (Sofia) - 18-30.10.2021"
