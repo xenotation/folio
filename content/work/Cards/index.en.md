@@ -10,8 +10,11 @@ curator = "Hristo Kaloyanov"
 collaborators = "Aaron Roth"
 categories = ["collab"]
 
-imgNames = ["Untitled (2023)", ""]
-imgDescrps = ["Dual-channel CRT installation, featuring found documents and photography (voice over Emilia Toncheva), 23 minutes, on the photo: exhibition view with an ex-head of Varna’s Sea Port Customs", ]
+imgNames = ["Embargo Dystopia (2023)", "Embargo Dystopia (2023)", "Embargo Dystopia (2023)", "Embargo Dystopia (2023)", "Untitled (2023)", "Untitled (2023)", "Untitled (2023)", "Untitled (2023)", "Untitled (2023)", "Space Frame by Aron Roth (2023)", "Chivas Royal Salute by Aron Roth (2023)", "Postcards and Contraband book"]
+imgDescrps = ["two 120x90cm cardboard conspiracy walls, projection mapping, declassified documents, newspaper clippings, maps, assasination photography", "two 120x90cm cardboard conspiracy walls, projection mapping, declassified documents, newspaper clippings, maps, assasination photography", "exhibition gues reading declassified DEA document on Bulgarian state drug trafficking", "Captagon pill (top-left), logo of State Secret Services during Communism (center), logo for international customs cooperation (top-right)", "Dual-channel CRT installation, featuring found documents and photography (voice over Emilia Toncheva), 23 minutes, on the photo: exhibition view with an ex-head of Varna’s Sea Port Customs", "found personal and operational archive of Directorate for Combating Drug Trafficking agent", "more documents and photographs of drug and currency trafficking", "materail from Bulgarian Customs Agency archive", "post-cards found  in personal archive of agent", "oil on canvas and metal frame 130x100cm (metal structure found on almost all boarder check points in the world)", "oil on canvas 50x50cm (item comanly traded for favors at boarder checks during communist times)", "inside view of the accompaning book"]
+
+sound = "Yan Lechev"
+photo = "Boris Vasilev"
 +++
 
 "Postcards and Contraband" begins by examining a work archive of the Bulgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985. The service notes, photographs, negatives, summaries and reports found mark part of the routine of the Customs Agency work, such as inspection and regulation of transit, but also the diplomatic image the Customs Agency must maintain to the international community.
