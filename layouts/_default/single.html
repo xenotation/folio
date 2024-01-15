@@ -49,30 +49,41 @@
       {{ end }}
       </div>
 
-      <!-- Three sections in grey below the title -->
-      <div class="people">
-        {{ with .Params.curator }}
-        <p>{{ i18n "Curator" }}<br>{{ . }}</p>
-        {{ end }}
-        
-        <!-- Collaborators section -->
-        <div class="collaborators">
-          {{ with .Params.collaborators }}
-            <p>
-              {{ i18n "Collaborators" }}<br>
-              {{ $collaborators := split . "," }}
-              {{ range $collaborators }}
-                {{ . }}<br>
-              {{ end }}
-            </p>
+      <!-- Three sections in grey below the title -->     
+        <div class="people">
+          <div class="collaborators">
+            {{ with .Params.collaborators }}
+              <p>
+                {{ i18n "Collaborators" }}<br>
+                {{ range . }}
+                  {{ . }}<br>
+                {{ end }}
+              </p>
+            {{ end }}
+          </div>    
+          
+          {{ with .Params.curator }}
+          <p>{{ i18n "Curator" }}<br>
+            {{ range . }}
+            {{ . }}<br>
           {{ end }}
-        </div>    
+          </p>
+          {{ end }}
 
         {{ with .Params.sound }}
-        <p>{{ i18n "Sound" }}<br>{{ . }}</p>
+        <p>
+          {{ i18n "Sound" }}<br>
+          {{ range . }}
+          {{ . }}<br>
+        {{ end }}
+        </p>
         {{ end }}
         {{ with .Params.photo }}
-        <p>{{ i18n "Photo" }}<br>{{ . }}</p>
+        <p>{{ i18n "Photo" }}<br>
+          {{ range . }}
+          {{ . }}<br>
+        {{ end }}
+        </p>
         {{ end }}
       </div>      
     </div>

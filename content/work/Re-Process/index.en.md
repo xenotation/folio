@@ -11,8 +11,9 @@ imgDescrps = ["Photo-print 100х100cm, private collection", "Photo-print 60х40�
 
 medium = ["photography", "video game", "fictional tourist map"]
 placedate = "Arhis Gallery, Varna - 21.05-05.06.2022"
-curator = "Hristo Kaloyanov"
+curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
+Sound = ["Yan Lechev"]
 +++
 
 "RE:PROCESS" exhibits photographs of everyday urban objects. In the construction and deconstruction traces can be found upon the urban surface, a peculiar language, through which different modalities of appearance are formed and unfolded. Easily found but tough tо comprehend the signs, grilles, and hanging cables will be our entrance to a forgotten archive of urban fabric.

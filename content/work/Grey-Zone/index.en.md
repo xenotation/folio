@@ -7,7 +7,7 @@ draft = false
 description = "Gray Zone Dispositive is a massive photogrammetry recreatingthe urban space of Varna. Based on satellite images of the city, it presents its double."
 medium = ["video game", "3D kit-bashed photogrammetry"]
 placedate = "The Marix - 28.04.2022"
-collaborators = "SABA PRODAKTION, Peter Chinovsky, Isabelle Nesheva, Sofia Dimova, Sara Postolle, Martijn De Geele, Orlin Dvoryanov, Agathe de Limoges & Victor Delétraz, Elena Chergilanova"
+collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofia Dimova", "Sara Postolle", "Martijn De Geele", "Orlin Dvoryanov", "Agathe de Limoges & Victor Delétraz", "Elena Chergilanova"]
 
 categories = ["collab"]
 

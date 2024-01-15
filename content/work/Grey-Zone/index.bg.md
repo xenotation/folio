@@ -7,7 +7,7 @@ draft = false
 description = "Сива зона / Диспозитив е масивна фотограметрия, пресъздаваща градското пространство на Варна. Въз основа на сателитни изображения на града тя представя неговия двойник."
 medium = ["видео игра", "3D китбаш фотограметрия"]
 placedate = "The Marix - 28.04.2022"
-collaborators = "SABA PRODAKTION, Петър Чиновски, Изабел Нешева, София Димова, Sara Postolle, Martijn De Geele, Орлин Дворянов, Agathe de Limoges & Victor Delétraz, Елена Чергиланова"
+collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofia Dimova", "Sara Postolle", "Martijn De Geele", "Orlin Dvoryanov", "Agathe de Limoges & Victor Delétraz", "Elena Chergilanova"]
 
 categories = ["collab"]
 +++

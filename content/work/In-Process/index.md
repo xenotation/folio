@@ -10,7 +10,7 @@ imgDescrps = ["2021, print on XXXX paper, 100x100 cm, private collection", "2021
 
 medium = ["photography", "photo-book"]
 placedate = "KO-OP Gallery, Sofia - 06-16.01.2021"
-curator = "Hristo Kaloyanov"
+curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
 +++
 

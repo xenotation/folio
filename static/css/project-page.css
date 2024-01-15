@@ -52,9 +52,8 @@
 }
 
 .people {
-    margin-top: 0.7rem;
+    margin-block-start: 3rem;
 }
-
 
 .body-columns {
     columns: 2;
