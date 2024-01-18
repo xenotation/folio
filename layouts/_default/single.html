@@ -121,9 +121,10 @@
         "name": "{{ $title }}"
         "author": {
           "@type": "Person",
-          "name": "{{ .Site.Title }}",
-          "url": "/bio"
+          "name": "{{ $.Site.Title }}",
+          "url": "{{ $.Site.BaseURL }}"
         }
+        
       }
     </script>
 
