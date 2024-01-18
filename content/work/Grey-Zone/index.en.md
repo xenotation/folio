@@ -1,7 +1,7 @@
 +++
 title = 'Grey Zone/Dispositive'
 
-date = 2022-04-28
+date = 2022-04-28T23:30:59+02:00
 draft = false
 
 description = "Gray Zone Dispositive is a massive photogrammetry recreatingthe urban space of Varna. Based on satellite images of the city, it presents its double."

@@ -1,6 +1,6 @@
 +++
 title = 'In:Process'
-date = 2021-01-16
+date = 2021-01-16T23:05:59+02:00
 description = "The drive to capture the city as an affective totality"
 
 draft = false

@@ -2,7 +2,7 @@
 title = "Nature Morte"
 
 description = "A multimedia project dealing with the concept of geotrauma in the context of the Martisa Mining complex."
-date = 2023-06-22
+date = 2023-06-22T23:05:59+02:00
 
 draft = false
 

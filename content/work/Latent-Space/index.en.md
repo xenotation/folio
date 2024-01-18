@@ -1,7 +1,7 @@
 +++
 title = 'Latent Space'
 
-date = 2022-09-09
+date = 2022-09-09T23:15:59+02:00
 draft = false
 
 description = "A is where the gaze of artificial intelligence itself draws a picturesque horizon, delving into the hidden rooms of secret research facilities, investigative organizations, classified databases."

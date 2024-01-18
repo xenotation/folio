@@ -1,6 +1,6 @@
 +++
 title = 'Postcards and Contraband'
-date = 2023-09-07
+date = 2023-09-07T23:30:59+02:00
 description = "An examining a work archive of the Bulgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
 
 type = "artwork"
