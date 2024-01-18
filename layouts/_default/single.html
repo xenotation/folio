@@ -119,6 +119,14 @@
         "contentUrl": "{{ $image.RelPermalink }}",
         "description": "{{ $description }}",
         "name": "{{ $title }}"
+        "height": "{{ $image.Height }}",
+        "width": "{{ $image.Width}}"
+        "author": {
+          "author": {
+            "@type": "Person",
+            "name": "{{ .Site.Title }}",
+            "url": "/bio"
+        }        
       }
     </script>
 
