@@ -1,7 +1,7 @@
 ---
 title: "biography"
 
-description: "A visual artist and machine philosopher hailing from Varna, Bulgaria, seamlessly traverses the boundary between research-based and speculative practices."
+description: "A visual artist and machine philosopher from Varna, Bulgaria, on the boundary of research-based and speculative practices."
 profileImage: "/images/spinner.webp"
 ---
 
@@ -14,4 +14,4 @@ email → [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)</br>
 instagram → [@avoid.nd](https://www.instagram.com/avoid.nd/)</br>
 facebook → [av0id.nd](https://www.facebook.com/av0id.nd/").
 
-[Technical Details and copyright](/tech-spec/tech-spec).
+[Technical Details and Inprint](/tech-spec/tech-spec).

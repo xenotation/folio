@@ -28,7 +28,7 @@ category = "categories"
     title = 'Nikola Stoyanov'
     weight = "1"
       [languages.en.params]
-      Description = "Personal Porfolio of Nikola Stoyanov"
+      Description = "Artist Porfolio of Nikola Stoyanov"
       [[languages.en.menu.main]]
       url    = "/work/"
       name   = "work"
@@ -48,7 +48,7 @@ category = "categories"
     weight = "2"
     title = 'Никола Стоянов'
       [languages.bg.params]
-      Description = "Портфолио Никола Стоянов"
+      Description = "Портфолио на визуалния артист Никола Стоянов"
       [[languages.bg.menu.main]]
       url    = "/bg/work/"
       name   = "проекти"

@@ -111,6 +111,17 @@
     {{ $title := index $.Params.imgNames $index }}
     {{ $description := index $.Params.imgDescrps $index }}
     
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "url": "{{ $image.Permalink }}",
+        "contentUrl": "{{ $downsampledImg.RelPermalink }}",
+        "description": "{{ $description }}",
+        "name": "{{ $title }}"
+      }
+    </script>
+
     {{ if ne $image.Name "hero.webp" }}
       {{ $downsampledImg := $image.Resize "420x" }}
       <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ $description }}" alt="{{ $title }}">
