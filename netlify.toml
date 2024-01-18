@@ -124,6 +124,11 @@
 
 [[redirects]]
   from = "/music-for-a-new-nightlife/"
-  to = "https://newdegeneration.xyz/work/grey-zone/"
+  to = "https://newdegeneration.xyz/work/music-for-a-new-nighlife/"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "/404"
+  to = "https://newdegeneration.xyz/404"
+  status = 404
