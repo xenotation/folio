@@ -149,6 +149,46 @@ a:hover {
     object-fit:cover;
     transition: opacity 5s ease;
 }
+/* Text overlay */
+/* @keyframes overlayfade {
+    0% {
+        filter: blur(100px) drop-shadow(0 0 0.75rem #cec7f5);
+        font-family: "Ready-Bygone";
+    }
+    30% {
+        filter: blur(0px) drop-shadow(0 0 1rem #cec7f5);
+        font-family: "Ready-Bygone";
+    }
+    60% {
+        filter: blur(100px) drop-shadow(0 0 0.75rem #cec7f5);
+        font-family: "Ready-Clouded";
+    }
+    90% {
+        filter: blur(0px) drop-shadow(0 0 2rem #cec7f5);
+        font-family: "Ready-Clouded";
+    }
+    100% {
+        filter: blur(100px) drop-shadow(0 0 0.5rem #cec7f5);
+        font-family: "Ready-Bygone";
+    }
+}
+
+/* Overlay styles */
+.overlay {
+    object-fit: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    overflow: visible;
+    color: var(--bg-color);
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    animation: overlayfade 10s infinite; /* Apply fade effect */
+    filter: drop-shadow(0 0 0.75rem #cec7f5);
+} */
+
+
 
 @media (max-width: 800px) {
     .video-container video {
