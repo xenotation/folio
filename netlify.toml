@@ -128,6 +128,97 @@
   status = 301
   force = true
 
+
+[[redirects]]
+  from = "/tag/translations/"
+  to = "https://blog.newdegeneration.xyz/tag/translations/"
+  status = 301
+  force = true
+ 
+ [[redirects]]
+  from = "/about"
+  to = "https://blog.newdegeneration.xyz/about"
+  status = 301
+  force = true
+ 
+  [[redirects]]
+  from = "/tag/геотравма/"
+  to = "https://blog.newdegeneration.xyz/tag/геотравма/"
+  status = 301
+  force = true
+ 
+  [[redirects]]
+  from = "/tag/graham-harman/"
+  to = "https://blog.newdegeneration.xyz/tag/graham-harman/"
+  status = 301
+  force = true
+ 
+  [[redirects]]
+  from = "/tag/graham-harman/"
+  to = "https://blog.newdegeneration.xyz/tag/graham-harman/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/xenofeminism/"
+  to = "https://blog.newdegeneration.xyz/xenofeminism"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/акселерационизъм/"
+  to = "https://blog.newdegeneration.xyz/tag/акселерационизъм/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/xenoglasia/"
+  to = "https://blog.newdegeneration.xyz/tag/xenoglasia/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/accelaration/"
+  to = "https://blog.newdegeneration.xyz/tag/accelaration/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/аселерационизъм/"
+  to = "https://blog.newdegeneration.xyz/tag/аселерационизъм/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/xeno/"
+  to = "https://blog.newdegeneration.xyz/tag/xeno/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/japan/"
+  to = "https://blog.newdegeneration.xyz/tag/japan/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/theory-fiction/"
+  to = "https://blog.newdegeneration.xyz/tag/theory-fiction/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/theory/"
+  to = "https://blog.newdegeneration.xyz/tag/theory/"
+  status = 301
+  force = true
+
+  [[redirects]]
+  from = "/tag/coronavirus/"
+  to = "https://blog.newdegeneration.xyz/tag/coronavirus/"
+  status = 301
+  force = true
+
   [[redirects]]
   from = "/404"
   to = "https://newdegeneration.xyz/404"
