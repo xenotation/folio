@@ -21,20 +21,22 @@
   <!-- HERO -->
   <div class="hero-container">
     {{ with .Resources.GetMatch "hero.mp4" }}
-    <video autoplay="true" muted="true" class="featured-video">
-      <source src="{{ . }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  {{ else }}
-    <!-- If it's not a video, assume it's an image -->
-    {{ with .Resources.GetMatch "hero.webp"}}
-    {{ $resizedHero := .Fill "1390x420 Center " }}
-    {{ with $.Page.Params.description }}
-    <img src="{{ $resizedHero.RelPermalink }}" alt="{{ . | safeHTML }}" class="featured-image">
+      <video autoplay="true" muted="true" class="featured-video">
+        <source src="{{ . }}" type="video/mp4">
+        {{ $resizedHero := $.Resources.GetMatch "hero.webp" | default . }}
+        <img src="{{ $resizedHero.Fill "1390x420 Center" | relURL }}" title="Your browser does not support the <video> tag" />
+      </video>
+    {{ else }}
+      <!-- If it's not a video, assume it's an image -->
+      {{ with .Resources.GetMatch "hero.webp" }}
+        {{ $resizedHero := .Fill "1390x420 Center" }}
+        {{ with $.Page.Params.description }}
+          <img src="{{ $resizedHero.RelPermalink }}" alt="{{ . | safeHTML }}" class="featured-image">
+        {{ end }}
+      {{ end }}
     {{ end }}
-{{ end }}
-{{ end }}
-</div>
+  </div>
+  
 
   <!-- Two columns layout -->
   <div class="project-columns">

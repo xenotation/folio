@@ -15,10 +15,7 @@ body {
     color: var(--text-color);
     margin: 0;
     hyphens:auto;
-    /* line-height: 1.35; */
     letter-spacing: 0.05rem;
-    transition: font 0.5s ease; /* Smooth transition for font change */
-    /* animation: blurAnimation 2s; */
 }
 /* Hide Scroll Bar */
 body {
@@ -68,11 +65,8 @@ a {
     /* text-decoration: none; */    
     color: var(--text-color);
 }
-/* Link Hover */
-a:hover {
-    filter: blur(0px);
-    transition: ease-in-out 5s;
-}
+
+
 main a {
     background-image: linear-gradient(transparent, var(--primary-color), transparent);
 }
@@ -134,8 +128,6 @@ body {
 a:hover {
     animation: blurAnimation 5s ease-in-out;
 }
-
-
 
 /* MISC PAGES */
 /* LANDER */
@@ -239,7 +231,7 @@ a:hover {
     animation: bg-animation .2s infinite;
     opacity: 0.55;
     visibility: visible;
-    pointer-events: none
+    pointer-events: none;
   }
   
   @keyframes bg-animation {
