@@ -51,11 +51,11 @@ category = "categories"
       Description = "Портфолио на визуалния артист Никола Стоянов"
       [[languages.bg.menu.main]]
       url    = "/bg/work/"
-      name   = "проекти"
+      name   = "труд"
       weight = 1
       [[languages.bg.menu.main]]
       url    = "/bg/bio/"
-      name   = "биография"
+      name   = "био"
       weight = 2
       [[languages.bg.menu.main]]
       url    = "https://blog.newdegeneration.xyz/"

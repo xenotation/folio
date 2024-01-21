@@ -115,7 +115,8 @@
 
             .featured-image {
                 width: auto;
-                max-height: 50vh;
+                height: auto;
+                max-height: 80vh;
                 object-fit:cover;
                 display: block;
                 margin: 0 auto; /* Center horizontally */
@@ -128,11 +129,6 @@
                 display: block;
                 margin: auto;
                 position: relative;
-            }
-            
-    .featured-video {
-
-    }
-    
+            }    
 
 }

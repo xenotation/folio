@@ -28,25 +28,44 @@ header a {
 }
 
 @media (max-width: 800px) {
-header {
-    margin: 1.2rem 2rem 1.2rem 2rem;
-}
-    .name-title,
-    .custom-title {
-        margin-left: 0;
-        display: block;
-        text-align: center;
-        font-size: 1.248rem;
-        word-wrap: normal;
-        }
-    .nav h1,
-    .title-container h1 {
-        margin: 0 0 0 0;
-        text-align: right;
-        font-size: 1.248rem;
-        word-wrap: none;
+    header {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Add this line for spacing between title and navigation */
     }
+
+    .title-container {
+        flex: 1;
+
+        text-align: left;
+        align-items: center;
+    }
+
     .name-title {
-        margin-bottom: 0.5rem;
+        display: block;
+        text-align: left;
+        align-items: center;
+    }
+
+    /* Adjust the following based on your actual navigation structure and classes */
+    .nav {
+        text-align: right;
+        margin: 0;
+        align-items: top;
+
+    }
+    .nav h1 {
+        margin: 0;
+        text-align: right;
+        align-items: top;
+    }
+    .custom-title {
+        display: none;
+    }
+    
+    .title-container h1 {
+        margin: 0;
     }
 }
+
