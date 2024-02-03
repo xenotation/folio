@@ -93,15 +93,25 @@
         flex-direction: column;
     }
 
-    .placedate,
-    h1 {
+    .left-column h1 {
         text-align: center;
-        margin-top: 1.2rem;
     }
 
     .placedate {
-        margin-top: 0.5rem;
-        margin-bottom: 5rem;
+        text-align:center;
+        margin-bottom: 4.244rem;
+        margin-top: 1.08rem;
+    }
+
+    
+    .people {
+        display: none;
+
+    }
+    .medium-text {
+        font-size: 1rem;
+        line-height: 1rem;
+        max-width: 12rem;
     }
 
     .people,
