@@ -20,10 +20,10 @@
 
   <!-- HERO -->
   <div class="hero-container">
-    {{ with .Resources.GetMatch "hero.mp4" }}
+    {{ with .Resources.GetMatch "hero.webm" }}
       {{ $poster := $.Resources.GetMatch "hero.webp" | default "" | absURL }}
       <video autoplay="true" muted="true" class="featured-video" poster="{{ $poster }}">
-        <source src="{{ . }}" type="video/mp4">
+        <source src="{{ . }}" type="video/webm">
       </video>
     {{ else }}
       <!-- If it's not a video, assume it's an image -->
