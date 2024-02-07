@@ -6,29 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
         // Set the new video source
         videoElement.src = '/images/' + randomVideo;
 
-        // Preload the next video
-        preloadNextVideo(videoElement, videoFiles);
-
         // Play the video
         videoElement.play();
-    }
-
-    function preloadNextVideo(videoElement, videoFiles) {
-        // Get a random video filename for preloading
-        var randomVideo = videoFiles[Math.floor(Math.random() * videoFiles.length)];
-
-        // Create a new video element for preloading
-        var nextVideoElement = document.createElement('video');
-        nextVideoElement.src = '/images/' + randomVideo;
-        nextVideoElement.preload = 'auto';
-
-        // Remove the next video element after preloading (optional)
-        nextVideoElement.addEventListener('loadeddata', function () {
-            nextVideoElement.remove();
-        });
-
-        // Append the next video element to the document body for preloading
-        document.body.appendChild(nextVideoElement);
     }
 
     // Get all elements with the 'video-container' class
