@@ -9,20 +9,32 @@
     "url": "{{ .Permalink }}",
     "description": "{{ .Description }}",
     "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
-    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ end }}",
+    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .Permalink }}{{ end }}",
     "author": {
       "@type": "Person",
       "name": "{{ .Site.Title }}",
-      "url": "/bio"
+      "url": "{{ .Site.BaseURL }}/bio"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ .Site.BaseURL }}/images/spinner.webp",
+        "width": 600,
+        "height": 60
+      }
     }
   }
-  </script>
+</script>
+
 
   <!-- HERO -->
   <div class="hero-container">
     {{ with .Resources.GetMatch "hero.webm" }}
       {{ $poster := $.Resources.GetMatch "hero.webp" | default "" | absURL }}
-      <video autoplay="true" muted="true" class="featured-video" poster="{{ $poster }}">
+      <video autoplay="true" muted="true" loop="true" class="featured-video" poster="{{ $poster }}">
         <source src="{{ . }}" type="video/webm">
       </video>
     {{ else }}
