@@ -9,10 +9,11 @@
     "url": "{{ .Permalink }}",
     "description": "{{ .Description }}",
     "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
-    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .Permalink }}{{ end }}",
-    "license": "{{ .Site.BaseURL }}/tech-spec/tech-spec/",
-    "acquireLicensePage": "{{ .Site.BaseURL }}/tech-spec/tech-spec/",
-    "creditText": "{{ $.Site.Title }}",
+    "image": [
+      {{ range .Resources.ByType "image" }}
+      "{{ .RelPermalink }}",
+      {{ end }}
+    ],
     "author": {
       "@type": "Person",
       "name": "{{ .Site.Title }}",
@@ -24,11 +25,12 @@
       "url": "{{ .Site.BaseURL }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ .Site.BaseURL }}/images/spinner.webp",
+        "url": "{{ .Site.BaseURL }}/images/spinner.webp"
       }
     }
   }
 </script>
+
 
 
   <!-- HERO -->
