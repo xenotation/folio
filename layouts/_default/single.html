@@ -13,7 +13,7 @@
     "image": [
       {{ range .Resources.ByType "image" }}
       "{{ .RelPermalink }}",
-      {{ end }}
+      {{ end }},
       "creditText": "{{ $.Site.Title }}",
       "creator": {
         "@type": "Person",
