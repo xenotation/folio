@@ -10,6 +10,9 @@
     "description": "{{ .Description }}",
     "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
     "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .Permalink }}{{ end }}",
+    "license": {{ .Site.BaseURL }}/tech-spec/tech-spec/,
+    "acquireLicensePage": {{ .Site.BaseURL }}/tech-spec/tech-spec/,
+    "creditText": {{ $.Site.Title }},
     "author": {
       "@type": "Person",
       "name": "{{ .Site.Title }}",
