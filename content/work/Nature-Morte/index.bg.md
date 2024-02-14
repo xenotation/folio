@@ -10,7 +10,8 @@ imgDescrps = ["", "digital print, 60x40cm, collage of topografical data, hillsha
 imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)"]
 
 medium = ["фотография", "фотограметрия", "топографски 3D принт", "мулти-канална видео инсталация", "книга"]
-placedate = "Goethe-Institut, Sofia - 22.06–30.07.2023"
+place = "Goethe-Institut, Sofia"
+dateof = "22.06–30.07.2023"
 curator = ["Христо Калоянов"]
 categories = ["solo"]
 

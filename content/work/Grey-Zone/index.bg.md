@@ -6,7 +6,8 @@ draft = false
 
 description = "Сива зона / Диспозитив е масивна фотограметрия, пресъздаваща градското пространство на Варна. Въз основа на сателитни изображения на града тя представя неговия двойник."
 medium = ["видео игра", "3D китбаш фотограметрия"]
-placedate = "The Marix - 28.04.2022"
+place = "The Matrix"
+dateof = "28.04.2022"
 collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofia Dimova", "Sara Postolle", "Martijn De Geele", "Orlin Dvoryanov", "Agathe de Limoges & Victor Delétraz", "Elena Chergilanova"]
 
 imgDescrps = ["изглед към община Варна", "изглед към хотел Черно Море", "изглед към църква Успение Богородично", "излед към града", "начална точка на съня", "неевклидови вариации на варненските улици", "сцена от вритуални свят"]

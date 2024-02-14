@@ -157,46 +157,53 @@
               {{ end }}
           </ul>
       </div>
-
-          {{/*THird collum pubications and talks    */}}
-          <div class="column">
-            <h2>{{ T "PubLect" }}</h2>
-
-              {{ $pubList := .Site.Data.publist }}
-              {{ $years := slice }} <!-- Initialize a slice to hold unique years -->
-              {{ range $pubList }}
-                {{ $year := .year }}
-                {{ if and $year (not (in $years $year)) }}
-                  {{ $years = $years | append $year }} <!-- Add the year to the list of unique years -->
-                  <p>{{ $year }}</p>
-                  <div class="publect">
-                  <ul>
-                    {{ range where $pubList "year" $year }}
-                      <li>
-                        {{ $nameEn := .nameen }}
-                        {{ $nameBg := .namebg }}
-                        {{ $link := .link }}
-                        {{ $descriptionEn := .descriptionen }}
-                        {{ $descriptionBg := .descriptionbg }}
-                        
-                        {{ if ne $link "" }}
-                          <h3><a href="{{ $link }}">{{ if eq $.Site.Language.Lang "bg" }}{{ $nameBg }}{{ else }}{{ $nameEn }}{{ end }}</a></h3>
-                        {{ else }}
-                          <h3>{{ if eq $.Site.Language.Lang "bg" }}{{ $nameBg }}{{ else }}{{ $nameEn }}{{ end }}</h3>
-                        {{ end }}
-                        
-                        {{ if ne $descriptionEn "" }}
-                          <p>{{ if eq $.Site.Language.Lang "bg" }}{{ $descriptionBg }}{{ else }}{{ $descriptionEn }}{{ end }}</p>
-                        {{ end }}
-                      </li>
-                    {{ end }}
-                  </ul>
-                  </div>
+{{/* Third column publications and talks */}}
+<div class="column">
+    <h2>{{ T "PubLect" }}</h2>
+    {{ $pubList := .Site.Data.publist }}
+    {{ $years := slice }} <!-- Initialize a slice to hold unique years -->
+    {{ range $pubList }}
+      {{ $year := .year }}
+      {{ if and $year (not (in $years $year)) }}
+        {{ $years = $years | append $year }} <!-- Add the year to the list of unique years -->
+        <p>{{ $year }}</p>
+        <div class="publect">
+          <ul>
+            {{ range where $pubList "year" $year }}
+              <li>
+                {{ $nameEn := .nameen }}
+                {{ $nameBg := .namebg }}
+                {{ $link := .link }}
+                {{ $descriptionEn := .descriptionen }}
+                {{ $descriptionBg := .descriptionbg }}
+                
+                <h3>
+                  {{ if ne $link "" }}
+                    <a href="{{ $link }}">
+                  {{ end }}
+                  {{ if and $nameEn $nameBg }}
+                    {{ if eq $.Site.Language.Lang "bg" }}{{ $nameBg }}{{ else }}{{ $nameEn }}{{ end }}
+                  {{ else if $nameEn }}
+                    {{ $nameEn }}
+                  {{ else if $nameBg }}
+                    {{ $nameBg }}
+                  {{ end }}
+                  {{ if ne $link "" }}
+                    </a>
+                  {{ end }}
+                </h3>
+                
+                {{ if ne $descriptionEn "" }}
+                  <p>{{ if eq $.Site.Language.Lang "bg" }}{{ $descriptionBg }}{{ else }}{{ $descriptionEn }}{{ end }}</p>
                 {{ end }}
-              {{ end }}
-      
-          </div>
-          
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+  
           
           
       </div>

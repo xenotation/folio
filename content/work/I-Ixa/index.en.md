@@ -10,7 +10,8 @@ imgDescrps = ["", "acrylic on board, 50x40cm, private collection", "acrylic on b
 imgNames = ["", "Untitled (2016)", "Untitled (2016)", "Untitled (2016)", "Untitled (2018)", "Untitled (2014)", "Untitled (2020)", "Untitled (2017)", "Untitled (2018)", "Untitled (2017)", "Untitled (2014)", "Untitled (2017)", "Untitled (2018)", "Untitled (2021)"]
 
 medium = ["acrylic painting", "combine painting", "photomanipulated painting"]
-placedate = "“Etude„ gallery (Sofia) - 18-30.10.2021"
+place = "“Etude„ gallery (Sofia)"
+dateof = "18-30.10.2021"
 
 categories = ["solo"]
 +++

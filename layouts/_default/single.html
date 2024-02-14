@@ -62,9 +62,18 @@
       <h1>{{ .Title }}</h1>
 
       <div class="placedate">        
-        {{ with .Params.placedate }}
+        {{ with .Params.place }}
         <p>{{ . }}</p>
       {{ end }}
+        {{ with .Params.dateof }}
+        <p>{{ . }}</p>
+      {{ end }}
+      {{ with .Params.place1 }}
+      <p>{{ . }}</p>
+    {{ end }}
+      {{ with .Params.dateof1 }}
+      <p>{{ . }}</p>
+    {{ end }}
       </div>
 
       <!-- Three sections in grey below the title -->     

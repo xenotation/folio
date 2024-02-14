@@ -11,7 +11,8 @@ imgNames = ["Latent Space #1 (2022)", "Latent Space #2 (2022)", "Latent Space #3
 
 
 medium = ["AI-generated images", "fake acrylic paintings", "theory-fiction dossier", "video installations"]
-placedate = "Doza Gallery, Sofia - 09.09-21.09.2022"
+place = "Doza Gallery, Sofia"
+dateof = "09.09-21.09.2022"
 curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
 

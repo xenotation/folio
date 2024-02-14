@@ -5,7 +5,8 @@ date = 2019-06-05T23:05:59+02:00
 description = "A cymatic matrix of a city in flux, of its dreams and nightmares and finally of its reality filled with nostalgia."
 
 draft = false
-placedate = "06.2019"
+place = "Talyan Art Fest, Varna"
+dateof = "06.2019"
 medium = ["photo-book"]
 categories = ["solo"]
 

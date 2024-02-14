@@ -42,6 +42,8 @@
         margin-top: 0;
     }
 
+
+
 .medium-text {
     margin-top: 0rem;
     margin-bottom: 1rem;
@@ -75,6 +77,12 @@
     max-width: 100%;
 }
 
+.placedate {
+    margin: 0.5rem 0 0 0;
+}
+.placedate p {
+    margin: 0 0 0 0;
+}
 
 @media only screen and (max-width: 600px) {
     .project-columns {

@@ -6,7 +6,8 @@ draft = true
 medium = [""]
 categories = [""]
 
-placedate = ""
+place = ""
+dateof = ""
 
 curator = ""
 collaborators = ""

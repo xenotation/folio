@@ -1,7 +1,7 @@
 [
   {
     "nameen": "On the Border of Life",
-    "namebg": "На Границата на Живота",
+
     "link": "",
     "descriptionen": "Upcoming article in “BORDERS” Simulacrum Magazine, Amsterdam",
     "descriptionbg": "Предстояща статия в списание \"BORDERS\", Симулакрален Магазин, Амстердам",
@@ -16,7 +16,7 @@
     "year": "2023"
   },
   {
-    "nameen": "Theoretical fictions and paraliterature",
+    "nameen": "Theoretical fictions and para-literature",
     "namebg": "Теоретични Фикции и Паралитература",
     "link": "https://culturecenter-su.org/ochevidnoto-programa/",
     "descriptionen": "Talk given at \"Genres in Paraliterature\" conference, hosted by Literature Theory departments of \"St. Kliment Ohridski\" University and Bulgarian Science Association",
@@ -69,6 +69,6 @@
     "link": "https://laboriacuboniks.net/manifesto/ksenofeminiza-politika-na-otchuzhdenie/",
     "descriptionen": "Bulgarian translation for Laboria Cubonics Collective",
     "descriptionbg": "Български превод за Колективната Лабория Кубоникс",
-    "year": "2024"
+    "year": "2020"
   }
 ]
