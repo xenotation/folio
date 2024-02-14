@@ -13,7 +13,7 @@
     "image": [
       "@type": "ImageObject",
       {{ range .Resources.ByType "image" }}
-      "{{ .RelPermalink }}",
+      "{{ .RelPermalink }}"
       {{ end }}
     ],
     "author": {
