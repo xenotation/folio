@@ -9,9 +9,19 @@
     "url": "{{ .Permalink }}",
     "description": "{{ .Description }}",
     "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
+   
     "image": [
       {{ range .Resources.ByType "image" }}
-      "{{ .RelPermalink }}",
+      {
+        "@type": "ImageObject",
+        "url": "{{ .RelPermalink }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ .Site.Title }}",
+          "url": "{{ .Site.BaseURL }}/bio"
+        },
+        "license": "{{ .Site.BaseURL }}/tech-spec/tech-spec"
+      },
       {{ end }}
     ],
     "author": {
