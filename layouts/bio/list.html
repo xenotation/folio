@@ -32,8 +32,8 @@
       <div class="right-column-container">
         <!-- Column 1: Solo Category Posts -->
         <div class="column">
-          <h1>{{ T "Exhibitions" }}</h1>
-          <h3>2023</h3>
+          <h2>{{ T "Exhibitions" }}</h2>
+          <p>2023</p>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
                   {{ $page := . }}
@@ -41,18 +41,18 @@
                       {{ $year := dateFormat "2006" . }}
                       {{ if eq $year "2023" }}
                           <li>
-                              <h2>
+                              <h3>
                                   {{ with $page.Params.Title }}
                                       <a href="{{ $page.Permalink }}">{{ . }}
                                   {{ end }}
                                   </a>
-                              </h2>
+                              </h3>
                           </li>
                       {{ end }}
                   {{ end }}
               {{ end }}
           </ul>
-          <h3>2022</h3>
+          <p>2022</p>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
                   {{ $page := . }}
@@ -60,19 +60,19 @@
                       {{ $year := dateFormat "2006" . }}
                       {{ if eq $year "2022" }}
                           <li>
-                              <h2>
+                              <h3>
                                   {{ with $page.Params.Title }}
                                       <a href="{{ $page.Permalink }}">{{ . }}
                                   {{ end }}
                                   </a>
-                              </h2>
+                              </h3>
                           </li>
                       {{ end }}
                   {{ end }}
               {{ end }}
           </ul>
 
-          <h3>2021</h3>
+          <p>2021</p>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
                   {{ $page := . }}
@@ -80,19 +80,19 @@
                       {{ $year := dateFormat "2006" . }}
                       {{ if eq $year "2021" }}
                           <li>
-                              <h2>
+                              <h3>
                                   {{ with $page.Params.Title }}
                                       <a href="{{ $page.Permalink }}">{{ . }}
                                   {{ end }}
                                   </a>
-                              </h2>
+                              </h3>
                           </li>
                       {{ end }}
                   {{ end }}
               {{ end }}
           </ul>
 
-          <h3>2019</h3>
+          <p>2019</p>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
                   {{ $page := . }}
@@ -100,12 +100,12 @@
                       {{ $year := dateFormat "2006" . }}
                       {{ if eq $year "2019" }}
                           <li>
-                              <h2>
+                              <h3>
                                   {{ with $page.Params.Title }}
                                       <a href="{{ $page.Permalink }}">{{ . }}
                                   {{ end }}
                                   </a>
-                              </h2>
+                              </h3>
                           </li>
                       {{ end }}
                   {{ end }}
@@ -117,8 +117,8 @@
 
         <!-- Column 2: Collab Category Posts -->
         <div class="column">
-          <h1>{{ T "Collaborations" }}</h1>
-          <h3>2023</h3>
+          <h2>{{ T "Collaborations" }}</h2>
+          <p>2023</p>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "collab-no") }}
                   {{ $page := . }}
@@ -126,18 +126,18 @@
                       {{ $year := dateFormat "2006" . }}
                       {{ if eq $year "2023" }}
                           <li>
-                              <h2>
+                              <h3>
                                   {{ with $page.Params.Title }}
                                       <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
                                   {{ end }}
                                   </a>
-                              </h2>
+                              </h3>
                           </li>
                       {{ end }}
                   {{ end }}
               {{ end }}
           </ul>
-          <h3>2022</h3>
+          <p>2022</p>
           <ul>
               {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "collab-no") }}
                   {{ $page := . }}
@@ -145,12 +145,12 @@
                       {{ $year := dateFormat "2006" . }}
                       {{ if eq $year "2022" }}
                           <li>
-                              <h2>
+                              <h3>
                                   {{ with $page.Params.Title }}
                                       <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
                                   {{ end }}
                                   </a>
-                              </h2>
+                              </h3>
                           </li>
                       {{ end }}
                   {{ end }}
@@ -158,47 +158,47 @@
           </ul>
       </div>
 
-          
-        <!-- Column 3: Hard-coded Papers -->
-        <div class="column">
-          <h1>{{ T "PubLect" }}</h1>
-          <ul>
-              <h3>2023</h3>
-                <li>
-                  <h2><a href=""></a>"On the Border of Life"</h2>
-                  <h4>Upcoming article in “BORDERS” Simulacrum Magazine, Amsterdam</h4>
-                  <h2><a href="https://culturecenter-su.org/ochevidnoto-programa/">"Paranoid Semiotics"</a></h2>
-                  <h4>talk given at "The Evident" conference, hosted by Culture Center "St. Kliment Ohridski" University</h4>
-                  <h2><a href="https://culturecenter-su.org/ochevidnoto-programa/">"Theoretical fictions and paraliterature"</a></h2>
-                  <h4>talk given at "Genres in Paraliterature" conference, hosted by Literature Theory deparments of "St. Kliment Ohridski" University and Bulgarian Science Association</h4>
-                </li>
-              <h3>2022</h3>
-                <li>
-                  <h2><a href="https://www.journalforsocialvision.org/bg/post/mesta-na-ekologichna-istoria">"Places of Ecological History"</a></h2>
-                  <h4>in "Jornal for Social Vision", Sofia</h4>
-                </li>
-                <li>
-                  <h2><a href="https://potayniche.com/shop/konceptualni/%d1%81%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b4%d0%b5%d1%80%d0%b7%d0%b0%d0%b9-dare-zine-%d0%b1%d1%80%d0%be%d0%b9-3/">"The Ontological Status of Generative Art and its Meaning"</a></h2>
-                  <h4>article in "Дерзай" magazine</h4>
-                </li>
-              <h3>2021</h3>
-                <li>
-                  <h2><a href="https://www.newasocialpoetry.com/translations/anne-sexton-ubivaneto-na-liubovta">“Killing the love”, An Sexton</a></h2>
-                  <h4>Bulgarian translation for "Нова Асоциална Поезия"</h4>
-                  <h2><a href="https://www.facebook.com/events/%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B5%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8-%D0%B4%D0%BE%D0%BC/%D0%BD%D0%B0%D0%B7%D0%B0%D0%B4-%D0%BA%D1%8A%D0%BC-%D0%B1%D1%8A%D0%B4%D0%B5%D1%89%D0%B5%D1%82%D0%BE-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%BA%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%8F%D1%82-%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D1%8A%D0%BC-%D0%BD%D0%B0-%D0%BC%D0%B0%D1%80%D0%BA-%D1%84%D0%B8%D1%88%D1%8A%D1%80/309269437365958/">"Accelarationism Today"</a></h2>
-                  <h4>Talk given at book presentaion for Mark Fisher's "Capitalist Realism" hosted by "KOI" books publishing</h4>
-                  <h2><a href="https://novasocialnapoezia.eu/2021/04/30/nikola-stoianov-ot-viezli/">“Knots”, R.D. Laing</a></h2>
-                  <h4>Bulgarian translation for "Нова Социална Поезия"</h4>
-                </li>
-              <h3>2020</h3>
-                <li>
-                  <h2><a href="https://laboriacuboniks.net/manifesto/ksenofeminiza-politika-na-otchuzhdenie/">“Xenofeminist Manifesto”</a></h2>
-                  <h4>Bulgarin translation for Laboria Cubonics Collective</h4>
-                </li>
-                      
+          {{/*THird collum pubications and talks    */}}
+          <div class="column">
+            <h2>{{ T "PubLect" }}</h2>
 
-          </ul>
-        </div>
+              {{ $pubList := .Site.Data.publist }}
+              {{ $years := slice }} <!-- Initialize a slice to hold unique years -->
+              {{ range $pubList }}
+                {{ $year := .year }}
+                {{ if and $year (not (in $years $year)) }}
+                  {{ $years = $years | append $year }} <!-- Add the year to the list of unique years -->
+                  <p>{{ $year }}</p>
+                  <div class="publect">
+                  <ul>
+                    {{ range where $pubList "year" $year }}
+                      <li>
+                        {{ $nameEn := .nameen }}
+                        {{ $nameBg := .namebg }}
+                        {{ $link := .link }}
+                        {{ $descriptionEn := .descriptionen }}
+                        {{ $descriptionBg := .descriptionbg }}
+                        
+                        {{ if ne $link "" }}
+                          <h3><a href="{{ $link }}">{{ if eq $.Site.Language.Lang "bg" }}{{ $nameBg }}{{ else }}{{ $nameEn }}{{ end }}</a></h3>
+                        {{ else }}
+                          <h3>{{ if eq $.Site.Language.Lang "bg" }}{{ $nameBg }}{{ else }}{{ $nameEn }}{{ end }}</h3>
+                        {{ end }}
+                        
+                        {{ if ne $descriptionEn "" }}
+                          <p>{{ if eq $.Site.Language.Lang "bg" }}{{ $descriptionBg }}{{ else }}{{ $descriptionEn }}{{ end }}</p>
+                        {{ end }}
+                      </li>
+                    {{ end }}
+                  </ul>
+                  </div>
+                {{ end }}
+              {{ end }}
+      
+          </div>
+          
+          
+          
       </div>
     </div>      
   </div>
