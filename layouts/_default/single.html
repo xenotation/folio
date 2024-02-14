@@ -14,11 +14,6 @@
       {{ range .Resources.ByType "image" }}
       "{{ .RelPermalink }}",
       {{ end }}
-      "creator": {
-        "@type": "Person",
-        "name": "{{ .Site.Title }}"
-      },
-
     ],
     "author": {
       "@type": "Person",
