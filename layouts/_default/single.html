@@ -11,6 +11,7 @@
     "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
    
     "image": [
+      "@type": "CreativeWork",
       {{ range .Resources.ByType "image" }}
       "{{ .RelPermalink }}",
       {{ end }}
