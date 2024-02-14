@@ -14,8 +14,6 @@
       {{ range .Resources.ByType "image" }}
       "{{ .RelPermalink }}",
       {{ end }}
-      "license": "kur",
-      "acquireLicensePage": "kur",
       "creditText": "{{ $.Site.Title }}",
       "creator": {
         "@type": "Person",
