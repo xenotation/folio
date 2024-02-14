@@ -6,7 +6,7 @@ copyright_url = "/tech-spec/tech-spec/"
   filename = "sitemap.xml"
   enableRobotsTXT = true
   changeFreq = "weekly"
-  image = true 
+  image = true
 
 [markup]
   defaultMarkdownHandler = 'goldmark'

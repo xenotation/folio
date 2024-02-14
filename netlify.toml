@@ -14,11 +14,7 @@
   to = "https://blog.newdegeneration.xyz/unsound-hikikomori"
   status = 301
   force = true
-[[redirects]]
-  from = "/unsound-hikikomori/"
-  to = "https://blog.newdegeneration.xyz/unsound-hikikomori"
-  status = 301
-  force = true
+
 [[redirects]]
   from = "/templeton-episode/"
   to = "https://blog.newdegeneration.xyz/templeton-episode"
@@ -26,8 +22,16 @@
   force = true
 
 [[redirects]]
-  from = "/tag/nick-land/"
-  to = "https://blog.newdegeneration.xyz/tag/nick-land/"
+  from = "/hyperstition/"
+  to = "https://blog.newdegeneration.xyz"
+  status = 301
+  force = true
+
+
+# Combine all /tag/ redirects into one using a wildcard
+[[redirects]]
+  from = "/tag/*"
+  to = "https://blog.newdegeneration.xyz/tag/:splat"
   status = 301
   force = true
 
@@ -44,20 +48,17 @@
   force = true
 
 [[redirects]]
-  from = "/tag/акселерационизъм/"
-  to = "https://blog.newdegeneration.xyz/tag/акселерационизъм/"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/geotrauma/"
   to = "https://blog.newdegeneration.xyz/geotrauma"
   status = 301
   force = true
 
+
+
+
 [[redirects]]
   from = "/inside-AOE/"
-  to = "https://blog.newdegeneration.xyz/inside-AOE"
+  to = "https://blog.newdegeneration.xyz/inside-the-aoe"
   status = 301
   force = true
 
@@ -109,6 +110,8 @@
   status = 301
   force = true
 
+  
+
 [[redirects]]
   from = "/fisher-tva/"
   to = "https://blog.newdegeneration.xyz/fisher-tva"
@@ -121,105 +124,25 @@
   status = 301
   force = true
 
-
 [[redirects]]
   from = "/music-for-a-new-nightlife/"
   to = "https://newdegeneration.xyz/work/music-for-a-new-nighlife/"
   status = 301
   force = true
 
-
 [[redirects]]
-  from = "/tag/translations/"
-  to = "https://blog.newdegeneration.xyz/tag/translations/"
-  status = 301
-  force = true
- 
- [[redirects]]
   from = "/about"
   to = "https://blog.newdegeneration.xyz/about"
   status = 301
   force = true
- 
-  [[redirects]]
-  from = "/tag/геотравма/"
-  to = "https://blog.newdegeneration.xyz/tag/геотравма/"
-  status = 301
-  force = true
- 
-  [[redirects]]
-  from = "/tag/graham-harman/"
-  to = "https://blog.newdegeneration.xyz/tag/graham-harman/"
-  status = 301
-  force = true
- 
-  [[redirects]]
-  from = "/tag/graham-harman/"
-  to = "https://blog.newdegeneration.xyz/tag/graham-harman/"
-  status = 301
-  force = true
 
-  [[redirects]]
+[[redirects]]
   from = "/xenofeminism/"
   to = "https://blog.newdegeneration.xyz/xenofeminism"
   status = 301
   force = true
 
-  [[redirects]]
-  from = "/tag/акселерационизъм/"
-  to = "https://blog.newdegeneration.xyz/tag/акселерационизъм/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/tag/xenoglasia/"
-  to = "https://blog.newdegeneration.xyz/tag/xenoglasia/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/tag/accelaration/"
-  to = "https://blog.newdegeneration.xyz/tag/accelaration/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/tag/аселерационизъм/"
-  to = "https://blog.newdegeneration.xyz/tag/аселерационизъм/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/tag/xeno/"
-  to = "https://blog.newdegeneration.xyz/tag/xeno/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/tag/japan/"
-  to = "https://blog.newdegeneration.xyz/tag/japan/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/tag/theory-fiction/"
-  to = "https://blog.newdegeneration.xyz/tag/theory-fiction/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/tag/theory/"
-  to = "https://blog.newdegeneration.xyz/tag/theory/"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/tag/coronavirus/"
-  to = "https://blog.newdegeneration.xyz/tag/coronavirus/"
-  status = 301
-  force = true
-
-  [[redirects]]
+[[redirects]]
   from = "/404"
   to = "https://newdegeneration.xyz/404"
   status = 404
