@@ -11,6 +11,7 @@
     "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
    
     "image": [
+      "@context": "https://schema.org",
       "@type": "ImageObject",
       {{ range .Resources.ByType "image" }}
       "{{ .RelPermalink }}"
