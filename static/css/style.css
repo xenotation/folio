@@ -239,3 +239,11 @@ a:hover {
       90% { transform: translate(10%,5%) }
       100% { transform: translate(5%,0) }
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .video-container {
+        width: 100vw;
+        object-fit: cover;
+    }
+}
