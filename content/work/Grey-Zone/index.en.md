@@ -17,7 +17,6 @@ imgDescrps = ["view of Varna Municipality", "view of the Black Sea Hotel", "view
 imgNames=["Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)", "Gray Zone / Dispositive (2022)"]
 
 permalink = "https://newdegeneration.xyz/work/grey-zone-dispositive/"
-noshow = true
 +++
 
 The city - transfigured into a gray zone emptied of people, of lights, immersed under water or discarded in the wild cosmos, folded beyond practicality, it represents a capsule emptied of its nature, emptied of its structures of power, emptied of its social bodies. A dispositive without practice, without knowledge and expertise, withoout our institutions and without time - a pure assemblage. 
