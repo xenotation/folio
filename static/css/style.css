@@ -133,6 +133,8 @@ a:hover {
 /* LANDER */
 .video-container {
     overflow: hidden;
+    height: 100vh;
+
 }
 
 .video-container video {
@@ -183,10 +185,13 @@ a:hover {
 
 
 @media (max-width: 800px) {
-    .video-container video {
+    .video-container {
+        height: 100vh;
+}
+.video-container img {
     width: auto;
     height: 100vh;
-    max-height: 100%;
+    object-fit:cover; 
 }
     }
 
