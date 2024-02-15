@@ -33,27 +33,53 @@
 </script>
 
 
-
-  <!-- HERO -->
-  <div class="hero-container">
-    {{ with .Resources.GetMatch "hero.webm" }}
-      {{ $poster := $.Resources.GetMatch "hero.webp" | default "" | absURL }}
-      <video autoplay="true" muted="true" loop="true" class="featured-video" poster="{{ $poster }}">
-        <source src="{{ . }}" type="video/webm">
-      </video>
-    {{ else }}
-      <!-- If it's not a video, assume it's an image -->
-      {{ with .Resources.GetMatch "hero.webp" }}
-        {{ $resizedHero := .Fit "1390x420" }}
-        {{ with $.Page.Params.description }}
-          <img src="{{ $resizedHero.RelPermalink }}" alt="{{ . | safeHTML }}" class="featured-image">
-        {{ end }}
-      {{ end }}
-    {{ end }}
+<!-- HTML Structure -->
+<div class="hero-container">
+  <div id="hero-content">
+      <!-- Hero content will be dynamically inserted here -->
   </div>
-  
-  
+</div>
 
+<script>
+  // Function to detect if the user is on a mobile device
+  function isMobileDevice() {
+      return /Mobi|Android/i.test(navigator.userAgent);
+  }
+
+  // Function to check if video is supported
+  function isVideoSupported() {
+      var videoElement = document.createElement('video');
+      return !!videoElement.canPlayType;
+  }
+
+  // Function to dynamically insert the appropriate hero content
+  function insertHeroContent() {
+      var heroContentDiv = document.getElementById('hero-content');
+
+      // Get the base URL of the page bundle
+      var baseURL = "{{ .Page.RelPermalink }}";
+
+      // Check if user is on a mobile device
+      if (isMobileDevice()) {
+          // Insert the hero image for mobile
+          heroContentDiv.innerHTML = '<img src="' + baseURL + '/hero.webp" alt="Hero Image" class="featured-image">';
+      } else {
+          // Check if video is supported
+          if (isVideoSupported()) {
+              // Insert the hero video
+              heroContentDiv.innerHTML = '<video autoplay muted loop class="featured-video" poster="' + baseURL + '/hero.webp">' +
+                  '<source src="' + baseURL + '/hero.webm" type="video/webm">' +
+                  '</video>';
+          } else {
+              // Insert the hero image for non-mobile devices that don't support video
+              heroContentDiv.innerHTML = '<img src="' + baseURL + '/hero.webp" alt="Hero Image" class="featured-image">';
+          }
+      }
+  }
+
+  // Call the function to insert hero content when the page loads
+  window.onload = insertHeroContent;
+</script>
   <!-- Two columns layout -->
   <div class="project-columns">
     <!-- Left column with title and sections -->
