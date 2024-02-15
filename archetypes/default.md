@@ -1,14 +1,13 @@
 +++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+title = ""
 date = {{ .Date }}
 draft = true
-
-medium = [""]
-categories = [""]
+noshow = false
 
 place = ""
 dateof = ""
-
+medium = [""]
+categories = [""]
 curator = ""
 collaborators = ""
 

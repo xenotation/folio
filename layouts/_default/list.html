@@ -2,23 +2,23 @@
     <div class="grid-container">
         {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
         {{ range $taggedPages }}
-
-            <div class="grid-card">
-                <a href="{{ .Permalink }}">
-                <!-- Hero Image from Post Bundle -->
-                {{ with .Resources.GetMatch "hero.webp" }}
-                    {{ $heroImg := .Resize "600x" }}
-
-                        <img src="{{ $heroImg.RelPermalink }}" alt="{{ with .Params.description }}{{ .Params.description }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
-                    </a>
-                {{ end }}
-
-                <div class="card-content">
+            {{ if not .Params.noshow }} <!-- Check if noshow parameter is not true -->
+                <div class="grid-card">
                     <a href="{{ .Permalink }}">
-                        <h1 class="card-title">{{ .Title }} {{ dateFormat "(2006)" .Date }}</h1>
-                    </a>
+                    <!-- Hero Image from Post Bundle -->
+                    {{ with .Resources.GetMatch "hero.webp" }}
+                        {{ $heroImg := .Resize "600x" }}
+                            <img src="{{ $heroImg.RelPermalink }}" alt="{{ with .Params.description }}{{ .Params.description }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
+                        </a>
+                    {{ end }}
+
+                    <div class="card-content">
+                        <a href="{{ .Permalink }}">
+                            <h1 class="card-title">{{ .Title }} {{ dateFormat "(2006)" .Date }}</h1>
+                        </a>
+                    </div>
                 </div>
-            </div>
+            {{ end }}
         {{ end }}
     </div>
 {{ end }}

@@ -117,46 +117,67 @@
 
         <!-- Column 2: Collab Category Posts -->
         <div class="column">
-          <h2>{{ T "Collaborations" }}</h2>
-          <p>2023</p>
-          <ul>
-              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "collab-no") }}
-                  {{ $page := . }}
-                  {{ with $page.Params.date }}
-                      {{ $year := dateFormat "2006" . }}
-                      {{ if eq $year "2023" }}
-                          <li>
-                              <h3>
-                                  {{ with $page.Params.Title }}
-                                      <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
-                                  {{ end }}
-                                  </a>
-                              </h3>
-                          </li>
-                      {{ end }}
-                  {{ end }}
-              {{ end }}
-          </ul>
-          <p>2022</p>
-          <ul>
-              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "collab-no") }}
-                  {{ $page := . }}
-                  {{ with $page.Params.date }}
-                      {{ $year := dateFormat "2006" . }}
-                      {{ if eq $year "2022" }}
-                          <li>
-                              <h3>
-                                  {{ with $page.Params.Title }}
-                                      <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
-                                  {{ end }}
-                                  </a>
-                              </h3>
-                          </li>
-                      {{ end }}
-                  {{ end }}
-              {{ end }}
-          </ul>
-      </div>
+            <h2>{{ T "Collaborations" }}</h2>
+            <p>2023</p>
+            <ul>
+                {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "noshow") }}
+                    {{ $page := . }}
+                    {{ with $page.Params.date }}
+                        {{ $year := dateFormat "2006" . }}
+                        {{ if eq $year "2023" }}
+                            {{ if eq $page.Params.noshow true }}
+                                <li>
+                                    <h3>
+                                        {{ with $page.Params.Title }}
+                                            {{ . }}
+                                        {{ end }}
+                                    </h3>
+                                </li>
+                            {{ else }}
+                                <li>
+                                    <h3>
+                                        {{ with $page.Params.Title }}
+                                            <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
+                                        {{ end }}
+                                        </a>
+                                    </h3>
+                                </li>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </ul>
+            <p>2022</p>
+            <ul>
+                {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "noshow") }}
+                    {{ $page := . }}
+                    {{ with $page.Params.date }}
+                        {{ $year := dateFormat "2006" . }}
+                        {{ if eq $year "2022" }}
+                            {{ if eq $page.Params.noshow true }}
+                                <li>
+                                    <h3>
+                                        {{ with $page.Params.Title }}
+                                            {{ . }}
+                                        {{ end }}
+                                    </h3>
+                                </li>
+                            {{ else }}
+                                <li>
+                                    <h3>
+                                        {{ with $page.Params.Title }}
+                                            <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
+                                        {{ end }}
+                                        </a>
+                                    </h3>
+                                </li>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+        
 {{/* Third column publications and talks */}}
 <div class="column">
     <h2>{{ T "PubLect" }}</h2>
