@@ -10,6 +10,11 @@
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [[redirects]]
+  from = "/*"
+  status = 404
+  to = "/404"
+
+[[redirects]]
   from = "/unsound-hikikomori/"
   to = "https://blog.newdegeneration.xyz/unsound-hikikomori"
   status = 301
@@ -26,7 +31,6 @@
   to = "https://blog.newdegeneration.xyz"
   status = 301
   force = true
-
 
 # Combine all /tag/ redirects into one using a wildcard
 [[redirects]]
