@@ -185,8 +185,27 @@ a:hover {
 /* 404 */
 .FourOhFourCentered {
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin-top: 2rem;
 }
+.ascii-art {
+    white-space: pre;
+    font-family: monospace;
+    font-size: 1rem; /* Adjust the font size as needed */
+    line-height: 1; /* Adjust line height as needed */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
+    width: 100%; /* Ensure the ASCII art doesn't exceed container width */
+    text-align: center;
+    color: var(--text-color);
+}
+@media screen and (max-width: 768px) {
+    .ascii-art {
+      font-size: 0.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+
 /* Tech Spec and copyleft */
 .tech-spec {
     margin: 0 2rem 0rem 2rem;
