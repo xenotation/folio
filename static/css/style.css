@@ -192,13 +192,19 @@ a:hover {
 .ascii-art {
     white-space: pre;
     font-family: monospace;
-    font-size: 1rem; /* Adjust the font size as needed */
+    font-size: 0.73rem; /* Adjust the font size as needed */
     line-height: 1; /* Adjust line height as needed */
     margin: 0; /* Remove any default margins */
     padding: 0; /* Remove any default padding */
     width: 100%; /* Ensure the ASCII art doesn't exceed container width */
     text-align: center;
     color: var(--text-color);
+}
+
+.ascii-art a {
+    background-image: none;
+    text-decoration: none;
+    animation: blurAnimation 5s;
 }
 @media screen and (max-width: 768px) {
     .ascii-art {
