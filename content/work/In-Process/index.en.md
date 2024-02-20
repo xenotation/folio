@@ -1,13 +1,10 @@
 +++
-title = 'In:Process'
+title = "In:Process"
 date = 2021-01-16T23:05:59+02:00
 description = "The drive to capture the city as an affective totality"
-
 draft = false
-
 imgNames = ["", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)"]
 imgDescrps = ["", "print on photo-paper, 50x50cm", "print on photo-paper, 30x45cm", "print on photo-paper, 30x45cm", "print on photo-paper, 50x50cm, private collection", "print on photo-paper, 50x50cm, private collection", "print on photo-paper, 50x50cm", "print on photo-paper, 50x50cm, private collection", "print on photo-paper, 50x50cm", "print on photo-paper, 50x50cm", "print on photo-paper, 60x40cm"]
-
 medium = ["photography", "photo-book"]
 place = "KO-OP Gallery, Sofia"
 dateof = "06-16.01.2021"
