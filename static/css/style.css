@@ -9,7 +9,6 @@ html {
     scroll-behavior: smooth;
   }
 body {
-
     font-size: 16px;
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -204,7 +203,7 @@ a:hover {
 .ascii-art a {
     background-image: none;
     text-decoration: none;
-    animation: blurAnimation 5s;
+    animation: blurAnimation 5s infinite;
 }
 @media screen and (max-width: 768px) {
     .ascii-art {
