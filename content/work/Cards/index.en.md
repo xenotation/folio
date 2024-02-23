@@ -7,7 +7,7 @@ type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "duo-channel video installation"]
 place = "ReBonkers, Varna"
 dateof = "07-21.09.2023"
-curator = ["Aaron Roth"]
+curator = ["Hristo Kaloyanov"]
 collaborators = ["Aaron Roth"]
 categories = ["collab"]
 
