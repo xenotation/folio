@@ -23,7 +23,7 @@ What remains hidden here is the photographic eye behind the camera obscura, look
 
 Reverting to the process carried out so far, the basis of archival thinking, the grammar it develops, and the possible cases for editing are traced. The digital framework of RE:PROCESS draws a route between the empty spaces that photography occupies.
 
-<!-- add photos of map + its text to your blog and link here -->
+[Link to the whole fictional tourist map.](https://blog.newdegeneration.xyz/re-process-map)
 
 ### Coverage
 [Bulgarian National Radio](https://bnr.bg/varna/post/101649068/izlojbata-reproces-preplita-tradicionnoto-i-abstraktnoto-v-nevijdani-ulichni-fotografii)

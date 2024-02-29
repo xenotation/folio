@@ -26,7 +26,7 @@ Sound = ["Yan Lechev"]
 Обратно на осъществения дотук процес, се проследява основата на архивиращото мислене, граматиката, която разгръща, и възможните случаи за редакция. Дигиталната мрежа на "РЕ:ПРОЦЕС" чертае маршрут между празните пространства, които фотографското заема.
 
 
-<!-- add photos of map + its text to your blog and link here -->
+[Линк към цялата фиктивна туристическа карта](https://blog.newdegeneration.xyz/re-process-map)
 
 ### Покритие
 [Българско Национално Радио](https://bnr.bg/varna/post/101649068/izlojbata-reproces-preplita-tradicionnoto-i-abstraktnoto-v-nevijdani-ulichni-fotografii)
