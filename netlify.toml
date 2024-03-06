@@ -9,10 +9,6 @@
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
-[[redirects]]
-  from = "/*"
-  status = 404
-  to = "/404"
 
 [[redirects]]
   from = "/unsound-hikikomori/"
