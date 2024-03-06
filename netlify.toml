@@ -9,7 +9,6 @@
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
-
 [[redirects]]
   from = "/unsound-hikikomori/"
   to = "https://blog.newdegeneration.xyz/unsound-hikikomori"
@@ -138,6 +137,18 @@
   force = true
 
 [[redirects]]
+  from = "https://blog.newdegeneration.xyz/grey-zone"
+  to = "https://newdegeneration.xyz/work/grey-zone/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/404"
   to = "https://newdegeneration.xyz/404"
   status = 404
+
+[[redirects]]
+  from = "https://newdegeneration.xyz/work/grey-zone-dispositive/"
+  to = "https://newdegeneration.xyz/work/grey-zone/"
+  status = 301
+  force = true
