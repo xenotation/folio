@@ -107,8 +107,6 @@
   status = 301
   force = true
 
-  
-
 [[redirects]]
   from = "/fisher-tva/"
   to = "https://blog.newdegeneration.xyz/fisher-tva"
