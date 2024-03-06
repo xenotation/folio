@@ -18,6 +18,10 @@
     <meta property="og:description" content="{{ .Site.Params.description }}" />
     <meta name="twitter:description" content="{{ .Site.Params.description }}" />
   {{ end }}
+
+  <meta content="{{ delimit .Keywords ", " }}" name="keywords">
+
+
 <!-- Alternative Links for lang and self refrenccing? -->
     {{ if .IsTranslated }}
     {{ range .Translations }}

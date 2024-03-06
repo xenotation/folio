@@ -66,5 +66,33 @@
     <meta name="robots" content="index, follow, archive">
     {{ end }}
 
-
+    {{ if not .IsHome }}
+    <script type='application/ld+json'>
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement":
+      [
+      {{- $i := 1 }}
+      {{- range .Ancestors.Reverse }}
+        {
+          "@type": "ListItem",
+          "position": {{ $i }},
+          "name": "{{ .Title | safeJS }}",
+          "url": {{ .Permalink }},
+          "item": {{ .Permalink }}
+        },
+        {{- $i = add $i 1 -}}
+      {{ end }}
+        {
+          "@type": "ListItem",
+          "position": {{ $i }},
+          "name": "{{ .Title | safeJS }}",
+          "url": {{ .Permalink }},
+          "item": {{ .Permalink }}
+        }
+      ]
+    }
+    </script>
+{{ end }}
 </head>
