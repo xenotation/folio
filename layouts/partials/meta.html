@@ -6,6 +6,13 @@
     <title itemprop="name">{{ if .IsHome }}Artist Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta property="og:title" content="{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
     <meta name="twitter:title" content="{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
+
+
+    
+
+    <meta property="og:url" content="{{ .href }}">
+
+
 <!-- Description -->
     {{ with .Params.description }}
     <meta name="description" content="{{ . }}" />

@@ -16,6 +16,7 @@ imgDescrps = ["two 120x90cm cardboard conspiracy walls, projection mapping, decl
 
 Sound = ["Yan Lechev"]
 Photo = ["Boris Vasilev"]
+keywords = ["goverment contraband", "hidden transit", "post-sovient conspiracy", "postcards"]
 +++
 
 "Postcards and Contraband" begins by examining a work archive of the Bulgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985. The service notes, photographs, negatives, summaries and reports found mark part of the routine of the Customs Agency work, such as inspection and regulation of transit, but also the diplomatic image the Customs Agency must maintain to the international community.
