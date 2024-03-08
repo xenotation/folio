@@ -7,7 +7,7 @@
     <meta property="og:title" content="{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
     <meta name="twitter:title" content="{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
 
-
+    <meta property="og:logo" content="/favicon.png" />
     <meta property="og:url" content="{{ .Permalink }}">
 <!-- Description -->
     {{ with .Params.description }}
