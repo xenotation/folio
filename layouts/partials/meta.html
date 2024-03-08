@@ -8,11 +8,7 @@
     <meta name="twitter:title" content="{{ if .IsHome }}Portfolio | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}" />
 
 
-    
-
-    <meta property="og:url" content="{{ .href }}">
-
-
+    <meta property="og:url" content="{{ .Permalink }}">
 <!-- Description -->
     {{ with .Params.description }}
     <meta name="description" content="{{ . }}" />
