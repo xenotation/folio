@@ -10,7 +10,7 @@ dateof = "06.2019"
 medium = ["photo-book"]
 categories = ["solo"]
 
-imgDescrps = ["", "city-scape, street-photography", "pharmacy, street-photography, 60x50cm, private collection", "public transporation sign, street-photography", "bus sign, street-photography", "the great god Pan, street-photography", "traffic, street-photography", "street-photography"]
+imgDescrps = ["", "city-scape, street-photography", "pharmacy, street-photography, 60x50cm, private collection", "public transporation sign, street-photography", "bus sign, street-photography", "street-photography", "Calling The Great God Pan, street-photography", "traffic, street-photography", "street-photography"]
 imgNames = ["", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)", "Music for a New Night Life (2019)"]
 +++
 

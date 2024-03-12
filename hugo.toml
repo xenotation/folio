@@ -8,8 +8,6 @@ copyright_url = "/tech-spec/tech-spec/"
   changeFreq = "daily"
   image = false
 
-
-
 [markup]
   defaultMarkdownHandler = 'goldmark'
 

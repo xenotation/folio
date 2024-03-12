@@ -4,7 +4,7 @@ date = 2021-01-16T23:05:59+02:00
 description = "The drive to capture the city as an affective totality"
 draft = false
 imgNames = ["", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)"]
-imgDescrps = ["", "print on photo-paper, 50x50cm", "print on photo-paper, 30x45cm", "print on photo-paper, 30x45cm", "print on photo-paper, 50x50cm, private collection", "print on photo-paper, 50x50cm, private collection", "print on photo-paper, 50x50cm", "print on photo-paper, 50x50cm, private collection", "print on photo-paper, 50x50cm", "print on photo-paper, 50x50cm", "print on photo-paper, 60x40cm"]
+imgDescrps = ["", "Print on photo-paper, 50x50cm", "Print on photo-paper, 30x45cm", "Print on photo-paper, 30x45cm", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm", "Print on photo-paper, 50x50cm", "Print on photo-paper, 60x40cm"]
 medium = ["photography", "photo-book"]
 place = "KO-OP Gallery, Sofia"
 dateof = "06-16.01.2021"
@@ -16,7 +16,7 @@ The drive to capture the city as an affective totality was what led to the incep
 
 The procedure at hand follows the opposite direction where posed out of its given context the object loses its practicality and in being shown “nude” serves as a terminal for a parallel world of industrial teleology and material corporality. “In:Process” is a theory-fiction based on the near-reality of everyday life, a meditation on degradation and emergence but mainly a method of reversing infrastructural sublimation. 
 
-<a href="http://booksinprint.bg/Publication/Details/820a8128-de8d-4fc3-97dc-33cdd929c91d">“In Process” (“В процес”)</a>, Stoyanov, N., Kaloyanov, H., 2020, ISBN: 978-619-188-514-5. 
+<a href="http://booksinPrint.bg/Publication/Details/820a8128-de8d-4fc3-97dc-33cdd929c91d">“In Process” (“В процес”)</a>, Stoyanov, N., Kaloyanov, H., 2020, ISBN: 978-619-188-514-5. 
 
 ## Coveredge
 
