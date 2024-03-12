@@ -1,0 +1,20 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  {{ $pages := .Data.Pages }}
+  {{ range $pages }}
+    {{- if .Permalink -}}
+      {{ $images := .Resources.ByType "image" }}
+      {{ range $images }}
+        <url>
+          <loc>{{ .Permalink }}</loc>
+          <image:image>
+            <image:loc>{{ .Permalink }}</image:loc>
+          </image:image>
+        </url>
+      {{ end }}
+    {{- end -}}
+  {{ end }}
+
+</urlset>

@@ -5,8 +5,14 @@ copyright_url = "/tech-spec/tech-spec/"
 [sitemap]
   filename = "sitemap.xml"
   enableRobotsTXT = true
-  changeFreq = "weekly"
+  changeFreq = "daily"
+  image = false
+[sitemap]
+  filename = "img-sitemap.xml"
+  enableRobotsTXT = true
+  changeFreq = "daily"
   image = true
+
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
