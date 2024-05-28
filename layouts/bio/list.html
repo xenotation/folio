@@ -1,25 +1,24 @@
 {{ define "main" }}
-<!-- ProfilePage Structured Data -->
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "ProfilePage",
-    "mainEntity": {
-        "@type": "Person",
-        "name": "Nikola Vladislavov Stoyanov",
-        "url": "{{ .Permalink }}",
-        "description": "{{ .Params.description }}", 
-        "image": "{{ with .Params.profileImage }}{{ . | absURL }}{{ end }}", 
-    	"jobTitle": "Visual Artist and Philosopher",
-	"sameAs": ["https://www.facebook.com/av0id.nd/", "https://www.instagram.com/avoid.nd/", "https://www.linkedin.com/in/nstoyanov23/", "https://twitter.com/new_degen", "https://www.youtube.com/@newdegeneration", "https://www.wikidata.org/wiki/Q124417026", "https://www.goodreads.com/author/show/48653203._"]
-    }
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Nikola Vladislavov Stoyanov",
+    "url": "{{ .Permalink }}",
+    "description": "{{ .Params.description }}", 
+    "image": "{{ with .Params.profileImage }}{{ . | absURL }}{{ end }}", 
+    "jobTitle": "Visual artist and philosopher",
+    "sameAs": ["https://www.facebook.com/av0id.nd/", "https://www.instagram.com/avoid.nd/", "https://www.linkedin.com/in/nstoyanov23/", "https://twitter.com/new_degen", "https://www.youtube.com/@newdegeneration", "https://www.wikidata.org/wiki/Q124417026", "https://www.goodreads.com/author/show/48653203._"]
+  }
 }
 </script>
 
 <div class="bio-container">
   <div class="bio-column-container">
     <div class="left-column-bio">
-          <img src="/images/spinner.webp"class="spinner" alt="Nikola Vladislavov Stoyanov"> 
+      <img src="/images/spinner.webp" class="spinner" alt="Nikola Vladislavov Stoyanov"> 
       <div class="bio-text">
         {{ with .Site.GetPage "section" "bio" }}
           <h4>{{ .Content }}</h4>
@@ -28,193 +27,49 @@
     </div>
 
     <div class="right-column-bio">
-      <!-- Three Columns -->
       <div class="right-column-container">
-        <!-- Column 1: Solo Category Posts -->
+
         <div class="column">
           <h2>{{ T "Exhibitions" }}</h2>
-          <p>2023</p>
           <ul>
-              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
-                  {{ $page := . }}
-                  {{ with $page.Params.date }}
-                      {{ $year := dateFormat "2006" . }}
-                      {{ if eq $year "2023" }}
-                          <li>
-                              <h3>
-                                  {{ with $page.Params.Title }}
-                                      <a href="{{ $page.Permalink }}">{{ . }}
-                                  {{ end }}
-                                  </a>
-                              </h3>
-                          </li>
-                      {{ end }}
-                  {{ end }}
-              {{ end }}
-          </ul>
-          <p>2022</p>
-          <ul>
-              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
-                  {{ $page := . }}
-                  {{ with $page.Params.date }}
-                      {{ $year := dateFormat "2006" . }}
-                      {{ if eq $year "2022" }}
-                          <li>
-                              <h3>
-                                  {{ with $page.Params.Title }}
-                                      <a href="{{ $page.Permalink }}">{{ . }}
-                                  {{ end }}
-                                  </a>
-                              </h3>
-                          </li>
-                      {{ end }}
-                  {{ end }}
-              {{ end }}
-          </ul>
-
-          <p>2021</p>
-          <ul>
-              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
-                  {{ $page := . }}
-                  {{ with $page.Params.date }}
-                      {{ $year := dateFormat "2006" . }}
-                      {{ if eq $year "2021" }}
-                          <li>
-                              <h3>
-                                  {{ with $page.Params.Title }}
-                                      <a href="{{ $page.Permalink }}">{{ . }}
-                                  {{ end }}
-                                  </a>
-                              </h3>
-                          </li>
-                      {{ end }}
-                  {{ end }}
-              {{ end }}
-          </ul>
-
-          <p>2019</p>
-          <ul>
-              {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
-                  {{ $page := . }}
-                  {{ with $page.Params.date }}
-                      {{ $year := dateFormat "2006" . }}
-                      {{ if eq $year "2019" }}
-                          <li>
-                              <h3>
-                                  {{ with $page.Params.Title }}
-                                      <a href="{{ $page.Permalink }}">{{ . }}
-                                  {{ end }}
-                                  </a>
-                              </h3>
-                          </li>
-                      {{ end }}
-                  {{ end }}
-              {{ end }}
-          </ul>
-      </div>
-      
-      
-
-<!-- Column: Collab Category Posts -->
-<div class="column">
-    <h2>{{ T "Collaborations" }}</h2>
-    
-    <!-- 2023 Section -->
-    <p>2023</p>
-    <ul>
-        {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "noshow") }}
-            {{ $page := . }}
-            {{ with $page.Params.date }}
+            {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "solo") }}
+              {{ $page := . }}
+              {{ with $page.Params.date }}
                 {{ $year := dateFormat "2006" . }}
-                {{ if eq $year "2023" }}
-                    {{ if eq $page.Params.noshow true }}
-                        <li>
-                            <h3>
-                                {{ with $page.Params.Title }}
-                                    {{ . }}
-                                {{ end }}
-                            </h3>
-                        </li>
-                    {{ else }}
-                        <li>
-                            <h3>
-                                {{ with $page.Params.Title }}
-                                    <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
-                                {{ end }}
-                                </a>
-                            </h3>
-                        </li>
+                <li>
+                  <h3>
+                    {{ with $page.Params.Title }}
+                      <a href="{{ $page.Permalink }}">{{ $year }} - {{ . }}</a>
                     {{ end }}
-                {{ end }}
+                  </h3>
+                </li>
+              {{ end }}
             {{ end }}
-        {{ end }}
-    </ul>
-    
-    <!-- 2022 Section -->
-    <p>2022</p>
-    <ul>
-        {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "noshow") }}
-            {{ $page := . }}
-            {{ with $page.Params.date }}
-                {{ $year := dateFormat "2006" . }}
-                {{ if eq $year "2022" }}
-                    {{ if eq $page.Params.noshow true }}
-                        <li>
-                            <h3>
-                                {{ with $page.Params.Title }}
-                                    {{ . }}
-                                {{ end }}
-                            </h3>
-                        </li>
-                    {{ else }}
-                        <li>
-                            <h3>
-                                {{ with $page.Params.Title }}
-                                    <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
-                                {{ end }}
-                                </a>
-                            </h3>
-                        </li>
-                    {{ end }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
-    </ul>
-    
-    <!-- 2021 Section -->
-    <p>2021</p>
-    <ul>
-        {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "noshow") }}
-            {{ $page := . }}
-            {{ with $page.Params.date }}
-                {{ $year := dateFormat "2006" . }}
-                {{ if eq $year "2021" }}
-                    {{ if eq $page.Params.noshow true }}
-                        <li>
-                            <h3>
-                                {{ with $page.Params.Title }}
-                                    {{ . }}
-                                {{ end }}
-                            </h3>
-                        </li>
-                    {{ else }}
-                        <li>
-                            <h3>
-                                {{ with $page.Params.Title }}
-                                    <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ . }}
-                                {{ end }}
-                                </a>
-                            </h3>
-                        </li>
-                    {{ end }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
-    </ul>
-</div>
+          </ul>
 
-        
-{{/* Third column publications and talks */}}
+          <h2>{{ T "Collaborations" }}</h2>
+          <ul>
+            {{ range where .Site.RegularPages "Params.categories" "intersect" (slice "collab" "noshow") }}
+              {{ $page := . }}
+              {{ with $page.Params.date }}
+                {{ $year := dateFormat "2006" . }}
+                <li>
+                  <h3>
+                    {{ with $page.Params.Title }}
+                      {{ if eq $page.Params.noshow true }}
+                        {{ $year }} - {{ . }}
+                      {{ else }}
+                        <a href="{{ $page.Permalink }}" alt="{{ $page.Title }}">{{ $year }} - {{ . }}</a>
+                      {{ end }}
+                    {{ end }}
+                  </h3>
+                </li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+
+      <!-- Third column publications and talks -->
 <div class="column">
     <h2>{{ T "PubLect" }}</h2>
     {{ $pubList := .Site.Data.publist }}
@@ -223,7 +78,6 @@
       {{ $year := .year }}
       {{ if and $year (not (in $years $year)) }}
         {{ $years = $years | append $year }} <!-- Add the year to the list of unique years -->
-        <p>{{ $year }}</p>
         <div class="publect">
           <ul>
             {{ range where $pubList "year" $year }}
@@ -238,6 +92,7 @@
                   {{ if ne $link "" }}
                     <a href="{{ $link }}">
                   {{ end }}
+              <span class="year">{{ $year }}</span> - <!-- Add the year here -->
                   {{ if and $nameEn $nameBg }}
                     {{ if eq $.Site.Language.Lang "bg" }}{{ $nameBg }}{{ else }}{{ $nameEn }}{{ end }}
                   {{ else if $nameEn }}
@@ -250,9 +105,11 @@
                   {{ end }}
                 </h3>
                 
+               
                 {{ if ne $descriptionEn "" }}
                   <p>{{ if eq $.Site.Language.Lang "bg" }}{{ $descriptionBg }}{{ else }}{{ $descriptionEn }}{{ end }}</p>
                 {{ end }}
+                
               </li>
             {{ end }}
           </ul>
@@ -260,13 +117,10 @@
       {{ end }}
     {{ end }}
   </div>
-  
-          
-          
-      </div>
-    </div>      
   </div>
+  </div>
+  </div>
+  
   <script src="/js/spinner.js"></script>
-
 </div>
 {{ end }}

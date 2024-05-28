@@ -1,9 +1,9 @@
 [Exhibitions]
-  other = 'изложби'
+  other = 'изложби ↓'
 [Collaborations]
-  other = 'колаборации'
+  other = 'колаборации ↓'
 [PubLect]
-  other = 'текстове и лекции'
+  other = 'текстове и лекции ↓'
 [Curator]
   other = 'куратор ↓'
 [Collaborators]
