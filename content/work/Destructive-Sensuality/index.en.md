@@ -1,26 +1,31 @@
 +++
-title = 'Destructive Sensuality'
+title = 'Хуморът е учтивостта на отчаянието'
 date = 2022-12-17
-description = "A core-core style video collage investigating the specifics of commercial video codec degradation and memmory loss in post-socient society."
 
-draft = true
 
-medium = ["Core-Core Audio-Video Installation", "Cozy Post-Soviet Interior to watch TV in."]
-place = " “ARTWAVE”, Varna (2022)"
-dateof = ""
-collaborators = "Sofia Dimova"
+description = "Видеоколаж в стил core-core, който изследва особеностите на влошаването на комерсиалните видеокодеци и битовата памет в контекст интернет."
 
+place = "“ARTWAVE”, Varna (2022) as part of the exhibition “Destructive Sensuality”"
+dateof = "17.12.2022"
+
+medium = ["Core-Core аудио-видео инсталация", "Уютен постсъветски интериор, в който да се промивате с телевизия"]
 categories = ["collab"]
+
+collaborators = ["Sofia Dimova"]
+
+
+imgNames = ["Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Цялостен изглед", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation"]
+imgDescrps = ["The quote is often misattributed to Mark Twain, Chris Marker, and many others.", "In the shot you can see a still from the video “Печатница за фалшиви евро банкноти част 4”.", "In the shot you can see a still from the video “Отиде лопатата”.", "In the shot you can see a still from the video “'Последният лов'- последните месеци на комунизма у нас”.", "In the shot you can see a still from the video “Ченгета раздават колена и влачат хора пред излизащи от парламента коли”.", "In the shot you can see a still from the video “Разрушаването на Мавзолея на Георги Димитров”.", "In the shot you can see a still from the video “ГДБОП-МВР 2009 част 4”.", "In the shot you can see a still from the video “Динко хваща бежанци непоказни кадри”.", "In the shot you can see a still from the video “Научете български с Дими”", "Shot of Sofia Dimova's installation", "In the shot you can see part  of the legendary video “Ходете в червило”"]
 +++
 
-In examining the fragility and neglect of memory in contemporary Bulgaria, "Humor is the politeness of despair" serves as a commentary on the publicness of memory and its remembrance. In an age where info-blitzes overwhelm, selective memory becomes a societal curator, determining what endures and what fades into obscurity. This project delves into the forgotten corners of Bulgarian internet culture, resurrecting political scandals and legendary humor videos that now exist as cryptids in the digital realm.
 
-The piece part of a collaboration with Sophia Dimova named Destructive Sensuality, intentionally employs early 2000s editing aesthetics and video degradation techniques. Through techniques like datamoshing and deliberate distortions, it confronts viewers with environments both nostalgic and eerie. These digital collages transport audiences into realms where memory blurs with strangeness, echoing the relentless churn of digital content mill.
+"Хуморът е учтивостта на отчаянието" е видеоколаж, който изследва спецификата на деградацията на комерсиалните видеокодеци. Базиран на ключови моменти от визуалното подсъзнание на България, той използва различни методи за контролирано разрушаване и разграждане на образа, основани на структурната компресия във видеоклиповете. Той е част от изложбата " Destructive Sensuality" на София Димова и Никола Стоянов, в която двамата художници романтизират разрушителната динамика на сетивните преживявания, които неусетно стават част от нашето ежедневие. Но като всичко, което идва бързо, то също така си заминава, оставяйки апокалиптична следа подир себе си.
 
-Symbolically staged as a TV within a mundane home setting, the installation evokes late-night transmissions—a nod to the clandestine dissemination of cultural fragments, often overlooked or intentionally forgotten. The soundtrack further underscores this exploration, juxtaposing a Bulgarian chalga anthem on the topic of drunk driving with music typically used in contemporary TikTok montages, bridging generational divides in media consumption and memory formation.
+Изследвайки крехкостта и пренебрегването на паметта в съвременна България, "Хуморът е вежливостта на отчаянието" служи като коментар на публичността на паметта и нейното съхраняване. В епохата, в която информационният блиц ни залива, селективната памет се превръща в обществен куратор, определящ какво да пребъде и какво да избледнее в неизвестност. Този проект навлиза в забравените кътчета на българската интернет култура, възкресявайки политически скандали и легендарни хумористични клипове, които сега съществуват като криптиди в дигиталната сфера.
 
-Ultimately, Nikola Stoyanov's work challenges us to confront the indifferent nature of the internet—a vast repository that dictates what is remembered and what is erased. "Destructive Sensuality" invites reflection on the interplay between digital decay and cultural memory, urging us to navigate a landscape where nostalgia intertwines uncomfortably with fleeting digital artifacts.
+В произведението умишлено се използват естетиката на монтажа от началото на 2000 г. и техниките за разграждане на видео. С помощта на техники като "dataamoshing" и преднамерени изкривявания тя изправя зрителите пред среда, която е едновременно носталгична и зловеща. Тези дигитални колажи пренасят публиката в сфери, в които споменът се размива със странност, повтаряйки непрестанната работа на фабриката за дигитално съдържание.
 
-Destructive Sensuality is a video collage investigating the specifics of commercial video codec degradation. Based on key moments in Bulgaria’s visual subconscious made up of vital videos, it uses various methods of controlled im- age destruction and degradation based on structural compression in videos. Destructive Sensuality is a pop-up exhibition by Sofia Dimova and Nikola Stoyanov, where the two artists romanticize the destructive dynamics of sensual experiences that imperceptibly become part of our everyday lives. But like everything that comes quickly, it also goes the same way, leaving an apocalyptic trail in its wake. Dimova and Stoyanov tap into the searing sensations in a direct way that reveals both vulnerability and audacity.
+Символично поставена като телевизор в обикновена домашна обстановка, инсталацията напомня за нощни предавания - намек за тайното разпространение на културни фрагменти, често пренебрегвани или умишлено забравяни. Саундтракът допълнително подчертава това изследване, като съпоставя български чалга химн по темата за шофирането в нетрезво състояние с музика, която обикновено се използва в съвременните TikTok монтажи, преодолявайки поколенческите различия в медийното потребление и формирането на паметта. 
 
-add about video featuring beating of protestors , political scnadles and funny home vvideos 
+
+Видеоколажът преплита кадри от побоища над протестиращи до политически скандали и хумористични домашни видеоклипове, запечатвайки ключови моменти от визуалното подсъзнание на България. Този подход черпи вдъхновение от суровата естетика на ранния интернет, кооперирайки чувствителността на състезателното редактиране на онлайн видеоигри, за да създаде чист емоционален гоблен, свободен от строгата кодификация на традиционното кино или видеоесета. Целта му е да разкрие безразличната природа на интернет като огромно хранилище, което диктува какво се помни и какво се изтрива. 'Destructive Sensuality' приканва към размисъл за взаимодействието между цифровия разпад и културната памет, като ни подтиква да се ориентираме в пейзаж, в който носталгията се преплита неудобно с мимолетни цифрови артефакти."
