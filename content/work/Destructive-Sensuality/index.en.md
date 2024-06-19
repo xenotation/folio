@@ -1,19 +1,12 @@
 +++
-title = 'Хуморът е учтивостта на отчаянието'
+title = 'Humor is the politeness of despair'
 date = 2022-12-17
-
-
 description = "Видеоколаж в стил core-core, който изследва особеностите на влошаването на комерсиалните видеокодеци и битовата памет в контекст интернет."
-
 place = "“ARTWAVE”, Varna (2022) as part of the exhibition “Destructive Sensuality”"
 dateof = "17.12.2022"
-
-medium = ["Core-Core аудио-видео инсталация", "Уютен постсъветски интериор, в който да се промивате с телевизия"]
+medium = ["Core-Core Audio-Video Installation", "Cozy Post-Soviet Interior to watch TV in."]
 categories = ["collab"]
-
 collaborators = ["Sofia Dimova"]
-
-
 imgNames = ["Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Цялостен изглед", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Exhibition poster"]
 imgDescrps = ["The quote is often misattributed to Mark Twain, Chris Marker, and many others.", "In the shot you can see a still from the video “Печатница за фалшиви евро банкноти част 4”.", "In the shot you can see a still from the video “Отиде лопатата”.", "In the shot you can see a still from the video “'Последният лов'- последните месеци на комунизма у нас”.", "In the shot you can see a still from the video “Ченгета раздават колена и влачат хора пред излизащи от парламента коли”.", "In the shot you can see a still from the video “Разрушаването на Мавзолея на Георги Димитров”.", "In the shot you can see a still from the video “ГДБОП-МВР 2009 част 4”.", "In the shot you can see a still from the video “Динко хваща бежанци непоказни кадри”.", "In the shot you can see a still from the video “Научете български с Дими”", "Shot of Sofia Dimova's installation", "In the shot you can see part  of the legendary video “Ходете в червило”"]
 +++
@@ -26,7 +19,6 @@ imgDescrps = ["The quote is often misattributed to Mark Twain, Chris Marker, and
 В произведението умишлено се използват естетиката на монтажа от началото на 2000 г. и техниките за разграждане на видео. С помощта на техники като "dataamoshing" и преднамерени изкривявания тя изправя зрителите пред среда, която е едновременно носталгична и зловеща. Тези дигитални колажи пренасят публиката в сфери, в които споменът се размива със странност, повтаряйки непрестанната работа на фабриката за дигитално съдържание.
 
 Символично поставена като телевизор в обикновена домашна обстановка, инсталацията напомня за нощни предавания - намек за тайното разпространение на културни фрагменти, често пренебрегвани или умишлено забравяни. Саундтракът допълнително подчертава това изследване, като съпоставя български чалга химн по темата за шофирането в нетрезво състояние с музика, която обикновено се използва в съвременните TikTok монтажи, преодолявайки поколенческите различия в медийното потребление и формирането на паметта. 
-
 
 Видеоколажът преплита кадри от побоища над протестиращи до политически скандали и хумористични домашни видеоклипове, запечатвайки ключови моменти от визуалното подсъзнание на България. Този подход черпи вдъхновение от суровата естетика на ранния интернет, кооперирайки чувствителността на състезателното редактиране на онлайн видеоигри, за да създаде чист емоционален гоблен, свободен от строгата кодификация на традиционното кино или видеоесета. Целта му е да разкрие безразличната природа на интернет като огромно хранилище, което диктува какво се помни и какво се изтрива. 'Destructive Sensuality' приканва към размисъл за взаимодействието между цифровия разпад и културната памет, като ни подтиква да се ориентираме в пейзаж, в който носталгията се преплита неудобно с мимолетни цифрови артефакти."
 
