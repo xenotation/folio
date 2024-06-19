@@ -13,7 +13,7 @@ categories = ["collab"]
 
 collaborators = ["София Димова"]
 
-imgNames = ["Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Цялостен изглед", "Видео инсталацията в пространството", "Видео инсталацията в пространството", "Видео инсталацията в пространството"]
+imgNames = ["Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Кадър от видео инсталацията", "Цялостен изглед", "Видео инсталацията в пространството", "Видео инсталацията в пространството", "Видео инсталацията в пространството", "Плакат за изложбата"]
 imgDescrps = ["цитата често е грешно атрибутиран на Марк Твен, Крис Маркър, и много други.", "На кадъра се вижда видеото “Печатница за фалшиви евро банкноти част 4”.", "На кадъра се вижда видеото “Отиде лопатата”.", "На кадъра се вижда видеото “'Последният лов'- последните месеци на комунизма у нас”.", "На кадъра се вижда видеото “Ченгета раздават колена и влачат хора пред излизащи от парламента коли”.", "На кадъра се вижда видеото “Разрушаването на Мавзолея на Георги Димитров”.", "На кадъра се вижда видеото “ГДБОП-МВР 2009 част 4”.", "На кадъра се вижда видеото “Динко хваща бежанци непоказни кадри”.", "На кадъра се вижда видеото “Научете български с Дими”", "Излед на инсталацията на София Димова", "На кадъра се вижда легендарното видео “Ходете в червило”"]
 
 +++
@@ -29,4 +29,5 @@ Symbolically staged as a TV within a mundane home setting, the installation evok
 
 The video collage weaves together footage ranging from the beating of protestors to political scandals and humorous home videos, capturing pivotal moments in Bulgaria’s visual subconscious. This approach draws inspiration from the early internet's raw aesthetic, coopting the sensibilities of competitive online video game editing to create a pure emotional tapestry, free from the strict codification of traditional cinema or video essays. Its aim is to reveal the indifferent nature of the internet as a vast repository that dictates what is remembered and what is erased. 'Destructive Sensuality' invites reflection on the interplay between digital decay and cultural memory, urging us to navigate a landscape where nostalgia intertwines uncomfortably with fleeting digital artifacts."
 
+[LINK to whole video](https://youtu.be/hJ6enZi8O7w)
 

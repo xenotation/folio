@@ -14,7 +14,7 @@ categories = ["collab"]
 collaborators = ["Sofia Dimova"]
 
 
-imgNames = ["Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Цялостен изглед", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation"]
+imgNames = ["Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Цялостен изглед", "Shot of the video instalation", "Shot of the video instalation", "Shot of the video instalation", "Exhibition poster"]
 imgDescrps = ["The quote is often misattributed to Mark Twain, Chris Marker, and many others.", "In the shot you can see a still from the video “Печатница за фалшиви евро банкноти част 4”.", "In the shot you can see a still from the video “Отиде лопатата”.", "In the shot you can see a still from the video “'Последният лов'- последните месеци на комунизма у нас”.", "In the shot you can see a still from the video “Ченгета раздават колена и влачат хора пред излизащи от парламента коли”.", "In the shot you can see a still from the video “Разрушаването на Мавзолея на Георги Димитров”.", "In the shot you can see a still from the video “ГДБОП-МВР 2009 част 4”.", "In the shot you can see a still from the video “Динко хваща бежанци непоказни кадри”.", "In the shot you can see a still from the video “Научете български с Дими”", "Shot of Sofia Dimova's installation", "In the shot you can see part  of the legendary video “Ходете в червило”"]
 +++
 
@@ -29,3 +29,5 @@ imgDescrps = ["The quote is often misattributed to Mark Twain, Chris Marker, and
 
 
 Видеоколажът преплита кадри от побоища над протестиращи до политически скандали и хумористични домашни видеоклипове, запечатвайки ключови моменти от визуалното подсъзнание на България. Този подход черпи вдъхновение от суровата естетика на ранния интернет, кооперирайки чувствителността на състезателното редактиране на онлайн видеоигри, за да създаде чист емоционален гоблен, свободен от строгата кодификация на традиционното кино или видеоесета. Целта му е да разкрие безразличната природа на интернет като огромно хранилище, което диктува какво се помни и какво се изтрива. 'Destructive Sensuality' приканва към размисъл за взаимодействието между цифровия разпад и културната памет, като ни подтиква да се ориентираме в пейзаж, в който носталгията се преплита неудобно с мимолетни цифрови артефакти."
+
+[ЛИНК към цялото видео](https://youtu.be/hJ6enZi8O7w)
