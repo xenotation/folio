@@ -5,8 +5,8 @@ description = "An examining a work archive of the Bulgarian Customs Agency, Dire
 
 type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "duo-channel video installation"]
-place = "ReBonkers, Varna"
-dateof = "07-21.09.2023"
+place = "Charta Gallery, Posta, Sofia"
+dateof = "07-21.09.2024"
 curator = ["Hristo Kaloyanov"]
 collaborators = ["Aaron Roth"]
 categories = ["collab"]
@@ -18,3 +18,21 @@ Sound = ["Yan Lechev"]
 Photo = ["Boris Vasilev"]
 keywords = ["goverment contraband", "hidden transit", "post-sovient conspiracy", "postcards"]
 +++
+
+
+
+
+&nbsp;
+
+Копия от съпъстващата книга, дизайн [Захари Димитров](https://zahari.xyz/) могат да бъдат закупивени в: [The Kopy Shop](https://www.thekopy.shop/product/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0)
+
+&nbsp;
+
+### Критика
+
+### Покритие
+
+
+&nbsp;
+
+The project was supported by the [Singer-Zahariev Foundation](https://singer-zahariev.eu/projects/postcards-and-contraband/).
