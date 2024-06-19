@@ -24,22 +24,16 @@ Nature Morte е мултимедиен проект, който поставя �
 Оперативният поглед, напуснал отдавна обектива на кино-окото, ни дава точни координати на събитието, локализира катастрофата, прави белезите върху видимата повърхност обозрими. Макар космическото време на геоформиране да протича в относителен покой, то има и кратки периоди на значителни промени изписани върху слоевете. Сондажът на скали, глина, минерали, камъни и пепел разтваря земните недра, откъдето са четими следи от отдавна потънали светове. Оттук започва оперативната дейност върху критичната инфраструктура на мини „Марица-Изток“.
 
 &nbsp;
-
 &nbsp;
 
-Копия от съпътстващото издание може да нмерите в:<br> [The Kopy Shop](https://www.thekopy.shop/product/nature-morte)
+Копия от съпътстващото издание може да нмерите в: [The Kopy Shop](https://www.thekopy.shop/product/nature-morte)
 
 &nbsp;
 
 ### Други представяния
+[Като част от изложбата "to slip, to slide, to glitch"](https://www.galeriefutura.de/en/larisa-crunteanu-sonja-hornung-to-slip-to-slide-to-glitch/), 03.06-12.07.24 | Галерия Future, Берлин, Германия
+
 [Прожекция на NATURE MORTE като част от VideoArt Garden](https://timisoara2023.eu/ro/evenimente/coatings-videoart-garden/), 14-17.09.23 | Timisoara, Romania
-### Покритие
-[Българска Национална Телевизия](https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html), [Българско Национално Радио](https://bnr.bg/horizont/post/101854514/nature-morte-tvorcheski-pogled-kam-vagledobivnata-industria),
-Bloomberg TV,
-[Българска Телеграфна Агенция](https://www.bta.bg/bg/news/lik/491946-diskusiya-na-tema-vaglishtna-tropika-razglezhda-dobiva-na-ruda-i-kak-vdahnovya),
-[Impressio](https://impressio.dir.bg/photography/vaglishtna-tropika-v-gyote-institut-i-ko-op),
-[Списание Boy Scout](https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/),
-[Artnews Cafe](https://openartfiles.bg/openartfiles.bg/public/bg/artnewscafebulletin)
 
 ### Критика
 [“Към една геософия на бедствието”](https://culturecenter-su.org/philip-stoilov-nature-morte/)<br>
@@ -51,6 +45,14 @@ Bloomberg TV,
 “[Observing the Geotraumatic Lines of Flight On Terrain](https://culturecenter-su.org/wp-content/uploads/2023/10/programme-2023.pdf)”
 <br>
 Hristo Kaloyanov | доклад за конференция “CULTURE, INFRASTRUCTURE, MOBILITY” организирана от Лайбниц Институт и Културен Център Софийски Университет
+
+### Медийно Покритие
+[Българска Национална Телевизия](https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html), [Българско Национално Радио](https://bnr.bg/horizont/post/101854514/nature-morte-tvorcheski-pogled-kam-vagledobivnata-industria),
+Bloomberg TV,
+[Българска Телеграфна Агенция](https://www.bta.bg/bg/news/lik/491946-diskusiya-na-tema-vaglishtna-tropika-razglezhda-dobiva-na-ruda-i-kak-vdahnovya),
+[Impressio](https://impressio.dir.bg/photography/vaglishtna-tropika-v-gyote-institut-i-ko-op),
+[Списание Boy Scout](https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/),
+[Artnews Cafe](https://openartfiles.bg/openartfiles.bg/public/bg/artnewscafebulletin)
 
 &nbsp;
 

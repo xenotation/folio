@@ -1,6 +1,6 @@
 +++
 title = 'Картички и Контрабанда'
-date = 2023-09-07T23:29:59+02:00
+date = 2024-03-12T23:30:59+02:00
 description = "Изследването на служебен архив от Агенция „Митници“, Дирекция „Борба с наркотрафика“ от периода 1975-1985. Картички и контрабанда чертае едно конспиративно четене на бллизкото минало"
 
 medium = ["конспиративна карта от разсекретени документи", "архивни кадри", "книга", "двуканална видео инсталация"]
@@ -34,12 +34,11 @@ Photo = ["Борис Василев"]
 
 &nbsp;
 
-### Съпътсващи събития
-Разговор с шеф отдел противофействеие накротрафика 
+### Критика
 
 ### Покритие
-[Българска Телеграфна Агенция](https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-), [Българско Национално Радио](https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma), [Културни Новини](https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov), [Паралел 43](https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda), [Утро Русе](https://utroruse.com/article/970557/)
+
 
 &nbsp;
 
-The project was supported by Varna’s Municipal Culture Fund and ReBonkers, Varna.
+Проекта е осъществен с помоща на [Фондация Сингер-Захариев](https://singer-zahariev.eu/bg/%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%b8/%d0%ba%d0%b0%d1%80%d1%82%d0%b8%d1%87%d0%ba%d0%b8-%d0%b8-%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%b0%d0%b1%d0%b0%d0%bd%d0%b4%d0%b0/).

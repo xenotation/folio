@@ -12,6 +12,7 @@ profileImage: "/images/spinner.webp"
 Свържете се с мен:</br>
 имейл → [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)</br>
 инстаграм → [@avoid.nd](https://www.instagram.com/avoid.nd/)</br>
-фейсбук → [av0id.nd](https://www.facebook.com/av0id.nd/").
+фейсбук → [av0id.nd](https://www.facebook.com/av0id.nd/)</br>
+ютуб  → [@newdegeneration](https://www.youtube.com/channel/UCeYdFw6F3djG2K0p0BH0crg)
 
 [Технически детайли и интелектуални права](/tech-spec/tech-spec).

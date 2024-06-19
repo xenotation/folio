@@ -12,6 +12,7 @@ Nikola Vladislavov Stoyanov is a visual artist and machine philosopher hailing f
 Contact me via: </br>
 email → [av0id.biz@gmail.com](mailto:av0id.biz@gmail.com)</br>
 instagram → [@avoid.nd](https://www.instagram.com/avoid.nd/)</br>
-facebook → [av0id.nd](https://www.facebook.com/av0id.nd/").
+facebook → [av0id.nd](https://www.facebook.com/av0id.nd/).</br>
+youtube → [@newdegeneration](https://www.youtube.com/channel/UCeYdFw6F3djG2K0p0BH0crg)
 
 [Technical Details and Inprint](/tech-spec/tech-spec).

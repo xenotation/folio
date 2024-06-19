@@ -159,30 +159,59 @@
       
 <!-- Masonry Grid Gallery of Images -->
 <div class="masonry-grid">
-  {{ $images := .Resources.ByType "image" }}
-  {{ range $index, $image := $images }}
+  {{ $resources := .Resources.Match "*.*" }}
+  {{ range $index, $resource := $resources }}
     {{ $title := index $.Params.imgNames $index }}
     {{ $description := index $.Params.imgDescrps $index }}
-    
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ImageObject",
-        "url": "{{ $image.Permalink }}",
-        "contentUrl": "{{ $image.RelPermalink }}",
-        "description": "{{ $description }}",
-        "name": "{{ $title }}"      
-      }
-    </script>
 
-    {{ if ne $image.Name "hero.webp" }}
-      {{ $downsampledImg := $image.Resize "420x" }}
-      <a class="spotlight" href="{{ $image.Permalink }}" data-description="{{ $description }}" alt="{{ $title }}">
-        <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $description }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
-      </a>
+    {{ if in $resource.MediaType.Type "image" }}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "url": "{{ $resource.Permalink }}",
+          "contentUrl": "{{ $resource.RelPermalink }}",
+          "description": "{{ $description }}",
+          "name": "{{ $title }}"      
+        }
+      </script>
+
+      {{ if ne $resource.Name "hero.webp" }}
+        {{ $downsampledImg := $resource.Resize "420x" }}
+        <a class="spotlight" href="{{ $resource.Permalink }}" data-description="{{ $description }}" alt="{{ $title }}">
+          <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $description }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
+        </a>
+      {{ end }}
+
+    {{ else if in $resource.MediaType.Type "video" }}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "url": "{{ $resource.Permalink }}",
+          "contentUrl": "{{ $resource.RelPermalink }}",
+          "description": "{{ $description }}",
+          "name": "{{ $title }}"
+        }
+      </script>
+
+      {{ if and (ne $resource.Name "hero.mp4") (ne $resource.Name "hero.webm") }}
+        <a class="spotlight" data-media="video"
+                           data-src-mp4="{{ $resource.RelPermalink }}"
+                           data-autoplay="true"
+                           data-muted="true"
+                           data-preload="true"
+                           data-controls="true"
+                           data-inline="false">
+        </a>
+      {{ end }}
     {{ end }}
   {{ end }}
 </div>
+
+
+
+
 
 <a href="#" class="scroll-to-top">↑</a>
 
