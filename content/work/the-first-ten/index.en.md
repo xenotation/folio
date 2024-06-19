@@ -2,7 +2,7 @@
 title = 'Postcards and Contraband'
 date = 2024-03-12T23:30:59+02:00
 description = "An examining a work archive of the Bulgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985."
-
+draft = true
 type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "duo-channel video installation"]
 place = "Charta Gallery, Posta, Sofia"
@@ -19,7 +19,17 @@ Photo = ["Boris Vasilev"]
 keywords = ["goverment contraband", "hidden transit", "post-sovient conspiracy", "postcards"]
 +++
 
+### Critique
 
+[Contraband and Offhore](https://culturecenter-su.org/vera-mlechevska-kontrabanda/) - Vera Mlechevska, Sofia University Culture Center
+[Контрабандата, описана в картички](https://www.bgart.bg/kontrabandata-opisana-v-kartichki/) - Bulgarian Art Blog
+
+### Media coveredge
+[Programata](https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/)
+[Horizont](https://bnr.bg/horizont/post/101976077)
+[Bulgarian National Television](https://bnt.bg/news/kartichki-i-kontrabanda-izlozhba-predstavya-arhiv-na-agenciya-mitnici-v366192-328300news.html)
+[EuroNews TV](https://euronewsbulgaria.com/news/26635/kartichki-i-kontrabanda-izlozhba-predstavya-arhivi-ot-agentsiya-mitnitsi)
+[Bulgarian National Radio](https://bnr.bg/hristobotev/post/101982948/kaloanov)
 
 
 &nbsp;
