@@ -18,6 +18,14 @@ Latent space is where the gaze of artificial intelligence alone draws the pictur
 
 More than a hallucination and less than reality. In the latent space, nothing is new, like for the absolute genius of the past, but only experienced as such in the schizophrenic grip of the clinically imprisoned. Like the traditional painting and the unique work of art, every tick, every deviation in artificial intelligence creates a forged reality - unique and complete in itself. The emerging visual field is hyper-referential without offering an imitation of reality; it cannot be repeated in its creation and final result. The mechanics of this type of painting challenges the basic principle of the technique, where a function can be repeated under the same conditions. Instead, it becomes a virulent artistic gesture, exposing the deceptive charm of tradition in art and its reproduction.
 
+### Other Showings
+
+“[The World After / Post-apocalyptic Notes](www.nenobel.net/neno-art-works.htm)” 05.05.2023 | Sineu, Mallorca, SPAIN, curated by [Neno Belchev](http://www.nenobel.net/neno-za.htm)
+
+Discussion on the exhibition "Latent Space", 20.09.2022 | Doza Gallery, Sofia
+
+Discussion on the exhibition "Latent Space", 16.09.2022 | ReBonkers, Varna
+
 <br>
 
 [Link to whole text accompanying the exhibition.](https://blog.newdegeneration.xyz/latent-space)
