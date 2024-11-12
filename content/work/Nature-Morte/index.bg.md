@@ -30,8 +30,8 @@ Nature Morte е мултимедиен проект, който поставя �
 
 &nbsp;
 
-### Други представяния
-[Като част от изложбата "to slip, to slide, to glitch"](https://www.galeriefutura.de/en/larisa-crunteanu-sonja-hornung-to-slip-to-slide-to-glitch/), 03.06-12.07.24 | Галерия Future, Берлин, Германия
+### Съпътсващи събития
+[Като част от изложбата "to slip, to slide, to glitch"](https://www.galeriefutura.de/en/larisa-crunteanu-sonja-hornung-to-slip-to-slide-to-glitch/), 03.06-12.07.24 | Галерия Futura, Берлин, Германия
 
 [Прожекция на NATURE MORTE като част от VideoArt Garden](https://timisoara2023.eu/ro/evenimente/coatings-videoart-garden/), 14-17.09.23 | Timisoara, Romania
 

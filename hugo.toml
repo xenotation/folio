@@ -28,7 +28,7 @@ category = "categories"
     title = 'Nikola Stoyanov'
     weight = "1"
       [languages.en.params]
-      Description = "Artist Porfolio of Nikola Stoyanov"
+      Description = "Nikola Stoyanov is a visual artist and machine philosopher hailing from Varna, Bulgaria."
       [[languages.en.menu.main]]
       url    = "/work/"
       name   = "work"
@@ -48,7 +48,7 @@ category = "categories"
     weight = "2"
     title = 'Никола Стоянов'
       [languages.bg.params]
-      Description = "Портфолио на визуалния артист Никола Стоянов"
+      Description = "Никола Стоянов е визуален артист и машинен философ от Варна, България."
       [[languages.bg.menu.main]]
       url    = "/bg/work/"
       name   = "труд"

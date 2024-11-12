@@ -14,5 +14,23 @@
 {{- partial "footer.html" . -}}
     <div class="bg"></div>
 
+    <script>
+        let timeout;
+    
+        function resetTimer() {
+            clearTimeout(timeout);
+            document.body.classList.remove('inactive');
+            timeout = setTimeout(() => {
+                document.body.classList.add('inactive');
+            }, 120000); // 2 minutes in milliseconds
+        }
+    
+        document.addEventListener('mousemove', resetTimer);
+        document.addEventListener('keydown', resetTimer);
+        document.addEventListener('scroll', resetTimer);
+        document.addEventListener('click', resetTimer);
+    
+        resetTimer(); // initialize timer on page load
+    </script>
     
 </html>

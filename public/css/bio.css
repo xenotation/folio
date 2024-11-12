@@ -1,0 +1,135 @@
+.bio-container {
+  margin: 0 2rem 1.2rem 2rem;
+}
+
+.bio-column-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.left-column-bio {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+}
+
+.spinner {
+  min-width: 5rem;
+  max-width: 18rem;
+  height: auto;
+  transition: transform 0.5s cubic-bezier(0.645, -0.220, 0.740, 1.185);
+}
+
+.bio-text {
+  flex: 1;
+  min-width: 5em; /* Set minimum width */
+  max-width: 20rem; 
+  text-align: justify;
+  hyphens: auto;
+  margin: 0;
+}
+
+.right-column-bio {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.right-column-container {
+  display: flex;
+  flex: 1;
+  hyphens: auto;
+}
+
+.column {
+  flex: 1;
+  margin: 0;
+  flex-wrap: wrap;
+  hyphens: auto;
+  padding-left: 2rem;
+}
+
+.column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.column h1 {
+  letter-spacing: 0.08rem;
+  margin: 0 0 0.3rem 0;
+}
+
+.column h2 {
+  margin: 0.8rem 0 1.296rem 0;
+}
+
+.column h3 {
+  margin: 0.8rem 0 0 0;
+  font-size: 1.20rem;
+}
+
+.column h4 {
+  margin: 0.23rem 0 0 0;
+}
+
+.column p {
+  margin: 0.8rem 0 0.8rem 0;
+  font-family: 'STIXTwoText';
+}
+
+.column a {
+  color: var(--text-color);
+  text-decoration: none;
+  hyphenate-limit-chars: 50;
+  text-wrap: pretty;
+}
+
+.publect p {
+  font-size: 1.08rem;
+  font-family: 'STIXTwoText';
+  margin: 0.23rem 0 0 0;
+}
+
+@media (max-width: 800px) {
+  .bio-column-container {
+    flex-direction: column;
+    gap: 0;
+    text-align: justify; /* Ensures text is justified */
+  }
+  .right-column-container,
+  .left-column-bio,
+  .right-column-bio {
+    flex: 1;
+    flex-direction: column;
+  }
+
+  .column {
+    text-align: center;
+  }
+
+  .bio-text,
+  .spinner {
+    min-width: unset;
+    max-width: unset;
+  }
+
+  .column h1, h2, h3, ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  .column h1 {
+    margin: 2rem 0 0.5rem 0;
+  }
+
+  .column h2 {
+    margin: 1rem 0 0.5rem 0;
+  }
+
+  .column p {
+    margin: 0;
+  }
+}

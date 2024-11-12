@@ -2,7 +2,7 @@
 title = 'I-Ixa'
 
 date = 2021-10-18T23:00:59+02:00
-description = "The exhibition is nomadic in nature, led by the Black Sea, which is without harbour and without shore, far from the clear squawk of a sea bird. A malevolent curse, brought where it does not belong - in the mountain foothills."
+description = "The exhibition is nomadic in nature, led by the black sea, which is landlocked and shoreless, far from the clear croak of the sea bird."
 
 draft = false
 

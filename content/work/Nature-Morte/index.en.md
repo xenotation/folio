@@ -29,7 +29,7 @@ Copies of the accompanying book can be purchased at: [The Kopy Shop](https://www
 &nbsp;
 
 ### Other Showings
-[As part of the exhibition "to slip, to slide, to glitch"](https://www.galeriefutura.de/en/larisa-crunteanu-sonja-hornung-to-slip-to-slide-to-glitch/), 03.06-12.07.24 | Galerie Future Berlin, Germany
+[As part of the exhibition "to slip, to slide, to glitch"](https://www.galeriefutura.de/en/larisa-crunteanu-sonja-hornung-to-slip-to-slide-to-glitch/), 03.06-12.07.24 | Galerie Futura Berlin, Germany
 
 [Screening of NATURE MORTE at VideoArt Garden](https://timisoara2023.eu/ro/evenimente/coatings-videoart-garden/), 14-17.09.23 | Timisoara, Romania
 

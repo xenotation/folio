@@ -20,7 +20,7 @@ Sound = ["Ян Лечев", "Антон Шишков"]
 
 ### Съпътсващи събития
 
-“[Светът след,  пост-апокалиптични бележки](www.nenobel.net/neno-art-works.htm)” 05.05.2023 | Sineu, Mallorca, Испания, с куратор [Нено Белчев](http://www.nenobel.net/neno-za.htm)
+“[Светът след, пост-апокалиптични бележки](www.nenobel.net/neno-art-works.htm)” 05.05.2023 | Sineu, Mallorca, Испания, с куратор [Нено Белчев](http://www.nenobel.net/neno-za.htm)
 
 Беседа отсно изложбата Латентно Пространство, 20.09.2022 | Галерия Doza, София
 
