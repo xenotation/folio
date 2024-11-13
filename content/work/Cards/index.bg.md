@@ -34,10 +34,10 @@ Photo = ["Борис Василев"]
 
 &nbsp;
 
-### Съпътсващи събития
+## Съпътсващи събития
 Разговор с шеф отдел противофействеие накротрафика 
 
-### Покритие
+## Покритие
 [Българска Телеграфна Агенция](https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-), [Българско Национално Радио](https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma), [Културни Новини](https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov), [Паралел 43](https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda), [Утро Русе](https://utroruse.com/article/970557/)
 
 &nbsp;

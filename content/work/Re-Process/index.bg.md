@@ -28,5 +28,5 @@ Sound = ["Yan Lechev"]
 
 [Линк към цялата фиктивна туристическа карта](https://blog.newdegeneration.xyz/re-process-map)
 
-### Покритие
+## Покритие
 [Българско Национално Радио](https://bnr.bg/varna/post/101649068/izlojbata-reproces-preplita-tradicionnoto-i-abstraktnoto-v-nevijdani-ulichni-fotografii)

@@ -28,5 +28,5 @@ Like traces of a wandering spirit, they anticipate the gaze of the other, their 
 
 &nbsp;
 
-### Coverage
+## Coverage
 [Impressio](https://impressio.dir.bg/palitra/sledi-ot-brodesht-duh-i-iksa-ot-nikola-stoyanov), Bulgarian National Radio

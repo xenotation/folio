@@ -23,5 +23,5 @@ categories = ["solo"]
 
 &nbsp;
 
-### Покритие
+## Покритие
 [Impressio](https://impressio.dir.bg/palitra/sledi-ot-brodesht-duh-i-iksa-ot-nikola-stoyanov), Българско Национално Радио

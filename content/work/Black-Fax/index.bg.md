@@ -2,7 +2,7 @@
 title = "Черен факс от ченге"
 date = 2024-05-28T23:30:59+02:00
 description = "Черен факс от кукичката„ се състои от готически еротични фен-фикшъни, включващи известни мътни фигури от българската политика, печатащи се нон-стоп от хакнат факс."
-draft = false
+draft = true
 medium = ["hacked fax machine", "intallation", "ai generated gothic fiction"]
 place = "галерия ДОЗА, София. Част от фестивала SPORNO 'THE DEVIANTS'"
 dateof = "28.05-01.06.2024"

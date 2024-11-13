@@ -82,17 +82,17 @@ The second showing of the now upgraded exhibition took place in Sofia. The exhib
 Stoyanov's work allows one to trace the archival trail of former State Security agents linked to the Captagon trade, whose familial and intra-state ties compromise national security. Taking the form of a conspiratorial web of actual historical affiliations, the installation does not omit the hilarity of the former "mutri" as well as the series of landmark assassinations of the still unfinished "transition." Employing the Zettelkasten method, the research has been an amalgamation of investigative journalism, archival scrutiny, and found documents from the People’s Republic of Bulgaria Customs Agency. The piece creates an immersive experience reminiscent of an evidence board trope in cinema. By way of this, it weaves together declassified documents, famous photos of assassinations and mafia parties, exposing the illegal trade orchestrated by the Socialist Bulgarian secret services through foreign entities, as well as the fever dream of untangling the web of the not-so-distant past. Blurring the lines between archive fever and journalistic research practice, it delves into the clandestine maneuvers during the "transition" period and the unrealized lustration processes. Similar to hieroglyphs with deeply forgotten Rosetta stones, these images are maps of something obvious in front of us that at the same time has been impenetrably encrypted and can only be understood through the pure delirium of archival fever. Like objects in a computer game, we have a selection of archetypes: the photograph, the report, the pistol, the newspaper, the man shot dead, the convoy at the border, and the map. The player gets only partial knowledge of these, and the whole of missing information, that which has consciously been omitted, becomes the target of the search. Memory rapidly overflows into paranoia, all centering on the grand plot-hole of the not-so-distant past.
 
 
-### Critique
+## Critique
 [The grammar of historical images](https://culturecenter-su.org/luboslava-hristova-young-art-critic/) - Liuboslava Hristova, Sofia University Culture Center
 
 [Contraband and Offhore](https://culturecenter-su.org/vera-mlechevska-kontrabanda/) - Vera Mlechevska, Sofia University Culture Center
 
 [Contraband, described as postcards](https://www.bgart.bg/kontrabandata-opisana-v-kartichki/) - Bulgarian Art Blog
 
-### Media coveredge
+## Media coveredge
 [Art Viewer](https://artviewer.org/aaron-roth-and-nikola-stoyanov-at-posta-space-and-charta-gallery/), [Bulgarian National Television](https://bnt.bg/news/kartichki-i-kontrabanda-izlozhba-predstavya-arhiv-na-agenciya-mitnici-v366192-328300news.html), [EuroNews TV](https://euronewsbulgaria.com/news/26635/kartichki-i-kontrabanda-izlozhba-predstavya-arhivi-ot-agentsiya-mitnitsi), [Bulgarian National Radio](https://bnr.bg/hristobotev/post/101982948/kaloanov), [Newspaper Bulgaria Today](https://betatest.bgdnes.bg/bulgaria/article/17639897), [Programata](https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/), [Radio Program Horizont](https://bnr.bg/horizont/post/101976077)
 
-### Supporting events
+## Supporting events
  "[On the trail of a banal insight](https://www.youtube.com/watch?v=lqGXz7fNUMQ)" - Discussion to the exhibition "Postcards and Contraband"
 
 &nbsp;

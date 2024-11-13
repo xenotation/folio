@@ -25,5 +25,5 @@ Reverting to the process carried out so far, the basis of archival thinking, the
 
 [Link to the whole fictional tourist map.](https://blog.newdegeneration.xyz/re-process-map)
 
-### Coverage
+## Coverage
 [Bulgarian National Radio](https://bnr.bg/varna/post/101649068/izlojbata-reproces-preplita-tradicionnoto-i-abstraktnoto-v-nevijdani-ulichni-fotografii)
