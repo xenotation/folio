@@ -57,7 +57,7 @@
     
   </url><url>
     <loc>//192.168.5.102:8080/bg/categories/</loc>
-    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-12T23:30:59+02:00</lastmod>
     <changefreq>daily</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -72,7 +72,7 @@
     
   </url><url>
     <loc>//192.168.5.102:8080/bg/categories/collab/</loc>
-    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-12T23:30:59+02:00</lastmod>
     <changefreq>daily</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -84,71 +84,6 @@
                 hreflang="bg"
                 href="//192.168.5.102:8080/bg/categories/collab/"
                 />
-    
-  </url><url>
-    <loc>//192.168.5.102:8080/bg/work/youll-know/</loc>
-    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//192.168.5.102:8080/work/youll-know/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="//192.168.5.102:8080/bg/work/youll-know/"
-                />
-    
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF1852-1.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2178.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2180.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2185.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2191.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2193_1.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2200.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2209.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2220.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2226.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/DSCF2229.webp</image:loc>
-        </image:image>
-      
-        <image:image>
-          <image:loc>//192.168.5.102:8080/work/youll-know/hero.webp</image:loc>
-        </image:image>
-      
     
   </url><url>
     <loc>//192.168.5.102:8080/bg/work/the-first-ten/</loc>
