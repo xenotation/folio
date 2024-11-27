@@ -16,6 +16,8 @@ description: "Лист на уеб-кръгове в които участвам
 <a href="https://weirdwidewebring.net/random.html">Weird Wide Webring
     </a>
 
+<a href="https://linklane.net" target="_blank">Listed at LinkLane.Net</a>
+
 <a href="http://geekring.net/" target="_blank">Geekring
     </a>
 </div>

@@ -121,18 +121,18 @@
       <description>&amp;ldquo;Музика за нов нощен живот&amp;rdquo; се занимава с концепцията на Марк Фишър за хаунтология и изгубено бъдеще. Визуално тя показва киматична матрица на един град в движение, на неговите мечти и кошмари и финално на неговата реалност, изпълнена с носталгия. Приливното усещане за турбулентност, разбунено от древните течения на Черно море, ни връща в състояние на фройдистко несъзнание, унила еуфория, соматично разкриваща субекта към базовата носталгия по Едиповата раздяла.&#xA;Предадените обещания на младежката култура отварят сцената за снимки на меланхолични рейвъри, изпаднали в криза на средната възраст.</description>
     </item>
     <item>
-      <title>Приятели и колеги</title>
-      <link>//192.168.5.102:8080/bg/tech-spec/webring/</link>
-      <pubDate>Thu, 01 Jan 1970 02:00:00 +0200</pubDate>
-      <guid>//192.168.5.102:8080/bg/tech-spec/webring/</guid>
-      <description>I run my own webring that feautres researches artist and plain cool people you can visit as well as join at low-loop.xyz.&#xA;I also participate in these webrings:&#xA;Weird Wide Webring </description>
-    </item>
-    <item>
       <title>Технически детайли</title>
       <link>//192.168.5.102:8080/bg/tech-spec/tech-spec/</link>
       <pubDate>Thu, 01 Jan 1970 02:00:00 +0200</pubDate>
       <guid>//192.168.5.102:8080/bg/tech-spec/tech-spec/</guid>
       <description>Този сайт е създаден на ръка от нулата, използва Hugo като HTML генератор и се хоства от Netlify.&#xA;Сайта използва следните шрифтове:&#xA;Stix Two by MicroPress Type Foundry Comfortaa by Johan Aakerlund и двата с лиценз SIL Open Font Licence.&#xA;Заглавната страница представя много-мащабни тюрингови шарки, базирани на статията на Джонатън Маккабе&#xA;Всичкия труд на този уебсайт ако не е казано изрично пада под CC BY-NC-SA 4.0 © Никола Стоянов, 2024</description>
+    </item>
+    <item>
+      <title>Приятели и колеги</title>
+      <link>//192.168.5.102:8080/bg/tech-spec/webring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//192.168.5.102:8080/bg/tech-spec/webring/</guid>
+      <description>Също оправлявам собствен уеб-кръг, главно фокусиращ,, но не ограничен до, български артисти, писатели, блогъра и тн.: low-loop.xyz&#xA;Този сайт участва в следните уеб-кръгове:&#xA;XXIIVV&#xD;Weird Wide Webring Geekring Listed @ LinkLane.Net&#xD;</description>
     </item>
   </channel>
 </rss>
