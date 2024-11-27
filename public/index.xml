@@ -125,7 +125,14 @@
       <link>//192.168.5.102:8080/tech-spec/tech-spec/</link>
       <pubDate>Thu, 01 Jan 1970 02:00:00 +0200</pubDate>
       <guid>//192.168.5.102:8080/tech-spec/tech-spec/</guid>
-      <description>This site is created by hand from the ground up and is optimised for speed and simplicity. It uses a strack of Hugo as a static site generator and is hosted on Netlify.&#xA;The website is set in the following fonts:&#xA;Stix Two by MicroPress Type Foundry Comfortaa by Johan Aakerlund both under distributed under SIL Open Font Licence.&#xA;Lander page feature Multi-Scale Turing Patterns based on Jonathan McCabe&amp;rsquo;s paper</description>
+      <description>This site is created by hand from the ground up and is optimised for speed and simplicity. It uses a strack of Hugo as a static site generator and is hosted on Netlify.&#xA;The website is set in the following fonts:&#xA;Stix Two by MicroPress Type Foundry Comfortaa by Johan Aakerlund both distributed under SIL Open Font Licence.&#xA;Lander page feature Multi-Scale Turing Patterns based on Jonathan McCabe&amp;rsquo;s paper&#xA;All work if not otherwise stated is licensed under CC BY-NC-SA 4.</description>
+    </item>
+    <item>
+      <title>Friends and colleagues</title>
+      <link>//192.168.5.102:8080/tech-spec/webring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//192.168.5.102:8080/tech-spec/webring/</guid>
+      <description>I run my own webring that feautres researches artist and plain cool people you can visit as well as join at low-loop.xyz.&#xA;I also participate in these webrings:&#xA;Weird Wide Webring</description>
     </item>
   </channel>
 </rss>

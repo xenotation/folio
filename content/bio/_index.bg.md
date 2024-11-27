@@ -16,3 +16,6 @@ profileImage: "/images/spinner.webp"
 ютуб  → [@newdegeneration](https://www.youtube.com/channel/UCeYdFw6F3djG2K0p0BH0crg)
 
 [Технически детайли и интелектуални права](/tech-spec/tech-spec).
+
+[Уеб-кръга който хоствам](https://low-loop.xyz/), където можете да намерите приятели, познати и интерестни хора.</br>
+[Уеб-кръгове в които участвам](/tech-spec/webring/).

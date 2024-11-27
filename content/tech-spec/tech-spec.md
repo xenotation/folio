@@ -12,8 +12,7 @@ by MicroPress Type Foundry
 - [Comfortaa](https://www.ctan.org/tex-archive/fonts/comfortaa)</br>
 by [Johan Aakerlund](http://luc.devroye.org/fonts-50227.html)
 
-both under distributed under [SIL Open Font Licence](https://openfontlicense.org/).
-
+both distributed under [SIL Open Font Licence](https://openfontlicense.org/).
 
 Lander page feature Multi-Scale Turing Patterns based on [Jonathan McCabe's paper](http://www.jonathanmccabe.com/Cyclic_Symmetric_Multi-Scale_Turing_Patterns.pdf)
 

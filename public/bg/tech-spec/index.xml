@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 01 Jan 1970 02:00:00 +0200</lastBuildDate>
     <atom:link href="//192.168.5.102:8080/bg/tech-spec/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Приятели и колеги</title>
+      <link>//192.168.5.102:8080/bg/tech-spec/webring/</link>
+      <pubDate>Thu, 01 Jan 1970 02:00:00 +0200</pubDate>
+      <guid>//192.168.5.102:8080/bg/tech-spec/webring/</guid>
+      <description>I run my own webring that feautres researches artist and plain cool people you can visit as well as join at low-loop.xyz.&#xA;I also participate in these webrings:&#xA;Weird Wide Webring </description>
+    </item>
+    <item>
       <title>Технически детайли</title>
       <link>//192.168.5.102:8080/bg/tech-spec/tech-spec/</link>
       <pubDate>Thu, 01 Jan 1970 02:00:00 +0200</pubDate>

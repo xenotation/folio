@@ -16,3 +16,5 @@ facebook → [av0id.nd](https://www.facebook.com/av0id.nd/).</br>
 youtube → [@newdegeneration](https://www.youtube.com/channel/UCeYdFw6F3djG2K0p0BH0crg)
 
 [Technical Details and Inprint](/tech-spec/tech-spec).
+
+The [web-ring I host](https://low-loop.xyz/)</br> and [web-rings I'm part of](/tech-spec/webring/).
