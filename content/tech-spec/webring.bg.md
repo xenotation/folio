@@ -4,10 +4,9 @@ description: "Лист на уеб-кръгове в които участвам
 
 ---
 
+Също оправлявам собствен уеб-кръг, главно фокусиращ,, но не ограничен до, български артисти, писатели, блогъра и тн.: [low-loop.xyz](low-loop.xyz)
 
-I run my own webring that feautres researches artist and plain cool people you can visit as well as join at [low-loop.xyz](low-loop.xyz)
-
-I also participate in these webrings:
+Този сайт участва в следните уеб-кръгове:
 
 <div style="text-decoration: none;  
 display: flex;
