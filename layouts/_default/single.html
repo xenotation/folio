@@ -8,7 +8,7 @@
     "headline": "{{ .Title }}",
     "url": "{{ .Permalink }}",
     "description": "{{ .Description }}",
-    "datePublished": "{{ dateFormat '2006-01-02' .Date }}",
+    "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
     "image": [
       {{ range .Resources.ByType "image" }}
       "{{ .RelPermalink }}",
