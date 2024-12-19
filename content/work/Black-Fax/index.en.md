@@ -2,7 +2,7 @@
 title = 'Black Fax off the Hook'
 date = 2024-05-28T23:30:59+02:00
 description = "Black Fax off the Hook consist of gothic erotic fan-fiction including notorious shady figures in Bulgarian politics, being printer non-stop by a hacked fax machine."
-draft = false
+
 medium = ["hacked fax machine", "intallation", "ai generated gothic fiction"]
 place = "DOZA gallery, Sofia. Part of SPORNO festival 'THE DEVIANTS'"
 dateof = "28.05-01.06.2024"
