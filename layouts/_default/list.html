@@ -41,14 +41,17 @@
                         "@type": "Person",
                         "name": "Nikola Stoyanov"
                     },
-                    "creator": {
+                    "organizer": {
                         "@type": "Person",
                         "name": "Nikola Stoyanov"
                     },
                     "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}",
-                    "additionalImages": [
+                    "associatedMedia": [
                         {{ range .Params.imgNames }}
-                            "{{ . }}",
+                            {
+                                "@type": "ImageObject",
+                                "url": "{{ . }}"
+                            },
                         {{ end }}
                     ]
                 }
