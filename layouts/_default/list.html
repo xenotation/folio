@@ -27,7 +27,6 @@
                     "startDate": "{{ .Params.dateof | slice 0 10 }}T00:00:00Z",
                     "endDate": "{{ .Params.dateof | slice 13 23 }}T23:59:59Z",
                     "url": "{{ .Permalink }}",
-                    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}",
                     "description": "{{ .Params.description }}",
                     "location": {
                         "@type": "Place",
@@ -46,7 +45,8 @@
                         "@type": "Person",
                         "name": "Nikola Stoyanov"
                     },
-                    "image": [
+                    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}",
+                    "additionalImages": [
                         {{ range .Params.imgNames }}
                             "{{ . }}",
                         {{ end }}
