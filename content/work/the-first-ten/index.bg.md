@@ -91,7 +91,7 @@ keywords = [" държавна контрабанда", "скрит транзи
 [Art Viewer](https://artviewer.org/aaron-roth-and-nikola-stoyanov-at-posta-space-and-charta-gallery/), [Българска национална телевизия](https://bnt.bg/news/kartichki-i-kontrabanda-izlozhba-predstavya-arhiv-na-agenciya-mitnici-v366192-328300news.html), [EuroNews TV](https://euronewsbulgaria.com/news/26635/kartichki-i-kontrabanda-izlozhba-predstavya-arhivi-ot-agentsiya-mitnitsi), [Българско национално радио](https://bnr.bg/hristobotev/post/101982948/kaloanov), [Вестник България Днес](https://betatest.bgdnes.bg/bulgaria/article/17639897), [Програмата](https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/), [Радиопрограма Хоризонт](https://bnr.bg/horizont/post/101976077)
 
 ## Съпътсващи събития
- "[По следите на едно банално озарение](https://www.youtube.com/watch?v=lqGXz7fNUMQ)"- Дискусия с писателката Райна Маркова, куратора Христо Калоянов и художника Никола Стоянов&nbsp;
+"[По следите на едно банално озарение](https://www.youtube.com/watch?v=lqGXz7fNUMQ)"- Дискусия с писателката Райна Маркова, куратора Христо Калоянов и художника Никола Стоянов&nbsp;
 
 Копия от съпътстващата книга, дизайн [Захари Димитров](https://zahari.xyz/) могат да бъдат закупени в:[The Kopy Shop](https://www.thekopy.shop/product/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D1%87%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0)
 

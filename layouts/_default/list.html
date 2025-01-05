@@ -1,15 +1,15 @@
 {{ define "main" }}
-    <div class="grid-container">
-        {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
-        {{ range $taggedPages }}
-            {{ if not .Params.noshow }} <!-- Check if noshow parameter is not true -->
-                <div class="grid-card">
-                    <a href="{{ .Permalink }}">
+<div class="grid-container">
+    {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
+    {{ range $taggedPages }}
+        {{ if not .Params.noshow }} <!-- Check if noshow parameter is not true -->
+            <div class="grid-card">
+                <a href="{{ .Permalink }}">
                     <!-- Hero Image from Post Bundle -->
                     {{ with .Resources.GetMatch "hero.webp" }}
                         {{ $heroImg := .Resize "600x" }}
-                            <img src="{{ $heroImg.RelPermalink }}" alt="{{ with .Params.description }}{{ .Params.description }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
-                        </a>
+                        <img src="{{ $heroImg.RelPermalink }}" alt="{{ with .Params.description }}{{ .Params.description }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
+                    </a>
                     {{ end }}
 
                     <div class="card-content">
@@ -17,8 +17,44 @@
                             <h1 class="card-title">{{ .Title }} {{ dateFormat "(2006)" .Date }}</h1>
                         </a>
                     </div>
-                </div>
-            {{ end }}
+                </a>
+                <!-- Schema Markup for Event -->
+                <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Event",
+                    "name": "{{ .Title }}",
+                    "startDate": "{{ .Params.dateof | slice 0 10 }}T00:00:00Z",
+                    "endDate": "{{ .Params.dateof | slice 13 23 }}T23:59:59Z",
+                    "url": "{{ .Permalink }}",
+                    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}",
+                    "description": "{{ .Params.description }}",
+                    "location": {
+                        "@type": "Place",
+                        "name": "{{ .Params.place }}",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Sofia",
+                            "addressCountry": "Bulgaria"
+                        }
+                    },
+                    "performer": {
+                        "@type": "Person",
+                        "name": "Nikola Stoyanov"
+                    },
+                    "creator": {
+                        "@type": "Person",
+                        "name": "Nikola Stoyanov"
+                    },
+                    "image": [
+                        {{ range .Params.imgNames }}
+                            "{{ . }}",
+                        {{ end }}
+                    ]
+                }
+                </script>
+            </div>
         {{ end }}
-    </div>
+    {{ end }}
+</div>
 {{ end }}
