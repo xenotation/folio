@@ -24,6 +24,7 @@
         "name": "Nikola Stoyanov"
       }
       {{ with .Params.collaborators }}
+      {{ $length := len . }}
       {{ range $index, $collaborator := . }}
       {{ if $index }},{{ end }}
       {
@@ -50,6 +51,7 @@
     ]
   }
   </script>
+  
   
 
 <div class="container">
