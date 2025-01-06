@@ -1,7 +1,6 @@
 {{ define "main" }}
 
 <!-- Article Structured Data -->
-<!-- Article Structured Data -->
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -24,36 +23,25 @@
         "@type": "Person",
         "name": "Nikola Stoyanov"
       }
-      {{ with .Params.collaborators }}
-      {{ $length := len . }}
-      {{ range $index, $collaborator := . }}
-      {{ if $index }},{{ end }}
-      {
-        "@type": "Person",
-        "name": "{{ $collaborator }}"
-      }
-      {{ end }}
-      {{ end }}
     ],
     "keywords": [
       {{ range $index, $keyword := .Params.keywords }}
-      {{ if $index }},{{ end }}"{{ $keyword }}"
+        {{ if $index }},{{ end }}"{{ $keyword }}"
       {{ end }}
     ],
     "image": [
       {{ range $index, $image := .Resources.ByType "image" }}
-      {{ if $index }},{{ end }}"{{ $image.RelPermalink }}"
+        {{ if $index }},{{ end }}"{{ $image.RelPermalink }}"
       {{ end }}
     ],
     "sameAs": [
       {{ range $index, $press := .Params.press }}
-      {{ if $index }},{{ end }}"{{ $press.url }}"
+        {{ if $index }},{{ end }}"{{ $press.url }}"
       {{ end }}
     ]
   }
   </script>
-
-   
+ 
 
 <div class="container">
   <div class="exhb-hero" id="hero-content">
