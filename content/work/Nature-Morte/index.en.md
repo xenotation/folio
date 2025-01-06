@@ -38,7 +38,7 @@ Hristo Kaloyanov | report for the conference “CULTURE, INFRASTRUCTURE, MOBILIT
 
 ## Coverage
 [Bulgarian National Television](https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html), [Bulgarian National Radio](https://bnr.bg/horizont/post/101854514/nature-morte-tvorcheski-pogled-kam-vagledobivnata-industria),
-Bloomberg TV,
+Bloomberg TV, [Darik Radio](https://darik.bg/nature-morte-edin-po-razlichen-pogled-kam-tec-marica-iztok), 
 [Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/lik/491946-diskusiya-na-tema-vaglishtna-tropika-razglezhda-dobiva-na-ruda-i-kak-vdahnovya),
 [Impressio](https://impressio.dir.bg/photography/vaglishtna-tropika-v-gyote-institut-i-ko-op),
 [Boy Scout Magazine](https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/),

@@ -1,11 +1,11 @@
 ---
 title: "biography"
 
-description: "Biography of visual artist and philosopher Nikola Vladislavov Stoyanov. Includes biography, solo and collaborative exhibitions and publications."
+description: "Biography of visual artist and philosopher Nikola Stoyanov. Includes biography, solo and collaborative exhibitions and publications."
 profileImage: "/images/spinner.webp"
 ---
 
-Nikola Vladislavov Stoyanov is a visual artist and machine philosopher hailing from Varna, Bulgaria. His work aims to traverse the boundary between research-based and speculative practices. Area of interest include the intersection of infrastructure, technological apparatus, art, and everyday life, intertwining the humanities with scientific methodologies.  His practice employs multi-linear approaches to creative and collaborative endeavors. Stoyanov has a background as a translator and photographer spanning many years and has received his education in philosophy and the history of technology in the United Kingdom.
+Nikola Stoyanov is a visual artist and machine philosopher hailing from Varna, Bulgaria. His work aims to traverse the boundary between research-based and speculative practices. Area of interest include the intersection of infrastructure, technological apparatus, art, and everyday life, intertwining the humanities with scientific methodologies.  His practice employs multi-linear approaches to creative and collaborative endeavors. Stoyanov has a background as a translator and photographer spanning many years and has received his education in philosophy and the history of technology in the United Kingdom.
 
 </br>
 

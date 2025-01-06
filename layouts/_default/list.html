@@ -46,14 +46,7 @@
                         "name": "Nikola Stoyanov"
                     },
                     "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}",
-                    "associatedMedia": [
-                        {{ range .Params.imgNames }}
-                            {
-                                "@type": "ImageObject",
-                                "url": "{{ . }}"
-                            },
-                        {{ end }}
-                    ]
+                    "additionalType": "http://schema.org/CreativeWork"
                 }
                 </script>
             </div>

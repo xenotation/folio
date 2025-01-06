@@ -85,7 +85,7 @@ Stoyanov's work allows one to trace the archival trail of former State Security 
 ## Critique
 [The grammar of historical images](https://culturecenter-su.org/luboslava-hristova-young-art-critic/) - Liuboslava Hristova, Sofia University Culture Center
 
-[Contraband and Offhore](https://culturecenter-su.org/vera-mlechevska-kontrabanda/) - Vera Mlechevska, Sofia University Culture Center
+[Contraband and the Offshore](https://culturecenter-su.org/vera-mlechevska-kontrabanda/) - Vera Mlechevska, Sofia University Culture Center
 
 [Contraband, described as postcards](https://www.bgart.bg/kontrabandata-opisana-v-kartichki/) - Bulgarian Art Blog
 
