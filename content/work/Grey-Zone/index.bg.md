@@ -6,7 +6,7 @@ description = "Сива зона / Диспозитив е масивна фот
 medium = ["видео игра", "3D китбаш фотограметрия"]
 place = "Матрицата, София"
 
-datestart = "28"
+datestart = "28.04.2022"
 dateend = "29.04.2022"
 
 collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofia Dimova", "Sara Postolle", "Martijn De Geele", "Orlin Dvoryanov", "Agathe de Limoges & Victor Delétraz", "Elena Chergilanova"]

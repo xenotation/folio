@@ -5,7 +5,7 @@ description = "Black Fax off the Hook consist of gothic erotic fan-fiction inclu
 
 medium = ["hacked fax machine", "intallation", "ai generated gothic fiction"]
 place = "DOZA gallery, Sofia. Part of SPORNO festival 'THE DEVIANTS'"
-datestart = "28.05"
+datestart = "28.05.2024"
 dateend = "01.06.2024"
 
 collaborators = ["Alexandar Yuzev", "Patricio Ruiz", "Anton Stoianov", "Mitch Brezounek", "Knives & Pepi", "Biss Nova", "Jeltje Schuurmans", "Soul-pandemic", "Sevda Semer", "Voin de Voin 8 Ivana Nencheva", "Svetli Evgeniev", "Galina Dimitrova", "Sofia Dimitrova", "Corrine Fhima", "Stephanie Telomere", "Hrcprc.studio", "Pezieme", "Georgi Pavlov", "Kyril Buhowski"]
@@ -31,6 +31,15 @@ imgDescrps = [
     "AI-generated grotesque narratives showcasing Bulgarian political figures entangled in fictional scandal and intrigue.",
     "The 'Black Fax' installation as featured at SPORNO, blending AI-generated fan fiction with cultural critique and art."
 ]
+
+press = [
+  { name = "Go Guide", url = "https://goguide.bg/53955-na-sofiya-i-predstoi-parviyat-porno-festival-sporno-sofia-porn-fest/" },
+  { name = "Seen", url = "https://seen.bg/article/5-kakvo/2508-sofia-porn-fest-sporno-2024" },
+  { name = "Proud BG", url = "https://proud.bg/wae-aether-sofia-obyavyava-parvo-izdanie-na-festivala-sporno/" },
+  { name = "Boyscout Magazine", url = "https://boyscoutmag.com/2024/06/sporno-festival-sofia/" }
+]
+
+
 +++
 
 "Black Fax off the Hook" is an insurrectionary transmission—a cultural guerrilla operation leveraging the destructive power of spam. In its most basic sense, a black fax can be defined as a malicious transmission, specifically a sheet of black print sent in rapid succession to a fax machine. This simple act overwhelms the machine’s ink and paper supply, a material assault akin to a digital denial-of-service attack, disrupting the machine’s functionality and rendering it impotent. This exhibit configures black faxing as a tool of psychopolitical derision, a constantly clicking fusillade of narrative flooding the space of perception. The exhibit reinterprets this as a critique of media saturation, where information becomes a relentless assault on cognitive bandwidth, paralyzing its audience into a state of psychic immobilization. In doing so, black faxing transforms into a weaponized inversion of Bulgarian mainstream media, and political populist tactics at large, which wage a campaign of total info-saturation on the public consciousness, entrapping the citizenry in a state of an anything-goes regime of public politics.
@@ -43,5 +52,4 @@ To “receive a fax” in Bulgarian idiom is to be struck by an intrusive idea, 
 
 The exhibit was featured as part of Bulgaria's first porn festival, SPORNO—organized by Æther Sofia and Michaela Lakova.
 
-## Media Coveredge
-[Go Guide](https://goguide.bg/53955-na-sofiya-i-predstoi-parviyat-porno-festival-sporno-sofia-porn-fest/), [Seen](https://seen.bg/article/5-kakvo/2508-sofia-porn-fest-sporno-2024), [Proud BG](https://proud.bg/wae-aether-sofia-obyavyava-parvo-izdanie-na-festivala-sporno/), [Boyscout Magazine](https://boyscoutmag.com/2024/06/sporno-festival-sofia/)
+{{< press_links >}}

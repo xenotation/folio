@@ -7,10 +7,8 @@ description = "Дублаж на констатна поправка на тру
 medium = ["инсталция", "пърформанц"]
 place = "Неоповестено местоположение"
 
-
-datestart = "11.04."
+datestart = "11.04.2024"
 dateend = "12.05.2024"
-
 
 curator = ["Александър Вълчев"]
 collaborators = ["Stoyan Dechev", "Lachezar Boyadzhiev", "Sofia Dimova", "Simeon Simeonov", "Elena Chergilanova", "Yv-Kristian Angelov", "Iliana Grigorova", "Bogomil Ivanov"]
@@ -42,6 +40,19 @@ imgDescrps = [
   "Градско пространство, трансформирано в постоянно променяща се скулптура.",
   "Изкуство, отразяващо временност и градска ентропия."
 ]
+
+press = [
+  { name = "Българска национална телевизия", url = "https://bnt.bg/news/vtoro-izdanie-na-festivala-za-savremenno-vizualno-izkustvo-buna-vav-varna-v362667-326670news.html" },
+  { name = "Българско национално радио", url = "https://bnr.bg/varna/post/101975750/buna-2-da-razbunim-duhovete-s-izkustvo" },
+  { name = "Българска телеграфна агенция", url = "https://www.bta.bg/bg/news/bulgaria/regional-news/oblast-varna/669944-vtoroto-izdanie-na-foruma-za-savremenno-izkustvo-buna-vav-varna-shte-bade-ot-2" },
+  { name = "24 Часа", url = "https://www.24chasa.bg/bulgaria/article/18004134" },
+  { name = "Варна Утре", url = "https://varnautre.bg/2024/05/24/629748-unikalen_festival_zapochva_dnes_vuv_varna" },
+  { name = "Културни новини", url = "https://kulturni-novini.info/sections/11/news/39169-vtoroto-izdanie-na-foruma-za-savremenno-izkustvo-buna-shte-se-sluchi-ot-24-may-do-2-yuni-vav-varna" },
+  { name = "Дневник", url = "https://www.dnevnik.bg/burzi-novini/2024/05/20/4627213_burzi_novini_20_mai/#4628150" },
+  { name = "Виж", url = "https://vijmag.bg/bg/article/vtora-buna" },
+  { name = "БНТ", url = "https://bnt.bg/news/kakvo-da-ochakvame-na-festivala-buna-vav-varna-v368087-329168news.html" }
+]
+
 +++
 
 Като част от фестивала [_Buna 2_ (2024)](https://bunavarna.com/en/programme/#urbaninterventions), _Ще разбереш, когато му дойде времето_ се превърна в градска интервенция и инсталация, която изследва границите на изкуството, ремонта и разрухата и се движи в мрачната територия между спонтанния градски кръпка и конспиративната параноя. _Ще разбереш, когато му дойде времето_ незаконно разрушително разрастване в сърцето на град, който винаги се застроява и никога не приютява жителите си. Изградена изцяло от изхвърлени, изоставени и леснодостъпни строителни материали - метални скоби, крепежни елементи и изхвърлени отломки - творбата въплъщава дълбоко вкоренената българска култура на ремонти „направи си сам“. Тази култура, вкоренена в импровизационния етос на късния социализъм, отразява непрекъснатото договаряне с недостига, стратегия за оцеляване, която превръща остатъците от функционалността във временни решения.
@@ -56,8 +67,7 @@ _Ще разбереш, когато му дойде времето_ се зан
 
 В края на фестивала творбата изчезна. Само металните въжета, с които беше закрепена, останаха окачени като призрачни следи от изплъзнало се тяло. Независимо дали е демонтирано, откраднато или включено в градската икономика на спасяването на отпадъци, отсъствието ѝ отразяваше основното напрежение на нейното съществуване: безкрайното договаряне между създаването и изчезването, между видимостта на изкуството и неговото заличаване. В крайна сметка _Ще разбереш, когато му дойде времето_ се разтвори в града, който я оформи, оставяйки след себе си продължително безпокойство - напомняне за нетрайността на изкуството, за крехкостта на публичното пространство и за неумолимата устойчивост на нещата, оставени на произвола на съдбата.
 
-## Covedge
-[Bulgarian National Television](https://bnt.bg/news/vtoro-izdanie-na-festivala-za-savremenno-vizualno-izkustvo-buna-vav-varna-v362667-326670news.html), [Bulgarian National Radio](https://bnr.bg/varna/post/101975750/buna-2-da-razbunim-duhovete-s-izkustvo), [Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/bulgaria/regional-news/oblast-varna/669944-vtoroto-izdanie-na-foruma-za-savremenno-izkustvo-buna-vav-varna-shte-bade-ot-2), [24 Hours](https://www.24chasa.bg/bulgaria/article/18004134),[Varna Tommorow](https://varnautre.bg/2024/05/24/629748-unikalen_festival_zapochva_dnes_vuv_varna), [Cultural News](https://kulturni-novini.info/sections/11/news/39169-vtoroto-izdanie-na-foruma-za-savremenno-izkustvo-buna-shte-se-sluchi-ot-24-may-do-2-yuni-vav-varna), [Dnevnik](https://www.dnevnik.bg/burzi-novini/2024/05/20/4627213_burzi_novini_20_mai/#4628150) [Vij](https://vijmag.bg/bg/article/vtora-buna), [BNT](https://bnt.bg/news/kakvo-da-ochakvame-na-festivala-buna-vav-varna-v368087-329168news.html)
+{{< press_links >}}
 
 ## Critique
 [Записки по варненските буни](https://kultura.bg/web/%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d0%ba%d0%b8-%d0%bf%d0%be-%d0%b2%d0%b0%d1%80%d0%bd%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d1%82%d0%b5-%d0%b1%d1%83%d0%bd%d0%b8/) - Нора Голешевска 

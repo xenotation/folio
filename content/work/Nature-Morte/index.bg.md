@@ -7,11 +7,25 @@ imgDescrps = ["", "Digital print, 60x40cm, collage of topografical data, hillsha
 imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)"]
 medium = ["фотография", "фотограметрия", "топографски 3D принт", "мулти-канална видео инсталация", "книга"]
 place = "Goethe-Institut, Sofia"
-datestart = "22.06"
+
+datestart = "22.06.2023"
 dateend = "30.07.2023"
+
 curator = ["Христо Калоянов"]
 categories = ["solo"]
 Sound = ["Антон Шишков"]
+
+press = [
+  { name = "Bulgarian National Television", url = "https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html" },
+  { name = "Bulgarian National Radio", url = "https://bnr.bg/horizont/post/101854514/nature-morte-tvorcheski-pogled-kam-vagledobivnata-industria" },
+  { name = "Bloomberg TV", url = "https://www.bloomberg.com/europe" },
+  { name = "Darik Radio", url = "https://darik.bg/nature-morte-edin-po-razlichen-pogled-kam-tec-marica-iztok" },
+  { name = "Bulgarian Telegraph Agency", url = "https://www.bta.bg/bg/news/lik/491946-diskusiya-na-tema-vaglishtna-tropika-razglezhda-dobiva-na-ruda-i-kak-vdahnovya" },
+  { name = "Impressio", url = "https://impressio.dir.bg/photography/vaglishtna-tropika-v-gyote-institut-i-ko-op" },
+  { name = "Boy Scout Magazine", url = "https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/" },
+  { name = "Artnews Cafe", url = "https://openartfiles.bg/openartfiles.bg/public/bg/artnewscafebulletin" }
+]
+
 +++
 
 Nature Morte е мултимедиен проект, който поставя геофилософския въпрос на терен - върху част от критичната инфраструктура на страната, където достъпът е силно ограничен. В опит да се намерят различни подходи за достигане до земния изкоп и неговото визуализиране са използвани отворени данни от сателитни и геоложки изследвания и измервания, чрез които е изградена дигиталната топографията на мините.
@@ -36,13 +50,7 @@ Nature Morte е мултимедиен проект, който поставя �
 <br>
 Hristo Kaloyanov | доклад за конференция “CULTURE, INFRASTRUCTURE, MOBILITY” организирана от Лайбниц Институт и Културен Център Софийски Университет
 
-## Медийно Покритие
-[Българска Национална Телевизия](https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html), [Българско Национално Радио](https://bnr.bg/horizont/post/101854514/nature-morte-tvorcheski-pogled-kam-vagledobivnata-industria),
-Bloomberg TV, [Дарик Радио](https://darik.bg/nature-morte-edin-po-razlichen-pogled-kam-tec-marica-iztok)
-[Българска Телеграфна Агенция](https://www.bta.bg/bg/news/lik/491946-diskusiya-na-tema-vaglishtna-tropika-razglezhda-dobiva-na-ruda-i-kak-vdahnovya),
-[Impressio](https://impressio.dir.bg/photography/vaglishtna-tropika-v-gyote-institut-i-ko-op),
-[Списание Boy Scout](https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/),
-[Artnews Cafe](https://openartfiles.bg/openartfiles.bg/public/bg/artnewscafebulletin)
+{{< press_links >}}
 
 &nbsp;
 

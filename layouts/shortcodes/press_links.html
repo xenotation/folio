@@ -1,0 +1,9 @@
+<section>
+  <h2>{{ T "press" }}</h2>
+  <p>
+    {{ $len := len .Page.Params.press }}
+    {{ range $index, $press := .Page.Params.press }}
+      <a href="{{ $press.url }}" target="_blank">{{ $press.name }}</a>{{ if ne $index (sub $len 1) }}, {{ end }}
+    {{ end }}
+  </p>
+</section>

@@ -9,10 +9,19 @@ medium = ["фотография", "фотокнига"]
 place = "Галерия KO-OP, София"
 
 dateend = "16.01.2021"
-datestart = "06"
+datestart = "06.01.2021"
 
 curator = ["Христо Халоянов"]
 categories = ["solo"]
+
+press = [
+  { name = "Българска Национална Телевизия", url = "https://bnt.bg/news/fotografska-izlozhba-v-proces-na-nikola-stoyanov-v286612-290248news.html" },
+  { name = "Списание BoyScout", url = "https://boyscoutmag.com/2021/01/izlojba-nikola-stoyanov-stilizira-gradskata-svinshtina-koqto-ni-zaobikalq/" },
+  { name = "Дневник", url = "https://www.dnevnik.bg/blogosfera/article/412986" },
+  { name = "Българско Национално Радио", url = "https://mikamagazine.com/%D0%BA%D0%BE-%D0%BE%D0%BF-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0/" },
+  { name = "Mika Magazine", url = "https://mikamagazine.com/%D0%BA%D0%BE-%D0%BE%D0%BF-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0/" }
+]
+
 +++
 
 Стремежът за обхващане на града като една афектна цялост доведе до раждането на тази изложба. Мислен, структуриран и приведен в изпълнение, той чертае една хиперфикция достъпна само в редките случаи на дисциплиниран делириум.
@@ -22,8 +31,6 @@ categories = ["solo"]
 
 <a href="http://booksinprint.bg/Publication/Details/820a8128-de8d-4fc3-97dc-33cdd929c91d">(“В процес”)</a>, Стоянов, Н., Калоянов, Х., 2020, ISBN: 978-619-188-514-5. 
 
-## Покритие
-
-[Българска Национална Телевизия](https://bnt.bg/news/fotografska-izlozhba-v-proces-na-nikola-stoyanov-v286612-290248news.html), [Списание BoyScout](https://boyscoutmag.com/2021/01/izlojba-nikola-stoyanov-stilizira-gradskata-svinshtina-koqto-ni-zaobikalq/), [Дневник](https://www.dnevnik.bg/blogosfera/article/412986), [Българско Национално Радио](https://mikamagazine.com/%D0%BA%D0%BE-%D0%BE%D0%BF-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0/), [Mika Magazine](https://mikamagazine.com/%D0%BA%D0%BE-%D0%BE%D0%BF-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0/).
+{{< press_links >}}
 
 Проектът беше осъществявеб с подкрепата на Национален фонд „Култура“.

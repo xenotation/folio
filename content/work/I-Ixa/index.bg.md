@@ -7,10 +7,16 @@ imgDescrps = ["", "Акрил върху дърво, 50x40см, частна к�
 imgNames = ["", "Без име (2016)", "Без име (2016)", "Без име (2016)", "Без име (2018)", "Без име (2014)", "Без име (2020)", "Без име (2017)", "Без име (2018)", "Без име (2017)", "Без име (2014)", "Без име (2017)", "Без име (2018)", "Без име (2021)"]
 medium = ["Акрилен живопис", "комбиниран живопис", "фото-манипулиран живопис"]
 place = "Галерия “Етюд„ (София)"
-datestart = "18"
+
+datestart = "18.10.2021"
 dateend = "30.10.2021"
 
 categories = ["solo"]
+press = [
+  { name = "Impressio", url = "https://impressio.dir.bg/palitra/sledi-ot-brodesht-duh-i-iksa-ot-nikola-stoyanov" },
+  { name = "Българско Национално Радио", url = "https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma" }
+]
+
 
 +++
 
@@ -26,5 +32,4 @@ categories = ["solo"]
 
 &nbsp;
 
-## Покритие
-[Impressio](https://impressio.dir.bg/palitra/sledi-ot-brodesht-duh-i-iksa-ot-nikola-stoyanov), Българско Национално Радио
+{{< press_links >}}

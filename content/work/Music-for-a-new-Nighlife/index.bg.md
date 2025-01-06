@@ -6,7 +6,7 @@ description = "Топлината улеснява киматичните дра
 
 draft = false
 
-datestart = "08.06"
+datestart = "08.06.2019"
 dateend = "09.07.2019"
 
 place = "Таляна Арт Фест"

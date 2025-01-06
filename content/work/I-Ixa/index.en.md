@@ -11,10 +11,17 @@ imgNames = ["", "Untitled (2016)", "Untitled (2016)", "Untitled (2016)", "Untitl
 
 medium = ["Acrylic painting", "combine painting", "photomanipulated painting"]
 place = "“Etude„ gallery (Sofia)"
-datestart = "18"
+
+datestart = "18.10.2021"
 dateend = "30.10.2021"
 
 categories = ["solo"]
+
+press = [
+  { name = "Impressio", url = "https://impressio.dir.bg/palitra/sledi-ot-brodesht-duh-i-iksa-ot-nikola-stoyanov" },
+  { name = "Bulgarian National Radio", url = "https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma" }
+]
+
 +++
 
 The exhibition is nomadic in nature, led by the Black Sea, which is without harbour and without shore, far from the clear squawk of a sea bird. A malevolent curse, brought where it does not belong - in the mountain foothills. This preliminary note outlines the possible geography of pictorial existence, beyond concrete space.
@@ -29,5 +36,4 @@ Like traces of a wandering spirit, they anticipate the gaze of the other, their 
 
 &nbsp;
 
-## Coverage
-[Impressio](https://impressio.dir.bg/palitra/sledi-ot-brodesht-duh-i-iksa-ot-nikola-stoyanov), Bulgarian National Radio
+{{< press_links >}}

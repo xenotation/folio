@@ -14,12 +14,18 @@ imgDescrps = ["", "фото-принт 120х120см, частна колекци
 medium = ["фотография", "видео игра", "фиктивна туристическа карта"]
 place = "Галерия Архис, Варна"
 
-datestart = "21.05"
+datestart = "21.05.2022"
 dateend = "05.06.2022"
 
 curator = ["Христо Калоянов"]
 categories = ["solo"]
 Sound = ["Yan Lechev"]
+
+press = [
+  { name = "Българско Национално Радио", url = "https://bnr.bg/varna/post/101649068/izlojbata-reproces-preplita-tradicionnoto-i-abstraktnoto-v-nevijdani-ulichni-fotografii" }
+]
+
+
 +++
 
 "РЕ:ПРОЦЕС" е изложба която представя фотографии на обекти от всекидневното урбанистичното пространство. В изграждането и разпадането се откриват белези върху градската повърхност, своеобразен език, чрез който се формират и разгръщат различни модалности на явяване. Лесни за откриване, но трудни за вникване, табелите, решетките, висящите кабели ще са нашият вход в един забравен архив на градската тъкан.
@@ -31,5 +37,4 @@ Sound = ["Yan Lechev"]
 
 [Линк към цялата фиктивна туристическа карта](https://blog.newdegeneration.xyz/re-process-map)
 
-## Покритие
-[Българско Национално Радио](https://bnr.bg/varna/post/101649068/izlojbata-reproces-preplita-tradicionnoto-i-abstraktnoto-v-nevijdani-ulichni-fotografii)
+{{< press_links >}}

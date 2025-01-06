@@ -4,9 +4,12 @@ date = 2024-03-12T23:30:59+02:00
 description = "Изследването на служебен архив от Агенция „Митници“, Дирекция „Борба с наркотрафика“ от периода 1975-1985. Картички и контрабанда чертае едно конспиративно четене на бллизкото минало"
 draft = false
 medium = ["конспиративна карта от разсекретени документи", "архивни кадри", "книга", "три видео инсталация", "опаковани пакети"]
-place = "Галерия Харта и Поста, София"
-datestart = "11.04"
+place = "Галерия Харта и Поста"
+location = "София, България"
+
+datestart = "11.04.2024"
 dateend = "12.05.2024"
+
 curator = ["Христо Калоянов"]
 collaborators = ["Аaрон Рот"]
 categories = ["collab"]
@@ -73,6 +76,17 @@ imgDescrps = [
 Sound = ["Ян Лечев"]
 Photo = ["Михайл Новаков"]
 keywords = [" държавна контрабанда", "скрит транзит", "постсъветска конспирация", "пощенски картички"]
+
+press = [
+  { name = "Art Viewer", url = "https://artviewer.org/aaron-roth-and-nikola-stoyanov-at-posta-space-and-charta-gallery/" },
+  { name = "Българска национална телевизия", url = "https://bnt.bg/news/kartichki-i-kontrabanda-izlozhba-predstavya-arhiv-na-agenciya-mitnici-v366192-328300news.html" },
+  { name = "EuroNews TV", url = "https://euronewsbulgaria.com/news/26635/kartichki-i-kontrabanda-izlozhba-predstavya-arhivi-ot-agentsiya-mitnitsi" },
+  { name = "Българско национално радио", url = "https://bnr.bg/hristobotev/post/101982948/kaloanov" },
+  { name = "Вестник България Днес", url = "https://betatest.bgdnes.bg/bulgaria/article/17639897" },
+  { name = "Програмата", url = "https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/" },
+  { name = "Радиопрограма Хоризонт", url = "https://bnr.bg/horizont/post/101976077" }
+]
+
 +++
 
 Второто представяне на вече надградената изложба се състоя в София. Изложбата имаше две локации: едната в галерия Харта, а другата инсталация, "Първите десет" на Никола Стоянов, беше на витрината на арт пространството Posta на един от най-оживените столични булеварди.
@@ -88,8 +102,7 @@ keywords = [" държавна контрабанда", "скрит транзи
 
 [Контрабандата, описана в картички](https://www.bgart.bg/kontrabandata-opisana-v-kartichki/) - Bulgarian Art Blog
 
-## Медийно Покритие
-[Art Viewer](https://artviewer.org/aaron-roth-and-nikola-stoyanov-at-posta-space-and-charta-gallery/), [Българска национална телевизия](https://bnt.bg/news/kartichki-i-kontrabanda-izlozhba-predstavya-arhiv-na-agenciya-mitnici-v366192-328300news.html), [EuroNews TV](https://euronewsbulgaria.com/news/26635/kartichki-i-kontrabanda-izlozhba-predstavya-arhivi-ot-agentsiya-mitnitsi), [Българско национално радио](https://bnr.bg/hristobotev/post/101982948/kaloanov), [Вестник България Днес](https://betatest.bgdnes.bg/bulgaria/article/17639897), [Програмата](https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/), [Радиопрограма Хоризонт](https://bnr.bg/horizont/post/101976077)
+{{< press_links >}}
 
 ## Съпътсващи събития
 "[По следите на едно банално озарение](https://www.youtube.com/watch?v=lqGXz7fNUMQ)"- Дискусия с писателката Райна Маркова, куратора Христо Калоянов и художника Никола Стоянов&nbsp;

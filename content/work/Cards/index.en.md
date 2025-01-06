@@ -7,7 +7,7 @@ type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "duo-channel video installation"]
 place = "ReBonkers, Varna"
 
-datestart = "07"
+datestart = "07.09.2023"
 dateend = "21.09.2023"
 
 curator = ["Hristo Kaloyanov"]
@@ -20,6 +20,15 @@ imgDescrps = ["Two 120x90cm cardboard conspiracy walls, projection mapping, decl
 Sound = ["Yan Lechev"]
 Photo = ["Boris Vasilev"]
 keywords = ["goverment contraband", "hidden transit", "post-sovient conspiracy", "postcards"]
+
+press = [
+  { name = "Bulgarian Telegraph Agency", url = "https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-" },
+  { name = "Bulgarian National Radio", url = "https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma" },
+  { name = "Culture News", url = "https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov" },
+  { name = "Parallel43", url = "https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda" },
+  { name = "News Paper Utro", url = "https://utroruse.com/article/970557/" }
+]
+
 +++
 
 "Postcards and Contraband" begins by examining a work archive of the Bulgarian Customs Agency, Directorate for Combating Drug Trafficking from 1975-1985. The service notes, photographs, negatives, summaries and reports found mark part of the routine of the Customs Agency work, such as inspection and regulation of transit, but also the diplomatic image the Customs Agency must maintain to the international community.
@@ -41,7 +50,8 @@ Copies of the accompanying book, designed by [Zahary Dimitrov](https://zahari.xy
 Talk with the head of drug smuggling prevention in the Bulgarian Customs Agency 
 
 ## Coverage
-[Bulgarian Telegraph Agency](https://www.bta.bg/bg/news/lik/519175-kontrabandata-prez-sotsializma-izsledva-ekspozitsiya-podredena-vav-varnenskiya-), [Bulgarian National Radio](https://bnr.bg/varna/post/101874963/izlobn-razkriva-tainite-na-kontrabandata-ot-vremeto-na-socializma), [Culture News](https://kulturni-novini.info/sections/2/news/37584-kartichki-i-kontrabanda-izlozhba-na-aaron-rot-i-nikola-stoyanov), [Parallel43](https://parallel43.bg/patyat-na-skritiya-tranzit-v-izlozhbata-kartichki-i-kontrabanda), [News Paper Utro](https://utroruse.com/article/970557/)
+
+{{< press_links >}}
 
 &nbsp;
 

@@ -4,7 +4,7 @@ date = 2022-12-17
 description = "Видеоколаж в стил core-core, който изследва особеностите на влошаването на комерсиалните видеокодеци и битовата памет в контекст интернет."
 place = "“ARTWAVE”, Varna (2022) as part of the exhibition “Destructive Sensuality”"
 
-datestart = "08.06"
+datestart = "08.06.2019"
 dateend = "09.07.2019"
 
 medium = ["Core-Core Audio-Video Installation", "Cozy Post-Soviet Interior to watch TV in", "invitations to demonic channel switching compulsions"]

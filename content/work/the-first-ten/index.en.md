@@ -5,9 +5,12 @@ description = "An examining a work archive of the Bulgarian Customs Agency, Dire
 draft = false
 type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "triple-channel video installation", "interview with ex-smuggler", "smugglers car door", "wrapped packages", "book"]
-place = "Charta Gallery, Posta Space, Sofia"
-datestart = "11.04"
+place = "Charta Gallery, Posta Space"
+location = "Sofia, Bulgaria"
+
+datestart = "11.04.2024"
 dateend = "12.05.2024"
+
 curator = ["Hristo Kaloyanov"]
 collaborators = ["Aaron Roth"]
 categories = ["collab"]
@@ -74,6 +77,17 @@ imgDescrps = [
 Sound = ["Yan Lechev"]
 Photo = ["Mihail Novakov"]
 keywords = ["goverment contraband", "hidden transit", "post-sovient conspiracy", "postcards"]
+
+press = [
+  { name = "Art Viewer", url = "https://artviewer.org/aaron-roth-and-nikola-stoyanov-at-posta-space-and-charta-gallery/" },
+  { name = "Bulgarian National Television", url = "https://bnt.bg/news/kartichki-i-kontrabanda-izlozhba-predstavya-arhiv-na-agenciya-mitnici-v366192-328300news.html" },
+  { name = "EuroNews TV", url = "https://euronewsbulgaria.com/news/26635/kartichki-i-kontrabanda-izlozhba-predstavya-arhivi-ot-agentsiya-mitnitsi" },
+  { name = "Bulgarian National Radio", url = "https://bnr.bg/hristobotev/post/101982948/kaloanov" },
+  { name = "Bulgaria Today", url = "https://betatest.bgdnes.bg/bulgaria/article/17639897" },
+  { name = "Programata", url = "https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/" },
+  { name = "Radio Program Horizont", url = "https://bnr.bg/horizont/post/101976077" }
+]
+
 +++
 
 The second showing of the now upgraded exhibition took place in Sofia. The exhibition had two sites: one at the Harta Gallery and another installation piece, "The First Ten" by Nikola Stoyanov, on the window display of Posta art space on one of the capital's busiest boulevards.
@@ -90,8 +104,7 @@ Stoyanov's work allows one to trace the archival trail of former State Security 
 
 [Contraband, described as postcards](https://www.bgart.bg/kontrabandata-opisana-v-kartichki/) - Bulgarian Art Blog
 
-## Media coveredge
-[Art Viewer](https://artviewer.org/aaron-roth-and-nikola-stoyanov-at-posta-space-and-charta-gallery/), [Bulgarian National Television](https://bnt.bg/news/kartichki-i-kontrabanda-izlozhba-predstavya-arhiv-na-agenciya-mitnici-v366192-328300news.html), [EuroNews TV](https://euronewsbulgaria.com/news/26635/kartichki-i-kontrabanda-izlozhba-predstavya-arhivi-ot-agentsiya-mitnitsi), [Bulgarian National Radio](https://bnr.bg/hristobotev/post/101982948/kaloanov), [Newspaper Bulgaria Today](https://betatest.bgdnes.bg/bulgaria/article/17639897), [Programata](https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/), [Radio Program Horizont](https://bnr.bg/horizont/post/101976077)
+{{< press_links >}}
 
 ## Supporting events
  "[On the trail of a banal insight](https://www.youtube.com/watch?v=lqGXz7fNUMQ)" - Discussion to the exhibition "Postcards and Contraband"

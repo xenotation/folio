@@ -11,11 +11,19 @@ imgDescrps = ["", "photo-print 120х120cm, private collection", "photo-print 120
 
 medium = ["photography", "video game", "fictional tourist map"]
 place = "Arhis Gallery, Varna"
-datestart = "21.05"
+
+datestart = "21.05.2022"
 dateend = "05.06.2022"
+
 curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
 Sound = ["Yan Lechev"]
+
+press = [
+  { name = "Bulgarian National Radio", url = "https://bnr.bg/varna/post/101649068/izlojbata-reproces-preplita-tradicionnoto-i-abstraktnoto-v-nevijdani-ulichni-fotografii" }
+]
+
+
 +++
 
 "RE:PROCESS" exhibits photographs of everyday urban objects. In the construction and deconstruction traces can be found upon the urban surface, a peculiar language, through which different modalities of appearance are formed and unfolded. Easily found but tough tо comprehend the signs, grilles, and hanging cables will be our entrance to a forgotten archive of urban fabric.
@@ -26,5 +34,4 @@ Reverting to the process carried out so far, the basis of archival thinking, the
 
 [Link to the whole fictional tourist map.](https://blog.newdegeneration.xyz/re-process-map)
 
-## Coverage
-[Bulgarian National Radio](https://bnr.bg/varna/post/101649068/izlojbata-reproces-preplita-tradicionnoto-i-abstraktnoto-v-nevijdani-ulichni-fotografii)
+{{< press_links >}}
