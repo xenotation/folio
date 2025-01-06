@@ -23,11 +23,12 @@
         "@type": "Person",
         "name": "Nikola Stoyanov"
       }
-      {{ with .Params.collaborators }},
-      {{ range . }}
+      {{ with .Params.collaborators }}
+      {{ range $index, $collaborator := . }}
+      {{ if $index }},{{ end }}
       {
         "@type": "Person",
-        "name": "{{ . }}"
+        "name": "{{ $collaborator }}"
       }
       {{ end }}
       {{ end }}
@@ -48,8 +49,8 @@
       {{ end }}
     ]
   }
+  </script>
   
-</script>
 
 <div class="container">
   <div class="exhb-hero" id="hero-content">

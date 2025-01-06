@@ -6,7 +6,8 @@ draft = false
 imgNames = ["", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)"]
 imgDescrps = ["", "Print on photo-paper, 50x50cm", "Print on photo-paper, 30x45cm", "Print on photo-paper, 30x45cm", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm", "Print on photo-paper, 50x50cm", "Print on photo-paper, 60x40cm"]
 medium = ["photography", "photo-book"]
-place = "KO-OP Gallery, Sofia"
+place = "KO-OP Gallery"
+location = "Sofia, Bulgaria"
 
 dateend = "16.01.2021"
 datestart = "06.01.2021"

@@ -6,7 +6,8 @@ draft = false
 imgDescrps = ["", "Digital print, 60x40cm, collage of topografical data, hillshades and elevation maps of region", "Print on photo-paper, wooden frame, corrugated board, antireflective glass 60х40 cm, inside Martisa East open-pit mine", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 1/3", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 2/3", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 3/3", "Detail from book, old excavator", "Detail from book, old excavator", "Print on photo-paper, wooden frame, corrugated board, antireflective glass 70х23cm, private collection", "topographical 3D print-ed map of the mines, with LED backlight", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book"]
 imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)"]
 medium = ["фотография", "фотограметрия", "топографски 3D принт", "мулти-канална видео инсталация", "книга"]
-place = "Goethe-Institut, Sofia"
+place = "Goethe-Institut"
+location = "Sofia, Bulgaria"
 
 datestart = "22.06.2023"
 dateend = "30.07.2023"
