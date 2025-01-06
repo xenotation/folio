@@ -7,7 +7,10 @@ imgDescrps = ["", "Дигитален печат, 60x40см, колаж от т�
 imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)", "Nature Morte (2023)","Nature Mort1"]
 medium = ["photography", "photogrammetry", "topological 3D print", "multichannel video-Installation", "book"]
 place = "Goethe-Institut, Sofia"
-dateof = "22.06–30.07.2023"
+
+datestart = "22.06"
+dateend = "30.07.2023"
+
 curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
 Sound = ["Anton Shishkov"]

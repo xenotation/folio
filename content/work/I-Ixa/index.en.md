@@ -11,7 +11,8 @@ imgNames = ["", "Untitled (2016)", "Untitled (2016)", "Untitled (2016)", "Untitl
 
 medium = ["Acrylic painting", "combine painting", "photomanipulated painting"]
 place = "“Etude„ gallery (Sofia)"
-dateof = "18-30.10.2021"
+datestart = "18"
+dateend = "30.10.2021"
 
 categories = ["solo"]
 +++

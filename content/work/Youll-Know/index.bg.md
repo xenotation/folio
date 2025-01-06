@@ -6,7 +6,12 @@ description = "Дублаж на констатна поправка на тру
 
 medium = ["инсталция", "пърформанц"]
 place = "Неоповестено местоположение"
-dateof = "11.04.-12.05.2024"
+
+
+datestart = "11.04."
+dateend = "12.05.2024"
+
+
 curator = ["Александър Вълчев"]
 collaborators = ["Stoyan Dechev", "Lachezar Boyadzhiev", "Sofia Dimova", "Simeon Simeonov", "Elena Chergilanova", "Yv-Kristian Angelov", "Iliana Grigorova", "Bogomil Ivanov"]
 categories = ["collab"]

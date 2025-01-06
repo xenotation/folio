@@ -6,7 +6,10 @@ description = "A double of a constant corpse correction in motion. From the impr
 
 medium = ["installation", "perfomance"]
 place = "Undisclosed location"
-dateof = "11.04.-12.05.2024"
+
+datestart = "11.04."
+dateend = "12.05.2024"
+
 curator = ["Alexander Valchev"]
 collaborators = ["Стоян Дечев", "Лъчезар Бояджиев", "София Димова", "Симеон Симеонов", "Елена Чергиланова", "Ив-Кристиян Ангелов", "Илияна Григорова", "Богомил Иванов"]
 categories = ["collab"]

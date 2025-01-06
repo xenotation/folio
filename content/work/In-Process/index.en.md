@@ -7,7 +7,8 @@ imgNames = ["", "Untitled (2021)", "Untitled (2021)", "Untitled (2021)", "Untitl
 imgDescrps = ["", "Print on photo-paper, 50x50cm", "Print on photo-paper, 30x45cm", "Print on photo-paper, 30x45cm", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm", "Print on photo-paper, 50x50cm, private collection", "Print on photo-paper, 50x50cm", "Print on photo-paper, 50x50cm", "Print on photo-paper, 60x40cm"]
 medium = ["photography", "photo-book"]
 place = "KO-OP Gallery, Sofia"
-dateof = "06-16.01.2021"
+dateend = "16.01.2021"
+datestart = "06"
 curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
 +++

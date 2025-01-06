@@ -112,14 +112,17 @@
       <h1>{{ .Title }}</h1>
       <div class="placedate">
         {{ with .Params.place }}
-        <p>{{ . }}</p>
-      {{ end }}
-        {{ with .Params.dateof }}
-        <p>{{ . }}</p>
-      {{ end }}
+          <p>{{ . }}</p>
+        {{ end }}
+    
+        {{ if .Params.datestart }}
+          <p>
+            {{ .Params.datestart }}{{ with .Params.dateend }}-{{ . }}{{ end }}
+          </p>
+        {{ end }}
       </div>
     </div>
-
+    
     <div class="exhb-medium">
       {{ with .Params.medium }}
       <p class="medium-text">

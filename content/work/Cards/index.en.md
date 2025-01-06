@@ -6,7 +6,10 @@ description = "An examining a work archive of the Bulgarian Customs Agency, Dire
 type = "artwork"
 medium = ["conspiracy map of declassified documents", "archival footage", "book", "duo-channel video installation"]
 place = "ReBonkers, Varna"
-dateof = "07-21.09.2023"
+
+datestart = "07"
+dateend = "21.09.2023"
+
 curator = ["Hristo Kaloyanov"]
 collaborators = ["Aaron Roth"]
 categories = ["collab"]

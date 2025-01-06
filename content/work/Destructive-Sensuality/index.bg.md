@@ -3,7 +3,11 @@ title = 'Хуморът е учтивостта на отчаянието'
 date = 2022-12-17
 description = "A core-core style video collage investigating the specifics of commercial video codec degradation as well as that of memmory."
 place = " “ARTWAVE”, Варна (2022), като част от изложбата “Destructive Sensuality”"
-dateof = "17.12.2022"
+
+datestart = "17.12.2022"
+dateend = "18"
+
+
 medium = ["Core-Core аудио-видео инсталация", "Уютен постсъветски интериор, в който да се промивате с телевизия", "покана за демонично превключване на канали"]
 categories = ["collab"]
 collaborators = ["София Димова"]

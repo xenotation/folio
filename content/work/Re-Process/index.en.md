@@ -11,7 +11,8 @@ imgDescrps = ["", "photo-print 120х120cm, private collection", "photo-print 120
 
 medium = ["photography", "video game", "fictional tourist map"]
 place = "Arhis Gallery, Varna"
-dateof = "21.05-05.06.2022"
+datestart = "21.05"
+dateend = "05.06.2022"
 curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
 Sound = ["Yan Lechev"]

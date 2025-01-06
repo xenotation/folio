@@ -5,7 +5,8 @@ description = "Black Fax off the Hook consist of gothic erotic fan-fiction inclu
 
 medium = ["hacked fax machine", "intallation", "ai generated gothic fiction"]
 place = "DOZA gallery, Sofia. Part of SPORNO festival 'THE DEVIANTS'"
-dateof = "28.05-01.06.2024"
+datestart = "28.05"
+dateend = "01.06.2024"
 
 collaborators = ["Alexandar Yuzev", "Patricio Ruiz", "Anton Stoianov", "Mitch Brezounek", "Knives & Pepi", "Biss Nova", "Jeltje Schuurmans", "Soul-pandemic", "Sevda Semer", "Voin de Voin 8 Ivana Nencheva", "Svetli Evgeniev", "Galina Dimitrova", "Sofia Dimitrova", "Corrine Fhima", "Stephanie Telomere", "Hrcprc.studio", "Pezieme", "Georgi Pavlov", "Kyril Buhowski"]
 

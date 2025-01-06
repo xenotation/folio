@@ -5,7 +5,10 @@ draft = false
 description = "Gray Zone Dispositive is a massive photogrammetry recreatingthe urban space of Varna."
 medium = ["video game", "3D kit-bashed photogrammetry"]
 place = "The Matrix, Sofia"
-dateof = "28.04.2022"
+
+datestart = "28"
+dateend = "29.04.2022"
+
 collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofia Dimova", "Sara Postolle", "Martijn De Geele", "Orlin Dvoryanov", "Agathe de Limoges & Victor Delétraz", "Elena Chergilanova"]
 categories = ["collab"]
 imgDescrps = ["View of Varna Municipality", "View of the Black Sea Hotel", "View of the Успение Богородично Church", "View of the city", "dream spawn point", "Non-euclidean variations of Varna streets", "Scene from the ritual world"]
