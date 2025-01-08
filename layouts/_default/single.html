@@ -40,7 +40,7 @@
       {{ range $index, $press := .Params.press }}
         {{ if $index }},{{ end }}{
           "@type": "NewsArticle",
-          "headline": "{{ $press.title }}",
+          "headline": "{{ $press.name }}",
           "url": "{{ $press.url }}"
         }
       {{ end }}
