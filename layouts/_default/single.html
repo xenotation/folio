@@ -16,12 +16,14 @@
     },
     "organizer": {
       "@type": "Person",
-      "name": "Nikola Stoyanov"
+      "name": "Nikola Stoyanov",
+      "url": "https://newdegeneration.xyz/"
     },
     "performer": [
       {
         "@type": "Person",
-        "name": "Nikola Stoyanov"
+        "name": "Nikola Stoyanov",
+        "url": "https://newdegeneration.xyz/bio/"
       }
     ],
     "keywords": [
@@ -34,13 +36,18 @@
         {{ if $index }},{{ end }}"{{ $image.RelPermalink }}"
       {{ end }}
     ],
-    "sameAs": [
+    "subjectOf": [
       {{ range $index, $press := .Params.press }}
-        {{ if $index }},{{ end }}"{{ $press.url }}"
+        {{ if $index }},{{ end }}{
+          "@type": "NewsArticle",
+          "headline": "{{ $press.title }}",
+          "url": "{{ $press.url }}"
+        }
       {{ end }}
     ]
   }
-  </script>
+</script>
+
  
 
 <div class="container">
