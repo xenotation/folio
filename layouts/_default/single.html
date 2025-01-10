@@ -7,8 +7,8 @@
     "@type": "ExhibitionEvent",
     "name": "{{ .Title }}",
     "description": "{{ .Description }}",
-    "startDate": "{{ .Params.datestart | time.Format "2006-01-02" }}",
-    "endDate": "{{ .Params.dateend | time.Format "2006-01-02" }}",
+    "startDate": "{{ .Params.datestart }}",
+    "endDate": "{{ .Params.dateend }}",
     "location": {
       "@type": "Place",
       "name": "{{ .Params.place }}",
@@ -47,6 +47,7 @@
     ]
   }
 </script>
+
  
 
 <div class="container">
