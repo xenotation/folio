@@ -12,7 +12,8 @@ datestart = "2024-04-11T00:00:00+03:00"
 dateend = "2024-05-12T00:00:00+03:00"
 
 curator = ["Александър Вълчев"]
-collaborators = ["Stoyan Dechev", "Lachezar Boyadzhiev", "Sofia Dimova", "Simeon Simeonov", "Elena Chergilanova", "Yv-Kristian Angelov", "Iliana Grigorova", "Bogomil Ivanov"]
+
+collaborators = ["Стоян Дечев", "Лъчезар Бояджиев", "София Димова", "Симеон Симеонов", "Елена Чергиланова", "Ив-Кристиян Ангелов", "Илияна Григорова", "Богомил Иванов"]
 categories = ["collab"]
 
 imgNames = [

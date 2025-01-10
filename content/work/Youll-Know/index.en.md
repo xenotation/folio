@@ -1,5 +1,5 @@
 +++
-title = 'You’ll Understand When the Time Comes'
+title = 'You’ll understand when the time comes'
 date = 2024-02-21
 draft = false
 description = "A double of a constant corpse correction in motion. From the impromptu line of conspiratorial paranoia to everyday self-relience, of patches, repairs of repairs, endless beginnings and dead-end continuations."
@@ -12,7 +12,7 @@ datestart = "2024-04-11T00:00:00+03:00"
 dateend = "2024-05-12T00:00:00+03:00"
 
 curator = ["Alexander Valchev"]
-collaborators = ["Стоян Дечев", "Лъчезар Бояджиев", "София Димова", "Симеон Симеонов", "Елена Чергиланова", "Ив-Кристиян Ангелов", "Илияна Григорова", "Богомил Иванов"]
+collaborators = ["Stoyan Dechev", "Lachezar Boyadzhiev", "Sofia Dimova", "Simeon Simeonov", "Elena Chergilanova", "Yv-Kristian Angelov", "Iliana Grigorova", "Bogomil Ivanov"]
 categories = ["collab"]
 
 imgNames = [
@@ -56,7 +56,7 @@ press = [
 
 +++
 
-As part of the [_Buna 2 Festival_ (2024)](https://bunavarna.com/en/programme/#urbaninterventions), _You’ll Understand when the Time Comes_ emerged as an urban intervention and installation, interrogating the boundaries of art, repair, and decay it navigated the murky territory between spontaneous urban repair and conspiratorial paranoia. _You’ll Understand when the Time Comes_ an illegal destructive growth in the hearth of a city, that is always being built up and never accommodates its inhabitants. Constructed entirely from discarded, abandoned and readily available construction materials—metal brackets, fasteners, and discarded fragments—the piece embodied Bulgaria’s deeply ingrained DIY repair culture. This culture, rooted in the improvisational ethos of late socialism, reflects an ongoing negotiation with scarcity, a “make-do” survival strategy that transforms remnants of functionality into provisional solutions.
+As part of the [_Buna 2 (2024)_](https://bunavarna.com/en/programme/#urbaninterventions)visual arts festival, _You’ll Understand when the Time Comes_ emerged as an urban intervention and installation, interrogating the boundaries of art, repair, and decay it navigated the murky territory between spontaneous urban repair and conspiratorial paranoia. _You’ll Understand when the Time Comes_ an illegal destructive growth in the hearth of a city, that is always being built up and never accommodates its inhabitants. Constructed entirely from discarded, abandoned and readily available construction materials—metal brackets, fasteners, and discarded fragments—the piece embodied Bulgaria’s deeply ingrained DIY repair culture. This culture, rooted in the improvisational ethos of late socialism, reflects an ongoing negotiation with scarcity, a “make-do” survival strategy that transforms remnants of functionality into provisional solutions.
 
 The installation stood as a meditation on the precarious life of art when it is unviewed, unprotected, and unacknowledged. What becomes of the work when it is untethered from the structures of presentation? Stripped of its institutional framing, the piece was left vulnerable, its existence renegotiated nightly. Unsupervised and exposed in a desolate area of the city center, it invited destruction, sabotage, and entropy. Yet, through these acts of vandalism, _You’ll Understand when the Time Comes_ transformed. Each night’s damage was met with the artist’s intervention—a repair not aimed at restoration, but at evolution. New elements were added, scavenged from the streets or reconfigured from its remnants. The work became a site of continuous becoming, a loop of destruction and reassembly, embodying the inexorable temporality of both urban space and artistic labor. It stood as both a meditation on the publicness of art and a visceral critique of the city’s unrelenting cycle of construction, neglect, and decay.
 
