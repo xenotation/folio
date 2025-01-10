@@ -1,0 +1,75 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 0,5fr;
+    margin: 1rem 2rem 1.5rem 2rem;
+}
+
+header.h1 {
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+.title-container {
+    grid-column: 1;
+}
+
+.custom-title {
+    margin-left: 0.5rem;
+}
+
+.nav {
+    grid-column: 2;
+    justify-self: end;
+    margin-left: auto;
+}
+
+header a {
+    text-decoration: none;  
+}
+
+.nav a.active {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    header {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Add this line for spacing between title and navigation */
+    }
+
+    .title-container {
+        flex: 1;
+
+        text-align: left;
+        align-items: center;
+    }
+
+    .name-title {
+        display: block;
+        text-align: left;
+        align-items: center;
+    }
+
+    /* Adjust the following based on your actual navigation structure and classes */
+    .nav {
+        text-align: right;
+        margin: 0;
+        align-items: top;
+
+    }
+    .nav h1 {
+        margin: 0;
+        text-align: right;
+        align-items: top;
+    }
+    .custom-title {
+        display: none;
+    }
+    
+    .title-container h1 {
+        margin: 0;
+    }
+}
+

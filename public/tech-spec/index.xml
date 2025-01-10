@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech-Specs on Nikola Stoyanov</title>
+    <link>https://newdegeneration.xyz/tech-spec/</link>
+    <description>Recent content in Tech-Specs on Nikola Stoyanov</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Jan 1970 02:00:00 +0200</lastBuildDate>
+    <atom:link href="https://newdegeneration.xyz/tech-spec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Specs</title>
+      <link>https://newdegeneration.xyz/tech-spec/tech-spec/</link>
+      <pubDate>Thu, 01 Jan 1970 02:00:00 +0200</pubDate>
+      <guid>https://newdegeneration.xyz/tech-spec/tech-spec/</guid>
+      <description>This site is created by hand from the ground up and is optimised for speed and simplicity. It uses a strack of Hugo as a static site generator and is hosted on Netlify.&#xA;The website is set in the following fonts:&#xA;Stix Two by MicroPress Type Foundry Comfortaa by Johan Aakerlund both distributed under SIL Open Font Licence.&#xA;Lander page feature Multi-Scale Turing Patterns based on Jonathan McCabe&amp;rsquo;s paper&#xA;All work if not otherwise stated is licensed under CC BY-NC-SA 4.</description>
+    </item>
+    <item>
+      <title>Friends and colleagues</title>
+      <link>https://newdegeneration.xyz/tech-spec/webring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://newdegeneration.xyz/tech-spec/webring/</guid>
+      <description>I run my own webring that features researchers, artists, and plain cool people. You can visit or join at low-loop.xyz&#xA;I also participate in these webrings:&#xA;XXIIVV&#xD;Weird Wide Webring Geekring </description>
+    </item>
+  </channel>
+</rss>
