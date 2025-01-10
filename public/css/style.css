@@ -1,0 +1,277 @@
+/* COLOR SCHEMES */
+:root {
+    --text-color: #323333;
+    --bg-color: rgb(251, 252, 249);
+    --primary-color: #cec7f5;
+}
+/* BODY */
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-size: 16px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    hyphens:auto;
+    letter-spacing: 0.05rem;
+}
+/* Hide Scroll Bar */
+body {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+body::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+/* TYPOGRAPHY SCALE
+--base-size: 1.20rem;
+--size-step-0: 1.20rem;
+--size-step-1: 1.248rem;   
+--size-step-2: 1.296rem;  
+--size-step-3: 1.344rem;  
+--size-step-4: 1.08rem;   */
+h1 {
+    font-family: 'Comfortaa';
+    font-size:  1.344rem;
+    margin: 0;
+}
+h2 {
+    font-family: 'Comfortaa';
+    font-size: 1.23rem;
+    margin:0. 0 0.5rem 0;
+}
+h3 {
+    font-family: 'Comfortaa';
+    font-size: 1.248rem;
+    margin: 0 0 0.5rem 0;
+}
+h4 {
+    font-size: 1rem;
+}
+p {
+    font-family: 'STIXTwoText';
+    font-weight: 530;
+    font-size: 1.20rem;
+    hyphens: auto;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.4rem;
+}
+/* LINKS */
+a {
+    /* text-decoration: none; */    
+    color: var(--text-color);
+}
+
+.inactive {
+    animation: pageloadIn 42s cubic-bezier(0.25, 0.1, 0.36, 1);
+}
+
+
+main a {
+    background-image: linear-gradient(transparent, var(--primary-color), transparent);
+}
+
+/* Text Select */
+::selection {
+    color: var(--text-color);
+    background: var(--primary-color);
+
+  }
+
+/* Define the blur animation */
+@keyframes blurAnimation {
+    0% {
+        filter: blur(0) contrast(1);
+
+    }
+
+    30% {
+        filter: blur(0) contrast(1);
+
+        opacity: 100%;
+    }
+
+    36% {
+        filter: blur(5px) contrast(150);
+
+        opacity: 13%;
+    }
+    40% {
+        filter: blur(20px) contrast(80);
+
+        opacity: 100%;
+    }
+    50% {
+        filter: blur(10px) contrast(120);
+
+    }
+    70% {
+        filter: blur(0) contrast(1);
+    }
+  }
+/* Page Load */
+body {
+    animation: pageloadIn 0.80s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+@keyframes pageloadIn {
+    0% {
+        filter: blur(23px) contrast(20);
+    }
+
+    100% {
+        filter: blur(0) contrast(1);
+    }
+}
+
+
+a:hover {
+    animation: blurAnimation 5s ease-in-out;
+}
+
+/* MISC PAGES */
+/* LANDER */
+.video-container {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.video-container video {
+    width: 100%;
+    max-height: 80vh;
+    object-fit:cover;
+    transition: opacity 5s ease;
+}
+/* Text overlay */
+/* @keyframes overlayfade {
+    0% {
+        filter: blur(100px) drop-shadow(0 0 0.75rem #cec7f5);
+        font-family: "Ready-Bygone";
+    }
+    30% {
+        filter: blur(0px) drop-shadow(0 0 1rem #cec7f5);
+        font-family: "Ready-Bygone";
+    }
+    60% {
+        filter: blur(100px) drop-shadow(0 0 0.75rem #cec7f5);
+        font-family: "Ready-Clouded";
+    }
+    90% {
+        filter: blur(0px) drop-shadow(0 0 2rem #cec7f5);
+        font-family: "Ready-Clouded";
+    }
+    100% {
+        filter: blur(100px) drop-shadow(0 0 0.5rem #cec7f5);
+        font-family: "Ready-Bygone";
+    }
+}
+
+/* Overlay styles */
+.overlay {
+    object-fit: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    overflow: visible;
+    color: var(--bg-color);
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    animation: overlayfade 10s infinite; /* Apply fade effect */
+    filter: drop-shadow(0 0 0.75rem #cec7f5);
+} */
+
+
+/* 404 */
+.FourOhFourCentered {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.ascii-art {
+    white-space: pre;
+    font-family: monospace;
+    font-size: 0.73rem; /* Adjust the font size as needed */
+    line-height: 1; /* Adjust line height as needed */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
+    width: 100%; /* Ensure the ASCII art doesn't exceed container width */
+    text-align: center;
+    color: var(--text-color);
+}
+
+.ascii-art a {
+    background-image: none;
+    text-decoration: none;
+    animation: blurAnimation 5s infinite;
+}
+@media screen and (max-width: 768px) {
+    .ascii-art {
+      font-size: 0.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+
+/* Tech Spec and copyleft */
+.tech-spec {
+    margin: 0 2rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 5em; /* Set minimum width */
+    max-width: 23rem; 
+    text-align:justify;
+    hyphens: auto;
+    text-wrap:wrap;
+    word-wrap: normal;
+}
+.tech-spec ul {
+    margin: 0.5rem 0 0.5rem 0;
+}
+    .tech-spec-img {
+        float: left;
+        margin: 0 -2rem 0rem 2rem;
+        min-width: 5em; /* Set minimum width */
+        max-width: 23rem;
+        align-items:flex-start;
+    }
+  .bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: 0.55;
+    visibility: visible;
+    pointer-events: none;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .video-container {
+        width: 100vw;
+        object-fit: cover;
+    }
+}
