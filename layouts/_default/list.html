@@ -1,56 +1,75 @@
 {{ define "main" }}
+
+<!-- Schema for the Gallery of Exhibitions (Placed at the top) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Exhibition Gallery",
+    "itemListElement": [
+      {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }} <!-- Initialize taggedPages here -->
+      {{ range $index, $page := $taggedPages }}
+        {{ if not $page.Params.noshow }} <!-- Check if noshow parameter is not true -->
+          {
+            "@type": "ListItem",
+            "position": {{ add $index 1 }},
+            "url": "{{ $page.Permalink }}",
+            "name": "{{ $page.Title }}",
+            "description": "{{ $page.Params.description }}",
+            "startDate": "{{ $page.Params.dateof | slice 0 10 }}T00:00:00Z",
+            "endDate": "{{ $page.Params.dateof | slice 13 23 }}T23:59:59Z",
+            "location": {
+              "@type": "Place",
+              "name": "{{ $page.Params.place }}",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "{{ $page.Params.city }}",
+                "addressCountry": "{{ $page.Params.country }}"
+              }
+            },
+            "performer": {
+              "@type": "Person",
+              "name": "Nikola Stoyanov"
+            },
+            "organizer": {
+              "@type": "Person",
+              "name": "{{ .Site.Language.Params.name }}",
+              "url": "{{ .Site.Params.organizerUrl }}",
+              "image": "{{ .Site.Params.profileImage | absURL }}"
+            },
+            "image": "{{ with $page.Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}"
+          }
+        {{ if not (last $index $taggedPages) }},{{ end }}
+      {{ end }}
+    ]
+  }
+}
+</script>
+
+<!-- Grid Layout for the Exhibitions -->
 <div class="grid-container">
-    {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
-    {{ range $taggedPages }}
-        {{ if not .Params.noshow }} <!-- Check if noshow parameter is not true -->
+    {{ range $index, $page := $taggedPages }}
+        {{ if not $page.Params.noshow }} <!-- Check if noshow parameter is not true -->
             <div class="grid-card">
-                <a href="{{ .Permalink }}">
+                <a href="{{ $page.Permalink }}">
                     <!-- Hero Image from Post Bundle -->
-                    {{ with .Resources.GetMatch "hero.webp" }}
+                    {{ with $page.Resources.GetMatch "hero.webp" }}
                         {{ $heroImg := .Resize "600x" }}
-                        <img src="{{ $heroImg.RelPermalink }}" alt="{{ with .Params.description }}{{ .Params.description }}{{ else }}{{ .Title }}{{ end }}" class="card-image">
+                        <img src="{{ $heroImg.RelPermalink }}" alt="{{ with $page.Params.description }}{{ $page.Params.description }}{{ else }}{{ $page.Title }}{{ end }}" class="card-image">
                     </a>
                     {{ end }}
 
                     <div class="card-content">
-                        <a href="{{ .Permalink }}">
-                            <h1 class="card-title">{{ .Title }} {{ dateFormat "(2006)" .Date }}</h1>
+                        <a href="{{ $page.Permalink }}">
+                            <h1 class="card-title">{{ $page.Title }} {{ dateFormat "(2006)" $page.Date }}</h1>
                         </a>
                     </div>
                 </a>
-                <!-- Schema Markup for Event -->
-                <script type="application/ld+json">
-                {
-                    "@context": "https://schema.org",
-                    "@type": "Event",
-                    "name": "{{ .Title }}",
-                    "startDate": "{{ .Params.dateof | slice 0 10 }}T00:00:00Z",
-                    "endDate": "{{ .Params.dateof | slice 13 23 }}T23:59:59Z",
-                    "url": "{{ .Permalink }}",
-                    "description": "{{ .Params.description }}",
-                    "location": {
-                        "@type": "Place",
-                        "name": "{{ .Params.place }}",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressLocality": "Sofia",
-                            "addressCountry": "Bulgaria"
-                        }
-                    },
-                    "performer": {
-                        "@type": "Person",
-                        "name": "Nikola Stoyanov"
-                    },
-                    "organizer": {
-                        "@type": "Person",
-                        "name": "Nikola Stoyanov"
-                    },
-                    "image": "{{ with .Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}",
-                    "additionalType": "http://schema.org/CreativeWork"
-                }
-                </script>
             </div>
         {{ end }}
     {{ end }}
 </div>
+
 {{ end }}
