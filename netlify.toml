@@ -9,11 +9,6 @@
 [context.deploy-preview]
   command = "hugo --gc --minify -b https://newdegeneration.xyz"
 
-[[headers]]
-for = "/*"
-[headers.values]
-  X-Robots-Tag = "index, follow"
-
 [[redirects]]
   from = "/unsound-hikikomori/"
   to = "https://blog.newdegeneration.xyz/unsound-hikikomori"

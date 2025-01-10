@@ -1,4 +1,4 @@
-baseURL = 'https://newdegeneration.xyz'
+baseURL = "https://newdegeneration.xyz/"
 languageCode = 'en-us'
 copyright_url = "/tech-spec/tech-spec/"
 
