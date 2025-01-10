@@ -22,7 +22,11 @@
       "description": "{{ .Site.Language.Params.description }}",
       "url": "{{ .Site.Params.organizerUrl }}",
       "image": "{{ .Site.Params.profileImage | absURL }}",
-      "sameAs": {{ .Site.Params.sameAs | jsonify }}
+      "sameAs": [
+        {{ range $index, $url := .Site.Params.sameAs }}
+          {{ if $index }},{{ end }}"{{ $url }}"
+        {{ end }}
+      ]
     },
     "performer": [
       {
@@ -52,6 +56,7 @@
     ]
   }
 </script>
+
 
 
  
