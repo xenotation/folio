@@ -1,32 +1,27 @@
 <!DOCTYPE html>
-<html lang="bg">    
+<html lang="en">    
     <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script><meta property="og:type" content="website" />
 
-    <meta name="language" content="bg">
+    <meta name="language" content="en">
 
-    <title itemprop="name">Categories | Никола Стоянов</title>
-    <meta property="og:title" content="Categories | Никола Стоянов" />
-    <meta name="twitter:title" content="Categories | Никола Стоянов" />
+    <title itemprop="name">проекти | </title>
+    <meta property="og:title" content="проекти | " />
+    <meta name="twitter:title" content="проекти | " />
 
     <meta property="og:logo" content="/favicon.png" />
-    <meta property="og:url" content="//192.168.5.102:8080/bg/categories/">
+    <meta property="og:url" content="//192.168.5.102:8080/work/_index.bg/">
 
     
-    <meta name="description" content="Никола Стоянов е съвременен визуален артист и машинен философ от Варна, България." />
-    <meta itemprop="description" content="Никола Стоянов е съвременен визуален артист и машинен философ от Варна, България." />
-    <meta property="og:description" content="Никола Стоянов е съвременен визуален артист и машинен философ от Варна, България." />
-    <meta name="twitter:description" content="Никола Стоянов е съвременен визуален артист и машинен философ от Варна, България." />
+    <meta name="description" content="" />
+    <meta itemprop="description" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:description" content="" />
   
 
   <meta content="" name="keywords">
 
 
 
-    
-    
-        <link rel="alternate" hreflang="en" href="//192.168.5.102:8080/categories/">
-    
-        <link rel="alternate" hreflang="bg" href="//192.168.5.102:8080/bg/categories/">
     
 
     <meta name="geo.region" content="BG-SOF">
@@ -104,7 +99,7 @@
 
     </style>
     
-    <link rel="canonical" href="//192.168.5.102:8080/bg/categories/" />
+    <link rel="canonical" href="//192.168.5.102:8080/work/_index.bg/" />
     
     
     <meta name="robots" content="index, follow, archive">
@@ -120,16 +115,23 @@
         {
           "@type": "ListItem",
           "position":  1 ,
-          "name": "Никола Стоянов",
-          "url": "//192.168.5.102:8080/bg/",
-          "item": "//192.168.5.102:8080/bg/"
+          "name": "",
+          "url": "//192.168.5.102:8080/",
+          "item": "//192.168.5.102:8080/"
         },
         {
           "@type": "ListItem",
           "position":  2 ,
-          "name": "Categories",
-          "url": "//192.168.5.102:8080/bg/categories/",
-          "item": "//192.168.5.102:8080/bg/categories/"
+          "name": "work",
+          "url": "//192.168.5.102:8080/work/",
+          "item": "//192.168.5.102:8080/work/"
+        },
+        {
+          "@type": "ListItem",
+          "position":  3 ,
+          "name": "проекти",
+          "url": "//192.168.5.102:8080/work/_index.bg/",
+          "item": "//192.168.5.102:8080/work/_index.bg/"
         }
       ]
     }
@@ -139,11 +141,11 @@
 <body><header>
     <div class="title-container">
         <h1>
-            <a class="name-title" href="/">Никола Стоянов
+            <a class="name-title" href="/">
             </a>
             <span class="custom-title">
                 
-                    Categories
+                    проекти (0001)
                 
             </span>      
     </h1>
@@ -151,37 +153,158 @@
     <div class="nav">
         <h1>
             
-            <a href="/bg/work/">труд</a>
-            
-            <a href="/bg/bio/">био</a>
-            
-            <a href="https://blog.newdegeneration.xyz/">блог</a>
-            
         </h1>
     </div>
 </header>
 <main>
         
-<div class="grid-container">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExhibitionEvent",
+    "name": "проекти",
+    "description": "",
+    "startDate": "",
+    "endDate": "",
+    "location": {
+      "@type": "Place",
+      "name": "",
+      "address": ""
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Nikola Stoyanov",
+      "url": "https://newdegeneration.xyz/"
+    },
+    "performer": [
+      {
+        "@type": "Person",
+        "name": "Nikola Stoyanov",
+        "url": "https://newdegeneration.xyz/bio/"
+      }
+    ],
+    "keywords": [
+      
+    ],
+    "image": [
+      
+    ],
+    "subjectOf": [
+      
+    ]
+  }
+</script>
+
+ 
+
+<div class="container">
+  <div class="exhb-hero" id="hero-content">
+          
+  </div>
+    <script>
+      
+      function isMobileDevice() {
+          return /Mobi|Android/i.test(navigator.userAgent);
+      }
+    
+      
+      function isVideoSupported() {
+          var videoElement = document.createElement('video');
+          return !!videoElement.canPlayType;
+      }
+    
+      
+      function insertHeroContent() {
+          var heroContentDiv = document.getElementById('hero-content');
+    
+          
+          var baseURL = "\/work\/_index.bg\/";
+    
+          
+          function normalizeURL(url) {
+              var parts = url.split('/');
+              if (parts[1] === 'bg') {
+                  parts.splice(1, 1); 
+              }
+              return parts.join('/');
+          }
+    
+          
+          baseURL = normalizeURL(baseURL);
+    
+          
+          if (isMobileDevice()) {
+              
+              heroContentDiv.innerHTML = '<img src="' + baseURL + '/hero.webp" alt="Hero Image" class="featured-image">';
+          } else {
+              
+              if (isVideoSupported()) {
+                  
+                  heroContentDiv.innerHTML = '<video autoplay muted loop class="featured-video" poster="' + baseURL + '/hero.webp">' +
+                      '<source src="' + baseURL + '/hero.webm" type="video/webm">' +
+                      '</video>';
+              } else {
+                  
+                  heroContentDiv.innerHTML = '<img src="' + baseURL + '/hero.webp" alt="Hero Image" class="featured-image">';
+              }
+          }
+      }
+      
+      window.onload = insertHeroContent;
+    </script>
+
+    <div class="exhb-title">
+      <h1>проекти</h1>
+
+      <div class="placedate">
+      </div>
+    </div>
     
     
+    
+    
+    <div class="exhb-medium">
+      
+    </div>
+
+    <div class="exhb-people">
+      <div class="people">
+        <div class="collaborators">
+          
+        </div>    
+        
+        
+
+      
+      
+    </div>   
+    </div>
+
+    <div class="exhb-body">
+      <div class="exhb-text"></div>
+
+      <div class="masonry-grid">
+        
+        
+      </div>
+    </div>
+  </div>
 </div>
+
+
+<a href="#" class="scroll-to-top">↑</a>
+
+<link rel="stylesheet" href="/css/spotlight.min.css">
+<script src="/js/spotlight.min.js">
+</script>
+  
 
     </main>
     
 </body>
     <lang-switcher>
-        
-            
-                
-            
-                
-                    
-                    
-                        <a href="//192.168.5.102:8080/categories/" class="">English</a>
-                    
-                
-            
         
     </lang-switcher>
 

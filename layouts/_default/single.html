@@ -16,14 +16,19 @@
     },
     "organizer": {
       "@type": "Person",
-      "name": "Nikola Stoyanov",
-      "url": "https://newdegeneration.xyz/"
+      "name": "{{ .Site.Language.Params.name }}",
+      "alternateName": "{{ .Site.Language.Params.alternateName }}",
+      "jobTitle": "{{ .Site.Language.Params.jobTitle }}",
+      "description": "{{ .Site.Language.Params.description }}",
+      "url": "{{ .Site.Params.organizerUrl }}",
+      "image": "{{ .Site.Params.profileImage | absURL }}",
+      "sameAs": {{ .Site.Params.sameAs | jsonify }}
     },
     "performer": [
       {
         "@type": "Person",
-        "name": "Nikola Stoyanov",
-        "url": "https://newdegeneration.xyz/bio/"
+        "name": "{{ .Site.Language.Params.name }}",
+        "url": "{{ .Site.Params.performerUrl }}"
       }
     ],
     "keywords": [
@@ -47,6 +52,7 @@
     ]
   }
 </script>
+
 
  
 
