@@ -6,8 +6,8 @@ description = "Gray Zone Dispositive is a massive photogrammetry recreatingthe u
 medium = ["video game", "3D kit-bashed photogrammetry"]
 place = "The Matrix, Sofia"
 
-datestart = "28.04.2022"
-dateend = "29.04.2022"
+datestart = "2022-04-28T00:00:00+03:00"
+dateend = "2022-04-29T00:00:00+03:00"
 
 collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofia Dimova", "Sara Postolle", "Martijn De Geele", "Orlin Dvoryanov", "Agathe de Limoges & Victor Delétraz", "Elena Chergilanova"]
 categories = ["collab"]

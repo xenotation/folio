@@ -13,8 +13,8 @@ medium = ["Acrylic painting", "combine painting", "photomanipulated painting"]
 place = "“Etude„ gallery"
 location = "Sofia, Bulgaria"
 
-datestart = "18.10.2021"
-dateend = "30.10.2021"
+datestart = "2021-10-18T00:00:00+03:00"
+dateend = "2021-10-30T00:00:00+03:00"
 
 categories = ["solo"]
 

@@ -6,8 +6,8 @@ description = "Сива зона / Диспозитив е масивна фот
 medium = ["видео игра", "3D китбаш фотограметрия"]
 place = "Матрицата, София"
 
-datestart = "28.04.2022"
-dateend = "29.04.2022"
+datestart = "2022-04-28T00:00:00+03:00"
+dateend = "2022-04-29T00:00:00+03:00"
 
 collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofia Dimova", "Sara Postolle", "Martijn De Geele", "Orlin Dvoryanov", "Agathe de Limoges & Victor Delétraz", "Elena Chergilanova"]
 imgDescrps = ["Изглед към община Варна", "Изглед към хотел Черно Море", "Изглед към църква Успение Богородично", "Излед към града", "Начална точка на съня", "неевклидови вариации на варненските улици", "сцена от вритуални свят"]

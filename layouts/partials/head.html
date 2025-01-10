@@ -59,12 +59,11 @@
     </style>
     <!-- Canonical Link -->
     <link rel="canonical" href="{{ .Permalink }}" />
+    
     <!-- Robots Meta -->
-    {{ if eq .Params.sitemap_exclude true }}
-    <meta name="robots" content="noindex, nofollow, noarchive">
-    {{ else }}
     <meta name="robots" content="index, follow, archive">
-    {{ end }}
+    <meta property="og:image" content="{{ .Params.heroImageURL }}">
+    <meta name="twitter:image" content="{{ .Params.heroImageURL }}">
 
     {{ if not .IsHome }}
     <script type='application/ld+json'>

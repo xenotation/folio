@@ -101,6 +101,7 @@
               }
               return parts.join('/');
           }
+          // this is suuus maybbe it fucking uup the google search results
     
           // Normalize the baseURL
           baseURL = normalizeURL(baseURL);
@@ -143,27 +144,18 @@
         {{- end -}}
         
     
-        {{ if .Params.datestart }}
-          {{ $startDate := .Params.datestart }}
-          {{ $endDate := .Params.dateend }}
-    
-          {{ $startParts := split $startDate "." }}
-          {{ $endParts := split $endDate "." }}
-          
-          {{ $startDay := index $startParts 0 }}
-          {{ $startMonth := index $startParts 1 }}
-          {{ $startYear := index $startParts 2 }}
-          
-          {{ $endDay := index $endParts 0 }}
-          {{ $endMonth := index $endParts 1 }}
-          {{ $endYear := index $endParts 2 }}
-    
-          <p>
-            {{ if ne $startDay $endDay }}{{ $startDay }}{{ end }}{{ if ne $startMonth $endMonth }}.{{ $startMonth }}{{ end }}{{ if ne $startYear $endYear }}.{{ $startYear }}{{ end }}
-            
-            {{ if ne $startDate $endDate }}-{{ $endDay }}.{{ $endMonth }}.{{ $endYear }}{{ else }}{{ $endDay }}.{{ $endMonth }}.{{ $endYear }}{{ end }}
-          </p>
-        {{ end }}
+        {{ $startDate := .Params.datestart | time.AsTime }}
+        {{ $endDate := .Params.dateend | time.AsTime }}
+        {{ printf "%s-%s" ($startDate | time.Format "02.01") ($endDate | time.Format "02.01.2006") }}
+        
+        
+        
+        
+        
+        
+        
+
+        
       </div>
     </div>
     
@@ -244,7 +236,7 @@
             {{ if ne $resource.Name "hero.webp" }}
               {{ $downsampledImg := $resource.Resize "420x" }}
               <a class="spotlight" href="{{ $resource.Permalink }}" data-description="{{ $description }}" alt="{{ $title }}">
-                <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $description }}" alt="{{ $title }}" class="gallery-image" loading="lazy">
+                <img src="{{ $downsampledImg.RelPermalink }}" title="{{ $description }}" alt="{{ $title }}" class="gallery-image">
               </a>
             {{ end }}
           {{ end }}

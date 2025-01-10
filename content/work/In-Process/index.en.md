@@ -9,8 +9,8 @@ medium = ["photography", "photo-book"]
 place = "KO-OP Gallery"
 location = "Sofia, Bulgaria"
 
-dateend = "16.01.2021"
-datestart = "06.01.2021"
+datestart = "2021-01-06T00:00:00+03:00"
+dateend = "2021-01-16T00:00:00+03:00"
 
 curator = ["Hristo Kaloyanov"]
 categories = ["solo"]

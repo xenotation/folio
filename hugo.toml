@@ -15,8 +15,8 @@ copyright_url = "/tech-spec/tech-spec/"
   category = "categories"
 
 # I disabled this in the netlify.toml because it was leading to escaping characters in the schema lists
-# [minify]
-#   disableXML = true
+[minify]
+  disableXML = true
 
 [markup.goldmark]
   [markup.goldmark.renderer]

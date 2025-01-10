@@ -9,8 +9,8 @@ medium = ["фотография", "фотограметрия", "топогра�
 place = "Goethe-Institut"
 location = "Sofia, Bulgaria"
 
-datestart = "22.06.2023"
-dateend = "30.07.2023"
+datestart = "2023-06-22T00:00:00+02:00"
+dateend = "2023-07-30T00:00:00+02:00"
 
 curator = ["Христо Калоянов"]
 categories = ["solo"]

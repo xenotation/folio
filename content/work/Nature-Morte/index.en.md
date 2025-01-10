@@ -8,8 +8,9 @@ imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023
 medium = ["photography", "photogrammetry", "topological 3D print", "multichannel video-Installation", "book"]
 place = "Goethe-Institut, Sofia"
 
-datestart = "22.06.2023"
-dateend = "30.07.2023"
+datestart = "2023-06-22T00:00:00+02:00"
+dateend = "2023-07-30T00:00:00+02:00"
+
 
 curator = ["Hristo Kaloyanov"]
 categories = ["solo"]
