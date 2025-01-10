@@ -243,6 +243,21 @@
       
     
   </url><url>
+    <loc>//192.168.5.102:8080/categories/solo/</loc>
+    <lastmod>2024-03-12T23:30:59+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="//192.168.5.102:8080/bg/categories/solo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//192.168.5.102:8080/categories/solo/"
+                />
+    
+  </url><url>
     <loc>//192.168.5.102:8080/work/youll-know/</loc>
     <lastmod>2024-02-21T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -448,21 +463,6 @@
           <image:loc>//192.168.5.102:8080/work/nature-morte/nautre-morte-N.webp</image:loc>
         </image:image>
       
-    
-  </url><url>
-    <loc>//192.168.5.102:8080/categories/solo/</loc>
-    <lastmod>2023-06-22T23:05:59+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="//192.168.5.102:8080/bg/categories/solo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//192.168.5.102:8080/categories/solo/"
-                />
     
   </url><url>
     <loc>//192.168.5.102:8080/work/exemplary-home/</loc>

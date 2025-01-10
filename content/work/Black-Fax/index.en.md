@@ -2,12 +2,12 @@
 title = 'Black Fax off the Hook'
 date = 2024-05-28T23:30:59+02:00
 description = "Black Fax off the Hook consist of gothic erotic fan-fiction including notorious shady figures in Bulgarian politics, being printer non-stop by a hacked fax machine."
+canonical = "https://newdegeneration.xyz/work/black-fax/"
 
 medium = ["hacked fax machine", "intallation", "ai generated gothic fiction"]
 place = "DOZA gallery, Sofia. Part of SPORNO festival 'THE DEVIANTS'"
 datestart = "2024-05-28T00:00:00+03:00"
 dateend = "2024-06-01T00:00:00+03:00"
-
 
 collaborators = ["Alexandar Yuzev", "Patricio Ruiz", "Anton Stoianov", "Mitch Brezounek", "Knives & Pepi", "Biss Nova", "Jeltje Schuurmans", "Soul-pandemic", "Sevda Semer", "Voin de Voin 8 Ivana Nencheva", "Svetli Evgeniev", "Galina Dimitrova", "Sofia Dimitrova", "Corrine Fhima", "Stephanie Telomere", "Hrcprc.studio", "Pezieme", "Georgi Pavlov", "Kyril Buhowski"]
 
@@ -39,7 +39,6 @@ press = [
   { name = "Proud BG", url = "https://proud.bg/wae-aether-sofia-obyavyava-parvo-izdanie-na-festivala-sporno/" },
   { name = "Boyscout Magazine", url = "https://boyscoutmag.com/2024/06/sporno-festival-sofia/" }
 ]
-
 
 +++
 

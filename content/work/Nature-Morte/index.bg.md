@@ -1,6 +1,8 @@
 +++
 title = "Nature Morte"
 description = "Мултимедиен проект, който поставя геофилософския въпрос на терен - върху част от критичната инфраструктура на страната, където достъпът е силно ограничен."
+canonical = "https://newdegeneration.xyz/bg/work/nature-morte/"
+
 date = 2023-06-22T23:05:59+02:00
 draft = false
 imgDescrps = ["", "Digital print, 60x40cm, collage of topografical data, hillshades and elevation maps of region", "Print on photo-paper, wooden frame, corrugated board, antireflective glass 60х40 cm, inside Martisa East open-pit mine", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 1/3", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 2/3", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 3/3", "Detail from book, old excavator", "Detail from book, old excavator", "Print on photo-paper, wooden frame, corrugated board, antireflective glass 70х23cm, private collection", "topographical 3D print-ed map of the mines, with LED backlight", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book"]

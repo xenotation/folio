@@ -5,6 +5,36 @@
 
   
   <url>
+    <loc>//192.168.5.102:8080/bg/categories/</loc>
+    <lastmod>2024-05-28T23:30:59+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//192.168.5.102:8080/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="//192.168.5.102:8080/bg/categories/"
+                />
+    
+  </url><url>
+    <loc>//192.168.5.102:8080/bg/categories/collab/</loc>
+    <lastmod>2024-05-28T23:30:59+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//192.168.5.102:8080/categories/collab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="//192.168.5.102:8080/bg/categories/collab/"
+                />
+    
+  </url><url>
     <loc>//192.168.5.102:8080/bg/</loc>
     <lastmod>2024-05-28T23:30:59+02:00</lastmod>
     <changefreq>daily</changefreq>
@@ -84,33 +114,18 @@
       
     
   </url><url>
-    <loc>//192.168.5.102:8080/bg/categories/</loc>
+    <loc>//192.168.5.102:8080/bg/categories/solo/</loc>
     <lastmod>2024-03-12T23:30:59+02:00</lastmod>
     <changefreq>daily</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//192.168.5.102:8080/categories/"
+                href="//192.168.5.102:8080/categories/solo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="bg"
-                href="//192.168.5.102:8080/bg/categories/"
-                />
-    
-  </url><url>
-    <loc>//192.168.5.102:8080/bg/categories/collab/</loc>
-    <lastmod>2024-03-12T23:30:59+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//192.168.5.102:8080/categories/collab/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="//192.168.5.102:8080/bg/categories/collab/"
+                href="//192.168.5.102:8080/bg/categories/solo/"
                 />
     
   </url><url>
@@ -448,21 +463,6 @@
           <image:loc>//192.168.5.102:8080/work/nature-morte/nautre-morte-N.webp</image:loc>
         </image:image>
       
-    
-  </url><url>
-    <loc>//192.168.5.102:8080/bg/categories/solo/</loc>
-    <lastmod>2023-06-22T23:05:59+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//192.168.5.102:8080/categories/solo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="//192.168.5.102:8080/bg/categories/solo/"
-                />
     
   </url><url>
     <loc>//192.168.5.102:8080/bg/work/exemplary-home/</loc>

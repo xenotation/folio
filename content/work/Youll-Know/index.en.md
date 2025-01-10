@@ -3,6 +3,7 @@ title = 'You’ll Understand When the Time Comes'
 date = 2024-02-21
 draft = false
 description = "A double of a constant corpse correction in motion. From the impromptu line of conspiratorial paranoia to everyday self-relience, of patches, repairs of repairs, endless beginnings and dead-end continuations."
+canonical = "https://newdegeneration.xyz/work/youll-know/"
 
 medium = ["installation", "perfomance"]
 place = "Undisclosed location"

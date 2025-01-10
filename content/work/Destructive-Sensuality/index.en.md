@@ -2,6 +2,8 @@
 title = 'Humor is the politeness of despair'
 date = 2022-12-17
 description = "Видеоколаж в стил core-core, който изследва особеностите на влошаването на комерсиалните видеокодеци и битовата памет в контекст интернет."
+canonical = "https://newdegeneration.xyz/work/destructive-sensuality/"
+
 place = "“ARTWAVE”, Varna (2022) as part of the exhibition “Destructive Sensuality”"
 
 datestart = "2019-06-08T00:00:00+03:00"

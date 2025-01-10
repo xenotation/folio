@@ -1,2 +1,5 @@
 User-agent: *
 Sitemap: https://newdegeneration.xyz/sitemap.xml
+
+User-agent: Googlebot
+Disallow: /
