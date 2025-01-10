@@ -58,7 +58,9 @@
 
     </style>
     <!-- Canonical Link -->
-    <link rel="canonical" href="{{ .Permalink }}" />
+    {{/*  <link rel="canonical" href="{{ .Permalink }}" />  */}}
+    <link rel="canonical" href="{{ .Site.BaseURL | relURL .Permalink }}" />
+
     
     <!-- Robots Meta -->
     <meta name="robots" content="index, follow">
