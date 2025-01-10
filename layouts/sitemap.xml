@@ -21,7 +21,7 @@
                 hreflang="{{ .Language.Lang }}"
                 href="{{ .Permalink }}"
                 />{{ end }}
-    {{ with .Resources.Match "**.webp" }}
+{{ with .Resources.Match "**.{webp,jpg,png}" }}
       {{ range . }}
         <image:image>
           <image:loc>{{ .Permalink }}</image:loc>
