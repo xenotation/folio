@@ -144,9 +144,10 @@
         {{- end -}}
         
     
-        {{ $startDate := .Params.datestart | time.AsTime }}
-        {{ $endDate := .Params.dateend | time.AsTime }}
+        {{ $startDate := .Params.datestart | default "1970-01-01T00:00:00+00:00" | time.AsTime }}
+        {{ $endDate := .Params.dateend | default "1970-01-01T00:00:00+00:00" | time.AsTime }}
         {{ printf "%s-%s" ($startDate | time.Format "02.01") ($endDate | time.Format "02.01.2006") }}
+        
         
         
         

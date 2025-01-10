@@ -4,9 +4,8 @@ date = 2022-12-17
 description = "A core-core style video collage investigating the specifics of commercial video codec degradation as well as that of memmory."
 place = " “ARTWAVE”, Варна (2022), като част от изложбата “Destructive Sensuality”"
 
-datestart = "08.06.2019"
-dateend = "09.07.2019"
-
+datestart = "2019-06-08T00:00:00+03:00"
+dateend = "2019-07-09T00:00:00+03:00"
 
 medium = ["Core-Core аудио-видео инсталация", "Уютен постсъветски интериор, в който да се промивате с телевизия", "покана за демонично превключване на канали"]
 categories = ["collab"]

@@ -8,8 +8,8 @@ medium = ["conspiracy map of declassified documents", "archival footage", "tripl
 place = "Charta Gallery, Posta Space"
 location = "Sofia, Bulgaria"
 
-datestart = "11.04.2024"
-dateend = "12.05.2024"
+datestart = "2024-04-11T00:00:00+03:00"
+dateend = "2024-05-12T00:00:00+03:00"
 
 curator = ["Hristo Kaloyanov"]
 collaborators = ["Aaron Roth"]
