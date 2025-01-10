@@ -29,10 +29,10 @@ copyright_url = "/tech-spec/tech-spec/"
     title = "Nikola Stoyanov"
     weight = "1"
     [languages.en.params]
-      Description = "Nikola Stoyanov is a contemporary visual artist and machine philosopher hailing from Varna, Bulgaria."
+      Description = "Nikola Stoyanov is a contemporary visual artist and machine philosopher from Varna, Bulgaria."
       name = "Nikola Stoyanov"
-      alternateName = "Nikola V. Stoyanov"
-      jobTitle = "Visual artist and philosopher"
+      alternateName = "Nikola Vladislavov Stoyanov"
+      jobTitle = "Artist and philosopher"
       profileImage = "images/profile.jpg"
       sameAs = [
         "https://www.facebook.com/av0id.nd/",
@@ -67,7 +67,7 @@ copyright_url = "/tech-spec/tech-spec/"
     [languages.bg.params]
       Description = "Никола Стоянов е съвременен визуален артист и машинен философ от Варна, България."
       name = "Никола Стоянов"
-      alternateName = "Никола В. Стоянов"
+      alternateName = "Никола Владиславов Стоянов"
       jobTitle = "Визуален артист и философ"
       profileImage = "images/profile.jpg"
       sameAs = [
