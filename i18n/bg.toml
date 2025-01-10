@@ -1,13 +1,13 @@
 [Exhibitions]
   other = 'изложби ↓'
 [Collaborations]
-  other = 'съучастници ↓'
+  other = 'колаборации  ↓'
 [PubLect]
   other = 'текстове и лекции ↓'
 [Curator]
   other = 'куратор ↓'
 [Collaborators]
-  other = 'в колаборация с ↓'
+  other = 'съучастници ↓'
 [Sound]
   other = 'звуков дизайн ↓'
 [Photo]
@@ -15,4 +15,4 @@
 [404] 
   other = "прибери се у дома"
 [press]
-  other = "Медийно Покритие"
+  other = "Медийно покритие"
