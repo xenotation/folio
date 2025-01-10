@@ -32,7 +32,16 @@
       {
         "@type": "Person",
         "name": "{{ .Site.Language.Params.name }}",
-        "url": "{{ .Site.Params.performerUrl }}"
+        "alternateName": "{{ .Site.Language.Params.alternateName }}",
+        "jobTitle": "{{ .Site.Language.Params.jobTitle }}",
+        "description": "{{ .Site.Language.Params.description }}",
+        "url": "{{ .Site.Params.organizerUrl }}",
+        "image": "{{ .Site.Params.profileImage | absURL }}",
+        "sameAs": [
+          {{ range $index, $url := .Site.Params.sameAs }}
+            {{ if $index }},{{ end }}"{{ $url }}"
+          {{ end }}
+        ]
       }
     ],
     "keywords": [
