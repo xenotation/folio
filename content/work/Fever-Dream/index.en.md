@@ -43,6 +43,6 @@ This zine is an exploration of the human experience with fever dreams, weaving p
 
 The accompanying digital collages not only illustrate the tales but also serve as modern sigils, capturing the essence of purification and protection against the ever-evolving landscape of infectious threats. This booklet becomes a tapestry of shared human experiences, melding art, history, and the surreal realms of fever-induced dreams.
 
-As part of the group exhibition _Perspectives in Celsius_, the zine finds its place among works exploring temperature in diverse contexts. The exhibition delves into the aesthetics of thermal cameras, temperature as a medium in printing, its relationship with the human body, climate change, public infrastructure, and its role in popular culture.
+As part of the group exhibition [_Perspectives in Celsius_](https://www.ko-op.bg/post/perspectives-in-celsius), the zine finds its place among works exploring temperature in diverse contexts. The exhibition delves into the aesthetics of thermal cameras, temperature as a medium in printing, its relationship with the human body, climate change, public infrastructure, and its role in popular culture.
 
 With the support of the National Culture Fund.
