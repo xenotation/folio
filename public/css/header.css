@@ -50,6 +50,7 @@ header a {
         display: block;
         text-align: left;
         align-items: center;
+        hyphens: none; 
     }
 
     /* Adjust the following based on your actual navigation structure and classes */
