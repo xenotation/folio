@@ -13,6 +13,8 @@ collaborators = ["Alexandar Yuzev", "Patricio Ruiz", "Anton Stoianov", "Mitch Br
 
 curator = ["Michaela Lakova", "Voin De Voin"]
 categories = ["collab"]
+keywords = ["installation", "BgGPT", "yellow media", "kompromat", "exhibition",  "gothic fan-fiction", "spam apparatus", "AI-generated fiction", "populist tactics"]
+
 imgNames = [
     "Hacked Fax Machine in the Installation",
     "Gothic Erotic Fan Fiction Scroll",
