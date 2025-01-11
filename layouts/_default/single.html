@@ -63,8 +63,7 @@
           "url": "{{ $press.url }}"
         }
       {{ end }}
-    ],
-    {{ with .Params.sameAs }}
+    ]{{ with .Params.sameAs }},
     "sameAs": [
       {{ range $index, $url := . }}
         {{ if $index }},{{ end }}"{{ $url }}"
@@ -73,6 +72,7 @@
     {{ end }}
   }
 </script>
+
 
  
 
