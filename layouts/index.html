@@ -1,13 +1,15 @@
+  
+{{ define "main" }}
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Nikola Stoyanov - Artist Portfolio",
       "url": "{{ .Permalink }}",
-      "description": "The official portfolio showcasing the works and projects of Nikola Stoyanov, a contemporary artist.",
+      "description": "Portfolio website of contemporary artist Nikola Stoyanov, showcasing exhibitions and projects.",
       "isPartOf": {
         "@type": "WebSite",
-        "name": "Nikola Stoyanov Portfolio",
+        "name": "Nikola Stoyanov | Portfolio",
         "url": "{{ .Site.BaseURL }}",
         "publisher": {
           "@type": "Person",
@@ -22,8 +24,6 @@
       }
     }
     </script>
-    
-{{ define "main" }}
     <body>
         <div class="video-container" id="randomVideoContainer"></div>
         {{/*  <div class="overlay" id="textOverlay">Nikola Stoyanov</div>  */}}
