@@ -4,7 +4,7 @@ description: "List of friends websites and webrings"
 date: 
 ---
 
-I run my own webring that features researchers, artists, and plain cool people. You can visit or join at [low-loop.xyz](low-loop.xyz)
+I run my own webring that features researchers, artists, and plain cool people. You can visit or join at [low-loop.xyz](https://low-loop.xyz/)
 
 I also participate in these webrings:
 <div style="text-decoration: none;  

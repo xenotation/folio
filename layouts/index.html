@@ -1,3 +1,28 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Nikola Stoyanov - Artist Portfolio",
+      "url": "{{ .Permalink }}",
+      "description": "The official portfolio showcasing the works and projects of Nikola Stoyanov, a contemporary artist.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Nikola Stoyanov Portfolio",
+        "url": "{{ .Site.BaseURL }}",
+        "publisher": {
+          "@type": "Person",
+          "name": "Nikola Stoyanov",
+          "url": "{{ .Permalink }}",
+          "sameAs": [
+            {{ range $index, $url := .Site.Language.Params.sameAs }}
+              {{ if $index }},{{ end }}"{{ $url }}"
+            {{ end }}
+          ]
+        }
+      }
+    }
+    </script>
+    
 {{ define "main" }}
     <body>
         <div class="video-container" id="randomVideoContainer"></div>
