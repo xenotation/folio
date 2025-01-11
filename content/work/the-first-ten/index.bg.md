@@ -78,8 +78,17 @@ imgDescrps = [
 
 Sound = ["Ян Лечев"]
 Photo = ["Михайл Новаков"]
-keywords = [" държавна контрабанда", "скрит транзит", "постсъветска конспирация", "пощенски картички"]
-
+keywords = [
+  "държавна контрабанда",
+  "скрит транзит",
+  "архив Агенция „Митници“",
+  "конспирация",
+  "социалистическо минало",
+  "изложба",
+  "картички",
+  "държавна контрабанда",
+  "архив"
+]
 press = [
   { name = "Art Viewer", url = "https://artviewer.org/aaron-roth-and-nikola-stoyanov-at-posta-space-and-charta-gallery/" },
   { name = "Българска национална телевизия", url = "https://bnt.bg/news/kartichki-i-kontrabanda-izlozhba-predstavya-arhiv-na-agenciya-mitnici-v366192-328300news.html" },
@@ -89,6 +98,8 @@ press = [
   { name = "Програмата", url = "https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/" },
   { name = "Радиопрограма Хоризонт", url = "https://bnr.bg/horizont/post/101976077" }
 ]
+
+sameAs = ["https://postaspace.org/26", "https://singer-zahariev.eu/bg/%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%b8/%d0%ba%d0%b0%d1%80%d1%82%d0%b8%d1%87%d0%ba%d0%b8-%d0%b8-%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%b0%d0%b1%d0%b0%d0%bd%d0%b4%d0%b0/", "https://chartagallery.com/bg/2024/04/19/kartichki-i-kontrabanda/"]
 
 +++
 

@@ -17,6 +17,14 @@ dateend = "2023-07-30T00:00:00+02:00"
 curator = ["Христо Калоянов"]
 categories = ["solo"]
 Sound = ["Антон Шишков"]
+keywordsBg = [
+  "изложба",
+  "Nature Morte",
+  "открита мина",
+  "геофилософия",
+  "видео инсталация",
+  "дигитална топография"
+]
 
 press = [
   { name = "Bulgarian National Television", url = "https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html" },

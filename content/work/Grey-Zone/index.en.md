@@ -10,6 +10,16 @@ place = "The Matrix, Sofia"
 
 datestart = "2022-04-28T00:00:00+03:00"
 dateend = "2022-04-29T00:00:00+03:00"
+keywordsEng = [
+  "Grey Zone",
+  "photogrammetry",
+  "virtual cityscape",
+  "video game art",
+  "AI denoiser",
+  "Sofia Underground",
+  "Dispositif"
+]
+
 
 collaborators = ["SABA PRODAKTION", "Peter Chinovsky", "Isabelle Nesheva", "Sofia Dimova", "Sara Postolle", "Martijn De Geele", "Orlin Dvoryanov", "Agathe de Limoges & Victor Delétraz", "Elena Chergilanova"]
 categories = ["collab"]

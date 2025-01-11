@@ -78,7 +78,16 @@ imgDescrps = [
 
 Sound = ["Yan Lechev"]
 Photo = ["Mihail Novakov"]
-keywords = ["goverment contraband", "hidden transit", "post-sovient conspiracy", "postcards"]
+keywords = [
+  "state contraband",
+  "hidden transit",
+  "Bulgarian Customs Agency archive",
+  "conspiracy",
+  "socialist past",
+  "exhibition",
+  "postcards",
+  "archive"
+]
 
 press = [
   { name = "Art Viewer", url = "https://artviewer.org/aaron-roth-and-nikola-stoyanov-at-posta-space-and-charta-gallery/" },
@@ -89,6 +98,8 @@ press = [
   { name = "Programata", url = "https://programata.bg/izlozhbi/izlozhba/kartichki-i-kontrabanda/" },
   { name = "Radio Program Horizont", url = "https://bnr.bg/horizont/post/101976077" }
 ]
+
+sameAs = ["https://singer-zahariev.eu/projects/postcards-and-contraband/", "https://postaspace.org/26", "https://singer-zahariev.eu/projects/postcards-and-contraband/"]
 
 +++
 
