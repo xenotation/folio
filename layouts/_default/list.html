@@ -9,44 +9,44 @@
                 "@type": "ItemList",
                 "name": "Exhibition Gallery",
                 "itemListElement": [
-                    {{ range $index, $page := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
-                        {{ if not $page.Params.noshow }} 
-                        {
-                            "@type": "ListItem",
-                            "position": {{ add $index 1 }},
-                            "url": "{{ $page.Permalink }}",
-                            "name": "{{ $page.Title }}",
-                            "description": "{{ $page.Params.description }}",
-                            "startDate": "{{ $page.Params.dateof | slice 0 10 }}T00:00:00Z",
-                            "endDate": "{{ $page.Params.dateof | slice 13 23 }}T23:59:59Z",
-                            "location": {
-                                "@type": "Place",
-                                "name": "{{ $page.Params.place }}",
-                                "address": {
-                                    "@type": "PostalAddress",
-                                    "addressLocality": "Sofia",
-                                    "addressCountry": "Bulgaria"
-                                }
-                            },
-                            "performer": {
-                                "@type": "Person",
-                                "name": "Nikola Stoyanov"
-                            },
-                            "organizer": {
-                                "@type": "Person",
-                                "name": "Nikola Stoyanov"
-                            },
-                            "image": "{{ with $page.Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}"
+                    {{ $pages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}
+                    {{ $lang := .Site.Language.Lang }}
+                    {{ range $index, $page := $pages }}
+                    {{ if not $page.Params.noshow }}
+                    {
+                        "@type": "Event",
+                        "url": "{{ $page.Permalink }}",
+                        "name": "{{ $page.Title }}",
+                        "description": "{{ $page.Params.description }}",
+                        "startDate": "{{ $page.Params.datestart | dateFormat "2006-01-02T15:04:05Z" }}",
+                        "endDate": "{{ $page.Params.dateend | dateFormat "2006-01-02T15:04:05Z" }}",
+                        "image": "{{ with $page.Resources.GetMatch "hero.webp" }}{{ .RelPermalink }}{{ else }}{{ .Site.BaseURL }}images/default-hero.jpg{{ end }}",
+                        "location": {
+                            "@type": "Place",
+                            "name": "{{ $page.Params.place }}",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressLocality": "{{ $page.Params.addressLocality | default "Sofia" }}",
+                                "addressCountry": "{{ $page.Params.addressCountry | default "Bulgaria" }}"
+                            }
+                        },
+                        "organizer": {
+                            "@type": "Person",
+                            "name": "{{ .Site.Params.name }}"
+                        },
+                        "performer": {
+                            "@type": "Person",
+                            "name": "{{ index .Site.Params "languages" $lang "params" "name" | default .Site.Params.name }}",
+                            "alternateName": "{{ index .Site.Params "languages" $lang "params" "alternateName" | default .Site.Params.alternateName }}",
+                            "url": "{{ index .Site.Params "languages" $lang "params" "performerUrl" | default .Site.Params.performerUrl }}"
                         }
-                        {{ $lastIndex := sub (len .Pages) 1 }}
-                        {{ if not (eq $index $lastIndex) }},{{ end }}
-                        {{ end }}
+                    }{{ if lt (add $index 1) (len $pages) }},{{ end }}
+                    {{ end }}
                     {{ end }}
                 ]
             }
         }
-        </script>
-        
+        </script>        
 
     <!-- Exhibition Cards (for Frontend display) -->
     {{ $taggedPages := where .Pages "Params.categories" "intersect" (slice "solo" "collab") }}

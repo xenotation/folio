@@ -4,77 +4,35 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ExhibitionEvent",
+    "@type": "Event",
     "name": "{{ .Title }}",
-    "description": "{{ .Description }}",
-    "startDate": "{{ .Params.datestart }}",
-    "endDate": "{{ .Params.dateend }}",
+    "description": "{{ .Params.description }}",
+    "startDate": "{{ .Params.datestart | dateFormat "2006-01-02T15:04:05Z" }}",
+    "endDate": "{{ .Params.dateend | dateFormat "2006-01-02T15:04:05Z" }}",
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "location": {
       "@type": "Place",
       "name": "{{ .Params.place }}",
-      "address": "{{ .Params.location }}"
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ .Params.location }}"
+      }
     },
     "organizer": {
       "@type": "Person",
-      "name": "{{ .Site.Language.Params.name }}",
-      "alternateName": "{{ .Site.Language.Params.alternateName }}",
-      "jobTitle": "{{ .Site.Language.Params.jobTitle }}",
-      "description": "{{ .Site.Language.Params.description }}",
-      "url": "{{ .Site.Params.organizerUrl }}",
-      "image": "{{ .Site.Params.profileImage | absURL }}",
-      "sameAs": [
-        {{ range $index, $url := .Site.Params.sameAs }}
-          {{ if $index }},{{ end }}"{{ $url }}"
-        {{ end }}
-      ]
+      "name": "{{ .Site.Params.name }}",
+      "alternateName": "{{ .Site.Params.alternateName }}",
+      "jobTitle": "{{ .Site.Params.jobTitle }}",
+      "description": "{{ .Site.Params.description }}",
+      "url": "{{ .Site.Params.organizerUrl }}"
     },
-    "performer": [
-      {
-        "@type": "Person",
-        "name": "{{ .Site.Language.Params.name }}",
-        "alternateName": "{{ .Site.Language.Params.alternateName }}",
-        "jobTitle": "{{ .Site.Language.Params.jobTitle }}",
-        "description": "{{ .Site.Language.Params.description }}",
-        "url": "{{ .Site.Params.organizerUrl }}",
-        "image": "{{ .Site.Params.profileImage | absURL }}",
-        "sameAs": [
-          {{ range $index, $url := .Site.Params.sameAs }}
-            {{ if $index }},{{ end }}"{{ $url }}"
-          {{ end }}
-        ]
-      }
-    ],
-    "keywords": [
-      {{ range $index, $keyword := .Params.keywords }}
-        {{ if $index }},{{ end }}"{{ $keyword }}"
-      {{ end }}
-    ],
-    "image": [
-      {{ range $index, $image := .Resources.ByType "image" }}
-        {{ if $index }},{{ end }}"{{ $image.RelPermalink }}"
-      {{ end }}
-    ],
-    "subjectOf": [
-      {{ range $index, $press := .Params.press }}
-        {{ if $index }},{{ end }}{
-          "@type": "NewsArticle",
-          "headline": "{{ $press.name }}",
-          "url": "{{ $press.url }}"
-        }
-      {{ end }}
-    ]{{ with .Params.sameAs }},
-    "sameAs": [
-      {{ range $index, $url := . }}
-        {{ if $index }},{{ end }}"{{ $url }}"
-      {{ end }}
-    ]
-    {{ end }}
+    "performer": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.name }}",
+      "alternateName": "{{ .Site.Params.alternateName }}"
+    }
   }
-</script>
-
-
- 
+  </script>
 
 <div class="container">
   <div class="exhb-hero" id="hero-content">
