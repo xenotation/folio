@@ -7,8 +7,12 @@
     "@type": "Event",
     "name": "{{ .Title }}",
     "description": "{{ .Params.description }}",
+    {{ if .Params.datestart }}
     "startDate": "{{ .Params.datestart | dateFormat "2006-01-02T15:04:05Z" }}",
+    {{ end }}
+    {{ if .Params.dateend }}
     "endDate": "{{ .Params.dateend | dateFormat "2006-01-02T15:04:05Z" }}",
+    {{ end }}
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "location": {
       "@type": "Place",
@@ -33,6 +37,8 @@
     }
   }
   </script>
+  
+  
 
 <div class="container">
   <div class="exhb-hero" id="hero-content">

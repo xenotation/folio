@@ -179,16 +179,23 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ExhibitionEvent",
+    "@type": "Event",
     "name": "In:Process",
     "description": "The drive to capture the city as an affective totality",
-    "startDate": "2021-01-06T00:00:00\u002b03:00",
-    "endDate": "2021-01-16T00:00:00\u002b03:00",
+    
+    "startDate": "2021-01-06T00:00:00Z",
+    
+    
+    "endDate": "2021-01-16T00:00:00Z",
+    
     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
     "location": {
       "@type": "Place",
       "name": "KO-OP Gallery",
-      "address": "Sofia, Bulgaria"
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sofia, Bulgaria"
+      }
     },
     "organizer": {
       "@type": "Person",
@@ -196,124 +203,17 @@
       "alternateName": "Nikola Vladislavov Stoyanov",
       "jobTitle": "Artist and philosopher",
       "description": "Nikola Stoyanov is a contemporary visual artist and machine philosopher from Varna, Bulgaria.",
-      "url": "https:\/\/newdegeneration.xyz\/bio\/",
-      "image": "\/\/192.168.5.102:8080\/images\/profile.jpg",
-      "sameAs": [
-        
-          "https:\/\/www.facebook.com\/av0id.nd\/"
-        
-          ,"https:\/\/www.instagram.com\/avoid.nd\/"
-        
-          ,"https:\/\/www.linkedin.com\/in\/nstoyanov23\/"
-        
-          ,"https:\/\/twitter.com\/new_degen"
-        
-          ,"https:\/\/www.youtube.com\/@newdegeneration"
-        
-          ,"https:\/\/www.wikidata.org\/wiki\/Q124417026"
-        
-          ,"https:\/\/www.goodreads.com\/author\/show\/48653203._"
-        
-          ,"https:\/\/www.imdb.com\/name\/nm16814810"
-        
-      ]
+      "url": "https:\/\/newdegeneration.xyz\/bio\/"
     },
-    "performer": [
-      {
-        "@type": "Person",
-        "name": "Nikola Stoyanov",
-        "alternateName": "Nikola Vladislavov Stoyanov",
-        "jobTitle": "Artist and philosopher",
-        "description": "Nikola Stoyanov is a contemporary visual artist and machine philosopher from Varna, Bulgaria.",
-        "url": "https:\/\/newdegeneration.xyz\/bio\/",
-        "image": "\/\/192.168.5.102:8080\/images\/profile.jpg",
-        "sameAs": [
-          
-            "https:\/\/www.facebook.com\/av0id.nd\/"
-          
-            ,"https:\/\/www.instagram.com\/avoid.nd\/"
-          
-            ,"https:\/\/www.linkedin.com\/in\/nstoyanov23\/"
-          
-            ,"https:\/\/twitter.com\/new_degen"
-          
-            ,"https:\/\/www.youtube.com\/@newdegeneration"
-          
-            ,"https:\/\/www.wikidata.org\/wiki\/Q124417026"
-          
-            ,"https:\/\/www.goodreads.com\/author\/show\/48653203._"
-          
-            ,"https:\/\/www.imdb.com\/name\/nm16814810"
-          
-        ]
-      }
-    ],
-    "keywords": [
-      
-    ],
-    "image": [
-      
-        "\/work\/in-process\/hero.webp"
-      
-        ,"\/work\/in-process\/inproc-A.webp"
-      
-        ,"\/work\/in-process\/inproc-B.webp"
-      
-        ,"\/work\/in-process\/inproc-C.webp"
-      
-        ,"\/work\/in-process\/inproc-D.webp"
-      
-        ,"\/work\/in-process\/inproc-E.webp"
-      
-        ,"\/work\/in-process\/inproc-F.webp"
-      
-        ,"\/work\/in-process\/inproc-G.webp"
-      
-        ,"\/work\/in-process\/inproc-H.webp"
-      
-        ,"\/work\/in-process\/inproc-I.webp"
-      
-        ,"\/work\/in-process\/inproc-J.webp"
-      
-    ],
-    "subjectOf": [
-      
-        {
-          "@type": "NewsArticle",
-          "headline": "Bulgarian National Television",
-          "url": "https:\/\/bnt.bg\/news\/fotografska-izlozhba-v-proces-na-nikola-stoyanov-v286612-290248news.html"
-        }
-      
-        ,{
-          "@type": "NewsArticle",
-          "headline": "BoyScout Magazine",
-          "url": "https:\/\/boyscoutmag.com\/2021\/01\/izlojba-nikola-stoyanov-stilizira-gradskata-svinshtina-koqto-ni-zaobikalq\/"
-        }
-      
-        ,{
-          "@type": "NewsArticle",
-          "headline": "Dnevnik",
-          "url": "https:\/\/www.dnevnik.bg\/blogosfera\/article\/412986"
-        }
-      
-        ,{
-          "@type": "NewsArticle",
-          "headline": "Bulgarian National Radio",
-          "url": "https:\/\/mikamagazine.com\/%D0%BA%D0%BE-%D0%BE%D0%BF-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0\/"
-        }
-      
-        ,{
-          "@type": "NewsArticle",
-          "headline": "Mika Magazine",
-          "url": "https:\/\/mikamagazine.com\/%D0%BA%D0%BE-%D0%BE%D0%BF-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D1%8F-%D0%B2-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0\/"
-        }
-      
-    ]
+    "performer": {
+      "@type": "Person",
+      "name": "Nikola Stoyanov",
+      "alternateName": "Nikola Vladislavov Stoyanov"
+    }
   }
-</script>
-
-
- 
+  </script>
+  
+  
 
 <div class="container">
   <div class="exhb-hero" id="hero-content">
