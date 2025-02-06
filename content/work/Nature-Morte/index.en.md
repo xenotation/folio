@@ -1,11 +1,12 @@
 +++
 title = "Nature Morte"
-description = "A multimedia project dealing with the concept of geotrauma in the context of the Martisa Mining complex."
+description = "The exhibition Nature Morte by artist Nikola Stoyanov is a multimedia project dealing with the concept of geotrauma in the context of the Martisa Mining complex."
 canonical = "https://newdegeneration.xyz/work/nature-morte/"
 
 date = 2023-06-22T23:05:59+02:00
 draft = false
-imgDescrps = ["", "Дигитален печат, 60x40см, колаж от топографски данни, карти на хълмовете и релефи на региона", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло 60х40см, в открития рудник Мини Мартица Изток", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x20см 1/3", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x20см 2/3", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x2см 3/3", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло 70х23см, частна колекция", "топографска 3D принтирана карта на мините, с LED подсветка", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "вътре в книгата Nature Morte"]
+
+imgDescrps = ["", "Digital print, 60x40cm, collage of topografical data, hillshades and elevation maps of region", "Print on photo-paper, wooden frame, corrugated board, antireflective glass 60х40 cm, inside Martisa East open-pit mine", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 1/3", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 2/3", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 3/3", "Detail from book, old excavator", "Detail from book, old excavator", "Print on photo-paper, wooden frame, corrugated board, antireflective glass 70х23cm, private collection", "topographical 3D print-ed map of the mines, with LED backlight", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book"]
 imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)", "Nature Morte (2023)","Nature Mort1"]
 medium = ["photography", "photogrammetry", "topological 3D print", "multichannel video-Installation", "book"]
 place = "Goethe-Institut, Sofia"
@@ -35,8 +36,6 @@ press = [
   { name = "Boy Scout Magazine", url = "https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/" },
   { name = "Artnews Cafe", url = "https://openartfiles.bg/openartfiles.bg/public/bg/artnewscafebulletin" }
 ]
-
-
 +++
 
 Nature Morte is a multimedia project that plants the philosophical question firmly into the ground - on a part of the country's highly restricted critical infrastructure. In an attempt to find different approaches to reach the excavation and its visualization, open data from satellite and geological surveys and measurements were used, through which the digital topography of the mines has been built.

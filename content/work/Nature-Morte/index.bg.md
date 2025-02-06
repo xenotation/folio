@@ -1,19 +1,16 @@
 +++
 title = "Nature Morte"
-description = "Мултимедиен проект, който поставя геофилософския въпрос на терен - върху част от критичната инфраструктура на страната, където достъпът е силно ограничен."
+description = "Изложбата Nature Morte от артиста Никола Стоянов е мултимедиен проект, който поставя геофилософския въпрос на терен - върху част от критичната инфраструктура на страната, където достъпът е силно ограничен."
 canonical = "https://newdegeneration.xyz/bg/work/nature-morte/"
-
 date = 2023-06-22T23:05:59+02:00
 draft = false
-imgDescrps = ["", "Digital print, 60x40cm, collage of topografical data, hillshades and elevation maps of region", "Print on photo-paper, wooden frame, corrugated board, antireflective glass 60х40 cm, inside Martisa East open-pit mine", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 1/3", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 2/3", "Print on photo-paper, wooden frame, corrugated board, antireflective glass, 27x20cm 3/3", "Detail from book, old excavator", "Detail from book, old excavator", "Print on photo-paper, wooden frame, corrugated board, antireflective glass 70х23cm, private collection", "topographical 3D print-ed map of the mines, with LED backlight", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book", "inside of Nature Morte book"]
+imgDescrps = ["", "Дигитален печат, 60x40см, колаж от топографски данни, карти на хълмовете и релефи на региона", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло 60х40см, в открития рудник Мини Мартица Изток", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x20см 1/3", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x20см 2/3", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло, 27x2см 3/3", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "Печат върху фотохартия, дървена рамка, велпапе, антирефлексно стъкло 70х23см, частна колекция", "топографска 3D принтирана карта на мините, с LED подсветка", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "Детайл от книгата Nature Morte", "вътре в книгата Nature Morte"]
 imgNames = ["", "Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)","Nature Morte (2023)", "Nature Morte (2023)","Nature Morte (2023)"]
 medium = ["фотография", "фотограметрия", "топографски 3D принт", "мулти-канална видео инсталация", "книга"]
 place = "Goethe-Institut"
 location = "Sofia, Bulgaria"
-
 datestart = "2023-06-22T00:00:00+02:00"
 dateend = "2023-07-30T00:00:00+02:00"
-
 curator = ["Христо Калоянов"]
 categories = ["solo"]
 Sound = ["Антон Шишков"]
@@ -25,7 +22,6 @@ keywordsBg = [
   "видео инсталация",
   "дигитална топография"
 ]
-
 press = [
   { name = "Bulgarian National Television", url = "https://bnt.bg/news/izlozhbata-nature-morte-v-gyote-institut-v347709-319285news.html" },
   { name = "Bulgarian National Radio", url = "https://bnr.bg/horizont/post/101854514/nature-morte-tvorcheski-pogled-kam-vagledobivnata-industria" },
@@ -36,7 +32,6 @@ press = [
   { name = "Boy Scout Magazine", url = "https://boyscoutmag.com/2023/07/kakvo-da-pravim-v-sofia-prez-july-2/" },
   { name = "Artnews Cafe", url = "https://openartfiles.bg/openartfiles.bg/public/bg/artnewscafebulletin" }
 ]
-
 +++
 
 Nature Morte е мултимедиен проект, който поставя геофилософския въпрос на терен - върху част от критичната инфраструктура на страната, където достъпът е силно ограничен. В опит да се намерят различни подходи за достигане до земния изкоп и неговото визуализиране са използвани отворени данни от сателитни и геоложки изследвания и измервания, чрез които е изградена дигиталната топографията на мините.
